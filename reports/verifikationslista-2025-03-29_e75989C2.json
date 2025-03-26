@@ -1,0 +1,3977 @@
+[
+  {
+    "date": "2024-01-02",
+    "transaction_id": "89db4472dac68c8db5981283773a8417",
+    "id": "nordea_0_2024-01-02_2",
+    "description": "Swishavgift",
+    "vernr": 1,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 2
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2
+      }
+    ]
+  },
+  {
+    "date": "2024-01-02",
+    "transaction_id": "3cc3f9ada6417dfab0e7aba0bedeeb9f",
+    "id": "nordea_1_2024-01-02_720",
+    "description": "Swish årsavgift",
+    "vernr": 2,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 720
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -720
+      }
+    ]
+  },
+  {
+    "date": "2024-01-04",
+    "transaction_id": "fca6e779ad8c1344106c764bf25ed03c",
+    "id": "nordea_2_2024-01-04_1300",
+    "description": "Bankavgift",
+    "vernr": 3,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 1300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1300
+      }
+    ]
+  },
+  {
+    "date": "2024-01-10",
+    "transaction_id": "627147fcb5f5d0b1dd22b53b618b3346",
+    "id": "nordea_3_2024-01-10_50",
+    "description": "Donation",
+    "vernr": 4,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-01-15",
+    "transaction_id": "a8ab7ac6fa20557dce260bc034470eab",
+    "id": "nordea_4_2024-01-15_350",
+    "description": "Medlemsavgift",
+    "vernr": 5,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-01-16",
+    "transaction_id": "38ffb4aea65ad552b595b0d5d3db9e6b",
+    "id": "nordea_5_2024-01-16_500",
+    "description": "Medlemsavgift",
+    "vernr": 6,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-01-17",
+    "transaction_id": "53da95e9072bda602978f5b8bcf5b343",
+    "id": "nordea_6_2024-01-17_350",
+    "description": "Medlemsavgift",
+    "vernr": 7,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-01-26",
+    "transaction_id": "5a0cf426b7b84d7af8427ba9af650236",
+    "id": "nordea_9_2024-01-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 8,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-01-30",
+    "transaction_id": "92fc292aec0d08dd341c2484229ce48e",
+    "id": "nordea_10_2024-01-30_350",
+    "description": "Medlemsavgift",
+    "vernr": 9,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-01",
+    "transaction_id": "d8bc5b10d6738b14b663a596e9737522",
+    "id": "nordea_11_2024-02-01_500",
+    "description": "Medlemsavgift",
+    "vernr": 10,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-02-01",
+    "transaction_id": "f7c9ce0583e4a60d39b66d55c0ee83fa",
+    "id": "nordea_12_2024-02-01_500",
+    "description": "Medlemsavgift",
+    "vernr": 11,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-02-01",
+    "transaction_id": "322e589f0f8df49769ddd72e47c91579",
+    "id": "nordea_14_2024-02-01_10",
+    "description": "Swishavgift",
+    "vernr": 12,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 10
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "date": "2024-02-02",
+    "transaction_id": "3a7d70ef4fedf1cae9032c0962057c8b",
+    "id": "nordea_15_2024-02-02_350",
+    "description": "Medlemsavgift",
+    "vernr": 13,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-02",
+    "transaction_id": "9ea8f780c975c2899348eff4fc2ec88c",
+    "id": "nordea_16_2024-02-02_50",
+    "description": "Donation",
+    "vernr": 14,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-02-02",
+    "transaction_id": "920d98e849798c70b554c26f9968dc81",
+    "id": "nordea_17_2024-02-02_3085",
+    "description": "Årsavgift, Speedledger",
+    "vernr": 15,
+    "transactions": [
+      {
+        "account": "5420 - Programvaror",
+        "amount": 3085
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -3085
+      }
+    ]
+  },
+  {
+    "date": "2024-02-09",
+    "transaction_id": "a88020b5139aa6daea01e9f3b209aee7",
+    "id": "nordea_18_2024-02-09_350",
+    "description": "Medlemsavgift",
+    "vernr": 16,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-20",
+    "transaction_id": "38b8c68ec673ed825a8f3bfe6e5bad1a",
+    "id": "nordea_21_2024-02-20_50",
+    "description": "Donation",
+    "vernr": 17,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-02-21",
+    "transaction_id": "8383566f5143b06678c354d9872c804c",
+    "id": "nordea_20_2024-02-21_350",
+    "description": "Medlemsavgift",
+    "vernr": 18,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-26",
+    "transaction_id": "ae1dce7a39dd810ebdc92a4fac620340",
+    "id": "nordea_23_2024-02-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 19,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-27",
+    "transaction_id": "63f5c7f2caccf42dbfa90c373ea912fd",
+    "id": "nordea_24_2024-02-27_350",
+    "description": "Donation",
+    "vernr": 20,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-02-29",
+    "transaction_id": "f9fb1d14a4bbb5422c9e74c408975759",
+    "id": "nordea_25_2024-02-29_500",
+    "description": "Medlemsavgift",
+    "vernr": 21,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-03-01",
+    "transaction_id": "adf1c0beaf19c01d4ebdcaffe6b61ed1",
+    "id": "nordea_26_2024-03-01_350",
+    "description": "Medlemsavgift",
+    "vernr": 22,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-01",
+    "transaction_id": "7c10dc638f996429252719e0b29c91f1",
+    "id": "nordea_27_2024-03-01_16",
+    "description": "Swishavgift",
+    "vernr": 23,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 16
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -16
+      }
+    ]
+  },
+  {
+    "date": "2024-03-04",
+    "transaction_id": "e38e5af31c71d51710117fd35dce7fc7",
+    "id": "nordea_30_2024-03-04_350",
+    "description": "Medlemsavgift",
+    "vernr": 24,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-04",
+    "transaction_id": "3fc31ed8b95d70b659be2e66d16d93b8",
+    "id": "nordea_31_2024-03-04_350",
+    "description": "Medlemsavgift",
+    "vernr": 25,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-04",
+    "transaction_id": "cfda6d4497218dbfed2715e0b32649db",
+    "id": "nordea_32_2024-03-04_350",
+    "description": "Medlemsavgift",
+    "vernr": 26,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-04",
+    "transaction_id": "45a2dd9b3f908b5593d229a75d019983",
+    "id": "nordea_33_2024-03-04_600",
+    "description": "Transportstyrelsen Registeravgift",
+    "vernr": 27,
+    "transactions": [
+      {
+        "account": "4122 - Fartyget - Myndighetsavgifter",
+        "amount": 600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -600
+      }
+    ]
+  },
+  {
+    "date": "2024-03-05",
+    "transaction_id": "e3b81558ab180c9a53d2aba17fae616c",
+    "id": "nordea_34_2024-03-05_1.85",
+    "description": "Bankkostnad",
+    "vernr": 28,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 1.85
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1.85
+      }
+    ]
+  },
+  {
+    "date": "2024-03-12",
+    "transaction_id": "7983bef1d7a89abc40924cb851a5555b",
+    "id": "nordea_37_2024-03-12_350",
+    "description": "Medlemsavgift",
+    "vernr": 29,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-12",
+    "transaction_id": "8e238e3d077b71eb0d0c9acc362cb82c",
+    "id": "nordea_38_2024-03-12_350",
+    "description": "Medlemsavgift",
+    "vernr": 30,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-12",
+    "transaction_id": "4fe996a7ec717e3973420ba23837d805",
+    "id": "nordea_39_2024-03-12_350",
+    "description": "Medlemsavgift",
+    "vernr": 31,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-12",
+    "transaction_id": "ee263eab9de3e26ede122a879ab2b6e1",
+    "id": "nordea_40_2024-03-12_350",
+    "description": "Medlemsavgift",
+    "vernr": 32,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-13",
+    "transaction_id": "c70f63e9721f0b9e3d2093bfa6333dd9",
+    "id": "nordea_41_2024-03-13_500",
+    "description": "Medlemsavgift",
+    "vernr": 33,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-03-13",
+    "transaction_id": "65ae12d262c9eb30c803c38b83d7964f",
+    "id": "nordea_42_2024-03-13_500",
+    "description": "Medlemsavgift",
+    "vernr": 34,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-03-15",
+    "transaction_id": "d972a53eb6b6346114c79881f5b65f1d",
+    "id": "nordea_43_2024-03-15_350",
+    "description": "Medlemsavgift",
+    "vernr": 35,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-15",
+    "transaction_id": "0ab071483283db6311f8c9650cdf5385",
+    "id": "nordea_44_2024-03-15_350",
+    "description": "Medlemsavgift",
+    "vernr": 36,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "f30feaf44d5d9e03ef8e08a861750a49",
+    "id": "nordea_46_2024-03-18_500",
+    "description": "Medlemsavgift",
+    "vernr": 37,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "88c5db1417172b9751d46e12c7f819e2",
+    "id": "nordea_47_2024-03-18_450",
+    "description": "Tröjor",
+    "vernr": 38,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -450
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 450
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "ad5c7e7e49fb378c6b1f0b680612e48c",
+    "id": "nordea_49_2024-03-18_350",
+    "description": "Medlemsavgift",
+    "vernr": 39,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "0260db30892e063134e0b1e7c9f67a38",
+    "id": "nordea_50_2024-03-18_250",
+    "description": "Böcker",
+    "vernr": 40,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -250
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "8a3c03799b85988baf1102eaf2dc2920",
+    "id": "nordea_51_2024-03-18_200",
+    "description": "T-shirt",
+    "vernr": 41,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "5c5362fa1ae55697e01800b6363b1902",
+    "id": "nordea_52_2024-03-18_200",
+    "description": "T-shirt",
+    "vernr": 42,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "a4639699efc6342dc88809a40faf82ab",
+    "id": "nordea_53_2024-03-18_200",
+    "description": "T-shirt",
+    "vernr": 43,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "c7fd437c08b3dd6e949e52a5cc7ce536",
+    "id": "nordea_54_2024-03-18_20",
+    "description": "Donation",
+    "vernr": 44,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -20
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "a474efae406accc55e7b59a424416159",
+    "id": "nordea_55_2024-03-18_151",
+    "description": "Mattransport årsmöte",
+    "vernr": 45,
+    "transactions": [
+      {
+        "account": "5700 - Frakter och Transporter",
+        "amount": 151
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -151
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "7987e9db25462c2ed1172f7e80a4d5aa",
+    "id": "nordea_56_2024-03-18_1000",
+    "description": "Lokalhyra årsmöte - Korrigerad i V263",
+    "vernr": 46,
+    "transactions": [
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": 1000
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1000
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "transaction_id": "e6563d290302e9e8f7cf70f8ca477e86",
+    "id": "nordea_57_2024-03-18_1111.86",
+    "description": "Årsmötesmat",
+    "vernr": 47,
+    "transactions": [
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": 1111.86
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1111.86
+      }
+    ]
+  },
+  {
+    "date": "2024-03-20",
+    "transaction_id": "f5daafe106c90fb6c8a2542bae0fec2f",
+    "id": "nordea_58_2024-03-20_50",
+    "description": "Donation",
+    "vernr": 48,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-03-20",
+    "transaction_id": "e49c7ec573319add6cc0968102616935",
+    "id": "nordea_59_2024-03-20_6304",
+    "description": "Försäkring Fartyget, halvåravgift",
+    "vernr": 49,
+    "transactions": [
+      {
+        "account": "4111 - Fartyget - Försäkring",
+        "amount": 2345
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2345
+      }
+    ]
+  },
+  {
+    "date": "2024-03-21",
+    "transaction_id": "c1cc77bdfa5bf547179ef5a3f9aa92c1",
+    "id": "nordea_60_2024-03-21_350",
+    "description": "Medlemsavgift",
+    "vernr": 50,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-04-02",
+    "transaction_id": "a6a8683434fc73918a8f3d52a0f041d7",
+    "id": "nordea_62_2024-04-02_40",
+    "description": "Swishavgift",
+    "vernr": 51,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 40
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -40
+      }
+    ]
+  },
+  {
+    "date": "2024-04-04",
+    "transaction_id": "874b4b42b06e60dac13e44f88e96aca6",
+    "id": "nordea_63_2024-04-04_3.7",
+    "description": "Bankkostnad",
+    "vernr": 52,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 3.7
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -3.7
+      }
+    ]
+  },
+  {
+    "date": "2024-04-09",
+    "transaction_id": "355cafdf974d0309555cd6d79304eb87",
+    "id": "nordea_64_2024-04-09_500",
+    "description": "Medlemsavgift",
+    "vernr": 53,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-04-29",
+    "transaction_id": "a2796c821a80907d8464d9e637fae659",
+    "id": "nordea_65_2024-04-29_209.85",
+    "description": "Fika flytt till varvet",
+    "vernr": 54,
+    "transactions": [
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": 209.85
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -209.85
+      }
+    ]
+  },
+  {
+    "date": "2024-04-29",
+    "transaction_id": "62a45cfb446cc5cc444b8e3de0249bf6",
+    "id": "nordea_66_2024-04-29_684",
+    "description": "Fika årsmöte",
+    "vernr": 55,
+    "transactions": [
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": 684
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -684
+      }
+    ]
+  },
+  {
+    "date": "2024-04-29",
+    "transaction_id": "baf78179ae6094042f9efe02af26fa6e",
+    "id": "nordea_67_2024-04-29_2580.4",
+    "description": "Varvsmateriel",
+    "vernr": 56,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 2580.4
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2580.4
+      }
+    ]
+  },
+  {
+    "date": "2024-04-29",
+    "transaction_id": "1cdcf73e2a84de37a9a4dd8f7c018736",
+    "id": "nordea_68_2024-04-29_4200",
+    "description": "Sommarhamn årsavgift",
+    "vernr": 57,
+    "transactions": [
+      {
+        "account": "4126 - Fartyget - Fast båtplats",
+        "amount": 4200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -4200
+      }
+    ]
+  },
+  {
+    "date": "2024-04-30",
+    "transaction_id": "a28c391df4c6ed85b14433003eb5b40e",
+    "id": "nordea_69_2024-04-30_1511",
+    "description": "Primer och penslar",
+    "vernr": 58,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 1511
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1511
+      }
+    ]
+  },
+  {
+    "date": "2024-04-30",
+    "transaction_id": "b9c9a794cb0841a7ae05a6d9216233c3",
+    "id": "nordea_70_2024-04-30_4001",
+    "description": "Tjära",
+    "vernr": 59,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 4001
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -4001
+      }
+    ]
+  },
+  {
+    "date": "2024-05-02",
+    "transaction_id": "aeaf9609c252354c239aed5a824918a7",
+    "id": "nordea_71_2024-05-02_912.22",
+    "description": "Meetup halvårsfaktura",
+    "vernr": 60,
+    "transactions": [
+      {
+        "account": "5900 - Reklam och PR",
+        "amount": 912.22
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -912.22
+      }
+    ]
+  },
+  {
+    "date": "2024-05-03",
+    "transaction_id": "1fd65f20d0848d04676607931119679b",
+    "id": "nordea_72_2024-05-03_245",
+    "description": "PTS-tillstånd",
+    "vernr": 61,
+    "transactions": [
+      {
+        "account": "4112 - Fartyget - Mobil, radiosändare",
+        "amount": 245
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -245
+      }
+    ]
+  },
+  {
+    "date": "2024-05-03",
+    "transaction_id": "64cdca4b794801ff87c32df31df7d61c",
+    "id": "nordea_73_2024-05-03_1608",
+    "description": "Försäkring Hjälpbåt och motor",
+    "vernr": 62,
+    "transactions": [
+      {
+        "account": "4161 - Hjälpbåt - Försäkring",
+        "amount": 1000
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1000
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "9a71805b1d550e55894be8a8daacac61",
+    "id": "nordea_74_2024-05-06_500",
+    "description": "Böcker",
+    "vernr": 63,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "11f149f4abc8709b2a213df1f4faaacc",
+    "id": "nordea_75_2024-05-06_350",
+    "description": "Medlemsavgift",
+    "vernr": 64,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "5f207aeb4baa2fdb8f4bc437ec2427fa",
+    "id": "nordea_76_2024-05-06_250",
+    "description": "Bok",
+    "vernr": 65,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -250
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "9d3d3f797465ca149a0308be0aef174b",
+    "id": "nordea_77_2024-05-06_250",
+    "description": "Bok",
+    "vernr": 66,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -250
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "2ac0534014164aa2210067106187938f",
+    "id": "nordea_78_2024-05-06_250",
+    "description": "Bok",
+    "vernr": 67,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -250
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "e4e8158191e56d301ae04e22d6782012",
+    "id": "nordea_79_2024-05-06_3.7",
+    "description": "Bankkostnad",
+    "vernr": 68,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 3.7
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -3.7
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "85ec9e69c8a3603e96dd627be965cba3",
+    "id": "nordea_80_2024-05-06_179.7",
+    "description": "Karbinhakar",
+    "vernr": 69,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 179.7
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -179.7
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "8e47974b403500c08445f4aceb1e15af",
+    "id": "nordea_81_2024-05-06_264.4",
+    "description": "Penslar och rengöring",
+    "vernr": 70,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 264.4
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -264.4
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "55da92af8ee9ca496518e261ce23ee13",
+    "id": "nordea_82_2024-05-06_457.8",
+    "description": "Stålborstar och filter",
+    "vernr": 71,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 457.8
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -457.8
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "9324bae6f11ba5c007b30f64711e37df",
+    "id": "nordea_83_2024-05-06_867",
+    "description": "Tjära",
+    "vernr": 72,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 867
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -867
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "e971300b60851af9d37829cdc663eb21",
+    "id": "nordea_84_2024-05-06_1049",
+    "description": "Dammsugare",
+    "vernr": 73,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 1049
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1049
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "transaction_id": "133f149d25e4e752c5d8cfaae730f505",
+    "id": "nordea_85_2024-05-06_1944",
+    "description": "Länspump och varmluftspistol",
+    "vernr": 74,
+    "transactions": [
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": 1944
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1944
+      }
+    ]
+  },
+  {
+    "date": "2024-05-16",
+    "transaction_id": "c28c68e2aac51b99b5aa8128fa8d92e8",
+    "id": "nordea_86_2024-05-16_50",
+    "description": "Donation",
+    "vernr": 75,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-05-22",
+    "transaction_id": "5f17997397e02abaef9e1c41dd8fd1e5",
+    "id": "nordea_87_2024-05-22_50",
+    "description": "Donation",
+    "vernr": 76,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-05-23",
+    "transaction_id": "e1c3d62e9ee6fd49579872e42312976b",
+    "id": "nordea_88_2024-05-23_490.43",
+    "description": "Bensin flytt",
+    "vernr": 77,
+    "transactions": [
+      {
+        "account": "4115 - Fartyget - Bensin",
+        "amount": 490.43
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -490.43
+      }
+    ]
+  },
+  {
+    "date": "2024-05-23",
+    "transaction_id": "e7586aadb2efe2cde1969a22093ff10b",
+    "id": "nordea_89_2024-05-23_1037.9",
+    "description": "tältimpregnering",
+    "vernr": 78,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": 1037.9
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1037.9
+      }
+    ]
+  },
+  {
+    "date": "2024-05-23",
+    "transaction_id": "2a2cbd7c7208d3be4934c3d5a1056816",
+    "id": "nordea_90_2024-05-23_24062",
+    "description": "Varv",
+    "vernr": 79,
+    "transactions": [
+      {
+        "account": "4118 - Fartyget - Upptagning och Sjösättning",
+        "amount": 24062
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -24062
+      }
+    ]
+  },
+  {
+    "date": "2024-05-27",
+    "transaction_id": "da6f683fadf03d7401a71c9bfe231478",
+    "id": "nordea_91_2024-05-27_500",
+    "description": "Medlemsavgift",
+    "vernr": 80,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-05-28",
+    "transaction_id": "0e73eb4852014e12d767bcfba14814b2",
+    "id": "nordea_92_2024-05-28_479",
+    "description": "Tältimpregnering",
+    "vernr": 81,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": 479
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -479
+      }
+    ]
+  },
+  {
+    "date": "2024-06-03",
+    "transaction_id": "f01f8c52466bada14a65902963a534e5",
+    "id": "nordea_93_2024-06-03_350",
+    "description": "Medlemsavgift",
+    "vernr": 82,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-03",
+    "transaction_id": "d416ab35a8b633bb9af80989cc0cc363",
+    "id": "nordea_94_2024-06-03_10",
+    "description": "Swishavgift",
+    "vernr": 83,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 10
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "date": "2024-06-05",
+    "transaction_id": "abda96399a8f00f1fee04b0c163d90fd",
+    "id": "nordea_95_2024-06-05_7.4",
+    "description": "Bankkostnad",
+    "vernr": 84,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 7.4
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -7.4
+      }
+    ]
+  },
+  {
+    "date": "2024-06-12",
+    "transaction_id": "e9f3fe3270492dfa4afe0a9c44d64f76",
+    "id": "nordea_96_2024-06-12_350",
+    "description": "Medlemsavgift",
+    "vernr": 85,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-14",
+    "transaction_id": "89a0a8840586ce5a375eaba20ff2fabf",
+    "id": "nordea_97_2024-06-14_350",
+    "description": "Medlemsavgift",
+    "vernr": 86,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-14",
+    "transaction_id": "cb35335837d384c428510056815cf179",
+    "id": "nordea_98_2024-06-14_50",
+    "description": "Donation",
+    "vernr": 87,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-06-17",
+    "transaction_id": "9774b6b5a3d89174a5bcd8a441b6c48e",
+    "id": "nordea_99_2024-06-17_350",
+    "description": "Medlemsavgift",
+    "vernr": 88,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-20",
+    "transaction_id": "7d478836304704528623401a43cb24ed",
+    "id": "nordea_100_2024-06-20_50",
+    "description": "Donation",
+    "vernr": 89,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-06-24",
+    "transaction_id": "2a639b064be1504eade47959c2a16839",
+    "id": "nordea_101_2024-06-24_600",
+    "description": "Seglings- och matavgift + donation",
+    "vernr": 90,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -300
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -450
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-25",
+    "transaction_id": "b05429f79a51934eabe5c2bbef24661f",
+    "id": "nordea_102_2024-06-25_2100",
+    "description": "Seglings- och matavgift",
+    "vernr": 91,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -1050
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -2100
+      },
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": -900
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 4050
+      }
+    ]
+  },
+  {
+    "date": "2024-06-26",
+    "transaction_id": "5ff8989914c3286836380038b1b14c9c",
+    "id": "nordea_103_2024-06-26_1200",
+    "description": "Seglings- och matavgift",
+    "vernr": 92,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -600
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -1200
+      },
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": -1800
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 3600
+      }
+    ]
+  },
+  {
+    "date": "2024-06-26",
+    "transaction_id": "15739bad6bbbba36b991a81b29d1f9ce",
+    "id": "nordea_104_2024-06-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 93,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-27",
+    "transaction_id": "08ca22cca15254f6b2727e159525152a",
+    "id": "nordea_106_2024-06-27_350",
+    "description": "Medlemsavgift",
+    "vernr": 94,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-28",
+    "transaction_id": "9d2ddf163f95da1d6d2599043498aa0f",
+    "id": "nordea_107_2024-06-28_350",
+    "description": "Medlemsavgift",
+    "vernr": 95,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-06-28",
+    "transaction_id": "6e8c176ca0938e56529fe204a6717c14",
+    "id": "nordea_108_2024-06-28_350",
+    "description": "Medlemsavgift",
+    "vernr": 96,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-01",
+    "transaction_id": "995ab6e6739c5cf76c2b237acdd52b73",
+    "id": "nordea_109_2024-07-01_1050",
+    "description": "Matavgift",
+    "vernr": 97,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -1050
+      },
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-01",
+    "transaction_id": "111717e30340efd116c014ff07bb7639",
+    "id": "nordea_110_2024-07-01_600",
+    "description": "Seglings- och matavgift",
+    "vernr": 98,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -300
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 900
+      }
+    ]
+  },
+  {
+    "date": "2024-07-01",
+    "transaction_id": "6c8983c9417c081a3fa34e270fe42e5e",
+    "id": "nordea_111_2024-07-01_500",
+    "description": "Medlemsavgift",
+    "vernr": 99,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-07-01",
+    "transaction_id": "b42178b7d54e2a2c8ae5442fe1f7099f",
+    "id": "nordea_112_2024-07-01_350",
+    "description": "Medlemsavgift",
+    "vernr": 100,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-01",
+    "transaction_id": "7feae078fc1961986693016e7773cd89",
+    "id": "nordea_113_2024-07-01_20",
+    "description": "Swishavgift",
+    "vernr": 101,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 20
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -20
+      }
+    ]
+  },
+  {
+    "date": "2024-07-05",
+    "transaction_id": "f6fa054c845ef74527c484ec1412ebb6",
+    "id": "nordea_114_2024-07-05_500",
+    "description": "Medlemsavgift",
+    "vernr": 102,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-07-08",
+    "transaction_id": "169f9bf7afe795fa7421a6d5e800e725",
+    "id": "nordea_115_2024-07-08_500",
+    "description": "Medlemsavgift",
+    "vernr": 103,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-07-10",
+    "transaction_id": "8dd5ef2acc669de1ca33572a993cab76",
+    "id": "nordea_116_2024-07-10_900",
+    "description": "Seglings- och matavgift",
+    "vernr": 104,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -1050
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -900
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1950
+      }
+    ]
+  },
+  {
+    "date": "2024-07-10",
+    "transaction_id": "391f0ad247fe677914bec5e469f56736",
+    "id": "nordea_117_2024-07-10_1050",
+    "description": "Matavgift",
+    "vernr": 105,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -1050
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1050
+      }
+    ]
+  },
+  {
+    "date": "2024-07-10",
+    "transaction_id": "da4d6d4ab59ce7ad348e58959759796c",
+    "id": "nordea_118_2024-07-10_250",
+    "description": "Bok",
+    "vernr": 106,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -250
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-07-10",
+    "transaction_id": "4e49f3acf17df16851ac1a5434715a63",
+    "id": "nordea_119_2024-07-10_900",
+    "description": "Ted 2 inställda seglingdagar",
+    "vernr": 107,
+    "transactions": [
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": 900
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -900
+      }
+    ]
+  },
+  {
+    "date": "2024-07-11",
+    "transaction_id": "74eebf577ebdc47d06e48d6d8336f175",
+    "id": "nordea_120_2024-07-11_200",
+    "description": "Bok",
+    "vernr": 108,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "1479b604582d74d6c7af802f147b47bc",
+    "id": "nordea_122_2024-07-15_2100",
+    "description": "Matavgift",
+    "vernr": 109,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -2100
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 2100
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "246cc4dc5e6bf75eae9287e1e907f64e",
+    "id": "nordea_123_2024-07-15_600",
+    "description": "Seglings- och matavgift",
+    "vernr": 110,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -300
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 900
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "78cfe9d1e1792d67a68ef5f90ab755b2",
+    "id": "nordea_124_2024-07-15_0",
+    "description": "Matavgift",
+    "vernr": 111,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -900
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 900
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "07051d5a66e8406086c09a41d9bdc79c",
+    "id": "nordea_125_2024-07-15_600",
+    "description": "Seglingsavgift",
+    "vernr": 112,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "d71f42f614105568ebd905f4b27c99ee",
+    "id": "nordea_126_2024-07-15_350",
+    "description": "Medlemsavgift",
+    "vernr": 113,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "b804a35e06a3c26aae5f82c66b3d9106",
+    "id": "nordea_127_2024-07-15_255.6",
+    "description": "Mat seglingsvecka",
+    "vernr": 114,
+    "transactions": [
+      {
+        "account": "6600 - Mat - Segling",
+        "amount": 255.6
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -255.6
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "064dedfe6a714f2dee47218a257eaf53",
+    "id": "nordea_128_2024-07-15_300",
+    "description": "Matavgift - inställda seglingsdagar",
+    "vernr": 115,
+    "transactions": [
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": 300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -300
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "c57c4062d194cf2daa1b2bcbe6b5cfab",
+    "id": "nordea_129_2024-07-15_349",
+    "description": "Brandsläckare",
+    "vernr": 116,
+    "transactions": [
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": 349
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -349
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "be821d8c28635c8c03d73f9ff1adc716",
+    "id": "nordea_130_2024-07-15_365",
+    "description": "Hamnavgift",
+    "vernr": 117,
+    "transactions": [
+      {
+        "account": "4127 - Fartyget - Hamnavgifter",
+        "amount": 365
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -365
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "f00d77379311a239ce64698728b2e033",
+    "id": "nordea_131_2024-07-15_375",
+    "description": "Hamnavgift",
+    "vernr": 118,
+    "transactions": [
+      {
+        "account": "4127 - Fartyget - Hamnavgifter",
+        "amount": 375
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -375
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "a83c29ae564b6ee119eeb5df14195b41",
+    "id": "nordea_132_2024-07-15_390",
+    "description": "Hamnavgift",
+    "vernr": 119,
+    "transactions": [
+      {
+        "account": "4127 - Fartyget - Hamnavgifter",
+        "amount": 390
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -390
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "6e8441e2ba4099ec6e0f7cbed5ddd590",
+    "id": "nordea_133_2024-07-15_406.9",
+    "description": "Första hjälpen etc",
+    "vernr": 120,
+    "transactions": [
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": 406.9
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -406.9
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "7bc1ece707c1bbc5aa68372cc4ff1746",
+    "id": "nordea_134_2024-07-15_435",
+    "description": "Hamnavgift",
+    "vernr": 121,
+    "transactions": [
+      {
+        "account": "4127 - Fartyget - Hamnavgifter",
+        "amount": 435
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -435
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "ad2ae3472b0e93b87ec41948376d5509",
+    "id": "nordea_135_2024-07-15_512.3",
+    "description": "Fotogen och rödsprit",
+    "vernr": 122,
+    "transactions": [
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": 512.3
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -512.3
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "e7bca97c328886d614ee451c5cf9cb89",
+    "id": "nordea_136_2024-07-15_552",
+    "description": "Div båtprylar",
+    "vernr": 123,
+    "transactions": [
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": 552
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -552
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "01f0a8dcdddc1f73f9fb22f95aae405e",
+    "id": "nordea_137_2024-07-15_590.18",
+    "description": "Mat seglingsvecka",
+    "vernr": 124,
+    "transactions": [
+      {
+        "account": "6600 - Mat - Segling",
+        "amount": 590.18
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -590.18
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "57f10ad078a58c0c3c7b3aac613c4d0e",
+    "id": "nordea_138_2024-07-15_1321.5",
+    "description": "Köksredskap",
+    "vernr": 125,
+    "transactions": [
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": 1321.5
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1321.5
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "transaction_id": "45032811981674eb9a81b96c4f3b4318",
+    "id": "nordea_139_2024-07-15_2344",
+    "description": "Propellrar",
+    "vernr": 126,
+    "transactions": [
+      {
+        "account": "4162 - Hjälpbåt - Motor",
+        "amount": 2344
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2344
+      }
+    ]
+  },
+  {
+    "date": "2024-07-16",
+    "transaction_id": "af2e314d36dd72766dcc3897dbb1be60",
+    "id": "nordea_140_2024-07-16_13163",
+    "description": "Förtöjningsgods",
+    "vernr": 127,
+    "transactions": [
+      {
+        "account": "4116 - Fartyget - Segel och Rigg",
+        "amount": 13163
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -13163
+      }
+    ]
+  },
+  {
+    "date": "2024-07-18",
+    "transaction_id": "2edf6cc622302e3fa656336712b1aff2",
+    "id": "nordea_141_2024-07-18_1800",
+    "description": "Seglings- och matavgift",
+    "vernr": 128,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -900
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -1800
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 2700
+      }
+    ]
+  },
+  {
+    "date": "2024-07-19",
+    "transaction_id": "f27fcd6b077c53b2da835796472640ea",
+    "id": "nordea_142_2024-07-19_350",
+    "description": "Medlemsavgift",
+    "vernr": 129,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-19",
+    "transaction_id": "626e418e2e048e46f75e695322815c48",
+    "id": "nordea_143_2024-07-19_350",
+    "description": "Medlemsavgift",
+    "vernr": 130,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-19",
+    "transaction_id": "14eef38f5fbe1127db745dfd6df07c9a",
+    "id": "nordea_144_2024-07-19_350",
+    "description": "Medlemsavgift",
+    "vernr": 131,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-07-19",
+    "transaction_id": "b08646b22760acbe4f71842529d1d070",
+    "id": "nordea_145_2024-07-19_50",
+    "description": "Donation",
+    "vernr": 132,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-07-22",
+    "transaction_id": "a25c31479b3760bc728a9bd474919322",
+    "id": "nordea_146_2024-07-22_933.44",
+    "description": "Bensin",
+    "vernr": 133,
+    "transactions": [
+      {
+        "account": "4115 - Fartyget - Bensin",
+        "amount": 933.44
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -933.44
+      }
+    ]
+  },
+  {
+    "date": "2024-07-22",
+    "transaction_id": "3ffefc145394676cef1d4c3ba6fd796c",
+    "id": "nordea_147_2024-07-22_7238.16",
+    "description": "Mat",
+    "vernr": 134,
+    "transactions": [
+      {
+        "account": "6600 - Mat - Segling",
+        "amount": 7238.16
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -7238.16
+      }
+    ]
+  },
+  {
+    "date": "2024-07-24",
+    "transaction_id": "ef046b08a0305d0d876481024d329893",
+    "id": "nordea_148_2024-07-24_50",
+    "description": "Donation",
+    "vernr": 135,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-07-29",
+    "transaction_id": "14f4f132f30c9310dc96c435d1630e37",
+    "id": "nordea_149_2024-07-29_350",
+    "description": "Medlemsavgift",
+    "vernr": 136,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-08-01",
+    "transaction_id": "0581de387c5cfd2c2ff935a4c307f742",
+    "id": "nordea_150_2024-08-01_28",
+    "description": "Swishavgift",
+    "vernr": 137,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 28
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -28
+      }
+    ]
+  },
+  {
+    "date": "2024-08-05",
+    "transaction_id": "66d8f2e551339ec0ac565ee985ab4bb3",
+    "id": "nordea_152_2024-08-05_1.85",
+    "description": "Bankkostnader",
+    "vernr": 138,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 1.85
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1.85
+      }
+    ]
+  },
+  {
+    "date": "2024-08-05",
+    "transaction_id": "0f7063cedfdab506dc46c3bf4e98f727",
+    "id": "nordea_153_2024-08-05_1800",
+    "description": "Inställda seglingsdagar",
+    "vernr": 139,
+    "transactions": [
+      {
+        "account": "2902 - Skuld till medlem",
+        "amount": 1800
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1800
+      }
+    ]
+  },
+  {
+    "date": "2024-08-06",
+    "transaction_id": "dd7a2a775ef99c1d22697fe5b054edcd",
+    "id": "nordea_154_2024-08-06_1050",
+    "description": "Matavgift",
+    "vernr": 140,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -1050
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1050
+      }
+    ]
+  },
+  {
+    "date": "2024-08-06",
+    "transaction_id": "bd748fb70dfe89836bec04cf56a57fc2",
+    "id": "nordea_155_2024-08-06_50",
+    "description": "Donation",
+    "vernr": 141,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-08-12",
+    "transaction_id": "c6c48fcce31aff0c3144e48dd6186996",
+    "id": "nordea_156_2024-08-12_1037.9",
+    "description": "Impregnering tält - Nollställt i V257",
+    "vernr": 142,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": 1037.9
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1037.9
+      }
+    ]
+  },
+  {
+    "date": "2024-08-12",
+    "transaction_id": "a0d3b5e099de0dabdeb1fd95661f8176",
+    "id": "nordea_157_2024-08-12_2296.37",
+    "description": "Mat",
+    "vernr": 143,
+    "transactions": [
+      {
+        "account": "6600 - Mat - Segling",
+        "amount": 2296.37
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2296.37
+      }
+    ]
+  },
+  {
+    "date": "2024-08-15",
+    "transaction_id": "c7c027390bcb5f00ab512288b153bbc6",
+    "id": "nordea_158_2024-08-15_600",
+    "description": "Matavgift",
+    "vernr": 144,
+    "transactions": [
+      {
+        "account": "3012 - Matavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "date": "2024-08-15",
+    "transaction_id": "554eb0ad52f19261643f8656b3c29cfb",
+    "id": "nordea_159_2024-08-15_5336",
+    "description": "Tältmaterial",
+    "vernr": 145,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": 5336
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -5336
+      }
+    ]
+  },
+  {
+    "date": "2024-08-19",
+    "transaction_id": "05e4c320bb4549ab125f5a52f33361a4",
+    "id": "nordea_160_2024-08-19_50",
+    "description": "Donation",
+    "vernr": 146,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-08-26",
+    "transaction_id": "a9344fc31c991eb2f9fe5e829d583bd5",
+    "id": "nordea_161_2024-08-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 147,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-08-26",
+    "transaction_id": "9eb2156b8690e531066d373b654ca86b",
+    "id": "nordea_162_2024-08-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 148,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-08-26",
+    "transaction_id": "2147f3ec34abe80c627189ab191fad76",
+    "id": "nordea_163_2024-08-26_350",
+    "description": "Medlemsavgift",
+    "vernr": 149,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-08-27",
+    "transaction_id": "23a04778f6b3d97d0018f9d04ca8616c",
+    "id": "nordea_164_2024-08-27_350",
+    "description": "Medlemsavgift",
+    "vernr": 150,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "ac697f4a8e3c5082ed34407bf76bc66f",
+    "id": "nordea_166_2024-09-02_600",
+    "description": "Seglingsavgift",
+    "vernr": 151,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "24b1dcd4fb35f5582481bce8672141bb",
+    "id": "nordea_167_2024-09-02_600",
+    "description": "Seglingsavgift",
+    "vernr": 152,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "2f4257de712ef1e3bd30d226ceb0d66a",
+    "id": "nordea_168_2024-09-02_350",
+    "description": "Medlemsavgift",
+    "vernr": 153,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "b5cbbdc7c3c21879340981f270033a52",
+    "id": "nordea_169_2024-09-02_350",
+    "description": "Medlemsavgift",
+    "vernr": 154,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "43fa841e89245cbc60475a862b92f685",
+    "id": "nordea_170_2024-09-02_300",
+    "description": "Seglingsavgift",
+    "vernr": 155,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "704d3cb77db3b17bd31a8bd800e24f7d",
+    "id": "nordea_171_2024-09-02_300",
+    "description": "Seglingsavgift",
+    "vernr": 156,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "284d3ac460cbb5860386846e89db93f1",
+    "id": "nordea_175_2024-09-02_200",
+    "description": "Seglingsavgift",
+    "vernr": 157,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "42ceedf2a82e138d4ac86881d0a7c334",
+    "id": "nordea_176_2024-09-02_150",
+    "description": "Medlemsavgift",
+    "vernr": 158,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "transaction_id": "dd0b0e56770dd9c0ccb76d298389e233",
+    "id": "nordea_177_2024-09-02_10",
+    "description": "Swishavgift",
+    "vernr": 159,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 10
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "date": "2024-09-04",
+    "transaction_id": "90789a9334c4d61dc1dda75a63e6d2a2",
+    "id": "nordea_178_2024-09-04_150",
+    "description": "Höstfest",
+    "vernr": 160,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-04",
+    "transaction_id": "55a7fa5b69a1a5170d07784a6cc41fa2",
+    "id": "nordea_179_2024-09-04_50",
+    "description": "Donation",
+    "vernr": 161,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-06",
+    "transaction_id": "3677199e889f23dd75b22a55a659d89e",
+    "id": "nordea_180_2024-09-06_50",
+    "description": "Donation",
+    "vernr": 162,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-10",
+    "transaction_id": "fae57bfc91425e0d9ff5a1b5dde4494c",
+    "id": "nordea_181_2024-09-10_300",
+    "description": "Seglingsavgift",
+    "vernr": 163,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-12",
+    "transaction_id": "285132cf186f848d3fb152b7edccc1d9",
+    "id": "nordea_182_2024-09-12_150",
+    "description": "Höstfest",
+    "vernr": 164,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-17",
+    "transaction_id": "8c648b855e1e4fbc730484707909751b",
+    "id": "nordea_183_2024-09-17_500",
+    "description": "Böcker",
+    "vernr": 165,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-09-18",
+    "transaction_id": "f7d33a025b6d6452c02c1c6c12f49786",
+    "id": "nordea_184_2024-09-18_300",
+    "description": "Höstfest",
+    "vernr": 166,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-18",
+    "transaction_id": "8bfc14e2da23083dde861deee0788964",
+    "id": "nordea_185_2024-09-18_50",
+    "description": "Donation",
+    "vernr": 167,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-20",
+    "transaction_id": "373ab5b8babdf6e3a104655cb84fb8f7",
+    "id": "nordea_186_2024-09-20_350",
+    "description": "Medlemsavgift",
+    "vernr": 168,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-20",
+    "transaction_id": "18b2af9076723c79341eee23f1e10463",
+    "id": "nordea_187_2024-09-20_300",
+    "description": "Seglingsavgift",
+    "vernr": 169,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-23",
+    "transaction_id": "cafff743f5c6d3e8ae8f3efcef1db525",
+    "id": "nordea_188_2024-09-23_350",
+    "description": "Medlemsavgift",
+    "vernr": 170,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-23",
+    "transaction_id": "1cd2f05af5ea42cbbfadbbb03a736cce",
+    "id": "nordea_189_2024-09-23_300",
+    "description": "Seglingsavgift",
+    "vernr": 171,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-23",
+    "transaction_id": "672cdeef9d7c9e982f4bd33a8dfe59f3",
+    "id": "nordea_191_2024-09-23_300",
+    "description": "Seglingsavgift",
+    "vernr": 172,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-24",
+    "transaction_id": "9a29120f6c8b7f2265b8e27aaa56f1f9",
+    "id": "nordea_192_2024-09-24_300",
+    "description": "Höstfest",
+    "vernr": 173,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-24",
+    "transaction_id": "34f37d0406a7dbab46c4c2a9f5294745",
+    "id": "nordea_193_2024-09-24_300",
+    "description": "Seglingsavgift",
+    "vernr": 174,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-24",
+    "transaction_id": "78d368907eb9738ca217fd45834ac853",
+    "id": "nordea_194_2024-09-24_150",
+    "description": "Höstfest",
+    "vernr": 175,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-25",
+    "transaction_id": "466f6e27fe7bc7c224735a4c67afd63e",
+    "id": "nordea_195_2024-09-25_740",
+    "description": "Seglingsavgift",
+    "vernr": 176,
+    "transactions": [
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": -740
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 740
+      }
+    ]
+  },
+  {
+    "date": "2024-09-25",
+    "transaction_id": "ba6cefebd2c616dde35137dbd37e05b2",
+    "id": "nordea_197_2024-09-25_150",
+    "description": "Höstfest",
+    "vernr": 177,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-25",
+    "transaction_id": "aaa7edd3f1c9ad5fb2a557a9fedc372f",
+    "id": "nordea_198_2024-09-25_150",
+    "description": "Höstfest",
+    "vernr": 178,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-25",
+    "transaction_id": "2bb211b52f2b350057f88a46adfbfb22",
+    "id": "nordea_199_2024-09-25_150",
+    "description": "Höstfest",
+    "vernr": 179,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-27",
+    "transaction_id": "2ee7bed1f9de89b5a2627036df52a386",
+    "id": "nordea_208_2024-09-27_350",
+    "description": "Medlemsavgift",
+    "vernr": 180,
+    "transactions": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": -350
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "date": "2024-09-27",
+    "transaction_id": "ac636119fb741336e05e5dfb1fd9d2ff",
+    "id": "nordea_209_2024-09-27_300",
+    "description": "Höstfest",
+    "vernr": 181,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "2b899e0154c7d0bf1abf3bc370caaffb",
+    "id": "nordea_210_2024-09-30_600",
+    "description": "Höstfest",
+    "vernr": 182,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -600
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "31872422778da7e4dc38f85d6f9d3748",
+    "id": "nordea_211_2024-09-30_300",
+    "description": "Höstfest",
+    "vernr": 183,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "39e3ac37508cb1d40bb22af98d6dcb9d",
+    "id": "nordea_212_2024-09-30_300",
+    "description": "Mugg och tröja",
+    "vernr": 184,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "dda541697f35f0259ede5bcd79695c68",
+    "id": "nordea_213_2024-09-30_300",
+    "description": "Höstfest",
+    "vernr": 185,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "1e05cf65a136b9cebc21e7f99aa1a741",
+    "id": "nordea_214_2024-09-30_300",
+    "description": "Höstfest",
+    "vernr": 186,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -300
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "62bca88da0ba71a9303e17d948e8d485",
+    "id": "nordea_215_2024-09-30_150",
+    "description": "Höstfest och mugg",
+    "vernr": 187,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -100
+      },
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "906473aee6b7d85393278905332041b2",
+    "id": "nordea_216_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 188,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "b6dca679479ba5cafe200e6d094b5388",
+    "id": "nordea_217_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 189,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "e39f3276e6aa43b1aba438b7e1e39f3c",
+    "id": "nordea_218_2024-09-30_200",
+    "description": "Bok",
+    "vernr": 190,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "3bec8c25714006475a0d18c2575e57a8",
+    "id": "nordea_219_2024-09-30_200",
+    "description": "Donation",
+    "vernr": 191,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "38670dff7e5e4ca91691bde50266d6c4",
+    "id": "nordea_220_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 192,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "d7d4fb1ea215b3775f97fa1856e46110",
+    "id": "nordea_221_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 193,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "df7fbcb477cfe06ef3db6aa6ccbcc1fd",
+    "id": "nordea_222_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 194,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "0743c522d7fab5f639421c7fbce9f19b",
+    "id": "nordea_223_2024-09-30_200",
+    "description": "T-shirt",
+    "vernr": 195,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "8635dc6dee454f5b97acb3ffac5d71ec",
+    "id": "nordea_224_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 196,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "06b9b610d92acafc1813bbc2e2ecccde",
+    "id": "nordea_225_2024-09-30_150",
+    "description": "Höstfest",
+    "vernr": 197,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "711a406db03503f4b979d9405c49c58a",
+    "id": "nordea_226_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 198,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "b893ab3ffdba19eff037951a67187723",
+    "id": "nordea_227_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 199,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "8e7471f20176c1c09b141e4f330b8cc3",
+    "id": "nordea_228_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 200,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "3b8233dbfd2e3435fa79329e49e4d41c",
+    "id": "nordea_229_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 201,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "dcd521ce6bc2c39a0d4e1420c745c0da",
+    "id": "nordea_230_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 202,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "5fe6ec7e38e12f9b8c037e7a3120ff40",
+    "id": "nordea_231_2024-09-30_150",
+    "description": "Höstfest",
+    "vernr": 203,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "2bd8b68e4becedefe783941122609632",
+    "id": "nordea_232_2024-09-30_150",
+    "description": "Höstfest",
+    "vernr": 204,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "dc136b45188069959d2397ac3b65b3c0",
+    "id": "nordea_233_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 205,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "a1d633428e72377c8e3d2211461693c7",
+    "id": "nordea_234_2024-09-30_150",
+    "description": "Mugg",
+    "vernr": 206,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "dc22644de989fda92db738c06a412934",
+    "id": "nordea_235_2024-09-30_150",
+    "description": "Böcker",
+    "vernr": 207,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "9bd7336fed7d2b2aa2cc733007a11a1c",
+    "id": "nordea_236_2024-09-30_150",
+    "description": "Höstfest",
+    "vernr": 208,
+    "transactions": [
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": -150
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "66150382497f1c92483a06134d6bd15e",
+    "id": "nordea_237_2024-09-30_50",
+    "description": "Donation",
+    "vernr": 209,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "d81cefd7a2175aac3e57cdaeeaa2626f",
+    "id": "nordea_238_2024-09-30_50",
+    "description": "Donation",
+    "vernr": 210,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "a540586195f5945f8d553d23e1653e22",
+    "id": "nordea_239_2024-09-30_50",
+    "description": "Donation",
+    "vernr": 211,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "c8dd1ccb3bfecceb987d70a0dffc5cf3",
+    "id": "nordea_240_2024-09-30_40",
+    "description": "Donation",
+    "vernr": 212,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -40
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 40
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "transaction_id": "8a16c284723c1b044f25cb4e2c092cf5",
+    "id": "nordea_241_2024-09-30_20",
+    "description": "Donation",
+    "vernr": 213,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -20
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "date": "2024-10-01",
+    "transaction_id": "0a7e3a54d30bbf78019a8e1ca7454a35",
+    "id": "nordea_242_2024-10-01_138",
+    "description": "Swishavgift",
+    "vernr": 214,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 138
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -138
+      }
+    ]
+  },
+  {
+    "date": "2024-10-01",
+    "transaction_id": "414739e7059ba0780aaa7b079630c6e6",
+    "id": "nordea_243_2024-10-01_6304",
+    "description": "Försäkring Fartyget, halvårsavgift",
+    "vernr": 215,
+    "transactions": [
+      {
+        "account": "4111 - Fartyget - Försäkring",
+        "amount": 1234
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1234
+      }
+    ]
+  },
+  {
+    "date": "2024-10-02",
+    "transaction_id": "fb27dc2d179b5c4ddd25f5f6be1ba8b2",
+    "id": "nordea_244_2024-10-02_3849.1",
+    "description": "Mat höstfest",
+    "vernr": 216,
+    "transactions": [
+      {
+        "account": "6610 - Interna arrangemang (fester etc)",
+        "amount": 3849.1
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -3849.1
+      }
+    ]
+  },
+  {
+    "date": "2024-10-09",
+    "transaction_id": "16190de4efdc5ce030142d7bb6d131bd",
+    "id": "nordea_245_2024-10-09_50",
+    "description": "Donation",
+    "vernr": 217,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -50
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "date": "2024-10-28",
+    "transaction_id": "9d70fd579bf2aa30d7f7c4a75035c637",
+    "id": "nordea_246_2024-10-28_1153.75",
+    "description": "Webbhotell",
+    "vernr": 218,
+    "transactions": [
+      {
+        "account": "5421 - Hemsida",
+        "amount": 1153.75
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1153.75
+      }
+    ]
+  },
+  {
+    "date": "2024-10-28",
+    "transaction_id": "ae0d1d1445e64ad48f3f37f10dd8caeb",
+    "id": "nordea_247_2024-10-28_1325",
+    "description": "Meetup halvårsfaktura",
+    "vernr": 219,
+    "transactions": [
+      {
+        "account": "5900 - Reklam och PR",
+        "amount": 1325
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1325
+      }
+    ]
+  },
+  {
+    "date": "2024-10-29",
+    "transaction_id": "7b9d0bd75175d44035500814e8158985",
+    "id": "nordea_248_2024-10-29_200",
+    "description": "Donation",
+    "vernr": 220,
+    "transactions": [
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": -200
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "date": "2024-11-01",
+    "transaction_id": "356be8ff8e998943b1863c899cb08445",
+    "id": "nordea_249_2024-11-01_2",
+    "description": "Swishavgift",
+    "vernr": 221,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 2
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -2
+      }
+    ]
+  },
+  {
+    "date": "2024-11-05",
+    "transaction_id": "0ba0993e9891bfc6ddea8966c06a0fea",
+    "id": "nordea_250_2024-11-05_1.85",
+    "description": "Bankkostnad",
+    "vernr": 222,
+    "transactions": [
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": 1.85
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1.85
+      }
+    ]
+  },
+  {
+    "date": "2024-11-21",
+    "transaction_id": "96ad6cc98ba7bb14cc5212c44b6b559a",
+    "id": "nordea_251_2024-11-21_500",
+    "description": "Böcker",
+    "vernr": 223,
+    "transactions": [
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": -500
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "date": "2024-12-04",
+    "transaction_id": "700e9defda420b085417619644ac8563",
+    "id": "nordea_252_2024-12-04_894",
+    "description": "Återbäring, försäkring",
+    "vernr": 224,
+    "transactions": [
+      {
+        "account": "4111 - Fartyget - Försäkring",
+        "amount": -800
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 800
+      }
+    ]
+  },
+  {
+    "date": "2024-12-13",
+    "transaction_id": "d4ab46d7959397150ae39ff69a84d8ce",
+    "id": "nordea_253_2024-12-13_362.7",
+    "description": "Utlägg vintertäckning",
+    "vernr": 225,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": 362.7
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -362.7
+      }
+    ]
+  },
+  {
+    "date": "2024-12-13",
+    "transaction_id": "4574fcff9fb624b7359bc1547378dd3c",
+    "id": "nordea_254_2024-12-13_1438",
+    "description": "Service/felsökning Hjälpbåtsmotor",
+    "vernr": 226,
+    "transactions": [
+      {
+        "account": "4162 - Hjälpbåt - Motor",
+        "amount": 1438
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1438
+      }
+    ]
+  },
+  {
+    "date": "2024-12-29",
+    "transaction_id": "f148126bcfe203acbe1fa1288a79af27",
+    "id": "nordea_256_2024-08-12_1037.9",
+    "description": "Nollställande av V157 - Impregnering tält",
+    "vernr": 227,
+    "transactions": [
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": -1037.9
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": 1037.9
+      }
+    ]
+  },
+  {
+    "date": "2024-12-29",
+    "transaction_id": "1dec44f6c36cf9d8dcae183c476d2235",
+    "id": "nordea_257_2024-08-12_-1037.9",
+    "description": "Dubbel utbetalning för impregnering tält - V90 och V157",
+    "vernr": 228,
+    "transactions": [
+      {
+        "account": "1510 - Fordran av medlem",
+        "amount": 1037.9
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "amount": -1037.9
+      }
+    ]
+  },
+  {
+    "date": "2024-12-29",
+    "transaction_id": "508b071bdb3e69088b3bc1866f690d4e",
+    "id": "nordea_258_2024-01-02_126.36",
+    "description": "Tidigare års ränta - justering av ingående belopp på placeringskontot",
+    "vernr": 229,
+    "transactions": [
+      {
+        "account": "8311 - Ränteintäkter från bank",
+        "amount": -126.36
+      },
+      {
+        "account": "1940 - Bank - Placeringskonto",
+        "amount": 126.36
+      }
+    ]
+  },
+  {
+    "date": "2024-12-30",
+    "transaction_id": "16ab317ef02abb2b96e116f31f75b705",
+    "id": "nordea_259_2024-12-30_140.85",
+    "description": "Placeringskonto - ränta",
+    "vernr": 230,
+    "transactions": [
+      {
+        "account": "8311 - Ränteintäkter från bank",
+        "amount": -140.85
+      },
+      {
+        "account": "1940 - Bank - Placeringskonto",
+        "amount": 140.85
+      }
+    ]
+  },
+  {
+    "date": "2024-12-30",
+    "transaction_id": "f45f79fddc6a67b05031ef638d28399b",
+    "id": "nordea_260_2024-12-30_1000.00",
+    "description": "Korrekt bokförande av årsmöteslokal - korrigering av V57",
+    "vernr": 231,
+    "transactions": [
+      {
+        "account": "6450 - Års- eller föreningsstämma",
+        "amount": 1000
+      },
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": -1000
+      }
+    ]
+  }
+]

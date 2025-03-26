@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Minimal Invoice
+% LaTeX Template
+% Version 1.1 (April 22, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+    a4paper, % Paper size, use 'a4paper' for A4 or 'letterpaper' for US letter
+    10pt, % Default font size, available sizes are: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
+]{CSMinimalInvoice}
+
+%---------------------------------------------------------------------------------
+%   REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+% The currency code (e.g. USD is United States Dollars), do one of the following:
+% 1) Enter a 3 letter code to have it appear at the bottom of the report
+% 2) Leave the command empty (i.e. \currencycode{}) if you don't want the code to appear on the report
+\currencycode{kr}
+
+%---------------------------------------------------------------------------------
+%   ADVANCED REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+\roundcurrencytodecimals{2} % The number of decimal places to round currency numbers
+\roundquantitytodecimals{0} % The number of decimal places to round quantity numbers
+
+% Advanced settings for changing how numbers are output
+\sisetup{group-minimum-digits=4} % Delimit numbers (e.g. 4000 -> 4,000) when there are this number of digits or more
+\sisetup{group-separator={ }} % Character to use for delimiting digit groups
+\sisetup{output-decimal-marker={,}} % Character to use for specifying decimals
+
+\currencysuffix{} % Some currencies output the currency symbol after the number, such as Sweden's krona specified with a 'kr' suffix. Specify a suffix here if required, otherwise leave this command empty.
+
+%---------------------------------------------------------------------------------
+
+\begin{document}
+
+\setstretch{1} % Restore single line spacing
+
+%---------------------------------------------------------------------------------
+%   CONTENT TABLE
+%---------------------------------------------------------------------------------
+
+% CONTENT
+\reporttype{Balansräkning}
+\begin{balancetable}
+
+  \balanceheaderrow{Tillgångar}
+  \balanceitem{1350 - Fondkonto anskaffningsvärde}{}{8595.64}{0}{8595.64}
+  \balanceitem{1356 - Andelar i andra organisationer}{Deposition hos sommarhamnen.}{10000}{0}{10000}
+  \balanceitem{1510 - Fordran av medlem}{En dubbel utbetalning för samma utlägg gjordes 2024. Detta blev återbetalat 2025.}{0}{1037.9}{1037.9}
+  \balanceitem{1920 - Bank - Plusgiro}{}{85285.03}{-44377.81}{40907.22}
+  \balanceitem{1940 - Bank - Placeringskonto}{Årets ränteintäkter är \outputcurrency{140.85} \currencycode{}, resterande \outputcurrency{126.36} \currencycode{} är tidigare års obokförda ränteintäkter.}{1208.1}{267.21}{1475.31}
+  \balanceresult{}
+
+  \balanceheaderrow{Eget kapital och skulder}
+  \balanceitem{2060 - Eget kapital}{}{-85004.51}{1466.26}{-83538.25}
+  \balanceitem{2069 - Årets resultat}{}{-3478.11}{46550.81}{43072.7}
+  \balanceitem{2098 - Förra årets resultat}{}{1466.26}{-4944.37}{-3478.11}
+  \balanceitem{2290 - Avsättning till underhållsfond}{}{-18072.41}{0}{-18072.41}
+  \balanceresult{}
+\end{balancetable}
+
+
+%---------------------------------------------------------------------------------
+
+\vfill\vfill % Vertical alignment whitespace
+
+\end{document}

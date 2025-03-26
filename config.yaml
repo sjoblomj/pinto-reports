@@ -1,0 +1,56 @@
+start-of-period: 2024-01-01
+end-of-period: 2024-12-31
+ledger: 2024.beancount
+account-mappings: report-scripts/accounts.json
+
+reports-to-generate:
+  - balansrapport
+  - resultatrapport
+  - verifikationslista
+  - huvudbok
+
+config:
+  verifikationslista:
+    report-type: Verifikationslista
+
+  balansrapport:
+    period-result-account: 2069
+    equity-at-start-of-period:
+      - 2060: -85004.51
+      - 2069: -3478.11
+      - 2098: 1466.26
+    equity-at-end-of-period:
+      - 2060: -83538.25
+      - 2098: -3478.11
+
+    report-type: Balansräkning
+    report-headers:
+      - 1: Tillgångar
+      - 2: Eget kapital och skulder
+
+    notes:
+      - 1356: Deposition hos sommarhamnen.
+      - 1510: En dubbel utbetalning för samma utlägg gjordes 2024. Detta blev återbetalat 2025.
+      - 1940: Årets ränteintäkter är $140.85$, resterande $126.36$ är tidigare års obokförda ränteintäkter.
+
+
+  resultatrapport:
+    report-type: Resultaträkning
+    report-headers:
+      - 3: Nettoomsättning
+      - 4: Kostnader för varor, material och tjänster
+      - 5: Övriga externa rörelseutgifter/kostnader
+      - 6: Övriga externa rörelseutgifter/kostnader
+      - 7: Utgifter/kostnader för personal, avskrivningar mm
+      - 8: Finansiella inkomster/utgifter
+
+    notes:
+      - 3012: Inkomst för matavgifter under vecko- och helgsegling. Kostnaden för maten ligger under @6600@.
+      - 3602: Anmälningsavgift till höstfest. Kostnaden för festen ligger under @6610@.
+      - 4118: Kostnaden för varvet.
+      - 6450: Lokalkostnad, årsmöte.
+      - 5420: Årlig kostnad för bokföringsprogrammet. Planerat att avslutas till nästa år.
+      - 5700: Frakt av mat till årsmötet.
+      - 6600: Kostnad för mat under vecko- och helgsegling. Inkomsten för maten ligger under @3012@.
+      - 6610: Kostnaden för höstfest. Inkomsten för festen ligger under @3602@.
+      - 8311: Förra årets ränta blev inte bokförd, så detta är räntan för både 2023 ($126.36$) och 2024 ($140.85$).

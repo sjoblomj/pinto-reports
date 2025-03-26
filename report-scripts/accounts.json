@@ -1,0 +1,458 @@
+[
+  {
+    "type": "Tillgång",
+    "accountnumber": 1350,
+    "name": "Assets:1350:Fondkonto-anskaffningsvärde",
+    "displayname": "1350 - Fondkonto anskaffningsvärde"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1356,
+    "name": "Assets:1356:Andelar-i-andra-organisationer",
+    "displayname": "1356 - Andelar i andra organisationer"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1510,
+    "name": "Assets:1510:Fordran-av-medlem",
+    "displayname": "1510 - Fordran av medlem"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1680,
+    "name": "Assets:1680:Kortfristiga-fordringar",
+    "displayname": "1680 - Kortfristiga fordringar"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1790,
+    "name": "Assets:1790:Förutbetalda-kostnader-och-upplupna-intäkter",
+    "displayname": "1790 - Förutbetalda kostnader och upplupna intäkter"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1920,
+    "name": "Assets:1920:Bank:Plusgiro",
+    "displayname": "1920 - Bank - Plusgiro"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1940,
+    "name": "Assets:1940:Bank:Placeringskonto",
+    "displayname": "1940 - Bank - Placeringskonto"
+  },
+  {
+    "type": "Tillgång",
+    "accountnumber": 1941,
+    "name": "Assets:1941:Bank:Sparkonto",
+    "displayname": "1941 - Bank - Sparkonto"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2060,
+    "name": "Liabilities:2060:Eget-kapital",
+    "displayname": "2060 - Eget kapital"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2069,
+    "name": "Liabilities:2069:Årets-resultat",
+    "displayname": "2069 - Årets resultat"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2098,
+    "name": "Liabilities:2098:Förra-årets-resultat",
+    "displayname": "2098 - Förra årets resultat"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2290,
+    "name": "Liabilities:2290:Avsättning-till-underhållsfond",
+    "displayname": "2290 - Avsättning till underhållsfond"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2901,
+    "name": "Liabilities:2901:Förskott-från-medlem",
+    "displayname": "2901 - Förskott från medlem"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2902,
+    "name": "Liabilities:2902:Skuld-till-medlem",
+    "displayname": "2902 - Skuld till medlem"
+  },
+  {
+    "type": "Skuld",
+    "accountnumber": 2972,
+    "name": "Liabilities:2972:Förutbetalda-medlemsavgifter",
+    "displayname": "2972 - Förutbetalda medlemsavgifter"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3010,
+    "name": "Income:3010:Medlemsavgift",
+    "displayname": "3010 - Medlemsavgift"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3011,
+    "name": "Income:3011:Seglingsavgift",
+    "displayname": "3011 - Seglingsavgift"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3012,
+    "name": "Income:3012:Matavgift",
+    "displayname": "3012 - Matavgift"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3013,
+    "name": "Income:3013:Anmälningsavgift",
+    "displayname": "3013 - Anmälningsavgift"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3014,
+    "name": "Income:3014:Uppdrag-föredrag",
+    "displayname": "3014 - Uppdrag, föredrag"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3601,
+    "name": "Income:3601:Events-marknader",
+    "displayname": "3601 - Events, marknader"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3602,
+    "name": "Income:3602:Interna-arrangemang",
+    "displayname": "3602 - Interna arrangemang (fester etc)"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3610,
+    "name": "Income:3610:Försäljning",
+    "displayname": "3610 - Försäljning (Böcker, tröjor, mm)"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3740,
+    "name": "Income:3740:Öres-och-kronutjämning",
+    "displayname": "3740 - Öres- och kronutjämning"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3993,
+    "name": "Income:3993:Erhållna-donationer-och-gåvor",
+    "displayname": "3993 - Erhållna donationer och gåvor"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3994,
+    "name": "Income:3994:Försäkringsersättningar",
+    "displayname": "3994 - Försäkringsersättningar"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 3999,
+    "name": "Income:3999:Övriga-intäkter",
+    "displayname": "3999 - Övriga intäkter"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4110,
+    "name": "Expenses:4110:Fartyget:Allmänt",
+    "displayname": "4110 - Fartyget - Allmänt"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4111,
+    "name": "Expenses:4111:Fartyget:Försäkring",
+    "displayname": "4111 - Fartyget - Försäkring"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4112,
+    "name": "Expenses:4112:Fartyget:Mobil-radiosändare",
+    "displayname": "4112 - Fartyget - Mobil, radiosändare"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4113,
+    "name": "Expenses:4113:Fartyget:Vårutrustning",
+    "displayname": "4113 - Fartyget - Vårutrustning"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4114,
+    "name": "Expenses:4114:Fartyget:Underhåll",
+    "displayname": "4114 - Fartyget - Underhåll"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4115,
+    "name": "Expenses:4115:Fartyget:Bensin",
+    "displayname": "4115 - Fartyget - Bensin"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4116,
+    "name": "Expenses:4116:Fartyget:Segel-och-Rigg",
+    "displayname": "4116 - Fartyget - Segel och Rigg"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4117,
+    "name": "Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader",
+    "displayname": "4117 - Fartyget - Sommarseglingar övriga kostnader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4118,
+    "name": "Expenses:4118:Fartyget:Upptagning-och-Sjösättning",
+    "displayname": "4118 - Fartyget - Upptagning och Sjösättning"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4120,
+    "name": "Expenses:4120:Fartyget:Elmotor",
+    "displayname": "4120 - Fartyget - Elmotor"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4121,
+    "name": "Expenses:4121:Fartyget:Båtvagn",
+    "displayname": "4121 - Fartyget - Båtvagn"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4122,
+    "name": "Expenses:4122:Fartyget:Myndighetsavgifter",
+    "displayname": "4122 - Fartyget - Myndighetsavgifter"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4125,
+    "name": "Expenses:4125:Fartyget:Uppdrag",
+    "displayname": "4125 - Fartyget - Uppdrag"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4126,
+    "name": "Expenses:4126:Fartyget:Fast-båtplats",
+    "displayname": "4126 - Fartyget - Fast båtplats"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4127,
+    "name": "Expenses:4127:Fartyget:Hamnavgifter",
+    "displayname": "4127 - Fartyget - Hamnavgifter"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4160,
+    "name": "Expenses:4160:Hjälpbåt:Allmänt",
+    "displayname": "4160 - Hjälpbåt - Allmänt"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4161,
+    "name": "Expenses:4161:Hjälpbåt:Försäkring",
+    "displayname": "4161 - Hjälpbåt - Försäkring"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4162,
+    "name": "Expenses:4162:Hjälpbåt:Motor",
+    "displayname": "4162 - Hjälpbåt - Motor"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 4300,
+    "name": "Expenses:4300:Maskiner-och-större-verktyg",
+    "displayname": "4300 - Maskiner och större verktyg"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5010,
+    "name": "Expenses:5010:Lokalhyra",
+    "displayname": "5010 - Lokalhyra"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5310,
+    "name": "Expenses:5310:El-för-drift",
+    "displayname": "5310 - El för drift"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5420,
+    "name": "Expenses:5420:Programvaror",
+    "displayname": "5420 - Programvaror"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5421,
+    "name": "Expenses:5421:Hemsida",
+    "displayname": "5421 - Hemsida"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5460,
+    "name": "Expenses:5460:Förbrukningsmaterial",
+    "displayname": "5460 - Förbrukningsmaterial"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5480,
+    "name": "Expenses:5480:Arbetskläder-och-skyddsmaterial",
+    "displayname": "5480 - Arbetskläder och skyddsmaterial"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5700,
+    "name": "Expenses:5700:Frakter-och-Transporter",
+    "displayname": "5700 - Frakter och Transporter"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5800,
+    "name": "Expenses:5800:Resekostnader",
+    "displayname": "5800 - Resekostnader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5801,
+    "name": "Expenses:5801:Milersättning",
+    "displayname": "5801 - Milersättning"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5802,
+    "name": "Expenses:5802:Parkeringsavgift",
+    "displayname": "5802 - Parkeringsavgift"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5900,
+    "name": "Expenses:5900:Reklam-och-PR",
+    "displayname": "5900 - Reklam och PR"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5940,
+    "name": "Expenses:5940:Utställning-och-mässor",
+    "displayname": "5940 - Utställning och mässor"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 5942,
+    "name": "Expenses:5942:Marknader",
+    "displayname": "5942 - Marknader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6090,
+    "name": "Expenses:6090:Övriga-försäljningskostnader",
+    "displayname": "6090 - Övriga försäljningskostnader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6110,
+    "name": "Expenses:6110:Kontorsmateriel",
+    "displayname": "6110 - Kontorsmateriel"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6150,
+    "name": "Expenses:6150:Tryck",
+    "displayname": "6150 - Tryck"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6160,
+    "name": "Expenses:6160:Anskaffning",
+    "displayname": "6160 - Anskaffning (Tröjor, vykort, mm)"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6250,
+    "name": "Expenses:6250:Postbefordran",
+    "displayname": "6250 - Postbefordran"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6351,
+    "name": "Expenses:6351:Konstaterade-förluster-på-kundfordringar",
+    "displayname": "6351 - Konstaterade förluster på kundfordringar"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6450,
+    "name": "Expenses:6450:Föreningsstämma",
+    "displayname": "6450 - Års- eller föreningsstämma"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6570,
+    "name": "Expenses:6570:Bankkostnader",
+    "displayname": "6570 - Bankkostnader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6600,
+    "name": "Expenses:6600:Mat:Segling",
+    "displayname": "6600 - Mat - Segling"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6601,
+    "name": "Expenses:6601:Mat:Arbetsdagar",
+    "displayname": "6601 - Mat - Arbetsdagar"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6610,
+    "name": "Expenses:6610:Interna-arrangemang",
+    "displayname": "6610 - Interna arrangemang (fester etc)"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6700,
+    "name": "Expenses:6700:Uppdrag-föredrag-sponsorsegling",
+    "displayname": "6700 - Uppdrag, föredrag, sponsorsegling"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6750,
+    "name": "Expenses:6750:Utbildning",
+    "displayname": "6750 - Utbildning"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6980,
+    "name": "Expenses:6980:Medlems-och-föreningsavgifter",
+    "displayname": "6980 - Medlems- och föreningsavgifter"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6990,
+    "name": "Expenses:6990:Övriga-externa-kostnader",
+    "displayname": "6990 - Övriga externa kostnader"
+  },
+  {
+    "type": "Kostnad",
+    "accountnumber": 6993,
+    "name": "Expenses:6993:Lämnade-bidrag-och-gåvor",
+    "displayname": "6993 - Lämnade bidrag och gåvor"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 8311,
+    "name": "Income:8311:Ränteintäkter-från-bank",
+    "displayname": "8311 - Ränteintäkter från bank"
+  }
+]

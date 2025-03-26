@@ -1,0 +1,42 @@
+#!/bin/bash
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+source "$SCRIPT_DIR"/report-scripts/transactions.sh
+
+config_file="config.yaml"
+date=$(date -I)
+seed=$(head /dev/urandom | tr -dc A-Fa-f0-9 | head -c 8)
+
+start_of_period=$(yq '.start-of-period' "$config_file")
+end_of_period=$(  yq   '.end-of-period' "$config_file")
+ledger_file=$(    yq          '.ledger' "$config_file")
+lastvernum=$(get_transaction_list "$ledger_file" | jq 'last | .vernr')
+
+tempfile=$(mktemp)
+prevdir=$(pwd)
+report_dir="reports"
+mkdir -p "$report_dir"
+cp report-scripts/report.tex report-scripts/CSMinimalInvoice.cls report-scripts/logo.eps "$report_dir"
+
+for report in $(yq -r -oj '.["reports-to-generate"] | .[]' "$config_file"); do
+  echo "$report"
+
+  report_config_file=$(mktemp)
+  file_path="${report}-${date}_${seed}"
+  general_config=$(yq -oj 'with_entries(select(.value | (type != "!!map" and type != "!!seq")))' "$config_file")
+  yq -oj ".config.$report // {}" "$config_file" |
+    jq --arg output_file "$report_dir/$file_path" --argjson general "$general_config" '. + $general + {"report-output-file": $output_file}' > "$report_config_file"
+
+  tex="$file_path.tex"
+  ./report-scripts/"$report".sh "$report_config_file" > "$tempfile"
+  sed "/% CONTENT/r $tempfile" reports/report.tex > reports/"$tex"
+
+  cd reports || exit 1
+  xelatex "\def\lastverification{$lastvernum} \def\startofperiod{$start_of_period} \def\endofperiod{$end_of_period} \input{$tex}"
+  xelatex "\def\lastverification{$lastvernum} \def\startofperiod{$start_of_period} \def\endofperiod{$end_of_period} \input{$tex}"
+  rm -f *.aux *.log *.out
+  cd "$prevdir" || exit 1
+
+  rm -f "$report_config_file"
+done
+
+rm -f "$tempfile"

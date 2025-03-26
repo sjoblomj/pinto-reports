@@ -1,0 +1,690 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Minimal Invoice
+% LaTeX Template
+% Version 1.1 (April 22, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+    a4paper, % Paper size, use 'a4paper' for A4 or 'letterpaper' for US letter
+    10pt, % Default font size, available sizes are: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
+]{CSMinimalInvoice}
+
+%---------------------------------------------------------------------------------
+%   REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+% The currency code (e.g. USD is United States Dollars), do one of the following:
+% 1) Enter a 3 letter code to have it appear at the bottom of the report
+% 2) Leave the command empty (i.e. \currencycode{}) if you don't want the code to appear on the report
+\currencycode{kr}
+
+%---------------------------------------------------------------------------------
+%   ADVANCED REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+\roundcurrencytodecimals{2} % The number of decimal places to round currency numbers
+\roundquantitytodecimals{0} % The number of decimal places to round quantity numbers
+
+% Advanced settings for changing how numbers are output
+\sisetup{group-minimum-digits=4} % Delimit numbers (e.g. 4000 -> 4,000) when there are this number of digits or more
+\sisetup{group-separator={ }} % Character to use for delimiting digit groups
+\sisetup{output-decimal-marker={,}} % Character to use for specifying decimals
+
+\currencysuffix{} % Some currencies output the currency symbol after the number, such as Sweden's krona specified with a 'kr' suffix. Specify a suffix here if required, otherwise leave this command empty.
+
+%---------------------------------------------------------------------------------
+
+\begin{document}
+
+\setstretch{1} % Restore single line spacing
+
+%---------------------------------------------------------------------------------
+%   CONTENT TABLE
+%---------------------------------------------------------------------------------
+
+% CONTENT
+\reporttype{Huvudbok}
+\begin{accounttable}
+
+    \accountheaderrow{1350 - Fondkonto anskaffningsvärde}
+    \accountopeningrow{8595.64}
+
+    \accountclosingrow{}
+
+    \accountheaderrow{1356 - Andelar i andra organisationer}
+    \accountopeningrow{10000}
+
+    \accountclosingrow{}
+
+    \accountheaderrow{1510 - Fordran av medlem}
+    \accountopeningrow{0.00}
+    \accounttransaction{228}{2024-12-29}{Dubbel utbetalning för impregnering tält - V90 och V157}{1037.9}
+    \accountclosingrow{}
+
+    \accountheaderrow{1920 - Bank - Plusgiro}
+    \accountopeningrow{85285.03}
+    \accounttransaction{1}{2024-01-02}{Swishavgift}{-2}
+    \accounttransaction{2}{2024-01-02}{Swish årsavgift}{-720}
+    \accounttransaction{3}{2024-01-04}{Bankavgift}{-1300}
+    \accounttransaction{4}{2024-01-10}{Donation}{50}
+    \accounttransaction{5}{2024-01-15}{Medlemsavgift}{350}
+    \accounttransaction{6}{2024-01-16}{Medlemsavgift}{500}
+    \accounttransaction{7}{2024-01-17}{Medlemsavgift}{350}
+    \accounttransaction{8}{2024-01-26}{Medlemsavgift}{350}
+    \accounttransaction{9}{2024-01-30}{Medlemsavgift}{350}
+    \accounttransaction{10}{2024-02-01}{Medlemsavgift}{500}
+    \accounttransaction{11}{2024-02-01}{Medlemsavgift}{500}
+    \accounttransaction{12}{2024-02-01}{Swishavgift}{-10}
+    \accounttransaction{13}{2024-02-02}{Medlemsavgift}{350}
+    \accounttransaction{14}{2024-02-02}{Donation}{50}
+    \accounttransaction{15}{2024-02-02}{Årsavgift, Speedledger}{-3085}
+    \accounttransaction{16}{2024-02-09}{Medlemsavgift}{350}
+    \accounttransaction{17}{2024-02-20}{Donation}{50}
+    \accounttransaction{18}{2024-02-21}{Medlemsavgift}{350}
+    \accounttransaction{19}{2024-02-26}{Medlemsavgift}{350}
+    \accounttransaction{20}{2024-02-27}{Donation}{350}
+    \accounttransaction{21}{2024-02-29}{Medlemsavgift}{500}
+    \accounttransaction{22}{2024-03-01}{Medlemsavgift}{350}
+    \accounttransaction{23}{2024-03-01}{Swishavgift}{-16}
+    \accounttransaction{24}{2024-03-04}{Medlemsavgift}{350}
+    \accounttransaction{25}{2024-03-04}{Medlemsavgift}{350}
+    \accounttransaction{26}{2024-03-04}{Medlemsavgift}{350}
+    \accounttransaction{27}{2024-03-04}{Transportstyrelsen Registeravgift}{-600}
+    \accounttransaction{28}{2024-03-05}{Bankkostnad}{-1.85}
+    \accounttransaction{29}{2024-03-12}{Medlemsavgift}{350}
+    \accounttransaction{30}{2024-03-12}{Medlemsavgift}{350}
+    \accounttransaction{31}{2024-03-12}{Medlemsavgift}{350}
+    \accounttransaction{32}{2024-03-12}{Medlemsavgift}{350}
+    \accounttransaction{33}{2024-03-13}{Medlemsavgift}{500}
+    \accounttransaction{34}{2024-03-13}{Medlemsavgift}{500}
+    \accounttransaction{35}{2024-03-15}{Medlemsavgift}{350}
+    \accounttransaction{36}{2024-03-15}{Medlemsavgift}{350}
+    \accounttransaction{37}{2024-03-18}{Medlemsavgift}{500}
+    \accounttransaction{38}{2024-03-18}{Tröjor}{450}
+    \accounttransaction{39}{2024-03-18}{Medlemsavgift}{350}
+    \accounttransaction{40}{2024-03-18}{Böcker}{250}
+    \accounttransaction{41}{2024-03-18}{T-shirt}{200}
+    \accounttransaction{42}{2024-03-18}{T-shirt}{200}
+    \accounttransaction{43}{2024-03-18}{T-shirt}{200}
+    \accounttransaction{44}{2024-03-18}{Donation}{20}
+    \accounttransaction{45}{2024-03-18}{Mattransport årsmöte}{-151}
+    \accounttransaction{46}{2024-03-18}{Lokalhyra årsmöte - Korrigerad i V263}{-1000}
+    \accounttransaction{47}{2024-03-18}{Årsmötesmat}{-1111.86}
+    \accounttransaction{48}{2024-03-20}{Donation}{50}
+    \accounttransaction{49}{2024-03-20}{Försäkring Fartyget, halvåravgift}{-2345}
+    \accounttransaction{50}{2024-03-21}{Medlemsavgift}{350}
+    \accounttransaction{51}{2024-04-02}{Swishavgift}{-40}
+    \accounttransaction{52}{2024-04-04}{Bankkostnad}{-3.7}
+    \accounttransaction{53}{2024-04-09}{Medlemsavgift}{500}
+    \accounttransaction{54}{2024-04-29}{Fika flytt till varvet}{-209.85}
+    \accounttransaction{55}{2024-04-29}{Fika årsmöte}{-684}
+    \accounttransaction{56}{2024-04-29}{Varvsmateriel}{-2580.4}
+    \accounttransaction{57}{2024-04-29}{Sommarhamn årsavgift}{-4200}
+    \accounttransaction{58}{2024-04-30}{Primer och penslar}{-1511}
+    \accounttransaction{59}{2024-04-30}{Tjära}{-4001}
+    \accounttransaction{60}{2024-05-02}{Meetup halvårsfaktura}{-912.22}
+    \accounttransaction{61}{2024-05-03}{PTS-tillstånd}{-245}
+    \accounttransaction{62}{2024-05-03}{Försäkring Hjälpbåt och motor}{-1000}
+    \accounttransaction{63}{2024-05-06}{Böcker}{500}
+    \accounttransaction{64}{2024-05-06}{Medlemsavgift}{350}
+    \accounttransaction{65}{2024-05-06}{Bok}{250}
+    \accounttransaction{66}{2024-05-06}{Bok}{250}
+    \accounttransaction{67}{2024-05-06}{Bok}{250}
+    \accounttransaction{68}{2024-05-06}{Bankkostnad}{-3.7}
+    \accounttransaction{69}{2024-05-06}{Karbinhakar}{-179.7}
+    \accounttransaction{70}{2024-05-06}{Penslar och rengöring}{-264.4}
+    \accounttransaction{71}{2024-05-06}{Stålborstar och filter}{-457.8}
+    \accounttransaction{72}{2024-05-06}{Tjära}{-867}
+    \accounttransaction{73}{2024-05-06}{Dammsugare}{-1049}
+    \accounttransaction{74}{2024-05-06}{Länspump och varmluftspistol}{-1944}
+    \accounttransaction{75}{2024-05-16}{Donation}{50}
+    \accounttransaction{76}{2024-05-22}{Donation}{50}
+    \accounttransaction{77}{2024-05-23}{Bensin flytt}{-490.43}
+    \accounttransaction{78}{2024-05-23}{tältimpregnering}{-1037.9}
+    \accounttransaction{79}{2024-05-23}{Varv}{-24062}
+    \accounttransaction{80}{2024-05-27}{Medlemsavgift}{500}
+    \accounttransaction{81}{2024-05-28}{Tältimpregnering}{-479}
+    \accounttransaction{82}{2024-06-03}{Medlemsavgift}{350}
+    \accounttransaction{83}{2024-06-03}{Swishavgift}{-10}
+    \accounttransaction{84}{2024-06-05}{Bankkostnad}{-7.4}
+    \accounttransaction{85}{2024-06-12}{Medlemsavgift}{350}
+    \accounttransaction{86}{2024-06-14}{Medlemsavgift}{350}
+    \accounttransaction{87}{2024-06-14}{Donation}{50}
+    \accounttransaction{88}{2024-06-17}{Medlemsavgift}{350}
+    \accounttransaction{89}{2024-06-20}{Donation}{50}
+    \accounttransaction{90}{2024-06-24}{Seglings- och matavgift + donation}{1350}
+    \accounttransaction{91}{2024-06-25}{Seglings- och matavgift}{4050}
+    \accounttransaction{92}{2024-06-26}{Seglings- och matavgift}{3600}
+    \accounttransaction{93}{2024-06-26}{Medlemsavgift}{350}
+    \accounttransaction{94}{2024-06-27}{Medlemsavgift}{350}
+    \accounttransaction{95}{2024-06-28}{Medlemsavgift}{350}
+    \accounttransaction{96}{2024-06-28}{Medlemsavgift}{350}
+    \accounttransaction{97}{2024-07-01}{Matavgift}{1350}
+    \accounttransaction{98}{2024-07-01}{Seglings- och matavgift}{900}
+    \accounttransaction{99}{2024-07-01}{Medlemsavgift}{500}
+    \accounttransaction{100}{2024-07-01}{Medlemsavgift}{350}
+    \accounttransaction{101}{2024-07-01}{Swishavgift}{-20}
+    \accounttransaction{102}{2024-07-05}{Medlemsavgift}{500}
+    \accounttransaction{103}{2024-07-08}{Medlemsavgift}{500}
+    \accounttransaction{104}{2024-07-10}{Seglings- och matavgift}{1950}
+    \accounttransaction{105}{2024-07-10}{Matavgift}{1050}
+    \accounttransaction{106}{2024-07-10}{Bok}{250}
+    \accounttransaction{107}{2024-07-10}{Ted 2 inställda seglingdagar}{-900}
+    \accounttransaction{108}{2024-07-11}{Bok}{200}
+    \accounttransaction{109}{2024-07-15}{Matavgift}{2100}
+    \accounttransaction{110}{2024-07-15}{Seglings- och matavgift}{900}
+    \accounttransaction{111}{2024-07-15}{Matavgift}{900}
+    \accounttransaction{112}{2024-07-15}{Seglingsavgift}{600}
+    \accounttransaction{113}{2024-07-15}{Medlemsavgift}{350}
+    \accounttransaction{114}{2024-07-15}{Mat seglingsvecka}{-255.6}
+    \accounttransaction{115}{2024-07-15}{Matavgift - inställda seglingsdagar}{-300}
+    \accounttransaction{116}{2024-07-15}{Brandsläckare}{-349}
+    \accounttransaction{117}{2024-07-15}{Hamnavgift}{-365}
+    \accounttransaction{118}{2024-07-15}{Hamnavgift}{-375}
+    \accounttransaction{119}{2024-07-15}{Hamnavgift}{-390}
+    \accounttransaction{120}{2024-07-15}{Första hjälpen etc}{-406.9}
+    \accounttransaction{121}{2024-07-15}{Hamnavgift}{-435}
+    \accounttransaction{122}{2024-07-15}{Fotogen och rödsprit}{-512.3}
+    \accounttransaction{123}{2024-07-15}{Div båtprylar}{-552}
+    \accounttransaction{124}{2024-07-15}{Mat seglingsvecka}{-590.18}
+    \accounttransaction{125}{2024-07-15}{Köksredskap}{-1321.5}
+    \accounttransaction{126}{2024-07-15}{Propellrar}{-2344}
+    \accounttransaction{127}{2024-07-16}{Förtöjningsgods}{-13163}
+    \accounttransaction{128}{2024-07-18}{Seglings- och matavgift}{2700}
+    \accounttransaction{129}{2024-07-19}{Medlemsavgift}{350}
+    \accounttransaction{130}{2024-07-19}{Medlemsavgift}{350}
+    \accounttransaction{131}{2024-07-19}{Medlemsavgift}{350}
+    \accounttransaction{132}{2024-07-19}{Donation}{50}
+    \accounttransaction{133}{2024-07-22}{Bensin}{-933.44}
+    \accounttransaction{134}{2024-07-22}{Mat}{-7238.16}
+    \accounttransaction{135}{2024-07-24}{Donation}{50}
+    \accounttransaction{136}{2024-07-29}{Medlemsavgift}{350}
+    \accounttransaction{137}{2024-08-01}{Swishavgift}{-28}
+    \accounttransaction{138}{2024-08-05}{Bankkostnader}{-1.85}
+    \accounttransaction{139}{2024-08-05}{Inställda seglingsdagar}{-1800}
+    \accounttransaction{140}{2024-08-06}{Matavgift}{1050}
+    \accounttransaction{141}{2024-08-06}{Donation}{50}
+    \accounttransaction{142}{2024-08-12}{Impregnering tält - Nollställt i V257}{-1037.9}
+    \accounttransaction{143}{2024-08-12}{Mat}{-2296.37}
+    \accounttransaction{144}{2024-08-15}{Matavgift}{600}
+    \accounttransaction{145}{2024-08-15}{Tältmaterial}{-5336}
+    \accounttransaction{146}{2024-08-19}{Donation}{50}
+    \accounttransaction{147}{2024-08-26}{Medlemsavgift}{350}
+    \accounttransaction{148}{2024-08-26}{Medlemsavgift}{350}
+    \accounttransaction{149}{2024-08-26}{Medlemsavgift}{350}
+    \accounttransaction{150}{2024-08-27}{Medlemsavgift}{350}
+    \accounttransaction{151}{2024-09-02}{Seglingsavgift}{600}
+    \accounttransaction{152}{2024-09-02}{Seglingsavgift}{600}
+    \accounttransaction{153}{2024-09-02}{Medlemsavgift}{350}
+    \accounttransaction{154}{2024-09-02}{Medlemsavgift}{350}
+    \accounttransaction{155}{2024-09-02}{Seglingsavgift}{300}
+    \accounttransaction{156}{2024-09-02}{Seglingsavgift}{300}
+    \accounttransaction{157}{2024-09-02}{Seglingsavgift}{200}
+    \accounttransaction{158}{2024-09-02}{Medlemsavgift}{150}
+    \accounttransaction{159}{2024-09-02}{Swishavgift}{-10}
+    \accounttransaction{160}{2024-09-04}{Höstfest}{150}
+    \accounttransaction{161}{2024-09-04}{Donation}{50}
+    \accounttransaction{162}{2024-09-06}{Donation}{50}
+    \accounttransaction{163}{2024-09-10}{Seglingsavgift}{300}
+    \accounttransaction{164}{2024-09-12}{Höstfest}{150}
+    \accounttransaction{165}{2024-09-17}{Böcker}{500}
+    \accounttransaction{166}{2024-09-18}{Höstfest}{300}
+    \accounttransaction{167}{2024-09-18}{Donation}{50}
+    \accounttransaction{168}{2024-09-20}{Medlemsavgift}{350}
+    \accounttransaction{169}{2024-09-20}{Seglingsavgift}{300}
+    \accounttransaction{170}{2024-09-23}{Medlemsavgift}{350}
+    \accounttransaction{171}{2024-09-23}{Seglingsavgift}{300}
+    \accounttransaction{172}{2024-09-23}{Seglingsavgift}{300}
+    \accounttransaction{173}{2024-09-24}{Höstfest}{300}
+    \accounttransaction{174}{2024-09-24}{Seglingsavgift}{300}
+    \accounttransaction{175}{2024-09-24}{Höstfest}{150}
+    \accounttransaction{176}{2024-09-25}{Seglingsavgift}{740}
+    \accounttransaction{177}{2024-09-25}{Höstfest}{150}
+    \accounttransaction{178}{2024-09-25}{Höstfest}{150}
+    \accounttransaction{179}{2024-09-25}{Höstfest}{150}
+    \accounttransaction{180}{2024-09-27}{Medlemsavgift}{350}
+    \accounttransaction{181}{2024-09-27}{Höstfest}{300}
+    \accounttransaction{182}{2024-09-30}{Höstfest}{600}
+    \accounttransaction{183}{2024-09-30}{Höstfest}{300}
+    \accounttransaction{184}{2024-09-30}{Mugg och tröja}{300}
+    \accounttransaction{185}{2024-09-30}{Höstfest}{300}
+    \accounttransaction{186}{2024-09-30}{Höstfest}{300}
+    \accounttransaction{187}{2024-09-30}{Höstfest och mugg}{250}
+    \accounttransaction{188}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{189}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{190}{2024-09-30}{Bok}{200}
+    \accounttransaction{191}{2024-09-30}{Donation}{200}
+    \accounttransaction{192}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{193}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{194}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{195}{2024-09-30}{T-shirt}{200}
+    \accounttransaction{196}{2024-09-30}{Mugg}{150}
+    \accounttransaction{197}{2024-09-30}{Höstfest}{150}
+    \accounttransaction{198}{2024-09-30}{Mugg}{150}
+    \accounttransaction{199}{2024-09-30}{Mugg}{150}
+    \accounttransaction{200}{2024-09-30}{Mugg}{150}
+    \accounttransaction{201}{2024-09-30}{Mugg}{150}
+    \accounttransaction{202}{2024-09-30}{Mugg}{150}
+    \accounttransaction{203}{2024-09-30}{Höstfest}{150}
+    \accounttransaction{204}{2024-09-30}{Höstfest}{150}
+    \accounttransaction{205}{2024-09-30}{Mugg}{150}
+    \accounttransaction{206}{2024-09-30}{Mugg}{150}
+    \accounttransaction{207}{2024-09-30}{Böcker}{150}
+    \accounttransaction{208}{2024-09-30}{Höstfest}{150}
+    \accounttransaction{209}{2024-09-30}{Donation}{50}
+    \accounttransaction{210}{2024-09-30}{Donation}{50}
+    \accounttransaction{211}{2024-09-30}{Donation}{50}
+    \accounttransaction{212}{2024-09-30}{Donation}{40}
+    \accounttransaction{213}{2024-09-30}{Donation}{20}
+    \accounttransaction{214}{2024-10-01}{Swishavgift}{-138}
+    \accounttransaction{215}{2024-10-01}{Försäkring Fartyget, halvårsavgift}{-1234}
+    \accounttransaction{216}{2024-10-02}{Mat höstfest}{-3849.1}
+    \accounttransaction{217}{2024-10-09}{Donation}{50}
+    \accounttransaction{218}{2024-10-28}{Webbhotell}{-1153.75}
+    \accounttransaction{219}{2024-10-28}{Meetup halvårsfaktura}{-1325}
+    \accounttransaction{220}{2024-10-29}{Donation}{200}
+    \accounttransaction{221}{2024-11-01}{Swishavgift}{-2}
+    \accounttransaction{222}{2024-11-05}{Bankkostnad}{-1.85}
+    \accounttransaction{223}{2024-11-21}{Böcker}{500}
+    \accounttransaction{224}{2024-12-04}{Återbäring, försäkring}{800}
+    \accounttransaction{225}{2024-12-13}{Utlägg vintertäckning}{-362.7}
+    \accounttransaction{226}{2024-12-13}{Service/felsökning Hjälpbåtsmotor}{-1438}
+    \accounttransaction{227}{2024-12-29}{Nollställande av V157 - Impregnering tält}{1037.9}
+    \accounttransaction{228}{2024-12-29}{Dubbel utbetalning för impregnering tält - V90 och V157}{-1037.9}
+    \accountclosingrow{}
+
+    \accountheaderrow{1940 - Bank - Placeringskonto}
+    \accountopeningrow{1208.1}
+    \accounttransaction{229}{2024-12-29}{Tidigare års ränta - justering av ingående belopp på placeringskontot}{126.36}
+    \accounttransaction{230}{2024-12-30}{Placeringskonto - ränta}{140.85}
+    \accountclosingrow{}
+
+    \accountheaderrow{2290 - Avsättning till underhållsfond}
+    \accountopeningrow{-18072.41}
+
+    \accountclosingrow{}
+
+    \accountheaderrow{2902 - Skuld till medlem}
+    \accountopeningrow{0.00}
+    \accounttransaction{91}{2024-06-25}{Seglings- och matavgift}{-900}
+    \accounttransaction{92}{2024-06-26}{Seglings- och matavgift}{-1800}
+    \accounttransaction{97}{2024-07-01}{Matavgift}{-300}
+    \accounttransaction{107}{2024-07-10}{Ted 2 inställda seglingdagar}{900}
+    \accounttransaction{115}{2024-07-15}{Matavgift - inställda seglingsdagar}{300}
+    \accounttransaction{139}{2024-08-05}{Inställda seglingsdagar}{1800}
+    \accountclosingrow{}
+
+    \accountheaderrow{3010 - Medlemsavgift}
+    \accountopeningrow{0.00}
+    \accounttransaction{5}{2024-01-15}{Medlemsavgift}{-350}
+    \accounttransaction{6}{2024-01-16}{Medlemsavgift}{-500}
+    \accounttransaction{7}{2024-01-17}{Medlemsavgift}{-350}
+    \accounttransaction{8}{2024-01-26}{Medlemsavgift}{-350}
+    \accounttransaction{9}{2024-01-30}{Medlemsavgift}{-350}
+    \accounttransaction{10}{2024-02-01}{Medlemsavgift}{-500}
+    \accounttransaction{11}{2024-02-01}{Medlemsavgift}{-500}
+    \accounttransaction{13}{2024-02-02}{Medlemsavgift}{-350}
+    \accounttransaction{16}{2024-02-09}{Medlemsavgift}{-350}
+    \accounttransaction{18}{2024-02-21}{Medlemsavgift}{-350}
+    \accounttransaction{19}{2024-02-26}{Medlemsavgift}{-350}
+    \accounttransaction{21}{2024-02-29}{Medlemsavgift}{-500}
+    \accounttransaction{22}{2024-03-01}{Medlemsavgift}{-350}
+    \accounttransaction{24}{2024-03-04}{Medlemsavgift}{-350}
+    \accounttransaction{25}{2024-03-04}{Medlemsavgift}{-350}
+    \accounttransaction{26}{2024-03-04}{Medlemsavgift}{-350}
+    \accounttransaction{29}{2024-03-12}{Medlemsavgift}{-350}
+    \accounttransaction{30}{2024-03-12}{Medlemsavgift}{-350}
+    \accounttransaction{31}{2024-03-12}{Medlemsavgift}{-350}
+    \accounttransaction{32}{2024-03-12}{Medlemsavgift}{-350}
+    \accounttransaction{33}{2024-03-13}{Medlemsavgift}{-500}
+    \accounttransaction{34}{2024-03-13}{Medlemsavgift}{-500}
+    \accounttransaction{35}{2024-03-15}{Medlemsavgift}{-350}
+    \accounttransaction{36}{2024-03-15}{Medlemsavgift}{-350}
+    \accounttransaction{37}{2024-03-18}{Medlemsavgift}{-500}
+    \accounttransaction{39}{2024-03-18}{Medlemsavgift}{-350}
+    \accounttransaction{50}{2024-03-21}{Medlemsavgift}{-350}
+    \accounttransaction{53}{2024-04-09}{Medlemsavgift}{-500}
+    \accounttransaction{64}{2024-05-06}{Medlemsavgift}{-350}
+    \accounttransaction{80}{2024-05-27}{Medlemsavgift}{-500}
+    \accounttransaction{82}{2024-06-03}{Medlemsavgift}{-350}
+    \accounttransaction{85}{2024-06-12}{Medlemsavgift}{-350}
+    \accounttransaction{86}{2024-06-14}{Medlemsavgift}{-350}
+    \accounttransaction{88}{2024-06-17}{Medlemsavgift}{-350}
+    \accounttransaction{93}{2024-06-26}{Medlemsavgift}{-350}
+    \accounttransaction{94}{2024-06-27}{Medlemsavgift}{-350}
+    \accounttransaction{95}{2024-06-28}{Medlemsavgift}{-350}
+    \accounttransaction{96}{2024-06-28}{Medlemsavgift}{-350}
+    \accounttransaction{99}{2024-07-01}{Medlemsavgift}{-500}
+    \accounttransaction{100}{2024-07-01}{Medlemsavgift}{-350}
+    \accounttransaction{102}{2024-07-05}{Medlemsavgift}{-500}
+    \accounttransaction{103}{2024-07-08}{Medlemsavgift}{-500}
+    \accounttransaction{113}{2024-07-15}{Medlemsavgift}{-350}
+    \accounttransaction{129}{2024-07-19}{Medlemsavgift}{-350}
+    \accounttransaction{130}{2024-07-19}{Medlemsavgift}{-350}
+    \accounttransaction{131}{2024-07-19}{Medlemsavgift}{-350}
+    \accounttransaction{136}{2024-07-29}{Medlemsavgift}{-350}
+    \accounttransaction{147}{2024-08-26}{Medlemsavgift}{-350}
+    \accounttransaction{148}{2024-08-26}{Medlemsavgift}{-350}
+    \accounttransaction{149}{2024-08-26}{Medlemsavgift}{-350}
+    \accounttransaction{150}{2024-08-27}{Medlemsavgift}{-350}
+    \accounttransaction{153}{2024-09-02}{Medlemsavgift}{-350}
+    \accounttransaction{154}{2024-09-02}{Medlemsavgift}{-350}
+    \accounttransaction{158}{2024-09-02}{Medlemsavgift}{-150}
+    \accounttransaction{168}{2024-09-20}{Medlemsavgift}{-350}
+    \accounttransaction{170}{2024-09-23}{Medlemsavgift}{-350}
+    \accounttransaction{180}{2024-09-27}{Medlemsavgift}{-350}
+    \accountclosingrow{}
+
+    \accountheaderrow{3011 - Seglingsavgift}
+    \accountopeningrow{0.00}
+    \accounttransaction{90}{2024-06-24}{Seglings- och matavgift + donation}{-600}
+    \accounttransaction{91}{2024-06-25}{Seglings- och matavgift}{-2100}
+    \accounttransaction{92}{2024-06-26}{Seglings- och matavgift}{-1200}
+    \accounttransaction{98}{2024-07-01}{Seglings- och matavgift}{-600}
+    \accounttransaction{104}{2024-07-10}{Seglings- och matavgift}{-900}
+    \accounttransaction{110}{2024-07-15}{Seglings- och matavgift}{-600}
+    \accounttransaction{112}{2024-07-15}{Seglingsavgift}{-600}
+    \accounttransaction{128}{2024-07-18}{Seglings- och matavgift}{-1800}
+    \accounttransaction{151}{2024-09-02}{Seglingsavgift}{-600}
+    \accounttransaction{152}{2024-09-02}{Seglingsavgift}{-600}
+    \accounttransaction{155}{2024-09-02}{Seglingsavgift}{-300}
+    \accounttransaction{156}{2024-09-02}{Seglingsavgift}{-300}
+    \accounttransaction{157}{2024-09-02}{Seglingsavgift}{-200}
+    \accounttransaction{163}{2024-09-10}{Seglingsavgift}{-300}
+    \accounttransaction{169}{2024-09-20}{Seglingsavgift}{-300}
+    \accounttransaction{171}{2024-09-23}{Seglingsavgift}{-300}
+    \accounttransaction{172}{2024-09-23}{Seglingsavgift}{-300}
+    \accounttransaction{174}{2024-09-24}{Seglingsavgift}{-300}
+    \accounttransaction{176}{2024-09-25}{Seglingsavgift}{-740}
+    \accountclosingrow{}
+
+    \accountheaderrow{3012 - Matavgift}
+    \accountopeningrow{0.00}
+    \accounttransaction{90}{2024-06-24}{Seglings- och matavgift + donation}{-300}
+    \accounttransaction{91}{2024-06-25}{Seglings- och matavgift}{-1050}
+    \accounttransaction{92}{2024-06-26}{Seglings- och matavgift}{-600}
+    \accounttransaction{97}{2024-07-01}{Matavgift}{-1050}
+    \accounttransaction{98}{2024-07-01}{Seglings- och matavgift}{-300}
+    \accounttransaction{104}{2024-07-10}{Seglings- och matavgift}{-1050}
+    \accounttransaction{105}{2024-07-10}{Matavgift}{-1050}
+    \accounttransaction{109}{2024-07-15}{Matavgift}{-2100}
+    \accounttransaction{110}{2024-07-15}{Seglings- och matavgift}{-300}
+    \accounttransaction{111}{2024-07-15}{Matavgift}{-900}
+    \accounttransaction{128}{2024-07-18}{Seglings- och matavgift}{-900}
+    \accounttransaction{140}{2024-08-06}{Matavgift}{-1050}
+    \accounttransaction{144}{2024-08-15}{Matavgift}{-600}
+    \accountclosingrow{}
+
+    \accountheaderrow{3602 - Interna arrangemang (fester etc)}
+    \accountopeningrow{0.00}
+    \accounttransaction{160}{2024-09-04}{Höstfest}{-150}
+    \accounttransaction{164}{2024-09-12}{Höstfest}{-150}
+    \accounttransaction{166}{2024-09-18}{Höstfest}{-300}
+    \accounttransaction{173}{2024-09-24}{Höstfest}{-300}
+    \accounttransaction{175}{2024-09-24}{Höstfest}{-150}
+    \accounttransaction{177}{2024-09-25}{Höstfest}{-150}
+    \accounttransaction{178}{2024-09-25}{Höstfest}{-150}
+    \accounttransaction{179}{2024-09-25}{Höstfest}{-150}
+    \accounttransaction{181}{2024-09-27}{Höstfest}{-300}
+    \accounttransaction{182}{2024-09-30}{Höstfest}{-600}
+    \accounttransaction{183}{2024-09-30}{Höstfest}{-300}
+    \accounttransaction{185}{2024-09-30}{Höstfest}{-300}
+    \accounttransaction{186}{2024-09-30}{Höstfest}{-300}
+    \accounttransaction{187}{2024-09-30}{Höstfest och mugg}{-150}
+    \accounttransaction{197}{2024-09-30}{Höstfest}{-150}
+    \accounttransaction{203}{2024-09-30}{Höstfest}{-150}
+    \accounttransaction{204}{2024-09-30}{Höstfest}{-150}
+    \accounttransaction{208}{2024-09-30}{Höstfest}{-150}
+    \accountclosingrow{}
+
+    \accountheaderrow{3610 - Försäljning (Böcker, tröjor, mm)}
+    \accountopeningrow{0.00}
+    \accounttransaction{38}{2024-03-18}{Tröjor}{-450}
+    \accounttransaction{40}{2024-03-18}{Böcker}{-250}
+    \accounttransaction{41}{2024-03-18}{T-shirt}{-200}
+    \accounttransaction{42}{2024-03-18}{T-shirt}{-200}
+    \accounttransaction{43}{2024-03-18}{T-shirt}{-200}
+    \accounttransaction{63}{2024-05-06}{Böcker}{-500}
+    \accounttransaction{65}{2024-05-06}{Bok}{-250}
+    \accounttransaction{66}{2024-05-06}{Bok}{-250}
+    \accounttransaction{67}{2024-05-06}{Bok}{-250}
+    \accounttransaction{106}{2024-07-10}{Bok}{-250}
+    \accounttransaction{108}{2024-07-11}{Bok}{-200}
+    \accounttransaction{165}{2024-09-17}{Böcker}{-500}
+    \accounttransaction{184}{2024-09-30}{Mugg och tröja}{-300}
+    \accounttransaction{187}{2024-09-30}{Höstfest och mugg}{-100}
+    \accounttransaction{188}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{189}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{190}{2024-09-30}{Bok}{-200}
+    \accounttransaction{192}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{193}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{194}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{195}{2024-09-30}{T-shirt}{-200}
+    \accounttransaction{196}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{198}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{199}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{200}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{201}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{202}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{205}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{206}{2024-09-30}{Mugg}{-150}
+    \accounttransaction{207}{2024-09-30}{Böcker}{-150}
+    \accounttransaction{223}{2024-11-21}{Böcker}{-500}
+    \accountclosingrow{}
+
+    \accountheaderrow{3993 - Erhållna donationer och gåvor}
+    \accountopeningrow{0.00}
+    \accounttransaction{4}{2024-01-10}{Donation}{-50}
+    \accounttransaction{14}{2024-02-02}{Donation}{-50}
+    \accounttransaction{17}{2024-02-20}{Donation}{-50}
+    \accounttransaction{20}{2024-02-27}{Donation}{-350}
+    \accounttransaction{44}{2024-03-18}{Donation}{-20}
+    \accounttransaction{48}{2024-03-20}{Donation}{-50}
+    \accounttransaction{75}{2024-05-16}{Donation}{-50}
+    \accounttransaction{76}{2024-05-22}{Donation}{-50}
+    \accounttransaction{87}{2024-06-14}{Donation}{-50}
+    \accounttransaction{89}{2024-06-20}{Donation}{-50}
+    \accounttransaction{90}{2024-06-24}{Seglings- och matavgift + donation}{-450}
+    \accounttransaction{132}{2024-07-19}{Donation}{-50}
+    \accounttransaction{135}{2024-07-24}{Donation}{-50}
+    \accounttransaction{141}{2024-08-06}{Donation}{-50}
+    \accounttransaction{146}{2024-08-19}{Donation}{-50}
+    \accounttransaction{161}{2024-09-04}{Donation}{-50}
+    \accounttransaction{162}{2024-09-06}{Donation}{-50}
+    \accounttransaction{167}{2024-09-18}{Donation}{-50}
+    \accounttransaction{191}{2024-09-30}{Donation}{-200}
+    \accounttransaction{209}{2024-09-30}{Donation}{-50}
+    \accounttransaction{210}{2024-09-30}{Donation}{-50}
+    \accounttransaction{211}{2024-09-30}{Donation}{-50}
+    \accounttransaction{212}{2024-09-30}{Donation}{-40}
+    \accounttransaction{213}{2024-09-30}{Donation}{-20}
+    \accounttransaction{217}{2024-10-09}{Donation}{-50}
+    \accounttransaction{220}{2024-10-29}{Donation}{-200}
+    \accountclosingrow{}
+
+    \accountheaderrow{4111 - Fartyget - Försäkring}
+    \accountopeningrow{0.00}
+    \accounttransaction{49}{2024-03-20}{Försäkring Fartyget, halvåravgift}{2345}
+    \accounttransaction{215}{2024-10-01}{Försäkring Fartyget, halvårsavgift}{1234}
+    \accounttransaction{224}{2024-12-04}{Återbäring, försäkring}{-800}
+    \accountclosingrow{}
+
+    \accountheaderrow{4112 - Fartyget - Mobil, radiosändare}
+    \accountopeningrow{0.00}
+    \accounttransaction{61}{2024-05-03}{PTS-tillstånd}{245}
+    \accountclosingrow{}
+
+    \accountheaderrow{4113 - Fartyget - Vårutrustning}
+    \accountopeningrow{0.00}
+    \accounttransaction{56}{2024-04-29}{Varvsmateriel}{2580.4}
+    \accounttransaction{58}{2024-04-30}{Primer och penslar}{1511}
+    \accounttransaction{59}{2024-04-30}{Tjära}{4001}
+    \accounttransaction{69}{2024-05-06}{Karbinhakar}{179.7}
+    \accounttransaction{70}{2024-05-06}{Penslar och rengöring}{264.4}
+    \accounttransaction{71}{2024-05-06}{Stålborstar och filter}{457.8}
+    \accounttransaction{72}{2024-05-06}{Tjära}{867}
+    \accounttransaction{73}{2024-05-06}{Dammsugare}{1049}
+    \accounttransaction{74}{2024-05-06}{Länspump och varmluftspistol}{1944}
+    \accountclosingrow{}
+
+    \accountheaderrow{4114 - Fartyget - Underhåll}
+    \accountopeningrow{0.00}
+    \accounttransaction{78}{2024-05-23}{tältimpregnering}{1037.9}
+    \accounttransaction{81}{2024-05-28}{Tältimpregnering}{479}
+    \accounttransaction{142}{2024-08-12}{Impregnering tält - Nollställt i V257}{1037.9}
+    \accounttransaction{145}{2024-08-15}{Tältmaterial}{5336}
+    \accounttransaction{225}{2024-12-13}{Utlägg vintertäckning}{362.7}
+    \accounttransaction{227}{2024-12-29}{Nollställande av V157 - Impregnering tält}{-1037.9}
+    \accountclosingrow{}
+
+    \accountheaderrow{4115 - Fartyget - Bensin}
+    \accountopeningrow{0.00}
+    \accounttransaction{77}{2024-05-23}{Bensin flytt}{490.43}
+    \accounttransaction{133}{2024-07-22}{Bensin}{933.44}
+    \accountclosingrow{}
+
+    \accountheaderrow{4116 - Fartyget - Segel och Rigg}
+    \accountopeningrow{0.00}
+    \accounttransaction{127}{2024-07-16}{Förtöjningsgods}{13163}
+    \accountclosingrow{}
+
+    \accountheaderrow{4117 - Fartyget - Sommarseglingar övriga kostnader}
+    \accountopeningrow{0.00}
+    \accounttransaction{116}{2024-07-15}{Brandsläckare}{349}
+    \accounttransaction{120}{2024-07-15}{Första hjälpen etc}{406.9}
+    \accounttransaction{122}{2024-07-15}{Fotogen och rödsprit}{512.3}
+    \accounttransaction{123}{2024-07-15}{Div båtprylar}{552}
+    \accounttransaction{125}{2024-07-15}{Köksredskap}{1321.5}
+    \accountclosingrow{}
+
+    \accountheaderrow{4118 - Fartyget - Upptagning och Sjösättning}
+    \accountopeningrow{0.00}
+    \accounttransaction{79}{2024-05-23}{Varv}{24062}
+    \accountclosingrow{}
+
+    \accountheaderrow{4122 - Fartyget - Myndighetsavgifter}
+    \accountopeningrow{0.00}
+    \accounttransaction{27}{2024-03-04}{Transportstyrelsen Registeravgift}{600}
+    \accountclosingrow{}
+
+    \accountheaderrow{4126 - Fartyget - Fast båtplats}
+    \accountopeningrow{0.00}
+    \accounttransaction{57}{2024-04-29}{Sommarhamn årsavgift}{4200}
+    \accountclosingrow{}
+
+    \accountheaderrow{4127 - Fartyget - Hamnavgifter}
+    \accountopeningrow{0.00}
+    \accounttransaction{117}{2024-07-15}{Hamnavgift}{365}
+    \accounttransaction{118}{2024-07-15}{Hamnavgift}{375}
+    \accounttransaction{119}{2024-07-15}{Hamnavgift}{390}
+    \accounttransaction{121}{2024-07-15}{Hamnavgift}{435}
+    \accountclosingrow{}
+
+    \accountheaderrow{4161 - Hjälpbåt - Försäkring}
+    \accountopeningrow{0.00}
+    \accounttransaction{62}{2024-05-03}{Försäkring Hjälpbåt och motor}{1000}
+    \accountclosingrow{}
+
+    \accountheaderrow{4162 - Hjälpbåt - Motor}
+    \accountopeningrow{0.00}
+    \accounttransaction{126}{2024-07-15}{Propellrar}{2344}
+    \accounttransaction{226}{2024-12-13}{Service/felsökning Hjälpbåtsmotor}{1438}
+    \accountclosingrow{}
+
+    \accountheaderrow{5420 - Programvaror}
+    \accountopeningrow{0.00}
+    \accounttransaction{15}{2024-02-02}{Årsavgift, Speedledger}{3085}
+    \accountclosingrow{}
+
+    \accountheaderrow{5421 - Hemsida}
+    \accountopeningrow{0.00}
+    \accounttransaction{218}{2024-10-28}{Webbhotell}{1153.75}
+    \accountclosingrow{}
+
+    \accountheaderrow{5700 - Frakter och Transporter}
+    \accountopeningrow{0.00}
+    \accounttransaction{45}{2024-03-18}{Mattransport årsmöte}{151}
+    \accountclosingrow{}
+
+    \accountheaderrow{5900 - Reklam och PR}
+    \accountopeningrow{0.00}
+    \accounttransaction{60}{2024-05-02}{Meetup halvårsfaktura}{912.22}
+    \accounttransaction{219}{2024-10-28}{Meetup halvårsfaktura}{1325}
+    \accountclosingrow{}
+
+    \accountheaderrow{6450 - Års- eller föreningsstämma}
+    \accountopeningrow{0.00}
+    \accounttransaction{231}{2024-12-30}{Korrekt bokförande av årsmöteslokal - korrigering av V57}{1000}
+    \accountclosingrow{}
+
+    \accountheaderrow{6570 - Bankkostnader}
+    \accountopeningrow{0.00}
+    \accounttransaction{1}{2024-01-02}{Swishavgift}{2}
+    \accounttransaction{2}{2024-01-02}{Swish årsavgift}{720}
+    \accounttransaction{3}{2024-01-04}{Bankavgift}{1300}
+    \accounttransaction{12}{2024-02-01}{Swishavgift}{10}
+    \accounttransaction{23}{2024-03-01}{Swishavgift}{16}
+    \accounttransaction{28}{2024-03-05}{Bankkostnad}{1.85}
+    \accounttransaction{51}{2024-04-02}{Swishavgift}{40}
+    \accounttransaction{52}{2024-04-04}{Bankkostnad}{3.7}
+    \accounttransaction{68}{2024-05-06}{Bankkostnad}{3.7}
+    \accounttransaction{83}{2024-06-03}{Swishavgift}{10}
+    \accounttransaction{84}{2024-06-05}{Bankkostnad}{7.4}
+    \accounttransaction{101}{2024-07-01}{Swishavgift}{20}
+    \accounttransaction{137}{2024-08-01}{Swishavgift}{28}
+    \accounttransaction{138}{2024-08-05}{Bankkostnader}{1.85}
+    \accounttransaction{159}{2024-09-02}{Swishavgift}{10}
+    \accounttransaction{214}{2024-10-01}{Swishavgift}{138}
+    \accounttransaction{221}{2024-11-01}{Swishavgift}{2}
+    \accounttransaction{222}{2024-11-05}{Bankkostnad}{1.85}
+    \accountclosingrow{}
+
+    \accountheaderrow{6600 - Mat - Segling}
+    \accountopeningrow{0.00}
+    \accounttransaction{114}{2024-07-15}{Mat seglingsvecka}{255.6}
+    \accounttransaction{124}{2024-07-15}{Mat seglingsvecka}{590.18}
+    \accounttransaction{134}{2024-07-22}{Mat}{7238.16}
+    \accounttransaction{143}{2024-08-12}{Mat}{2296.37}
+    \accountclosingrow{}
+
+    \accountheaderrow{6601 - Mat - Arbetsdagar}
+    \accountopeningrow{0.00}
+    \accounttransaction{46}{2024-03-18}{Lokalhyra årsmöte - Korrigerad i V263}{1000}
+    \accounttransaction{47}{2024-03-18}{Årsmötesmat}{1111.86}
+    \accounttransaction{54}{2024-04-29}{Fika flytt till varvet}{209.85}
+    \accounttransaction{55}{2024-04-29}{Fika årsmöte}{684}
+    \accounttransaction{231}{2024-12-30}{Korrekt bokförande av årsmöteslokal - korrigering av V57}{-1000}
+    \accountclosingrow{}
+
+    \accountheaderrow{6610 - Interna arrangemang (fester etc)}
+    \accountopeningrow{0.00}
+    \accounttransaction{216}{2024-10-02}{Mat höstfest}{3849.1}
+    \accountclosingrow{}
+
+    \accountheaderrow{8311 - Ränteintäkter från bank}
+    \accountopeningrow{0.00}
+    \accounttransaction{229}{2024-12-29}{Tidigare års ränta - justering av ingående belopp på placeringskontot}{-126.36}
+    \accounttransaction{230}{2024-12-30}{Placeringskonto - ränta}{-140.85}
+    \accountclosingrow{}
+\end{accounttable}
+
+
+%---------------------------------------------------------------------------------
+
+\vfill\vfill % Vertical alignment whitespace
+
+\end{document}

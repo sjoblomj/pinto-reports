@@ -1,0 +1,206 @@
+[
+  {
+    "category": "Nettoomsättning",
+    "category_num": "3",
+    "accounts": [
+      {
+        "account": "3010 - Medlemsavgift",
+        "amount": 21550,
+        "account_internal": "Income:3010:Medlemsavgift",
+        "note": ""
+      },
+      {
+        "account": "3011 - Seglingsavgift",
+        "amount": 12640,
+        "account_internal": "Income:3011:Seglingsavgift",
+        "note": ""
+      },
+      {
+        "account": "3012 - Matavgift",
+        "amount": 11250,
+        "account_internal": "Income:3012:Matavgift",
+        "note": "Inkomst för matavgifter under vecko- och helgsegling. Kostnaden för maten ligger under \\textit{6600 - Mat - Segling}."
+      },
+      {
+        "account": "3602 - Interna arrangemang (fester etc)",
+        "amount": 4050,
+        "account_internal": "Income:3602:Interna-arrangemang",
+        "note": "Anmälningsavgift till höstfest. Kostnaden för festen ligger under \\textit{6610 - Interna arrangemang (fester etc)}."
+      },
+      {
+        "account": "3610 - Försäljning (Böcker, tröjor, mm)",
+        "amount": 7150,
+        "account_internal": "Income:3610:Försäljning",
+        "note": ""
+      },
+      {
+        "account": "3993 - Erhållna donationer och gåvor",
+        "amount": 2230,
+        "account_internal": "Income:3993:Erhållna-donationer-och-gåvor",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "category": "Kostnader för varor, material och tjänster",
+    "category_num": "4",
+    "accounts": [
+      {
+        "account": "4111 - Fartyget - Försäkring",
+        "amount": -2779,
+        "account_internal": "Expenses:4111:Fartyget:Försäkring",
+        "note": ""
+      },
+      {
+        "account": "4112 - Fartyget - Mobil, radiosändare",
+        "amount": -245,
+        "account_internal": "Expenses:4112:Fartyget:Mobil-radiosändare",
+        "note": ""
+      },
+      {
+        "account": "4113 - Fartyget - Vårutrustning",
+        "amount": -12854.3,
+        "account_internal": "Expenses:4113:Fartyget:Vårutrustning",
+        "note": ""
+      },
+      {
+        "account": "4114 - Fartyget - Underhåll",
+        "amount": -7215.6,
+        "account_internal": "Expenses:4114:Fartyget:Underhåll",
+        "note": ""
+      },
+      {
+        "account": "4115 - Fartyget - Bensin",
+        "amount": -1423.87,
+        "account_internal": "Expenses:4115:Fartyget:Bensin",
+        "note": ""
+      },
+      {
+        "account": "4116 - Fartyget - Segel och Rigg",
+        "amount": -13163,
+        "account_internal": "Expenses:4116:Fartyget:Segel-och-Rigg",
+        "note": ""
+      },
+      {
+        "account": "4117 - Fartyget - Sommarseglingar övriga kostnader",
+        "amount": -3141.7,
+        "account_internal": "Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader",
+        "note": ""
+      },
+      {
+        "account": "4118 - Fartyget - Upptagning och Sjösättning",
+        "amount": -24062,
+        "account_internal": "Expenses:4118:Fartyget:Upptagning-och-Sjösättning",
+        "note": "Kostnaden för varvet."
+      },
+      {
+        "account": "4122 - Fartyget - Myndighetsavgifter",
+        "amount": -600,
+        "account_internal": "Expenses:4122:Fartyget:Myndighetsavgifter",
+        "note": ""
+      },
+      {
+        "account": "4126 - Fartyget - Fast båtplats",
+        "amount": -4200,
+        "account_internal": "Expenses:4126:Fartyget:Fast-båtplats",
+        "note": ""
+      },
+      {
+        "account": "4127 - Fartyget - Hamnavgifter",
+        "amount": -1565,
+        "account_internal": "Expenses:4127:Fartyget:Hamnavgifter",
+        "note": ""
+      },
+      {
+        "account": "4161 - Hjälpbåt - Försäkring",
+        "amount": -1000,
+        "account_internal": "Expenses:4161:Hjälpbåt:Försäkring",
+        "note": ""
+      },
+      {
+        "account": "4162 - Hjälpbåt - Motor",
+        "amount": -3782,
+        "account_internal": "Expenses:4162:Hjälpbåt:Motor",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "category": "Övriga externa rörelseutgifter/kostnader",
+    "category_num": "5",
+    "accounts": [
+      {
+        "account": "5420 - Programvaror",
+        "amount": -3085,
+        "account_internal": "Expenses:5420:Programvaror",
+        "note": "Årlig kostnad för bokföringsprogrammet. Planerat att avslutas till nästa år."
+      },
+      {
+        "account": "5421 - Hemsida",
+        "amount": -1153.75,
+        "account_internal": "Expenses:5421:Hemsida",
+        "note": ""
+      },
+      {
+        "account": "5700 - Frakter och Transporter",
+        "amount": -151,
+        "account_internal": "Expenses:5700:Frakter-och-Transporter",
+        "note": "Frakt av mat till årsmötet."
+      },
+      {
+        "account": "5900 - Reklam och PR",
+        "amount": -2237.22,
+        "account_internal": "Expenses:5900:Reklam-och-PR",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "category": "Övriga externa rörelseutgifter/kostnader",
+    "category_num": "6",
+    "accounts": [
+      {
+        "account": "6450 - Års- eller föreningsstämma",
+        "amount": -1000,
+        "account_internal": "Expenses:6450:Föreningsstämma",
+        "note": "Lokalkostnad, årsmöte."
+      },
+      {
+        "account": "6570 - Bankkostnader",
+        "amount": -2316.35,
+        "account_internal": "Expenses:6570:Bankkostnader",
+        "note": ""
+      },
+      {
+        "account": "6600 - Mat - Segling",
+        "amount": -10380.31,
+        "account_internal": "Expenses:6600:Mat:Segling",
+        "note": "Kostnad för mat under vecko- och helgsegling. Inkomsten för maten ligger under \\textit{3012 - Matavgift}."
+      },
+      {
+        "account": "6601 - Mat - Arbetsdagar",
+        "amount": -2005.71,
+        "account_internal": "Expenses:6601:Mat:Arbetsdagar",
+        "note": ""
+      },
+      {
+        "account": "6610 - Interna arrangemang (fester etc)",
+        "amount": -3849.1,
+        "account_internal": "Expenses:6610:Interna-arrangemang",
+        "note": "Kostnaden för höstfest. Inkomsten för festen ligger under \\textit{3602 - Interna arrangemang (fester etc)}."
+      }
+    ]
+  },
+  {
+    "category": "Finansiella inkomster/utgifter",
+    "category_num": "8",
+    "accounts": [
+      {
+        "account": "8311 - Ränteintäkter från bank",
+        "amount": 267.21,
+        "account_internal": "Income:8311:Ränteintäkter-från-bank",
+        "note": "Förra årets ränta blev inte bokförd, så detta är räntan för både 2023 (\\outputcurrency{126.36} \\currencycode{}) och 2024 (\\outputcurrency{140.85} \\currencycode{})."
+      }
+    ]
+  }
+]

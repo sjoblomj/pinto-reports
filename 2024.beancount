@@ -1,0 +1,1398 @@
+plugin "beancount.plugins.check_commodity"
+plugin "beancount.plugins.coherent_cost"
+
+1876-01-01 commodity SEK
+
+option "title" "Bokföring Segelförening"
+option "operating_currency" "SEK"
+option "inferred_tolerance_default" "SEK:0.00"
+
+; ======== 1XXX - TILLGÅNGAR ========
+2024-01-01 open Assets:1350:Fondkonto-anskaffningsvärde                   SEK
+2024-01-01 open Assets:1356:Andelar-i-andra-organisationer                SEK
+2024-01-01 open Assets:1510:Fordran-av-medlem                             SEK
+2024-01-01 open Assets:1680:Kortfristiga-fordringar                       SEK
+2024-01-01 open Assets:1790:Förutbetalda-kostnader-och-upplupna-intäkter  SEK
+2024-01-01 open Assets:1920:Bank:Plusgiro                                 SEK
+2024-01-01 open Assets:1940:Bank:Placeringskonto                          SEK
+2024-01-01 open Assets:1941:Bank:Sparkonto                                SEK
+
+; ======== 2XXX - SKULDER ========
+2024-01-01 open Liabilities:2060:Eget-kapital                             SEK
+2024-01-01 open Liabilities:2069:Årets-resultat                           SEK
+2024-01-01 open Liabilities:2098:Förra-årets-resultat                     SEK
+2024-01-01 open Liabilities:2290:Avsättning-till-underhållsfond           SEK
+2024-01-01 open Liabilities:2902:Skuld-till-medlem                        SEK
+2024-01-01 open Liabilities:2972:Förutbetalda-medlemsavgifter             SEK
+
+; ======== 3XXX - INTÄKTER ========
+2024-01-01 open Income:3010:Medlemsavgift                                 SEK
+2024-01-01 open Income:3011:Seglingsavgift                                SEK
+2024-01-01 open Income:3012:Matavgift                                     SEK
+2024-01-01 open Income:3013:Anmälningsavgift                              SEK
+2024-01-01 open Income:3014:Uppdrag-föredrag                              SEK
+2024-01-01 open Income:3601:Events-marknader                              SEK
+2024-01-01 open Income:3602:Interna-arrangemang                           SEK
+2024-01-01 open Income:3610:Försäljning                                   SEK
+2024-01-01 open Income:3740:Öres-och-kronutjämning                        SEK
+2024-01-01 open Income:3993:Erhållna-donationer-och-gåvor                 SEK
+2024-01-01 open Income:3994:Försäkringsersättningar                       SEK
+2024-01-01 open Income:3999:Övriga-intäkter                               SEK
+
+; ======== 4XXX - KOSTNADER FÖR VAROR & MATERIAL ========
+2024-01-01 open Expenses:4110:Fartyget:Allmänt                            SEK
+2024-01-01 open Expenses:4111:Fartyget:Försäkring                         SEK
+2024-01-01 open Expenses:4112:Fartyget:Mobil-radiosändare                 SEK
+2024-01-01 open Expenses:4113:Fartyget:Vårutrustning                      SEK
+2024-01-01 open Expenses:4114:Fartyget:Underhåll                          SEK
+2024-01-01 open Expenses:4115:Fartyget:Bensin                             SEK
+2024-01-01 open Expenses:4116:Fartyget:Segel-och-Rigg                     SEK
+2024-01-01 open Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader   SEK
+2024-01-01 open Expenses:4118:Fartyget:Upptagning-och-Sjösättning         SEK
+2024-01-01 open Expenses:4120:Fartyget:Elmotor                            SEK
+2024-01-01 open Expenses:4121:Fartyget:Båtvagn                            SEK
+2024-01-01 open Expenses:4122:Fartyget:Myndighetsavgifter                 SEK
+2024-01-01 open Expenses:4125:Fartyget:Uppdrag                            SEK
+2024-01-01 open Expenses:4126:Fartyget:Fast-båtplats                      SEK
+2024-01-01 open Expenses:4127:Fartyget:Hamnavgifter                       SEK
+2024-01-01 open Expenses:4160:Hjälpbåt:Allmänt                            SEK
+2024-01-01 open Expenses:4161:Hjälpbåt:Försäkring                         SEK
+2024-01-01 open Expenses:4162:Hjälpbåt:Motor                              SEK
+2024-01-01 open Expenses:4300:Maskiner-och-större-verktyg                 SEK
+
+; ======== 5XXX-6XXX - ÖVRIGA KOSTNADER ========
+2024-01-01 open Expenses:6450:Års-eller-föreningsstämma                   SEK
+2024-01-01 open Expenses:5310:El-för-drift                                SEK
+2024-01-01 open Expenses:5420:Programvaror                                SEK
+2024-01-01 open Expenses:5421:Hemsida                                     SEK
+2024-01-01 open Expenses:5460:Förbrukningsmaterial                        SEK
+2024-01-01 open Expenses:5480:Arbetskläder-och-skyddsmaterial             SEK
+2024-01-01 open Expenses:5700:Frakter-och-Transporter                     SEK
+2024-01-01 open Expenses:5800:Resekostnader                               SEK
+2024-01-01 open Expenses:5801:Milersättning                               SEK
+2024-01-01 open Expenses:5802:Parkeringsavgift                            SEK
+2024-01-01 open Expenses:5900:Reklam-och-PR                               SEK
+2024-01-01 open Expenses:5940:Utställning-och-mässor                      SEK
+2024-01-01 open Expenses:5942:Marknader                                   SEK
+2024-01-01 open Expenses:6090:Övriga-försäljningskostnader                SEK
+2024-01-01 open Expenses:6110:Kontorsmateriel                             SEK
+2024-01-01 open Expenses:6150:Tryck                                       SEK
+2024-01-01 open Expenses:6160:Anskaffning                                 SEK
+2024-01-01 open Expenses:6250:Postbefordran                               SEK
+2024-01-01 open Expenses:6351:Konstaterade-förluster-på-kundfordringar    SEK
+2024-01-01 open Expenses:6450:Föreningsstämma                             SEK
+2024-01-01 open Expenses:6570:Bankkostnader                               SEK
+2024-01-01 open Expenses:6600:Mat:Segling                                 SEK
+2024-01-01 open Expenses:6601:Mat:Arbetsdagar                             SEK
+2024-01-01 open Expenses:6610:Interna-arrangemang                         SEK
+2024-01-01 open Expenses:6700:Uppdrag-föredrag-sponsorsegling             SEK
+2024-01-01 open Expenses:6750:Utbildning                                  SEK
+2024-01-01 open Expenses:6980:Medlems-och-föreningsavgifter               SEK
+2024-01-01 open Expenses:6990:Övriga-externa-kostnader                    SEK
+2024-01-01 open Expenses:6993:Lämnade-bidrag-och-gåvor                    SEK
+
+; ======== 7XXX - LÖNER OCH PERSONAL ========
+; ======== 8XXX - FINANSIELLA KOSTNADER & INTÄKTER ========
+2024-01-01 open Income:8311:Ränteintäkter-från-bank                       SEK
+
+; ======== 9XXX - EGET KAPITAL & PERIODISERINGAR ========
+1970-01-01 open Equity:Opening-Balances                                   SEK
+
+2024-01-01 * "Opening balance"
+  Assets:1350:Fondkonto-anskaffningsvärde                         8595.64 SEK
+  Assets:1356:Andelar-i-andra-organisationer                     10000.00 SEK
+  Assets:1920:Bank:Plusgiro                                      85285.03 SEK
+  Assets:1940:Bank:Placeringskonto                                1208.10 SEK
+  Liabilities:2290:Avsättning-till-underhållsfond               -18072.41 SEK
+  Equity:Opening-Balances
+
+
+
+; ======== TRANSACTIONS =================================
+
+2024-01-02 * "Swishavgift"
+  id: "nordea_0_2024-01-02_2"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                        2.00 SEK
+  Assets:1920:Bank:Plusgiro                                         -2.00 SEK
+
+2024-01-02 * "Swish årsavgift"
+  id: "nordea_1_2024-01-02_720"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                      720.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -720.00 SEK
+
+2024-01-04 * "Bankavgift"
+  id: "nordea_2_2024-01-04_1300"
+  statement: "verifikationer/A3_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                     1300.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1300.00 SEK
+
+2024-01-10 * "Donation"
+  id: "nordea_3_2024-01-10_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-01-15 * "Medlemsavgift"
+  id: "nordea_4_2024-01-15_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-01-16 * "Medlemsavgift"
+  id: "nordea_5_2024-01-16_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-01-17 * "Medlemsavgift"
+  id: "nordea_6_2024-01-17_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-01-26 * "Medlemsavgift"
+  id: "nordea_9_2024-01-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-01-30 * "Medlemsavgift"
+  id: "nordea_10_2024-01-30_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+
+2024-02-01 balance Assets:1920:Bank:Plusgiro                     85213.03 SEK
+
+
+2024-02-01 * "Medlemsavgift"
+  id: "nordea_11_2024-02-01_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-02-01 * "Medlemsavgift"
+  id: "nordea_12_2024-02-01_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-02-01 * "Swishavgift"
+  id: "nordea_14_2024-02-01_10"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       10.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -10.00 SEK
+
+2024-02-02 * "Medlemsavgift"
+  id: "nordea_15_2024-02-02_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-02-02 * "Donation"
+  id: "nordea_16_2024-02-02_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-02-02 * "Årsavgift, Speedledger"
+  id: "nordea_17_2024-02-02_3085"
+  statement: "verifikationer/A18_Speedledger_mejl1.pdf; verifikationer/A18_Speedledger_mejl2.pdf; verifikationer/A18_Speedledger.pdf"
+  Expenses:5420:Programvaror                                      3085.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -3085.00 SEK
+
+2024-02-09 * "Medlemsavgift"
+  id: "nordea_18_2024-02-09_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-02-21 * "Medlemsavgift"
+  id: "nordea_20_2024-02-21_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-02-20 * "Donation"
+  id: "nordea_21_2024-02-20_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-02-26 * "Medlemsavgift"
+  id: "nordea_23_2024-02-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-02-27 * "Donation"
+  id: "nordea_24_2024-02-27_350"
+  statement: "verifikationer/A25_donation.pdf"
+  Income:3993:Erhållna-donationer-och-gåvor                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-02-29 * "Medlemsavgift"
+  id: "nordea_25_2024-02-29_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+
+2024-03-01 balance Assets:1920:Bank:Plusgiro                     85468.03 SEK
+
+
+2024-03-01 * "Medlemsavgift"
+  id: "nordea_26_2024-03-01_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-01 * "Swishavgift"
+  id: "nordea_27_2024-03-01_16"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       16.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -16.00 SEK
+
+2024-03-04 * "Medlemsavgift"
+  id: "nordea_30_2024-03-04_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-04 * "Medlemsavgift"
+  id: "nordea_31_2024-03-04_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-04 * "Medlemsavgift"
+  id: "nordea_32_2024-03-04_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-04 * "Transportstyrelsen Registeravgift"
+  id: "nordea_33_2024-03-04_600"
+  statement: "verifikationer/A34_Transportstyrelsen-registeravgift.pdf"
+  Expenses:4122:Fartyget:Myndighetsavgifter                        600.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -600.00 SEK
+
+2024-03-05 * "Bankkostnad"
+  id: "nordea_34_2024-03-05_1.85"
+  statement: "verifikationer/A35_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        1.85 SEK
+  Assets:1920:Bank:Plusgiro                                         -1.85 SEK
+
+2024-03-12 * "Medlemsavgift"
+  id: "nordea_37_2024-03-12_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-12 * "Medlemsavgift"
+  id: "nordea_38_2024-03-12_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-12 * "Medlemsavgift"
+  id: "nordea_39_2024-03-12_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-12 * "Medlemsavgift"
+  id: "nordea_40_2024-03-12_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-13 * "Medlemsavgift"
+  id: "nordea_41_2024-03-13_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-03-13 * "Medlemsavgift"
+  id: "nordea_42_2024-03-13_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-03-15 * "Medlemsavgift"
+  id: "nordea_43_2024-03-15_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-15 * "Medlemsavgift" ^medlemsavgift-john-doe
+  id: "nordea_44_2024-03-15_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-18 * "Medlemsavgift"
+  id: "nordea_46_2024-03-18_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-03-18 * "Tröjor"
+  id: "nordea_47_2024-03-18_450"
+  Income:3610:Försäljning                                         -450.00 SEK
+  Assets:1920:Bank:Plusgiro                                        450.00 SEK
+
+2024-03-18 * "Medlemsavgift"
+  id: "nordea_49_2024-03-18_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-03-18 * "Böcker"
+  id: "nordea_50_2024-03-18_250"
+  Income:3610:Försäljning                                         -250.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-03-18 * "T-shirt"
+  id: "nordea_51_2024-03-18_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-03-18 * "T-shirt"
+  id: "nordea_52_2024-03-18_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-03-18 * "T-shirt"
+  id: "nordea_53_2024-03-18_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-03-18 * "Donation"
+  id: "nordea_54_2024-03-18_20"
+  Income:3993:Erhållna-donationer-och-gåvor                        -20.00 SEK
+  Assets:1920:Bank:Plusgiro                                         20.00 SEK
+
+2024-03-18 * "Mattransport årsmöte"
+  id: "nordea_55_2024-03-18_151"
+  statement: "verifikationer/A56_mattransport.jpg"
+  Expenses:5700:Frakter-och-Transporter                            151.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -151.00 SEK
+
+2024-03-18 * "Lokalhyra årsmöte - Korrigerad i V263" ^lokalhyra-arsmote
+  id: "nordea_56_2024-03-18_1000"
+  statement: "verifikationer/A57_lokalhyra-årsmöte.jpg"
+  Expenses:6601:Mat:Arbetsdagar                                   1000.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1000.00 SEK
+
+2024-03-18 * "Årsmötesmat"
+  id: "nordea_57_2024-03-18_1111.86"
+  statement: "verifikationer/A58_årsmötesmat.jpg"
+  Expenses:6601:Mat:Arbetsdagar                                   1111.86 SEK
+  Assets:1920:Bank:Plusgiro                                      -1111.86 SEK
+
+2024-03-20 * "Donation"
+  id: "nordea_58_2024-03-20_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-03-20 * "Försäkring Fartyget, halvåravgift"
+  id: "nordea_59_2024-03-20_6304"
+  statement: "verifikationer/A60_Försäkring-Fartyget.pdf"
+  Expenses:4111:Fartyget:Försäkring                               2345.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -2345.00 SEK
+
+2024-03-21 * "Medlemsavgift"
+  id: "nordea_60_2024-03-21_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+
+2024-04-01 balance Assets:1920:Bank:Plusgiro                     87312.32 SEK
+
+
+2024-04-02 * "Swishavgift"
+  id: "nordea_62_2024-04-02_40"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       40.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -40.00 SEK
+
+2024-04-04 * "Bankkostnad"
+  id: "nordea_63_2024-04-04_3.7"
+  statement: "verifikationer/A64_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        3.70 SEK
+  Assets:1920:Bank:Plusgiro                                         -3.70 SEK
+
+2024-04-09 * "Medlemsavgift"
+  id: "nordea_64_2024-04-09_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-04-29 * "Fika flytt till varvet"
+  id: "nordea_65_2024-04-29_209.85"
+  statement: "verifikationer/A66_Fika-varvsflytt.jpg"
+  Expenses:6601:Mat:Arbetsdagar                                    209.85 SEK
+  Assets:1920:Bank:Plusgiro                                       -209.85 SEK
+
+2024-04-29 * "Fika årsmöte"
+  id: "nordea_66_2024-04-29_684"
+  statement: "verifikationer/A67_årsmöte-fika.jpg"
+  Expenses:6601:Mat:Arbetsdagar                                    684.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -684.00 SEK
+
+2024-04-29 * "Varvsmateriel"
+  id: "nordea_67_2024-04-29_2580.4"
+  statement: "verifikationer/A68_varsvateriel0.jpg; verifikationer/A68_varsvateriel1.jpg; verifikationer/A68_varsvateriel2.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                            2580.40 SEK
+  Assets:1920:Bank:Plusgiro                                      -2580.40 SEK
+
+2024-04-29 * "Sommarhamn årsavgift"
+  id: "nordea_68_2024-04-29_4200"
+  statement: "verifikationer/A69_sommarhamn.pdf"
+  Expenses:4126:Fartyget:Fast-båtplats                            4200.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -4200.00 SEK
+
+2024-04-30 * "Primer och penslar"
+  id: "nordea_69_2024-04-30_1511"
+  statement: "verifikationer/A70_primer-och-penslar.pdf"
+  Expenses:4113:Fartyget:Vårutrustning                            1511.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1511.00 SEK
+
+2024-04-30 * "Tjära"
+  id: "nordea_70_2024-04-30_4001"
+  statement: "verifikationer/A71_tjära.pdf"
+  Expenses:4113:Fartyget:Vårutrustning                            4001.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -4001.00 SEK
+
+
+2024-05-01 balance Assets:1920:Bank:Plusgiro                     74582.37 SEK
+
+
+2024-05-02 * "Meetup halvårsfaktura"
+  id: "nordea_71_2024-05-02_912.22"
+  statement: "verifikationer/A72_meetup.pdf"
+  Expenses:5900:Reklam-och-PR                                      912.22 SEK
+  Assets:1920:Bank:Plusgiro                                       -912.22 SEK
+
+2024-05-03 * "PTS-tillstånd"
+  id: "nordea_72_2024-05-03_245"
+  statement: "verifikationer/A73_PTS-tillstånd.pdf"
+  Expenses:4112:Fartyget:Mobil-radiosändare                        245.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -245.00 SEK
+
+2024-05-03 * "Försäkring Hjälpbåt och motor"
+  id: "nordea_73_2024-05-03_1608"
+  statement: "verifikationer/A74_Försäkring-Hjälpbåt-och-motor.pdf"
+  Expenses:4161:Hjälpbåt:Försäkring                               1000.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1000.00 SEK
+
+2024-05-06 * "Böcker"
+  id: "nordea_74_2024-05-06_500"
+  Income:3610:Försäljning                                         -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-05-06 * "Medlemsavgift"
+  id: "nordea_75_2024-05-06_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-05-06 * "Bok"
+  id: "nordea_76_2024-05-06_250"
+  Income:3610:Försäljning                                         -250.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-05-06 * "Bok"
+  id: "nordea_77_2024-05-06_250"
+  Income:3610:Försäljning                                         -250.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-05-06 * "Bok"
+  id: "nordea_78_2024-05-06_250"
+  Income:3610:Försäljning                                         -250.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-05-06 * "Bankkostnad"
+  id: "nordea_79_2024-05-06_3.7"
+  statement: "verifikationer/A80_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        3.70 SEK
+  Assets:1920:Bank:Plusgiro                                         -3.70 SEK
+
+2024-05-06 * "Karbinhakar"
+  id: "nordea_80_2024-05-06_179.7"
+  statement: "verifikationer/A81_Karbinhakar.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                             179.70 SEK
+  Assets:1920:Bank:Plusgiro                                       -179.70 SEK
+
+2024-05-06 * "Penslar och rengöring"
+  id: "nordea_81_2024-05-06_264.4"
+  statement: "verifikationer/A82_penslar-och-rengöring.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                             264.40 SEK
+  Assets:1920:Bank:Plusgiro                                       -264.40 SEK
+
+2024-05-06 * "Stålborstar och filter"
+  id: "nordea_82_2024-05-06_457.8"
+  statement: "verifikationer/A83_filter-och-stålborstar.jpg; verifikationer/A83_stålborstar.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                             457.80 SEK
+  Assets:1920:Bank:Plusgiro                                       -457.80 SEK
+
+2024-05-06 * "Tjära"
+  id: "nordea_83_2024-05-06_867"
+  statement: "verifikationer/A84_tjära.pdf"
+  Expenses:4113:Fartyget:Vårutrustning                             867.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -867.00 SEK
+
+2024-05-06 * "Dammsugare"
+  id: "nordea_84_2024-05-06_1049"
+  statement: "verifikationer/A85_dammsugare.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                            1049.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1049.00 SEK
+
+2024-05-06 * "Länspump och varmluftspistol"
+  id: "nordea_85_2024-05-06_1944"
+  statement: "verifikationer/A86_länspump-och-varmluftspistol.jpg"
+  Expenses:4113:Fartyget:Vårutrustning                            1944.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1944.00 SEK
+
+2024-05-16 * "Donation"
+  id: "nordea_86_2024-05-16_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-05-22 * "Donation"
+  id: "nordea_87_2024-05-22_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-05-23 * "Bensin flytt"
+  id: "nordea_88_2024-05-23_490.43"
+  statement: "verifikationer/A89_bensin.jpg"
+  Expenses:4115:Fartyget:Bensin                                    490.43 SEK
+  Assets:1920:Bank:Plusgiro                                       -490.43 SEK
+
+2024-05-23 * "tältimpregnering" ^taltimpregnering-dubbel-utbetalning
+  id: "nordea_89_2024-05-23_1037.9"
+  statement: "verifikationer/A90_tältimpregnering.jpg"
+  Expenses:4114:Fartyget:Underhåll                                1037.90 SEK
+  Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
+
+2024-05-23 * "Varv"
+  id: "nordea_90_2024-05-23_24062"
+  statement: "verifikationer/A91_Varv.pdf"
+  Expenses:4118:Fartyget:Upptagning-och-Sjösättning              24062.00 SEK
+  Assets:1920:Bank:Plusgiro                                     -24062.00 SEK
+
+2024-05-27 * "Medlemsavgift"
+  id: "nordea_91_2024-05-27_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-05-28 * "Tältimpregnering"
+  id: "nordea_92_2024-05-28_479"
+  statement: "verifikationer/A93_impregnering.jpg"
+  Expenses:4114:Fartyget:Underhåll                                 479.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -479.00 SEK
+
+
+2024-06-01 balance Assets:1920:Bank:Plusgiro                     43790.22 SEK
+
+
+2024-06-03 * "Medlemsavgift"
+  id: "nordea_93_2024-06-03_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-03 * "Swishavgift"
+  id: "nordea_94_2024-06-03_10"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       10.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -10.00 SEK
+
+2024-06-05 * "Bankkostnad"
+  id: "nordea_95_2024-06-05_7.4"
+  statement: "verifikationer/A96_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        7.40 SEK
+  Assets:1920:Bank:Plusgiro                                         -7.40 SEK
+
+2024-06-12 * "Medlemsavgift"
+  id: "nordea_96_2024-06-12_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-14 * "Medlemsavgift"
+  id: "nordea_97_2024-06-14_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-14 * "Donation"
+  id: "nordea_98_2024-06-14_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-06-17 * "Medlemsavgift"
+  id: "nordea_99_2024-06-17_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-20 * "Donation"
+  id: "nordea_100_2024-06-20_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-06-24 * "Seglings- och matavgift + donation"
+  id: "nordea_101_2024-06-24_600"
+  statement: "verifikationer/A102_donation.pdf"
+  Income:3012:Matavgift                                           -300.00 SEK
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Income:3993:Erhållna-donationer-och-gåvor                       -450.00 SEK
+  Assets:1920:Bank:Plusgiro                                       1350.00 SEK
+
+2024-06-25 * "Seglings- och matavgift" ^ted-seglings-och-matavgift
+  id: "nordea_102_2024-06-25_2100"
+  Income:3012:Matavgift                                          -1050.00 SEK
+  Income:3011:Seglingsavgift                                     -2100.00 SEK
+  Liabilities:2902:Skuld-till-medlem                              -900.00 SEK
+  Assets:1920:Bank:Plusgiro                                       4050.00 SEK
+
+2024-06-26 * "Seglings- och matavgift" ^oa-seglings-och-matavgift
+  id: "nordea_103_2024-06-26_1200"
+  Income:3012:Matavgift                                           -600.00 SEK
+  Income:3011:Seglingsavgift                                     -1200.00 SEK
+  Liabilities:2902:Skuld-till-medlem                             -1800.00 SEK
+  Assets:1920:Bank:Plusgiro                                       3600.00 SEK
+
+2024-06-26 * "Medlemsavgift"
+  id: "nordea_104_2024-06-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-27 * "Medlemsavgift"
+  id: "nordea_106_2024-06-27_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-28 * "Medlemsavgift"
+  id: "nordea_107_2024-06-28_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-06-28 * "Medlemsavgift"
+  id: "nordea_108_2024-06-28_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+
+2024-07-01 balance Assets:1920:Bank:Plusgiro                     55672.82 SEK
+
+
+2024-07-01 * "Matavgift" ^sarah-matavgift
+  id: "nordea_109_2024-07-01_1050"
+  Income:3012:Matavgift                                          -1050.00 SEK
+  Liabilities:2902:Skuld-till-medlem                              -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                       1350.00 SEK
+
+2024-07-01 * "Seglings- och matavgift"
+  id: "nordea_110_2024-07-01_600"
+  Income:3012:Matavgift                                           -300.00 SEK
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        900.00 SEK
+
+2024-07-01 * "Medlemsavgift"
+  id: "nordea_111_2024-07-01_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-07-01 * "Medlemsavgift"
+  id: "nordea_112_2024-07-01_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-07-01 * "Swishavgift"
+  id: "nordea_113_2024-07-01_20"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       20.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -20.00 SEK
+
+2024-07-05 * "Medlemsavgift"
+  id: "nordea_114_2024-07-05_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-07-08 * "Medlemsavgift"
+  id: "nordea_115_2024-07-08_500"
+  Income:3010:Medlemsavgift                                       -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-07-10 * "Seglings- och matavgift"
+  id: "nordea_116_2024-07-10_900"
+  Income:3012:Matavgift                                          -1050.00 SEK
+  Income:3011:Seglingsavgift                                      -900.00 SEK
+  Assets:1920:Bank:Plusgiro                                       1950.00 SEK
+
+2024-07-10 * "Matavgift"
+  id: "nordea_117_2024-07-10_1050"
+  Income:3012:Matavgift                                          -1050.00 SEK
+  Assets:1920:Bank:Plusgiro                                       1050.00 SEK
+
+2024-07-10 * "Bok"
+  id: "nordea_118_2024-07-10_250"
+  Income:3610:Försäljning                                         -250.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-07-10 * "Ted 2 inställda seglingdagar" ^ted-seglings-och-matavgift
+  id: "nordea_119_2024-07-10_900"
+  Liabilities:2902:Skuld-till-medlem                               900.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -900.00 SEK
+
+2024-07-11 * "Bok"
+  id: "nordea_120_2024-07-11_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-07-15 * "Matavgift"
+  id: "nordea_122_2024-07-15_2100"
+  Income:3012:Matavgift                                          -2100.00 SEK
+  Assets:1920:Bank:Plusgiro                                       2100.00 SEK
+
+2024-07-15 * "Seglings- och matavgift"
+  id: "nordea_123_2024-07-15_600"
+  Income:3012:Matavgift                                           -300.00 SEK
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        900.00 SEK
+
+2024-07-15 * "Matavgift"
+  id: "nordea_124_2024-07-15_0"
+  Income:3012:Matavgift                                           -900.00 SEK
+  Assets:1920:Bank:Plusgiro                                        900.00 SEK
+
+2024-07-15 * "Seglingsavgift"
+  id: "nordea_125_2024-07-15_600"
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        600.00 SEK
+
+2024-07-15 * "Medlemsavgift"
+  id: "nordea_126_2024-07-15_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-07-15 * "Mat seglingsvecka"
+  id: "nordea_127_2024-07-15_255.6"
+  statement: "verifikationer/A128_mat.jpg"
+  Expenses:6600:Mat:Segling                                        255.60 SEK
+  Assets:1920:Bank:Plusgiro                                       -255.60 SEK
+
+2024-07-15 * "Matavgift - inställda seglingsdagar" ^sarah-matavgift
+  id: "nordea_128_2024-07-15_300"
+  Liabilities:2902:Skuld-till-medlem                               300.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -300.00 SEK
+
+2024-07-15 * "Brandsläckare"
+  id: "nordea_129_2024-07-15_349"
+  statement: "verifikationer/A130_Brandsläckare.jpg"
+  Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          349.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -349.00 SEK
+
+2024-07-15 * "Hamnavgift"
+  id: "nordea_130_2024-07-15_365"
+  statement: "verifikationer/A131_Hamnavgift.jpg"
+  Expenses:4127:Fartyget:Hamnavgifter                              365.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -365.00 SEK
+
+2024-07-15 * "Hamnavgift"
+  id: "nordea_131_2024-07-15_375"
+  statement: "verifikationer/A132_Hamnavgift.jpg"
+  Expenses:4127:Fartyget:Hamnavgifter                              375.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -375.00 SEK
+
+2024-07-15 * "Hamnavgift"
+  id: "nordea_132_2024-07-15_390"
+  statement: "verifikationer/A133_Hamnavgift.jpg"
+  Expenses:4127:Fartyget:Hamnavgifter                              390.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -390.00 SEK
+
+2024-07-15 * "Första hjälpen etc"
+  id: "nordea_133_2024-07-15_406.9"
+  statement: "verifikationer/A134_första-hjälpen.jpg"
+  Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          406.90 SEK
+  Assets:1920:Bank:Plusgiro                                       -406.90 SEK
+
+2024-07-15 * "Hamnavgift"
+  id: "nordea_134_2024-07-15_435"
+  statement: "verifikationer/A135_hamnavgift.jpg"
+  Expenses:4127:Fartyget:Hamnavgifter                              435.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -435.00 SEK
+
+2024-07-15 * "Fotogen och rödsprit"
+  id: "nordea_135_2024-07-15_512.3"
+  statement: "verifikationer/A136_fotogen-och-rödsprit.jpg"
+  Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          512.30 SEK
+  Assets:1920:Bank:Plusgiro                                       -512.30 SEK
+
+2024-07-15 * "Div båtprylar"
+  id: "nordea_136_2024-07-15_552"
+  statement: "verifikationer/A137_div-båtprylar.jpg"
+  Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          552.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -552.00 SEK
+
+2024-07-15 * "Mat seglingsvecka"
+  id: "nordea_137_2024-07-15_590.18"
+  statement: "verifikationer/A138_mat-seglingsvecka.jpg"
+  Expenses:6600:Mat:Segling                                        590.18 SEK
+  Assets:1920:Bank:Plusgiro                                       -590.18 SEK
+
+2024-07-15 * "Köksredskap"
+  id: "nordea_138_2024-07-15_1321.5"
+  statement: "verifikationer/A139_köksredskap.jpg"
+  Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader         1321.50 SEK
+  Assets:1920:Bank:Plusgiro                                      -1321.50 SEK
+
+2024-07-15 * "Propellrar"
+  id: "nordea_139_2024-07-15_2344"
+  statement: "verifikationer/A140_propeller0.pdf; verifikationer/A140_propeller0.pdf"
+  Expenses:4162:Hjälpbåt:Motor                                    2344.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -2344.00 SEK
+
+2024-07-16 * "Förtöjningsgods"
+  id: "nordea_140_2024-07-16_13163"
+  statement: "verifikationer/A141_förtöjningsgods.pdf"
+  Expenses:4116:Fartyget:Segel-och-Rigg                          13163.00 SEK
+  Assets:1920:Bank:Plusgiro                                     -13163.00 SEK
+
+2024-07-18 * "Seglings- och matavgift"
+  id: "nordea_141_2024-07-18_1800"
+  Income:3012:Matavgift                                           -900.00 SEK
+  Income:3011:Seglingsavgift                                     -1800.00 SEK
+  Assets:1920:Bank:Plusgiro                                       2700.00 SEK
+
+2024-07-19 * "Medlemsavgift"
+  id: "nordea_142_2024-07-19_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-07-19 * "Medlemsavgift"
+  id: "nordea_143_2024-07-19_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-07-19 * "Medlemsavgift"
+  id: "nordea_144_2024-07-19_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-07-19 * "Donation"
+  id: "nordea_145_2024-07-19_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-07-22 * "Bensin"
+  id: "nordea_146_2024-07-22_933.44"
+  statement: "verifikationer/A147_bensin0.jpg; verifikationer/A147_bensin1.jpg"
+  Expenses:4115:Fartyget:Bensin                                    933.44 SEK
+  Assets:1920:Bank:Plusgiro                                       -933.44 SEK
+
+2024-07-22 * "Mat"
+  id: "nordea_147_2024-07-22_7238.16"
+  statement: "verifikationer/A148_ica-nara.jpg; verifikationer/A148_Ica-Maxi.pdf"
+  Expenses:6600:Mat:Segling                                       7238.16 SEK
+  Assets:1920:Bank:Plusgiro                                      -7238.16 SEK
+
+2024-07-24 * "Donation"
+  id: "nordea_148_2024-07-24_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-07-29 * "Medlemsavgift"
+  id: "nordea_149_2024-07-29_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+
+2024-08-01 balance Assets:1920:Bank:Plusgiro                     41821.74 SEK
+
+
+2024-08-01 * "Swishavgift"
+  id: "nordea_150_2024-08-01_28"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       28.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -28.00 SEK
+
+2024-08-05 * "Bankkostnader"
+  id: "nordea_152_2024-08-05_1.85"
+  statement: "verifikationer/A153_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        1.85 SEK
+  Assets:1920:Bank:Plusgiro                                         -1.85 SEK
+
+2024-08-05 * "Inställda seglingsdagar" ^oa-seglings-och-matavgift
+  id: "nordea_153_2024-08-05_1800"
+  Liabilities:2902:Skuld-till-medlem                              1800.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1800.00 SEK
+
+2024-08-06 * "Matavgift"
+  id: "nordea_154_2024-08-06_1050"
+  Income:3012:Matavgift                                          -1050.00 SEK
+  Assets:1920:Bank:Plusgiro                                       1050.00 SEK
+
+2024-08-06 * "Donation"
+  id: "nordea_155_2024-08-06_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-08-12 * "Impregnering tält - Nollställt i V257" ^taltimpregnering-dubbel-utbetalning
+  id: "nordea_156_2024-08-12_1037.9"
+  statement: "verifikationer/A157_tältimpregnering.pdf"
+  Expenses:4114:Fartyget:Underhåll                                1037.90 SEK
+  Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
+
+2024-08-12 * "Mat"
+  id: "nordea_157_2024-08-12_2296.37"
+  statement: "verifikationer/A158_ICA.pdf"
+  Expenses:6600:Mat:Segling                                       2296.37 SEK
+  Assets:1920:Bank:Plusgiro                                      -2296.37 SEK
+
+2024-08-15 * "Matavgift"
+  id: "nordea_158_2024-08-15_600"
+  Income:3012:Matavgift                                           -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        600.00 SEK
+
+2024-08-15 * "Tältmaterial"
+  id: "nordea_159_2024-08-15_5336"
+  statement: "verifikationer/A160_tältmaterial.jpg"
+  Expenses:4114:Fartyget:Underhåll                                5336.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -5336.00 SEK
+
+2024-08-19 * "Donation"
+  id: "nordea_160_2024-08-19_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-08-26 * "Medlemsavgift"
+  id: "nordea_161_2024-08-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-08-26 * "Medlemsavgift"
+  id: "nordea_162_2024-08-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-08-26 * "Medlemsavgift"
+  id: "nordea_163_2024-08-26_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-08-27 * "Medlemsavgift"
+  id: "nordea_164_2024-08-27_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+
+2024-09-01 balance Assets:1920:Bank:Plusgiro                     34471.62 SEK
+
+
+2024-09-02 * "Seglingsavgift"
+  id: "nordea_166_2024-09-02_600"
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        600.00 SEK
+
+2024-09-02 * "Seglingsavgift"
+  id: "nordea_167_2024-09-02_600"
+  Income:3011:Seglingsavgift                                      -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        600.00 SEK
+
+2024-09-02 * "Medlemsavgift"
+  id: "nordea_168_2024-09-02_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-09-02 * "Medlemsavgift"
+  id: "nordea_169_2024-09-02_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-09-02 * "Seglingsavgift"
+  id: "nordea_170_2024-09-02_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-02 * "Seglingsavgift"
+  id: "nordea_171_2024-09-02_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-02 * "Seglingsavgift"
+  id: "nordea_175_2024-09-02_200"
+  Income:3011:Seglingsavgift                                      -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-02 * "Medlemsavgift" ^medlemsavgift-john-doe
+  id: "nordea_176_2024-09-02_150"
+  Income:3010:Medlemsavgift                                       -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-02 * "Swishavgift"
+  id: "nordea_177_2024-09-02_10"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                       10.00 SEK
+  Assets:1920:Bank:Plusgiro                                        -10.00 SEK
+
+2024-09-04 * "Höstfest"
+  id: "nordea_178_2024-09-04_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-04 * "Donation"
+  id: "nordea_179_2024-09-04_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-06 * "Donation"
+  id: "nordea_180_2024-09-06_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-10 * "Seglingsavgift"
+  id: "nordea_181_2024-09-10_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-12 * "Höstfest"
+  id: "nordea_182_2024-09-12_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-17 * "Böcker"
+  id: "nordea_183_2024-09-17_500"
+  Income:3610:Försäljning                                         -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+2024-09-18 * "Höstfest"
+  id: "nordea_184_2024-09-18_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-18 * "Donation"
+  id: "nordea_185_2024-09-18_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-20 * "Medlemsavgift"
+  id: "nordea_186_2024-09-20_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-09-20 * "Seglingsavgift"
+  id: "nordea_187_2024-09-20_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-23 * "Medlemsavgift"
+  id: "nordea_188_2024-09-23_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-09-23 * "Seglingsavgift"
+  id: "nordea_189_2024-09-23_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-23 * "Seglingsavgift"
+  id: "nordea_191_2024-09-23_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-24 * "Höstfest"
+  id: "nordea_192_2024-09-24_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-24 * "Seglingsavgift"
+  id: "nordea_193_2024-09-24_300"
+  Income:3011:Seglingsavgift                                      -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-24 * "Höstfest"
+  id: "nordea_194_2024-09-24_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-25 * "Seglingsavgift"
+  id: "nordea_195_2024-09-25_740"
+  Income:3011:Seglingsavgift                                      -740.00 SEK
+  Assets:1920:Bank:Plusgiro                                        740.00 SEK
+
+2024-09-25 * "Höstfest"
+  id: "nordea_197_2024-09-25_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-25 * "Höstfest"
+  id: "nordea_198_2024-09-25_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-25 * "Höstfest"
+  id: "nordea_199_2024-09-25_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-27 * "Medlemsavgift"
+  id: "nordea_208_2024-09-27_350"
+  Income:3010:Medlemsavgift                                       -350.00 SEK
+  Assets:1920:Bank:Plusgiro                                        350.00 SEK
+
+2024-09-27 * "Höstfest"
+  id: "nordea_209_2024-09-27_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_210_2024-09-30_600"
+  Income:3602:Interna-arrangemang                                 -600.00 SEK
+  Assets:1920:Bank:Plusgiro                                        600.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_211_2024-09-30_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-30 * "Mugg och tröja"
+  id: "nordea_212_2024-09-30_300"
+  Income:3610:Försäljning                                         -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_213_2024-09-30_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-30 * "Höstfest"     
+  id: "nordea_214_2024-09-30_300"
+  Income:3602:Interna-arrangemang                                 -300.00 SEK
+  Assets:1920:Bank:Plusgiro                                        300.00 SEK
+
+2024-09-30 * "Höstfest och mugg"
+  id: "nordea_215_2024-09-30_150"
+  Income:3610:Försäljning                                         -100.00 SEK
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        250.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_216_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_217_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "Bok"
+  id: "nordea_218_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_219_2024-09-30_200"
+  Income:3993:Erhållna-donationer-och-gåvor                       -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_220_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_221_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_222_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "T-shirt"
+  id: "nordea_223_2024-09-30_200"
+  Income:3610:Försäljning                                         -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_224_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_225_2024-09-30_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_226_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_227_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_228_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_229_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_230_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_231_2024-09-30_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_232_2024-09-30_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_233_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Mugg"
+  id: "nordea_234_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Böcker"
+  id: "nordea_235_2024-09-30_150"
+  Income:3610:Försäljning                                         -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Höstfest"
+  id: "nordea_236_2024-09-30_150"
+  Income:3602:Interna-arrangemang                                 -150.00 SEK
+  Assets:1920:Bank:Plusgiro                                        150.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_237_2024-09-30_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_238_2024-09-30_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_239_2024-09-30_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_240_2024-09-30_40"
+  Income:3993:Erhållna-donationer-och-gåvor                        -40.00 SEK
+  Assets:1920:Bank:Plusgiro                                         40.00 SEK
+
+2024-09-30 * "Donation"
+  id: "nordea_241_2024-09-30_20"
+  Income:3993:Erhållna-donationer-och-gåvor                        -20.00 SEK
+  Assets:1920:Bank:Plusgiro                                         20.00 SEK
+
+
+2024-10-01 balance Assets:1920:Bank:Plusgiro                     48861.62 SEK
+
+
+2024-10-01 * "Swishavgift"
+  id: "nordea_242_2024-10-01_138"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                      138.00 SEK
+  Assets:1920:Bank:Plusgiro                                       -138.00 SEK
+
+2024-10-01 * "Försäkring Fartyget, halvårsavgift"
+  id: "nordea_243_2024-10-01_6304"
+  statement: "verifikationer/A244_Försäkring-Fartyget.pdf"
+  Expenses:4111:Fartyget:Försäkring                               1234.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1234.00 SEK
+
+2024-10-02 * "Mat höstfest"
+  id: "nordea_244_2024-10-02_3849.1"
+  statement: "verifikationer/A245_mat-höstfest.jpg"
+  Expenses:6610:Interna-arrangemang                               3849.10 SEK
+  Assets:1920:Bank:Plusgiro                                      -3849.10 SEK
+
+2024-10-09 * "Donation"
+  id: "nordea_245_2024-10-09_50"
+  Income:3993:Erhållna-donationer-och-gåvor                        -50.00 SEK
+  Assets:1920:Bank:Plusgiro                                         50.00 SEK
+
+2024-10-28 * "Webbhotell"
+  id: "nordea_246_2024-10-28_1153.75"
+  statement: "verifikationer/A247_Webbhotell.pdf"
+  Expenses:5421:Hemsida                                           1153.75 SEK
+  Assets:1920:Bank:Plusgiro                                      -1153.75 SEK
+
+2024-10-28 * "Meetup halvårsfaktura"
+  id: "nordea_247_2024-10-28_1325"
+  statement: "verifikationer/A248_Meetup.pdf"
+  Expenses:5900:Reklam-och-PR                                     1325.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1325.00 SEK
+
+2024-10-29 * "Donation"
+  id: "nordea_248_2024-10-29_200"
+  Income:3993:Erhållna-donationer-och-gåvor                       -200.00 SEK
+  Assets:1920:Bank:Plusgiro                                        200.00 SEK
+
+
+2024-11-01 balance Assets:1920:Bank:Plusgiro                     41411.77 SEK
+
+
+2024-11-01 * "Swishavgift"
+  id: "nordea_249_2024-11-01_2"
+  statement: "verifikationer/A1,\ A2,\ A15,\ A28,\ A63,\ A95,\ A114,\ A151,\ A178,\ A243,\ A250_Prislista-foretag-foreningar.pdf"
+  Expenses:6570:Bankkostnader                                        2.00 SEK
+  Assets:1920:Bank:Plusgiro                                         -2.00 SEK
+
+2024-11-05 * "Bankkostnad"
+  id: "nordea_250_2024-11-05_1.85"
+  statement: "verifikationer/A251_Bankavgift.pdf"
+  Expenses:6570:Bankkostnader                                        1.85 SEK
+  Assets:1920:Bank:Plusgiro                                         -1.85 SEK
+
+2024-11-21 * "Böcker"
+  id: "nordea_251_2024-11-21_500"
+  Income:3610:Försäljning                                         -500.00 SEK
+  Assets:1920:Bank:Plusgiro                                        500.00 SEK
+
+
+2024-12-01 balance Assets:1920:Bank:Plusgiro                     41907.92 SEK
+
+
+2024-12-04 * "Återbäring, försäkring"
+  id: "nordea_252_2024-12-04_894"
+  statement: "verifikationer/A253_Försäkring-återbäring.pdf"
+  Expenses:4111:Fartyget:Försäkring                               -800.00 SEK
+  Assets:1920:Bank:Plusgiro                                        800.00 SEK
+
+2024-12-13 * "Utlägg vintertäckning"
+  id: "nordea_253_2024-12-13_362.7"
+  statement: "verifikationer/A254_vintertäckning.jpg"
+  Expenses:4114:Fartyget:Underhåll                                 362.70 SEK
+  Assets:1920:Bank:Plusgiro                                       -362.70 SEK
+
+2024-12-13 * "Service/felsökning Hjälpbåtsmotor"
+  id: "nordea_254_2024-12-13_1438"
+  statement: "verifikationer/A255_Motorservice.pdf"
+  Expenses:4162:Hjälpbåt:Motor                                    1438.00 SEK
+  Assets:1920:Bank:Plusgiro                                      -1438.00 SEK
+
+2024-12-29 * "Nollställande av V157 - Impregnering tält" ^taltimpregnering-dubbel-utbetalning
+  id: "nordea_256_2024-08-12_1037.9"
+  statement: "verifikationer/A258_Dubbelbetalning.pdf"
+  Expenses:4114:Fartyget:Underhåll                               -1037.90 SEK
+  Assets:1920:Bank:Plusgiro                                       1037.90 SEK
+
+2024-12-29 * "Dubbel utbetalning för impregnering tält - V90 och V157" ^taltimpregnering-dubbel-utbetalning
+  id: "nordea_257_2024-08-12_-1037.9"
+  statement: "verifikationer/A258_Dubbelbetalning.pdf"
+  Assets:1510:Fordran-av-medlem                                   1037.90 SEK
+  Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
+
+2024-12-29 * "Tidigare års ränta - justering av ingående belopp på placeringskontot"
+  id: "nordea_258_2024-01-02_126.36"
+  Income:8311:Ränteintäkter-från-bank                             -126.36 SEK
+  Assets:1940:Bank:Placeringskonto                                 126.36 SEK
+
+2024-12-30 * "Placeringskonto - ränta"
+  id: "nordea_259_2024-12-30_140.85"
+  Income:8311:Ränteintäkter-från-bank                             -140.85 SEK
+  Assets:1940:Bank:Placeringskonto                                 140.85 SEK
+
+2024-12-30 * "Korrekt bokförande av årsmöteslokal - korrigering av V57" ^lokalhyra-arsmote
+  id: "nordea_260_2024-12-30_1000.00"
+  Expenses:6450:Föreningsstämma                                   1000.00 SEK
+  Expenses:6601:Mat:Arbetsdagar                                  -1000.00 SEK
+
+
+2024-12-31 balance Assets:1920:Bank:Plusgiro                     40907.22 SEK
+2024-12-31 balance Assets:1350:Fondkonto-anskaffningsvärde        8595.64 SEK

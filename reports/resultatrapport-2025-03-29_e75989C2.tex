@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Minimal Invoice
+% LaTeX Template
+% Version 1.1 (April 22, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+    a4paper, % Paper size, use 'a4paper' for A4 or 'letterpaper' for US letter
+    10pt, % Default font size, available sizes are: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
+]{CSMinimalInvoice}
+
+%---------------------------------------------------------------------------------
+%   REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+% The currency code (e.g. USD is United States Dollars), do one of the following:
+% 1) Enter a 3 letter code to have it appear at the bottom of the report
+% 2) Leave the command empty (i.e. \currencycode{}) if you don't want the code to appear on the report
+\currencycode{kr}
+
+%---------------------------------------------------------------------------------
+%   ADVANCED REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+\roundcurrencytodecimals{2} % The number of decimal places to round currency numbers
+\roundquantitytodecimals{0} % The number of decimal places to round quantity numbers
+
+% Advanced settings for changing how numbers are output
+\sisetup{group-minimum-digits=4} % Delimit numbers (e.g. 4000 -> 4,000) when there are this number of digits or more
+\sisetup{group-separator={ }} % Character to use for delimiting digit groups
+\sisetup{output-decimal-marker={,}} % Character to use for specifying decimals
+
+\currencysuffix{} % Some currencies output the currency symbol after the number, such as Sweden's krona specified with a 'kr' suffix. Specify a suffix here if required, otherwise leave this command empty.
+
+%---------------------------------------------------------------------------------
+
+\begin{document}
+
+\setstretch{1} % Restore single line spacing
+
+%---------------------------------------------------------------------------------
+%   CONTENT TABLE
+%---------------------------------------------------------------------------------
+
+% CONTENT
+\reporttype{Resultaträkning}
+\begin{resulttable}
+
+  \resultheaderrow{Nettoomsättning}
+  \resultitem{3010 - Medlemsavgift}{}{21550}
+  \resultitem{3011 - Seglingsavgift}{}{12640}
+  \resultitem{3012 - Matavgift}{Inkomst för matavgifter under vecko- och helgsegling. Kostnaden för maten ligger under \textit{6600 - Mat - Segling}.}{11250}
+  \resultitem{3602 - Interna arrangemang (fester etc)}{Anmälningsavgift till höstfest. Kostnaden för festen ligger under \textit{6610 - Interna arrangemang (fester etc)}.}{4050}
+  \resultitem{3610 - Försäljning (Böcker, tröjor, mm)}{}{7150}
+  \resultitem{3993 - Erhållna donationer och gåvor}{}{2230}
+  \resultresult{}
+
+  \resultheaderrow{Kostnader för varor, material och tjänster}
+  \resultitem{4111 - Fartyget - Försäkring}{}{-2779}
+  \resultitem{4112 - Fartyget - Mobil, radiosändare}{}{-245}
+  \resultitem{4113 - Fartyget - Vårutrustning}{}{-12854.3}
+  \resultitem{4114 - Fartyget - Underhåll}{}{-7215.6}
+  \resultitem{4115 - Fartyget - Bensin}{}{-1423.87}
+  \resultitem{4116 - Fartyget - Segel och Rigg}{}{-13163}
+  \resultitem{4117 - Fartyget - Sommarseglingar övriga kostnader}{}{-3141.7}
+  \resultitem{4118 - Fartyget - Upptagning och Sjösättning}{Kostnaden för varvet.}{-24062}
+  \resultitem{4122 - Fartyget - Myndighetsavgifter}{}{-600}
+  \resultitem{4126 - Fartyget - Fast båtplats}{}{-4200}
+  \resultitem{4127 - Fartyget - Hamnavgifter}{}{-1565}
+  \resultitem{4161 - Hjälpbåt - Försäkring}{}{-1000}
+  \resultitem{4162 - Hjälpbåt - Motor}{}{-3782}
+  \resultresult{}
+
+  \resultheaderrow{Övriga externa rörelseutgifter/kostnader}
+  \resultitem{5420 - Programvaror}{Årlig kostnad för bokföringsprogrammet. Planerat att avslutas till nästa år.}{-3085}
+  \resultitem{5421 - Hemsida}{}{-1153.75}
+  \resultitem{5700 - Frakter och Transporter}{Frakt av mat till årsmötet.}{-151}
+  \resultitem{5900 - Reklam och PR}{}{-2237.22}
+  \resultresult{}
+
+  \resultheaderrow{Övriga externa rörelseutgifter/kostnader}
+  \resultitem{6450 - Års- eller föreningsstämma}{Lokalkostnad, årsmöte.}{-1000}
+  \resultitem{6570 - Bankkostnader}{}{-2316.35}
+  \resultitem{6600 - Mat - Segling}{Kostnad för mat under vecko- och helgsegling. Inkomsten för maten ligger under \textit{3012 - Matavgift}.}{-10380.31}
+  \resultitem{6601 - Mat - Arbetsdagar}{}{-2005.71}
+  \resultitem{6610 - Interna arrangemang (fester etc)}{Kostnaden för höstfest. Inkomsten för festen ligger under \textit{3602 - Interna arrangemang (fester etc)}.}{-3849.1}
+  \resultresult{}
+
+  \resultheaderrow{Finansiella inkomster/utgifter}
+  \resultitem{8311 - Ränteintäkter från bank}{Förra årets ränta blev inte bokförd, så detta är räntan för både 2023 (\outputcurrency{126.36} \currencycode{}) och 2024 (\outputcurrency{140.85} \currencycode{}).}{267.21}
+  \resultresult{}
+\end{resulttable}
+
+
+%---------------------------------------------------------------------------------
+
+\vfill\vfill % Vertical alignment whitespace
+
+\end{document}

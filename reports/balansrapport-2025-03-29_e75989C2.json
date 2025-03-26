@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Tillgångar",
+    "category_num": "1",
+    "accounts": [
+      {
+        "account": "1350 - Fondkonto anskaffningsvärde",
+        "start_amount": 8595.64,
+        "end_amount": 8595.64,
+        "diff": 0,
+        "account_internal": "Assets:1350:Fondkonto-anskaffningsvärde",
+        "note": ""
+      },
+      {
+        "account": "1356 - Andelar i andra organisationer",
+        "start_amount": 10000,
+        "end_amount": 10000,
+        "diff": 0,
+        "account_internal": "Assets:1356:Andelar-i-andra-organisationer",
+        "note": "Deposition hos sommarhamnen."
+      },
+      {
+        "account": "1510 - Fordran av medlem",
+        "end_amount": 1037.9,
+        "start_amount": 0,
+        "diff": 1037.9,
+        "account_internal": "Assets:1510:Fordran-av-medlem",
+        "note": "En dubbel utbetalning för samma utlägg gjordes 2024. Detta blev återbetalat 2025."
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "start_amount": 85285.03,
+        "end_amount": 40907.22,
+        "diff": -44377.81,
+        "account_internal": "Assets:1920:Bank:Plusgiro",
+        "note": ""
+      },
+      {
+        "account": "1940 - Bank - Placeringskonto",
+        "start_amount": 1208.1,
+        "end_amount": 1475.31,
+        "diff": 267.21,
+        "account_internal": "Assets:1940:Bank:Placeringskonto",
+        "note": "Årets ränteintäkter är \\outputcurrency{140.85} \\currencycode{}, resterande \\outputcurrency{126.36} \\currencycode{} är tidigare års obokförda ränteintäkter."
+      }
+    ]
+  },
+  {
+    "category": "Eget kapital och skulder",
+    "category_num": "2",
+    "accounts": [
+      {
+        "start_amount": -85004.51,
+        "account": "2060 - Eget kapital",
+        "end_amount": -83538.25,
+        "diff": 1466.26,
+        "account_internal": "Liabilities:2060:Eget-kapital",
+        "note": ""
+      },
+      {
+        "start_amount": -3478.11,
+        "account": "2069 - Årets resultat",
+        "end_amount": 43072.7,
+        "diff": 46550.81,
+        "account_internal": "Liabilities:2069:Årets-resultat",
+        "note": ""
+      },
+      {
+        "start_amount": 1466.26,
+        "account": "2098 - Förra årets resultat",
+        "end_amount": -3478.11,
+        "diff": -4944.37,
+        "account_internal": "Liabilities:2098:Förra-årets-resultat",
+        "note": ""
+      },
+      {
+        "account": "2290 - Avsättning till underhållsfond",
+        "start_amount": -18072.41,
+        "end_amount": -18072.41,
+        "diff": 0,
+        "account_internal": "Liabilities:2290:Avsättning-till-underhållsfond",
+        "note": ""
+      }
+    ]
+  }
+]

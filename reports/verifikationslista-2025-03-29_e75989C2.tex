@@ -1,0 +1,1005 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Minimal Invoice
+% LaTeX Template
+% Version 1.1 (April 22, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+    a4paper, % Paper size, use 'a4paper' for A4 or 'letterpaper' for US letter
+    10pt, % Default font size, available sizes are: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
+]{CSMinimalInvoice}
+
+%---------------------------------------------------------------------------------
+%   REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+% The currency code (e.g. USD is United States Dollars), do one of the following:
+% 1) Enter a 3 letter code to have it appear at the bottom of the report
+% 2) Leave the command empty (i.e. \currencycode{}) if you don't want the code to appear on the report
+\currencycode{kr}
+
+%---------------------------------------------------------------------------------
+%   ADVANCED REPORT SETTINGS
+%---------------------------------------------------------------------------------
+
+\roundcurrencytodecimals{2} % The number of decimal places to round currency numbers
+\roundquantitytodecimals{0} % The number of decimal places to round quantity numbers
+
+% Advanced settings for changing how numbers are output
+\sisetup{group-minimum-digits=4} % Delimit numbers (e.g. 4000 -> 4,000) when there are this number of digits or more
+\sisetup{group-separator={ }} % Character to use for delimiting digit groups
+\sisetup{output-decimal-marker={,}} % Character to use for specifying decimals
+
+\currencysuffix{} % Some currencies output the currency symbol after the number, such as Sweden's krona specified with a 'kr' suffix. Specify a suffix here if required, otherwise leave this command empty.
+
+%---------------------------------------------------------------------------------
+
+\begin{document}
+
+\setstretch{1} % Restore single line spacing
+
+%---------------------------------------------------------------------------------
+%   CONTENT TABLE
+%---------------------------------------------------------------------------------
+
+% CONTENT
+\reporttype{Verifikationslista}
+\begin{verificationtable}
+    \verificationitem{1}{2024-01-02}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{2}
+      \transactionitem{1920 - Bank - Plusgiro}{-2}
+
+    \verificationitem{2}{2024-01-02}{Swish årsavgift}
+      \transactionitem*{6570 - Bankkostnader}{720}
+      \transactionitem{1920 - Bank - Plusgiro}{-720}
+
+    \verificationitem{3}{2024-01-04}{Bankavgift}
+      \transactionitem*{6570 - Bankkostnader}{1300}
+      \transactionitem{1920 - Bank - Plusgiro}{-1300}
+
+    \verificationitem{4}{2024-01-10}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{5}{2024-01-15}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{6}{2024-01-16}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{7}{2024-01-17}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{8}{2024-01-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{9}{2024-01-30}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{10}{2024-02-01}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{11}{2024-02-01}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{12}{2024-02-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{10}
+      \transactionitem{1920 - Bank - Plusgiro}{-10}
+
+    \verificationitem{13}{2024-02-02}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{14}{2024-02-02}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{15}{2024-02-02}{Årsavgift, Speedledger}
+      \transactionitem*{5420 - Programvaror}{3085}
+      \transactionitem{1920 - Bank - Plusgiro}{-3085}
+
+    \verificationitem{16}{2024-02-09}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{17}{2024-02-20}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{18}{2024-02-21}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{19}{2024-02-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{20}{2024-02-27}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{21}{2024-02-29}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{22}{2024-03-01}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{23}{2024-03-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{16}
+      \transactionitem{1920 - Bank - Plusgiro}{-16}
+
+    \verificationitem{24}{2024-03-04}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{25}{2024-03-04}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{26}{2024-03-04}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{27}{2024-03-04}{Transportstyrelsen Registeravgift}
+      \transactionitem*{4122 - Fartyget - Myndighetsavgifter}{600}
+      \transactionitem{1920 - Bank - Plusgiro}{-600}
+
+    \verificationitem{28}{2024-03-05}{Bankkostnad}
+      \transactionitem*{6570 - Bankkostnader}{1.85}
+      \transactionitem{1920 - Bank - Plusgiro}{-1.85}
+
+    \verificationitem{29}{2024-03-12}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{30}{2024-03-12}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{31}{2024-03-12}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{32}{2024-03-12}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{33}{2024-03-13}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{34}{2024-03-13}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{35}{2024-03-15}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{36}{2024-03-15}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{37}{2024-03-18}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{38}{2024-03-18}{Tröjor}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-450}
+      \transactionitem{1920 - Bank - Plusgiro}{450}
+
+    \verificationitem{39}{2024-03-18}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{40}{2024-03-18}{Böcker}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-250}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{41}{2024-03-18}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{42}{2024-03-18}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{43}{2024-03-18}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{44}{2024-03-18}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-20}
+      \transactionitem{1920 - Bank - Plusgiro}{20}
+
+    \verificationitem{45}{2024-03-18}{Mattransport årsmöte}
+      \transactionitem*{5700 - Frakter och Transporter}{151}
+      \transactionitem{1920 - Bank - Plusgiro}{-151}
+
+    \verificationitem{46}{2024-03-18}{Lokalhyra årsmöte - Korrigerad i V263}
+      \transactionitem*{6601 - Mat - Arbetsdagar}{1000}
+      \transactionitem{1920 - Bank - Plusgiro}{-1000}
+
+    \verificationitem{47}{2024-03-18}{Årsmötesmat}
+      \transactionitem*{6601 - Mat - Arbetsdagar}{1111.86}
+      \transactionitem{1920 - Bank - Plusgiro}{-1111.86}
+
+    \verificationitem{48}{2024-03-20}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{49}{2024-03-20}{Försäkring Fartyget, halvåravgift}
+      \transactionitem*{4111 - Fartyget - Försäkring}{2345}
+      \transactionitem{1920 - Bank - Plusgiro}{-2345}
+
+    \verificationitem{50}{2024-03-21}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{51}{2024-04-02}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{40}
+      \transactionitem{1920 - Bank - Plusgiro}{-40}
+
+    \verificationitem{52}{2024-04-04}{Bankkostnad}
+      \transactionitem*{6570 - Bankkostnader}{3.7}
+      \transactionitem{1920 - Bank - Plusgiro}{-3.7}
+
+    \verificationitem{53}{2024-04-09}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{54}{2024-04-29}{Fika flytt till varvet}
+      \transactionitem*{6601 - Mat - Arbetsdagar}{209.85}
+      \transactionitem{1920 - Bank - Plusgiro}{-209.85}
+
+    \verificationitem{55}{2024-04-29}{Fika årsmöte}
+      \transactionitem*{6601 - Mat - Arbetsdagar}{684}
+      \transactionitem{1920 - Bank - Plusgiro}{-684}
+
+    \verificationitem{56}{2024-04-29}{Varvsmateriel}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{2580.4}
+      \transactionitem{1920 - Bank - Plusgiro}{-2580.4}
+
+    \verificationitem{57}{2024-04-29}{Sommarhamn årsavgift}
+      \transactionitem*{4126 - Fartyget - Fast båtplats}{4200}
+      \transactionitem{1920 - Bank - Plusgiro}{-4200}
+
+    \verificationitem{58}{2024-04-30}{Primer och penslar}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{1511}
+      \transactionitem{1920 - Bank - Plusgiro}{-1511}
+
+    \verificationitem{59}{2024-04-30}{Tjära}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{4001}
+      \transactionitem{1920 - Bank - Plusgiro}{-4001}
+
+    \verificationitem{60}{2024-05-02}{Meetup halvårsfaktura}
+      \transactionitem*{5900 - Reklam och PR}{912.22}
+      \transactionitem{1920 - Bank - Plusgiro}{-912.22}
+
+    \verificationitem{61}{2024-05-03}{PTS-tillstånd}
+      \transactionitem*{4112 - Fartyget - Mobil, radiosändare}{245}
+      \transactionitem{1920 - Bank - Plusgiro}{-245}
+
+    \verificationitem{62}{2024-05-03}{Försäkring Hjälpbåt och motor}
+      \transactionitem*{4161 - Hjälpbåt - Försäkring}{1000}
+      \transactionitem{1920 - Bank - Plusgiro}{-1000}
+
+    \verificationitem{63}{2024-05-06}{Böcker}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{64}{2024-05-06}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{65}{2024-05-06}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-250}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{66}{2024-05-06}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-250}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{67}{2024-05-06}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-250}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{68}{2024-05-06}{Bankkostnad}
+      \transactionitem*{6570 - Bankkostnader}{3.7}
+      \transactionitem{1920 - Bank - Plusgiro}{-3.7}
+
+    \verificationitem{69}{2024-05-06}{Karbinhakar}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{179.7}
+      \transactionitem{1920 - Bank - Plusgiro}{-179.7}
+
+    \verificationitem{70}{2024-05-06}{Penslar och rengöring}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{264.4}
+      \transactionitem{1920 - Bank - Plusgiro}{-264.4}
+
+    \verificationitem{71}{2024-05-06}{Stålborstar och filter}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{457.8}
+      \transactionitem{1920 - Bank - Plusgiro}{-457.8}
+
+    \verificationitem{72}{2024-05-06}{Tjära}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{867}
+      \transactionitem{1920 - Bank - Plusgiro}{-867}
+
+    \verificationitem{73}{2024-05-06}{Dammsugare}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{1049}
+      \transactionitem{1920 - Bank - Plusgiro}{-1049}
+
+    \verificationitem{74}{2024-05-06}{Länspump och varmluftspistol}
+      \transactionitem*{4113 - Fartyget - Vårutrustning}{1944}
+      \transactionitem{1920 - Bank - Plusgiro}{-1944}
+
+    \verificationitem{75}{2024-05-16}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{76}{2024-05-22}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{77}{2024-05-23}{Bensin flytt}
+      \transactionitem*{4115 - Fartyget - Bensin}{490.43}
+      \transactionitem{1920 - Bank - Plusgiro}{-490.43}
+
+    \verificationitem{78}{2024-05-23}{tältimpregnering}
+      \transactionitem*{4114 - Fartyget - Underhåll}{1037.9}
+      \transactionitem{1920 - Bank - Plusgiro}{-1037.9}
+
+    \verificationitem{79}{2024-05-23}{Varv}
+      \transactionitem*{4118 - Fartyget - Upptagning och Sjösättning}{24062}
+      \transactionitem{1920 - Bank - Plusgiro}{-24062}
+
+    \verificationitem{80}{2024-05-27}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{81}{2024-05-28}{Tältimpregnering}
+      \transactionitem*{4114 - Fartyget - Underhåll}{479}
+      \transactionitem{1920 - Bank - Plusgiro}{-479}
+
+    \verificationitem{82}{2024-06-03}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{83}{2024-06-03}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{10}
+      \transactionitem{1920 - Bank - Plusgiro}{-10}
+
+    \verificationitem{84}{2024-06-05}{Bankkostnad}
+      \transactionitem*{6570 - Bankkostnader}{7.4}
+      \transactionitem{1920 - Bank - Plusgiro}{-7.4}
+
+    \verificationitem{85}{2024-06-12}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{86}{2024-06-14}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{87}{2024-06-14}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{88}{2024-06-17}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{89}{2024-06-20}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{90}{2024-06-24}{Seglings- och matavgift + donation}
+      \transactionitem*{3012 - Matavgift}{-300}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-450}
+      \transactionitem{1920 - Bank - Plusgiro}{1350}
+
+    \verificationitem{91}{2024-06-25}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-1050}
+      \transactionitem*{3011 - Seglingsavgift}{-2100}
+      \transactionitem*{2902 - Skuld till medlem}{-900}
+      \transactionitem{1920 - Bank - Plusgiro}{4050}
+
+    \verificationitem{92}{2024-06-26}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-600}
+      \transactionitem*{3011 - Seglingsavgift}{-1200}
+      \transactionitem*{2902 - Skuld till medlem}{-1800}
+      \transactionitem{1920 - Bank - Plusgiro}{3600}
+
+    \verificationitem{93}{2024-06-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{94}{2024-06-27}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{95}{2024-06-28}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{96}{2024-06-28}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{97}{2024-07-01}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-1050}
+      \transactionitem*{2902 - Skuld till medlem}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{1350}
+
+    \verificationitem{98}{2024-07-01}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-300}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{900}
+
+    \verificationitem{99}{2024-07-01}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{100}{2024-07-01}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{101}{2024-07-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{20}
+      \transactionitem{1920 - Bank - Plusgiro}{-20}
+
+    \verificationitem{102}{2024-07-05}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{103}{2024-07-08}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{104}{2024-07-10}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-1050}
+      \transactionitem*{3011 - Seglingsavgift}{-900}
+      \transactionitem{1920 - Bank - Plusgiro}{1950}
+
+    \verificationitem{105}{2024-07-10}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-1050}
+      \transactionitem{1920 - Bank - Plusgiro}{1050}
+
+    \verificationitem{106}{2024-07-10}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-250}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{107}{2024-07-10}{Ted 2 inställda seglingdagar}
+      \transactionitem*{2902 - Skuld till medlem}{900}
+      \transactionitem{1920 - Bank - Plusgiro}{-900}
+
+    \verificationitem{108}{2024-07-11}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{109}{2024-07-15}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-2100}
+      \transactionitem{1920 - Bank - Plusgiro}{2100}
+
+    \verificationitem{110}{2024-07-15}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-300}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{900}
+
+    \verificationitem{111}{2024-07-15}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-900}
+      \transactionitem{1920 - Bank - Plusgiro}{900}
+
+    \verificationitem{112}{2024-07-15}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{600}
+
+    \verificationitem{113}{2024-07-15}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{114}{2024-07-15}{Mat seglingsvecka}
+      \transactionitem*{6600 - Mat - Segling}{255.6}
+      \transactionitem{1920 - Bank - Plusgiro}{-255.6}
+
+    \verificationitem{115}{2024-07-15}{Matavgift - inställda seglingsdagar}
+      \transactionitem*{2902 - Skuld till medlem}{300}
+      \transactionitem{1920 - Bank - Plusgiro}{-300}
+
+    \verificationitem{116}{2024-07-15}{Brandsläckare}
+      \transactionitem*{4117 - Fartyget - Sommarseglingar övriga kostnader}{349}
+      \transactionitem{1920 - Bank - Plusgiro}{-349}
+
+    \verificationitem{117}{2024-07-15}{Hamnavgift}
+      \transactionitem*{4127 - Fartyget - Hamnavgifter}{365}
+      \transactionitem{1920 - Bank - Plusgiro}{-365}
+
+    \verificationitem{118}{2024-07-15}{Hamnavgift}
+      \transactionitem*{4127 - Fartyget - Hamnavgifter}{375}
+      \transactionitem{1920 - Bank - Plusgiro}{-375}
+
+    \verificationitem{119}{2024-07-15}{Hamnavgift}
+      \transactionitem*{4127 - Fartyget - Hamnavgifter}{390}
+      \transactionitem{1920 - Bank - Plusgiro}{-390}
+
+    \verificationitem{120}{2024-07-15}{Första hjälpen etc}
+      \transactionitem*{4117 - Fartyget - Sommarseglingar övriga kostnader}{406.9}
+      \transactionitem{1920 - Bank - Plusgiro}{-406.9}
+
+    \verificationitem{121}{2024-07-15}{Hamnavgift}
+      \transactionitem*{4127 - Fartyget - Hamnavgifter}{435}
+      \transactionitem{1920 - Bank - Plusgiro}{-435}
+
+    \verificationitem{122}{2024-07-15}{Fotogen och rödsprit}
+      \transactionitem*{4117 - Fartyget - Sommarseglingar övriga kostnader}{512.3}
+      \transactionitem{1920 - Bank - Plusgiro}{-512.3}
+
+    \verificationitem{123}{2024-07-15}{Div båtprylar}
+      \transactionitem*{4117 - Fartyget - Sommarseglingar övriga kostnader}{552}
+      \transactionitem{1920 - Bank - Plusgiro}{-552}
+
+    \verificationitem{124}{2024-07-15}{Mat seglingsvecka}
+      \transactionitem*{6600 - Mat - Segling}{590.18}
+      \transactionitem{1920 - Bank - Plusgiro}{-590.18}
+
+    \verificationitem{125}{2024-07-15}{Köksredskap}
+      \transactionitem*{4117 - Fartyget - Sommarseglingar övriga kostnader}{1321.5}
+      \transactionitem{1920 - Bank - Plusgiro}{-1321.5}
+
+    \verificationitem{126}{2024-07-15}{Propellrar}
+      \transactionitem*{4162 - Hjälpbåt - Motor}{2344}
+      \transactionitem{1920 - Bank - Plusgiro}{-2344}
+
+    \verificationitem{127}{2024-07-16}{Förtöjningsgods}
+      \transactionitem*{4116 - Fartyget - Segel och Rigg}{13163}
+      \transactionitem{1920 - Bank - Plusgiro}{-13163}
+
+    \verificationitem{128}{2024-07-18}{Seglings- och matavgift}
+      \transactionitem*{3012 - Matavgift}{-900}
+      \transactionitem*{3011 - Seglingsavgift}{-1800}
+      \transactionitem{1920 - Bank - Plusgiro}{2700}
+
+    \verificationitem{129}{2024-07-19}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{130}{2024-07-19}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{131}{2024-07-19}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{132}{2024-07-19}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{133}{2024-07-22}{Bensin}
+      \transactionitem*{4115 - Fartyget - Bensin}{933.44}
+      \transactionitem{1920 - Bank - Plusgiro}{-933.44}
+
+    \verificationitem{134}{2024-07-22}{Mat}
+      \transactionitem*{6600 - Mat - Segling}{7238.16}
+      \transactionitem{1920 - Bank - Plusgiro}{-7238.16}
+
+    \verificationitem{135}{2024-07-24}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{136}{2024-07-29}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{137}{2024-08-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{28}
+      \transactionitem{1920 - Bank - Plusgiro}{-28}
+
+    \verificationitem{138}{2024-08-05}{Bankkostnader}
+      \transactionitem*{6570 - Bankkostnader}{1.85}
+      \transactionitem{1920 - Bank - Plusgiro}{-1.85}
+
+    \verificationitem{139}{2024-08-05}{Inställda seglingsdagar}
+      \transactionitem*{2902 - Skuld till medlem}{1800}
+      \transactionitem{1920 - Bank - Plusgiro}{-1800}
+
+    \verificationitem{140}{2024-08-06}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-1050}
+      \transactionitem{1920 - Bank - Plusgiro}{1050}
+
+    \verificationitem{141}{2024-08-06}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{142}{2024-08-12}{Impregnering tält - Nollställt i V257}
+      \transactionitem*{4114 - Fartyget - Underhåll}{1037.9}
+      \transactionitem{1920 - Bank - Plusgiro}{-1037.9}
+
+    \verificationitem{143}{2024-08-12}{Mat}
+      \transactionitem*{6600 - Mat - Segling}{2296.37}
+      \transactionitem{1920 - Bank - Plusgiro}{-2296.37}
+
+    \verificationitem{144}{2024-08-15}{Matavgift}
+      \transactionitem*{3012 - Matavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{600}
+
+    \verificationitem{145}{2024-08-15}{Tältmaterial}
+      \transactionitem*{4114 - Fartyget - Underhåll}{5336}
+      \transactionitem{1920 - Bank - Plusgiro}{-5336}
+
+    \verificationitem{146}{2024-08-19}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{147}{2024-08-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{148}{2024-08-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{149}{2024-08-26}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{150}{2024-08-27}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{151}{2024-09-02}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{600}
+
+    \verificationitem{152}{2024-09-02}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{600}
+
+    \verificationitem{153}{2024-09-02}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{154}{2024-09-02}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{155}{2024-09-02}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{156}{2024-09-02}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{157}{2024-09-02}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{158}{2024-09-02}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{159}{2024-09-02}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{10}
+      \transactionitem{1920 - Bank - Plusgiro}{-10}
+
+    \verificationitem{160}{2024-09-04}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{161}{2024-09-04}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{162}{2024-09-06}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{163}{2024-09-10}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{164}{2024-09-12}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{165}{2024-09-17}{Böcker}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{166}{2024-09-18}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{167}{2024-09-18}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{168}{2024-09-20}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{169}{2024-09-20}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{170}{2024-09-23}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{171}{2024-09-23}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{172}{2024-09-23}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{173}{2024-09-24}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{174}{2024-09-24}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{175}{2024-09-24}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{176}{2024-09-25}{Seglingsavgift}
+      \transactionitem*{3011 - Seglingsavgift}{-740}
+      \transactionitem{1920 - Bank - Plusgiro}{740}
+
+    \verificationitem{177}{2024-09-25}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{178}{2024-09-25}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{179}{2024-09-25}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{180}{2024-09-27}{Medlemsavgift}
+      \transactionitem*{3010 - Medlemsavgift}{-350}
+      \transactionitem{1920 - Bank - Plusgiro}{350}
+
+    \verificationitem{181}{2024-09-27}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{182}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-600}
+      \transactionitem{1920 - Bank - Plusgiro}{600}
+
+    \verificationitem{183}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{184}{2024-09-30}{Mugg och tröja}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{185}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{186}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-300}
+      \transactionitem{1920 - Bank - Plusgiro}{300}
+
+    \verificationitem{187}{2024-09-30}{Höstfest och mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-100}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{250}
+
+    \verificationitem{188}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{189}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{190}{2024-09-30}{Bok}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{191}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{192}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{193}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{194}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{195}{2024-09-30}{T-shirt}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{196}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{197}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{198}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{199}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{200}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{201}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{202}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{203}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{204}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{205}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{206}{2024-09-30}{Mugg}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{207}{2024-09-30}{Böcker}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{208}{2024-09-30}{Höstfest}
+      \transactionitem*{3602 - Interna arrangemang (fester etc)}{-150}
+      \transactionitem{1920 - Bank - Plusgiro}{150}
+
+    \verificationitem{209}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{210}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{211}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{212}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-40}
+      \transactionitem{1920 - Bank - Plusgiro}{40}
+
+    \verificationitem{213}{2024-09-30}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-20}
+      \transactionitem{1920 - Bank - Plusgiro}{20}
+
+    \verificationitem{214}{2024-10-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{138}
+      \transactionitem{1920 - Bank - Plusgiro}{-138}
+
+    \verificationitem{215}{2024-10-01}{Försäkring Fartyget, halvårsavgift}
+      \transactionitem*{4111 - Fartyget - Försäkring}{1234}
+      \transactionitem{1920 - Bank - Plusgiro}{-1234}
+
+    \verificationitem{216}{2024-10-02}{Mat höstfest}
+      \transactionitem*{6610 - Interna arrangemang (fester etc)}{3849.1}
+      \transactionitem{1920 - Bank - Plusgiro}{-3849.1}
+
+    \verificationitem{217}{2024-10-09}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-50}
+      \transactionitem{1920 - Bank - Plusgiro}{50}
+
+    \verificationitem{218}{2024-10-28}{Webbhotell}
+      \transactionitem*{5421 - Hemsida}{1153.75}
+      \transactionitem{1920 - Bank - Plusgiro}{-1153.75}
+
+    \verificationitem{219}{2024-10-28}{Meetup halvårsfaktura}
+      \transactionitem*{5900 - Reklam och PR}{1325}
+      \transactionitem{1920 - Bank - Plusgiro}{-1325}
+
+    \verificationitem{220}{2024-10-29}{Donation}
+      \transactionitem*{3993 - Erhållna donationer och gåvor}{-200}
+      \transactionitem{1920 - Bank - Plusgiro}{200}
+
+    \verificationitem{221}{2024-11-01}{Swishavgift}
+      \transactionitem*{6570 - Bankkostnader}{2}
+      \transactionitem{1920 - Bank - Plusgiro}{-2}
+
+    \verificationitem{222}{2024-11-05}{Bankkostnad}
+      \transactionitem*{6570 - Bankkostnader}{1.85}
+      \transactionitem{1920 - Bank - Plusgiro}{-1.85}
+
+    \verificationitem{223}{2024-11-21}{Böcker}
+      \transactionitem*{3610 - Försäljning (Böcker, tröjor, mm)}{-500}
+      \transactionitem{1920 - Bank - Plusgiro}{500}
+
+    \verificationitem{224}{2024-12-04}{Återbäring, försäkring}
+      \transactionitem*{4111 - Fartyget - Försäkring}{-800}
+      \transactionitem{1920 - Bank - Plusgiro}{800}
+
+    \verificationitem{225}{2024-12-13}{Utlägg vintertäckning}
+      \transactionitem*{4114 - Fartyget - Underhåll}{362.7}
+      \transactionitem{1920 - Bank - Plusgiro}{-362.7}
+
+    \verificationitem{226}{2024-12-13}{Service/felsökning Hjälpbåtsmotor}
+      \transactionitem*{4162 - Hjälpbåt - Motor}{1438}
+      \transactionitem{1920 - Bank - Plusgiro}{-1438}
+
+    \verificationitem{227}{2024-12-29}{Nollställande av V157 - Impregnering tält}
+      \transactionitem*{4114 - Fartyget - Underhåll}{-1037.9}
+      \transactionitem{1920 - Bank - Plusgiro}{1037.9}
+
+    \verificationitem{228}{2024-12-29}{Dubbel utbetalning för impregnering tält - V90 och V157}
+      \transactionitem*{1510 - Fordran av medlem}{1037.9}
+      \transactionitem{1920 - Bank - Plusgiro}{-1037.9}
+
+    \verificationitem{229}{2024-12-29}{Tidigare års ränta - justering av ingående belopp på placeringskontot}
+      \transactionitem*{8311 - Ränteintäkter från bank}{-126.36}
+      \transactionitem{1940 - Bank - Placeringskonto}{126.36}
+
+    \verificationitem{230}{2024-12-30}{Placeringskonto - ränta}
+      \transactionitem*{8311 - Ränteintäkter från bank}{-140.85}
+      \transactionitem{1940 - Bank - Placeringskonto}{140.85}
+
+    \verificationitem{231}{2024-12-30}{Korrekt bokförande av årsmöteslokal - korrigering av V57}
+      \transactionitem*{6450 - Års- eller föreningsstämma}{1000}
+      \transactionitem{6601 - Mat - Arbetsdagar}{-1000}
+
+\end{verificationtable}
+
+
+%---------------------------------------------------------------------------------
+
+\vfill\vfill % Vertical alignment whitespace
+
+\end{document}
