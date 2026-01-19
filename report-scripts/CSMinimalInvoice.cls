@@ -121,10 +121,10 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[default]{lato} % Use the Lato sans serif font
+\usepackage{helvet} % Use the Cantarell sans serif font
+\renewcommand{\familydefault}{\sfdefault} % Set the default font family to sans serif
 
 \usepackage{textcomp} % Required for currency symbols
-\usepackage{tfrupee}  % Required for the rupee symbol
 
 %----------------------------------------------------------------------------------------
 %   TABLES
