@@ -454,5 +454,11 @@
     "accountnumber": 8311,
     "name": "Income:8311:Ränteintäkter-från-bank",
     "displayname": "8311 - Ränteintäkter från bank"
+  },
+  {
+    "type": "Intäkt",
+    "accountnumber": 8999,
+    "name": "Income:8999:Årets-resultat",
+    "displayname": "8999 - Årets resultat"
   }
 ]

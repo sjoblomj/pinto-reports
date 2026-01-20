@@ -15,7 +15,7 @@ notes_file=$(  mktemp)
 jq -r '.["report-headers"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" > "$headers_file"
 jq -c          '.["notes"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" | parse_notes "$account_mappings_src" > "$notes_file"
 
-bean-query -f csv "$ledger_file" 'SELECT account, sum(number) AS amount WHERE account !~ "^(Equity|Assets|Liabilities)" ORDER BY account' |
+bean-query -f csv "$ledger_file" 'SELECT account, sum(number) AS amount WHERE account !~ "(Equity|Assets|Liabilities)" AND account !~ "^Income:8999" ORDER BY account' |
   yq -pc -oj '.' |
   jq 'map(.amount = (.amount * -1))' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"

@@ -318,11 +318,9 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{balancetable}{
-    \begin{longtable}[H]{L{0.5\textwidth} R{0.01\textwidth} R{0.15\textwidth} R{0.11\textwidth} R{0.15\textwidth}} % Define report table column widths and alignments (L, R or C for left, right or center alignment)
+    \begin{longtable}[H]{L{0.5\textwidth} R{0.01\textwidth} R{0.14\textwidth} R{0.13\textwidth} R{0.14\textwidth}} % Define report table column widths and alignments (L, R or C for left, right or center alignment)
     \textbf{KONTO} & \textbf{NOT} & \textbf{INGÅENDE BALANS} &\textbf{PERIOD} & \textbf{UTGÅENDE BALANS} \\[0.3cm] % Header row
 }{
-    \\ % Extra line before the summary numbers
-    \cellcolor{gray!10} \textbf{\expandafter\ifstrequal\expandafter{\reporttype}{Balansräkning}{ÅRETS RESULTAT}{BERÄKNAT RESULTAT}\ifdefempty{\currencycode}{}{ (\currencycode)}} & \cellcolor{gray!10} & \cellcolor{gray!10} \outputcurrency{\totalbalanceinsummation} & \cellcolor{gray!10} \outputcurrency{\totalbalancediffsummation} & \cellcolor{gray!10} \outputcurrency{\totalbalanceoutsummation}\\ % Don't output the currency code if it has not been set
     \end{longtable}
 
     \vspace{0.02\textheight} % Fixed vertical whitespace in case the table uses up all the stretch space
@@ -345,8 +343,6 @@
     \begin{longtable}[H]{L{0.05\textwidth} L{0.12\textwidth} L{0.645\textwidth} R{0.12\textwidth}} % Define report table column widths and alignments (L, R or C for left, right or center alignment)
     \textbf{VER.}\\\textbf{NR.} & \textbf{DATUM} & \textbf{TEXT} & \textbf{} \\[0.3cm] % Header row
 }{
-    %\\ % Extra line before the summary numbers
-    %\cellcolor{gray!10} \textbf{BERÄKNAT RESULTAT\ifdefempty{\currencycode}{}{ (\currencycode)}} & \cellcolor{gray!10} \outputcurrency{\totalresultsummation}\\ % Don't output the currency code if it has not been set
     \end{longtable}
 
     \vspace{0.02\textheight} % Fixed vertical whitespace in case the table uses up all the stretch space
