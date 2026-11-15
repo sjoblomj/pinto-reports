@@ -44,6 +44,28 @@ function get_account_mapping() {
   '
 }
 
+# Exits with an error if an account that is used in the ledger is missing
+# from the account mappings file, since it would otherwise end up in the
+# wrong place in the reports.
+function check_account_mappings() {
+  local ledger_file="$1"
+  local accounts_mappings_src="$2"
+  local unmapped
+  unmapped=$(bean-query -f csv "$ledger_file" "SELECT DISTINCT account ORDER BY account" |
+    yq -pc -oj '.' |
+    jq -r --slurpfile mappings "$accounts_mappings_src" '
+      ($mappings[0] | map(.name)) as $known
+      | map(.account)
+      | map(select(. != "Equity:Opening-Balances" and (. as $account | $known | index($account) | not)))
+      | .[]')
+
+  if [ -n "$unmapped" ]; then
+    echo "Error: these accounts are used in $ledger_file but missing from $accounts_mappings_src:" >&2
+    echo "$unmapped" | sed 's/^/  /' >&2
+    return 1
+  fi
+}
+
 function get_account_name() {
   get_account_mapping "$1" "get-name"
 }

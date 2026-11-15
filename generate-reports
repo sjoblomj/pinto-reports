@@ -1,24 +1,42 @@
 #!/bin/bash
+set -euo pipefail
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/report-scripts/transactions.sh
+source "$SCRIPT_DIR"/report-scripts/account_mapping.sh
+
+# Paths in the config file are relative to the directory of this script
+cd "$SCRIPT_DIR"
 
 config_file="config.yaml"
 date=$(date -I)
-seed=$(head /dev/urandom | tr -dc A-Fa-f0-9 | head -c 8)
+seed=$(od -An -N4 -tx1 /dev/urandom | tr -d ' \n')
 
-start_of_period=$(yq '.start-of-period' "$config_file")
-end_of_period=$(  yq   '.end-of-period' "$config_file")
-ledger_file=$(    yq          '.ledger' "$config_file")
+start_of_period=$(     yq   '.start-of-period' "$config_file")
+end_of_period=$(       yq     '.end-of-period' "$config_file")
+ledger_file=$(         yq            '.ledger' "$config_file")
+account_mappings_src=$(yq  '.account-mappings' "$config_file")
+
+# Don't make reports from a ledger with errors
+if ! bean-check "$ledger_file"; then
+  echo "Error: $ledger_file did not pass bean-check; no reports were generated." >&2
+  exit 1
+fi
+check_account_mappings "$ledger_file" "$account_mappings_src"
+
 lastvernum=$(get_transaction_list "$ledger_file" | jq 'map(.vernr) | max')
 
 report_dir="reports"
 mkdir -p "$report_dir"
 cp report-scripts/report.typ report-scripts/logo.svg "$report_dir"
 
-for report in $(yq -r -oj '.["reports-to-generate"] | .[]' "$config_file"); do
+report_config_file=$(mktemp)
+trap 'rm -f "$report_config_file"' EXIT
+
+reports=$(yq -r -oj '.["reports-to-generate"] | .[]' "$config_file")
+for report in $reports; do
   echo "$report"
 
-  report_config_file=$(mktemp)
   file_path="${report}-${date}_${seed}"
   general_config=$(yq -oj 'with_entries(select(.value | (type != "!!map" and type != "!!seq")))' "$config_file")
   yq -oj ".config.$report // {}" "$config_file" |
@@ -32,6 +50,4 @@ for report in $(yq -r -oj '.["reports-to-generate"] | .[]' "$config_file"); do
     --input "start-of-period=$start_of_period" \
     --input "end-of-period=$end_of_period" \
     "$typ"
-
-  rm -f "$report_config_file"
 done

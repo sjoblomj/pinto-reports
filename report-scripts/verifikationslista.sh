@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
 source "$SCRIPT_DIR"/typst.sh
@@ -12,6 +14,7 @@ report_output_file=$(  jq -r '.["report-output-file"]' "$config_file")
 report_type=$(         jq -r      ".[\"report-type\"] // \"$report_type\"" "$config_file")
 
 jsonfile=$(mktemp)
+trap 'rm -f "$jsonfile"' EXIT
 
 get_transaction_list "$ledger_file" |
   map_account_names "$account_mappings_src" > "$jsonfile"
@@ -23,5 +26,3 @@ jq '[.[] | select(.description != "Opening balance")]' "$jsonfile" | \
 
 # Create Typst report
 print_typst_report "$report_type" "verification-table" "$report_output_file.json"
-
-rm -f "$jsonfile"

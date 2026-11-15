@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
 source "$SCRIPT_DIR"/typst.sh
@@ -17,6 +19,7 @@ end_of_period_file=$(  mktemp)
 report_file=$(         mktemp)
 headers_file=$(        mktemp)
 notes_file=$(          mktemp)
+trap 'rm -f "$start_of_period_file" "$end_of_period_file" "$report_file" "$headers_file" "$notes_file"' EXIT
 
 jq -r '.["report-headers"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" > "$headers_file"
 jq -c          '.["notes"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" | parse_notes "$account_mappings_src" > "$notes_file"
@@ -47,6 +50,3 @@ jq '[group_by(.account)[] | add]' "$report_file" |
 
 # Create Typst report
 print_typst_report "$report_type" "balance-table" "$report_output_file.json"
-
-# Clean up files
-rm -f "$start_of_period_file" "$end_of_period_file" "$report_file" "$headers_file" "$notes_file"
