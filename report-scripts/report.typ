@@ -26,9 +26,9 @@
 #let currency-symbol = ""
 #let currency-suffix = ""
 
-// These two can be set in config.yaml, and are otherwise as below.
-// The logo must be in the same directory as the report.
-#let organisation-number = sys.inputs.at("organisation-number", default: "123456-7890")
+// These two can be set in config.yaml. Without an organisation number, that
+// line is left out of the reports. The logo must be in the same directory as the report.
+#let organisation-number = sys.inputs.at("organisation-number", default: "")
 #let logo = sys.inputs.at("logo", default: "logo.svg")
 #let logo-height = 50pt
 
@@ -134,7 +134,7 @@
       [Räkenskapsperiod: #start-of-period - #end-of-period \ ]
       [Utskrivet: #datetime.today().display("[year]-[month]-[day]") \ ]
       if last-verification != "" [Senaste verifikationsnummer: #last-verification \ ]
-      [Organisationsnummer: #organisation-number \ ]
+      if organisation-number != "" [Organisationsnummer: #organisation-number \ ]
       context [Sida #counter(page).get().first() av #counter(page).final().first()]
     },
     image(logo, height: logo-height),
