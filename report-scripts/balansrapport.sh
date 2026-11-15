@@ -12,7 +12,7 @@ start_of_period=$(     jq -r    '.["start-of-period"]' "$config_file")
 end_of_period=$(       jq -r      '.["end-of-period"]' "$config_file")
 ledger_file=$(         jq -r             '.["ledger"]' "$config_file")
 account_mappings_src=$(jq -r   '.["account-mappings"]' "$config_file")
-report_type=$(         jq -r        '.["report-type"]' "$config_file")
+report_type=$(         jq -r        '.["report-type"] // "Balansrapport"' "$config_file")
 report_output_file=$(  jq -r '.["report-output-file"]' "$config_file")
 
 start_of_period_file=$(mktemp)
@@ -22,8 +22,8 @@ headers_file=$(        mktemp)
 notes_file=$(          mktemp)
 trap 'rm -f "$start_of_period_file" "$end_of_period_file" "$report_file" "$headers_file" "$notes_file"' EXIT
 
-jq -r '.["report-headers"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" > "$headers_file"
-jq -c          '.["notes"] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" | parse_notes "$account_mappings_src" > "$notes_file"
+jq -r '.["report-headers"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" > "$headers_file"
+jq -c          '.["notes"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" | parse_notes "$account_mappings_src" > "$notes_file"
 
 for startend in start end; do
   # Get ledger from start or end of period

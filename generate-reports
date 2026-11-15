@@ -21,6 +21,8 @@ fi
 cd "$(dirname -- "$config_file")"
 config_file=$(basename -- "$config_file")
 
+check_config "$config_file"
+
 date=$(date -I)
 seed=$(od -An -N4 -tx1 /dev/urandom | tr -d ' \n')
 

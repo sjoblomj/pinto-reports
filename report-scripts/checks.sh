@@ -1,5 +1,54 @@
 #!/bin/bash
 
+# Checks that the config file has what is needed to make the reports, and
+# exits with a message about what is wrong otherwise.
+function check_config() {
+  local config_file="$1"
+  local errors=()
+  local key value report
+
+  for key in start-of-period end-of-period ledger account-mappings; do
+    value=$(yq ".$key // \"\"" "$config_file")
+    if [ -z "$value" ]; then
+      errors+=("\"$key\" is missing.")
+    fi
+  done
+
+  for key in start-of-period end-of-period; do
+    value=$(yq ".$key // \"\"" "$config_file")
+    if [ -n "$value" ] && ! date -d "$value" +%F 2> /dev/null | grep -qx -- "$value"; then
+      errors+=("\"$key\" is not a date on the form YYYY-MM-DD: $value")
+    fi
+  done
+
+  for key in ledger account-mappings logo; do
+    value=$(yq ".$key // \"\"" "$config_file")
+    if [ -n "$value" ] && [ ! -f "$value" ]; then
+      errors+=("The file given as \"$key\" does not exist: $value")
+    fi
+  done
+
+  if [ ${#errors[@]} -eq 0 ] && [[ "$(yq '.start-of-period' "$config_file")" > "$(yq '.end-of-period' "$config_file")" ]]; then
+    errors+=("\"start-of-period\" is after \"end-of-period\".")
+  fi
+
+  if [ "$(yq '.reports-to-generate | length' "$config_file")" -eq 0 ]; then
+    errors+=("\"reports-to-generate\" is missing or empty.")
+  fi
+  for report in $(yq -r '.reports-to-generate // [] | .[]' "$config_file"); do
+    case "$report" in
+      balansrapport|resultatrapport|verifikationslista|huvudbok) ;;
+      *) errors+=("Unknown report in \"reports-to-generate\": $report") ;;
+    esac
+  done
+
+  if [ ${#errors[@]} -gt 0 ]; then
+    echo "Error in $config_file:" >&2
+    printf '  %s\n' "${errors[@]}" >&2
+    return 1
+  fi
+}
+
 # Checks that the year has been closed correctly in the ledger, i.e. that
 # the result booked on account 8999 is the same as the result in the result
 # report, and that the balance report balances. Uses the same selections of
