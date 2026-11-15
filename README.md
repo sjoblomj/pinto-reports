@@ -25,7 +25,7 @@ Other transactions on the first day of the period are part of the period.
 
 ### Verification numbers
 
-The verification number of a transaction is taken from its `id` metadata: it is the first part of the id that is a number, when the id is split on underscores (`nordea_16_2025-01-31_1038` is verification 16). Only the transactions of the period are numbered. Transactions without an id get number 0 (e.g. the opening of the year), unless they come after the last transaction with an id (e.g. the transaction closing the year), in which case they continue the numbering. No reports are generated if two transactions get the same number, and there is a warning if more than one transaction gets number 0.
+The verification number of a transaction is taken from its `id` metadata: it is the first part of the id that is a number, when the id is split on underscores (`nordea_16_2025-01-31_1038` is verification 16). Only the transactions of the period are numbered. Transactions without an id get number 0 (e.g. the opening of the year), except the transaction closing the year (the one booking the result on 8999), which continues the numbering. A transaction thus has the same number whatever the period of the reports is. No reports are generated if two transactions get the same number, and there is a warning if more than one transaction gets number 0.
 
 ### Closing the year
 

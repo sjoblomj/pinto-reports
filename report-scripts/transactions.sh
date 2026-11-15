@@ -73,15 +73,16 @@ function get_opening_balances() {
 # were filed.
 #
 # Transactions without an id get:
-#   - the numbers following the highest id, if they come after the last
-#     transaction that has an id (e.g. the transaction closing the year);
+#   - the numbers following the highest id, if they close the year (i.e. book
+#     something on the closing account);
 #   - 0 otherwise (e.g. the opening of the year).
+# That way a transaction has the same number whatever the period of the reports is.
 function get_transaction_list() {
   local ledger_file="$1"
   local start_of_period="$2"
   local end_of_period="$3"
   query_ledger "$ledger_file" "SELECT date, id as transaction_id, entry_meta('id') as id, description, account, number as amount WHERE $(period_condition "$start_of_period" "$end_of_period")" |
-    jq "$TO_NUMBER"'
+    jq --arg closing_account "$CLOSING_ACCOUNT" "$TO_NUMBER"'
       def id_number:
         (.id // "" | tostring | split("_") | map(select(test("^[0-9]+$"))) | first) as $n
         | if $n == null then null else ($n | tonumber) end;
@@ -92,12 +93,11 @@ function get_transaction_list() {
           | .arr += [$i + {seq: .seq[$i.transaction_id]}]
         ) | .arr
       | (map(.id_number // empty) | max) as $highest
-      | (map(select(.id_number != null) | .seq) | max // -1) as $last_with_id
-      | (map(select(.id_number == null and .seq > $last_with_id) | .seq) | unique) as $trailing
+      | (map(select(.id_number == null and (.account | startswith($closing_account))) | .seq) | unique) as $closing
       | map(.seq as $seq
           | .vernr = (
               if .id_number != null then .id_number
-              elif $seq > $last_with_id then ($highest // 0) + 1 + ($trailing | index($seq))
+              elif ($closing | index($seq)) != null then ($highest // 0) + 1 + ($closing | index($seq))
               else 0 end)
           | del(.id_number))'
 }

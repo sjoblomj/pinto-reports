@@ -150,6 +150,18 @@ expect_value huvudbok '.[] | select(.account == "3010 - Medlemsavgift") | .trans
 test_name="second-half-of-year: only verifications of the period"
 expect_value verifikationslista '[.[0].vernr, .[0].date, .[-1].vernr]' '[110,"2024-07-01",262]'
 
+start_test "transaction-without-id-last-in-the-period"
+sed -i 's/^end-of-period: .*/end-of-period: 2024-06-30/' "$dir/config.yaml"
+cat >> "$dir/example.beancount" <<'LEDGER'
+
+2024-06-30 * "Without id"
+  Expenses:6570:Bankkostnader                                       5.00 SEK
+  Assets:1941:Bank:Sparkonto                                       -5.00 SEK
+LEDGER
+generate
+test_name="transaction-without-id-last-in-the-period: it does not take the number of a later transaction"
+expect_value verifikationslista '[.[] | select(.description == "Without id") | .vernr]' '[0]'
+
 start_test "text-that-looks-like-a-number"
 sed -i -e '0,/^2024-12-13 \* "Service\/felsökning Hjälpbåtsmotor"/s//2024-12-13 * "2024"/' \
        -e '0,/^2024-12-12 \* .*/s//2024-12-12 * "true"/' "$dir/example.beancount"
