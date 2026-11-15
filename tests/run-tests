@@ -200,6 +200,10 @@ start_test "several-transactions-without-id"
 sed -i -e '/id: "nordea_5_/d' -e '/id: "nordea_6_/d' "$dir/example.beancount"
 expect_warning "several transactions have no id"
 
+start_test "missing-verification-numbers"
+sed -i -e 's/^\(unused-verification-numbers: \[\)8, 9, 14, /\1/' "$dir/config.yaml"
+expect_warning "no transactions with these verification numbers: 8-9, 14\\."
+
 #---------------------------------------------------------------------------------
 #   ERRORS
 #---------------------------------------------------------------------------------
@@ -254,9 +258,12 @@ expect_error "has several currencies (EUR, SEK)"
 
 start_test "config-with-mistakes"
 sed -i -e 's/^start-of-period: .*/start-of-period: 2025-01-01/' -e 's/^  - huvudbok$/  - kassabok/' "$dir/config.yaml"
+sed -i 's/^unused-verification-numbers: \[8, /unused-verification-numbers: [x, /' "$dir/config.yaml"
 expect_error '"start-of-period" is after "end-of-period"'
 test_name="config-with-mistakes: unknown report"
 if grep -q 'Unknown report in "reports-to-generate": kassabok' "$dir/stderr"; then pass; else fail "the unknown report was not caught"; fi
+test_name="config-with-mistakes: unused verification numbers that are not numbers"
+if grep -q '"unused-verification-numbers" is not a list of numbers' "$dir/stderr"; then pass; else fail "the mistake was not caught"; fi
 
 start_test "config-file-that-does-not-exist"
 rm "$dir/config.yaml"

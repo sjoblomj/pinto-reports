@@ -39,7 +39,7 @@ fi
 check_single_currency "$ledger_file"
 check_account_mappings "$ledger_file" "$account_mappings_src"
 check_year_end "$ledger_file" "$start_of_period" "$end_of_period"
-check_verification_numbers "$ledger_file" "$start_of_period" "$end_of_period"
+check_verification_numbers "$ledger_file" "$start_of_period" "$end_of_period" "$(yq -oj -I0 '.unused-verification-numbers // []' "$config_file")"
 
 lastvernum=$(get_transaction_list "$ledger_file" "$start_of_period" "$end_of_period" | jq 'map(.vernr) | max // 0')
 

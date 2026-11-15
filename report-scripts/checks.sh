@@ -32,6 +32,10 @@ function check_config() {
     errors+=("\"start-of-period\" is after \"end-of-period\".")
   fi
 
+  if [ "$(yq -oj '.unused-verification-numbers // [] | (type == "!!seq" and all_c(type == "!!int"))' "$config_file")" != "true" ]; then
+    errors+=("\"unused-verification-numbers\" is not a list of numbers.")
+  fi
+
   if [ "$(yq '.reports-to-generate | length' "$config_file")" -eq 0 ]; then
     errors+=("\"reports-to-generate\" is missing or empty.")
   fi
@@ -116,20 +120,35 @@ function check_year_end() {
 #   - Several transactions with the same number: error.
 #   - Several transactions without an id that get number 0: a warning, since
 #     only the opening of the year is expected to lack an id.
+#   - Numbers that are missing between the first and the last number of the
+#     period: a warning, since the numbers are to be an unbroken series. The
+#     numbers in the given JSON array are known to be unused, and are not
+#     warned about.
 function check_verification_numbers() {
   local ledger_file="$1"
   local start_of_period="$2"
   local end_of_period="$3"
+  local unused_numbers="${4:-[]}"
   local messages
 
   messages=$(get_transaction_list "$ledger_file" "$start_of_period" "$end_of_period" |
-    jq -r '
+    jq -r --argjson unused "$unused_numbers" '
+      # [8, 9, 10, 14] -> "8-10, 14"
+      def ranges: reduce .[] as $n ([];
+          if length > 0 and last[1] + 1 == $n then last[1] = $n else . + [[$n, $n]] end)
+        | map(if .[0] == .[1] then "\(.[0])" else "\(.[0])-\(.[1])" end) | join(", ");
+
       def describe: map("  \(.date) \(.description)" + (if .id then " (id: \(.id))" else "" end)) | join("\n");
 
       [group_by(.seq)[] | first] as $transactions
       | ($transactions | map(select(.vernr != 0)) | group_by(.vernr) | map(select(length > 1))) as $duplicates
       | ($transactions | map(select(.vernr == 0))) as $unnumbered
+      | ($transactions | map(.vernr | select(. != 0)) | unique) as $numbers
+      | (if ($numbers | length) > 0 then [range($numbers[0]; $numbers[-1])] - $numbers - $unused else [] end) as $missing
       | ($duplicates[] | "Error: several transactions have verification number \(.[0].vernr):\n" + describe),
+        (if ($missing | length) > 0 then
+          "Warning: there are no transactions with these verification numbers: \($missing | ranges). If that is as it should be, list them as \"unused-verification-numbers\" in the config file."
+        else empty end),
         (if ($unnumbered | length) > 1 then
           "Warning: several transactions have no id, and get verification number 0:\n" + ($unnumbered | describe)
         else empty end)')
