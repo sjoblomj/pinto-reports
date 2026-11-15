@@ -1,0 +1,238 @@
+#!/bin/bash
+set -uo pipefail
+
+# Regression tests for the reports.
+#
+# Usage: tests/run-tests [--update]
+#
+# Generates reports from example.beancount, and compares the data of the
+# reports with the expected data in tests/expected. Also checks that ledgers
+# and config files with mistakes are caught. Each test runs on a copy of the
+# example in a temporary directory.
+#
+# With --update, the expected data is replaced by what is generated now.
+# Look at the changes with `git diff` before committing them.
+
+TESTS_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+ROOT_DIR=$(dirname -- "$TESTS_DIR")
+EXPECTED_DIR="$TESTS_DIR/expected"
+
+update=false
+if [ "${1:-}" = "--update" ]; then
+  update=true
+fi
+
+work_dir=$(mktemp -d)
+trap 'rm -rf "$work_dir"' EXIT
+
+passed=0
+failed=0
+
+function pass() {
+  passed=$((passed + 1))
+  echo "ok       $test_name"
+}
+
+function fail() {
+  failed=$((failed + 1))
+  echo "FAILED   $test_name: $1"
+  sed 's/^/           /' "$dir/stderr" | head -n 20
+}
+
+# Starts a test, with a copy of the example to be modified by the test
+function start_test() {
+  test_name="$1"
+  dir="$work_dir/$test_name"
+  mkdir -p "$dir"
+  cp "$ROOT_DIR/example.beancount" "$dir/"
+  sed -e "s#^account-mappings: .*#account-mappings: $ROOT_DIR/report-scripts/accounts.json#" \
+      -e "s#^logo: .*#logo: $ROOT_DIR/report-scripts/logo.svg#" \
+      "$ROOT_DIR/config.yaml" > "$dir/config.yaml"
+}
+
+function generate() {
+  "$ROOT_DIR/generate-reports" "$dir/config.yaml" > "$dir/stdout" 2> "$dir/stderr"
+}
+
+# Prints the data of a report, without what differs from one run to another
+function report_data() {
+  jq -S 'walk(if type == "object" then del(.transaction_id) else . end)' "$dir"/reports/"$1"-*.json
+}
+
+# The reports are generated without warnings, and the data of the given reports is as expected
+function expect_reports() {
+  local report differs=""
+  if ! generate; then
+    fail "no reports were generated"
+    return
+  fi
+  if [ -s "$dir/stderr" ]; then
+    fail "there were warnings"
+    return
+  fi
+  if [ "$(ls "$dir"/reports/*.pdf | wc -l)" -ne 4 ]; then
+    fail "not all reports were generated"
+    return
+  fi
+  for report in "$@"; do
+    if $update; then
+      mkdir -p "$EXPECTED_DIR/$test_name"
+      report_data "$report" > "$EXPECTED_DIR/$test_name/$report.json"
+    elif ! report_data "$report" | diff "$EXPECTED_DIR/$test_name/$report.json" - > "$dir/diff-$report" 2>&1; then
+      differs="$differs $report"
+      cat "$dir/diff-$report" >> "$dir/stderr"
+    fi
+  done
+  if [ -n "$differs" ]; then
+    fail "not the expected data in:$differs"
+  else
+    pass
+  fi
+}
+
+# The value picked by the jq filter from the data of the report is as expected
+function expect_value() {
+  local report="$1" filter="$2" expected="$3" actual
+  actual=$(report_data "$report" | jq -c "$filter")
+  if [ "$actual" = "$expected" ]; then
+    pass
+  else
+    fail "$filter in $report is $actual, but should be $expected"
+  fi
+}
+
+# The reports are generated, with a warning that has the given text
+function expect_warning() {
+  if ! generate; then
+    fail "no reports were generated"
+  elif ! grep -q -- "Warning: .*$1" "$dir/stderr"; then
+    fail "no warning with \"$1\""
+  else
+    pass
+  fi
+}
+
+# No reports are generated, and there is an error message that has the given text
+function expect_error() {
+  if generate; then
+    fail "reports were generated"
+  elif ls "$dir"/reports/*.pdf > /dev/null 2>&1; then
+    fail "there are reports despite the error"
+  elif ! grep -q -- "$1" "$dir/stderr"; then
+    fail "no error message with \"$1\""
+  else
+    pass
+  fi
+}
+
+#---------------------------------------------------------------------------------
+#   REPORTS
+#---------------------------------------------------------------------------------
+
+start_test "full-year"
+expect_reports balansrapport resultatrapport verifikationslista huvudbok
+
+start_test "second-half-of-year"
+# The notes are for accounts that are not used in the second half of the year
+sed -i -e 's/^start-of-period: .*/start-of-period: 2024-07-01/' \
+       -e '/^      - 4118: /d' -e '/^      - 5420: /d' -e '/^      - 5700: /d' "$dir/config.yaml"
+expect_reports balansrapport resultatrapport
+
+test_name="second-half-of-year: opening balance in huvudbok"
+expect_value huvudbok '.[] | select(.account == "1920 - Bank - Plusgiro") | .transactions[0].amount' '55672.82'
+
+test_name="second-half-of-year: income accounts start at zero"
+expect_value huvudbok '.[] | select(.account == "3010 - Medlemsavgift") | .transactions[0].amount' '0'
+
+test_name="second-half-of-year: only verifications of the period"
+expect_value verifikationslista '[.[0].vernr, .[0].date, .[-1].vernr]' '[110,"2024-07-01",262]'
+
+start_test "config-outside-of-the-scripts"
+( cd / && generate )
+test_name="config-outside-of-the-scripts: reports are next to the config"
+if [ "$(ls "$dir"/reports/*.pdf 2> /dev/null | wc -l)" -eq 4 ]; then pass; else fail "no reports in $dir/reports"; fi
+
+#---------------------------------------------------------------------------------
+#   WARNINGS
+#---------------------------------------------------------------------------------
+
+start_test "year-not-closed"
+sed -i '/^2024-12-31 \* "Årets resultat 2024"/,/^$/d' "$dir/example.beancount"
+expect_warning "The result that is not booked is -43072.70"
+
+start_test "opening-balance-without-tag"
+sed -i 's/ #opening-balance$//' "$dir/example.beancount"
+expect_warning "All opening balances will be zero"
+
+start_test "note-for-account-not-in-report"
+sed -i 's/      - 1356: /      - 1357: /' "$dir/config.yaml"
+expect_warning "the note for 1357 is not shown"
+
+start_test "several-transactions-without-id"
+sed -i -e '/id: "nordea_5_/d' -e '/id: "nordea_6_/d' "$dir/example.beancount"
+expect_warning "several transactions have no id"
+
+#---------------------------------------------------------------------------------
+#   ERRORS
+#---------------------------------------------------------------------------------
+
+start_test "ledger-with-errors"
+sed -i '0,/^  Expenses:6570:Bankkostnader  *2.00 SEK$/s//  Expenses:6570:Bankkostnader    3.00 SEK/' "$dir/example.beancount"
+expect_error "did not pass bean-check"
+
+start_test "wrong-result-when-closing"
+sed -i 's/43072.70 SEK/43000.00 SEK/' "$dir/example.beancount"
+expect_error "but it should be -43072.70"
+
+start_test "opening-balance-on-equity"
+sed -i '/^  Liabilities:2060:Eget-kapital  *-87016.36 SEK$/d' "$dir/example.beancount"
+expect_error "the balance report does not balance - it is off by 87016.36"
+
+start_test "opening-balance-on-top-of-earlier-years"
+sed -i -e 's/^start-of-period: .*/start-of-period: 2024-07-01/' "$dir/config.yaml"
+cat >> "$dir/example.beancount" <<'LEDGER'
+
+2024-07-01 * "Opening balance" #opening-balance
+  Assets:1941:Bank:Sparkonto                                      100.00 SEK
+  Liabilities:2060:Eget-kapital                                  -100.00 SEK
+LEDGER
+expect_error "has both transactions before 2024-07-01 and a transaction tagged #opening-balance"
+
+start_test "account-without-mapping"
+sed -i 's/Expenses:5421:Hemsida/Expenses:5429:Webb/' "$dir/example.beancount"
+expect_error "Expenses:5429:Webb"
+
+start_test "same-verification-number-twice"
+sed -i 's/id: "nordea_3_/id: "nordea_2_/' "$dir/example.beancount"
+expect_error "several transactions have verification number 2"
+
+start_test "several-currencies"
+sed -i -e 's/^1876-01-01 commodity SEK$/&\n1876-01-01 commodity EUR/' \
+       -e 's/^\(2024-01-01 open Expenses:6570:Bankkostnader\)  *SEK$/\1/' \
+       -e 's/^\(2024-01-01 open Assets:1941:Bank:Sparkonto\)  *SEK$/\1/' "$dir/example.beancount"
+cat >> "$dir/example.beancount" <<'LEDGER'
+
+2024-06-01 * "Euro"
+  Expenses:6570:Bankkostnader                                       5.00 EUR
+  Assets:1941:Bank:Sparkonto                                       -5.00 EUR
+LEDGER
+expect_error "has several currencies (EUR, SEK)"
+
+start_test "config-with-mistakes"
+sed -i -e 's/^start-of-period: .*/start-of-period: 2025-01-01/' -e 's/^  - huvudbok$/  - kassabok/' "$dir/config.yaml"
+expect_error '"start-of-period" is after "end-of-period"'
+test_name="config-with-mistakes: unknown report"
+if grep -q 'Unknown report in "reports-to-generate": kassabok' "$dir/stderr"; then pass; else fail "the unknown report was not caught"; fi
+
+start_test "config-file-that-does-not-exist"
+rm "$dir/config.yaml"
+expect_error "does not exist"
+
+#---------------------------------------------------------------------------------
+
+echo
+if $update; then
+  echo "The expected data in $EXPECTED_DIR was updated."
+fi
+echo "$passed passed, $failed failed"
+[ "$failed" -eq 0 ]

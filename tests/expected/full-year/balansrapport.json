@@ -1,0 +1,78 @@
+[
+  {
+    "accounts": [
+      {
+        "account": "1350 - Fondkonto anskaffningsvärde",
+        "account_internal": "Assets:1350:Fondkonto-anskaffningsvärde",
+        "diff": 0,
+        "end_amount": 8595.64,
+        "note": "",
+        "start_amount": 8595.64
+      },
+      {
+        "account": "1356 - Andelar i andra organisationer",
+        "account_internal": "Assets:1356:Andelar-i-andra-organisationer",
+        "diff": 0,
+        "end_amount": 10000,
+        "note": "Deposition hos sommarhamnen.",
+        "start_amount": 10000
+      },
+      {
+        "account": "1510 - Fordran av medlem",
+        "account_internal": "Assets:1510:Fordran-av-medlem",
+        "diff": 1037.9,
+        "end_amount": 1037.9,
+        "note": "En dubbel utbetalning för samma utlägg gjordes 2024. Detta blev återbetalat 2025.",
+        "start_amount": 0
+      },
+      {
+        "account": "1920 - Bank - Plusgiro",
+        "account_internal": "Assets:1920:Bank:Plusgiro",
+        "diff": -44377.81,
+        "end_amount": 40907.22,
+        "note": "",
+        "start_amount": 85285.03
+      },
+      {
+        "account": "1940 - Bank - Placeringskonto",
+        "account_internal": "Assets:1940:Bank:Placeringskonto",
+        "diff": 267.21,
+        "end_amount": 1475.31,
+        "note": "Årets ränteintäkter är #amount(\"140.85\");, resterande #amount(\"126.36\"); är tidigare års obokförda ränteintäkter.",
+        "start_amount": 1208.1
+      }
+    ],
+    "category": "Tillgångar",
+    "category_num": "1"
+  },
+  {
+    "accounts": [
+      {
+        "account": "2060 - Eget kapital",
+        "account_internal": "Liabilities:2060:Eget-kapital",
+        "diff": 0,
+        "end_amount": -87016.36,
+        "note": "",
+        "start_amount": -87016.36
+      },
+      {
+        "account": "2069 - Årets resultat",
+        "account_internal": "Liabilities:2069:Årets-resultat",
+        "diff": 43072.7,
+        "end_amount": 43072.7,
+        "note": "",
+        "start_amount": 0
+      },
+      {
+        "account": "2290 - Avsättning till underhållsfond",
+        "account_internal": "Liabilities:2290:Avsättning-till-underhållsfond",
+        "diff": 0,
+        "end_amount": -18072.41,
+        "note": "",
+        "start_amount": -18072.41
+      }
+    ],
+    "category": "Eget kapital och skulder",
+    "category_num": "2"
+  }
+]
