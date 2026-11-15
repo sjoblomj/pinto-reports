@@ -150,6 +150,13 @@ expect_value huvudbok '.[] | select(.account == "3010 - Medlemsavgift") | .trans
 test_name="second-half-of-year: only verifications of the period"
 expect_value verifikationslista '[.[0].vernr, .[0].date, .[-1].vernr]' '[110,"2024-07-01",262]'
 
+start_test "text-that-looks-like-a-number"
+sed -i -e '0,/^2024-12-13 \* "Service\/felsökning Hjälpbåtsmotor"/s//2024-12-13 * "2024"/' \
+       -e '0,/^2024-12-12 \* .*/s//2024-12-12 * "true"/' "$dir/example.beancount"
+generate
+test_name="text-that-looks-like-a-number: the text is kept as it is"
+expect_value verifikationslista '[.[] | select(.vernr == 255) | .description]' '["2024"]'
+
 start_test "config-outside-of-the-scripts"
 ( cd / && generate )
 test_name="config-outside-of-the-scripts: reports are next to the config"

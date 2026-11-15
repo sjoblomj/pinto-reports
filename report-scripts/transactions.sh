@@ -35,12 +35,18 @@ function period_condition() {
   echo "(date >= $start_of_period AND date <= $end_of_period AND NOT $(opening_transaction_condition "$start_of_period"))"
 }
 
-# Runs the given query on the ledger, and prints the result as JSON
+# Runs the given query on the ledger, and prints the result as JSON. All
+# values are strings (so that a text like "2024" or "true" stays a text), and
+# numbers are thus to be converted with to_number.
 function query_ledger() {
   local ledger_file="$1"
   local query="$2"
-  bean-query -f csv "$ledger_file" "$query" | yq -pc -oj '.'
+  bean-query -f csv "$ledger_file" "$query" | yq -pc -oj '(.. | select(tag != "!!map" and tag != "!!seq")) tag = "!!str"'
 }
+
+# jq definition that converts a value from query_ledger to a number. A sum of nothing is zero.
+TO_NUMBER='def to_number: if . == null or . == "" then 0 else tonumber + 0 end;'
+
 
 # Prints the opening balances of the asset and liability accounts as a JSON
 # array of objects with "account" and "amount".
@@ -48,7 +54,7 @@ function get_opening_balances() {
   local ledger_file="$1"
   local start_of_period="$2"
   query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(opening_condition "$start_of_period") AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account" |
-    jq 'map(.amount = (.amount | tonumber))'
+    jq "$TO_NUMBER"' map(.amount = (.amount | to_number))'
 }
 
 # Prints all postings of the period as a JSON array, with a verification
@@ -69,12 +75,12 @@ function get_transaction_list() {
   local start_of_period="$2"
   local end_of_period="$3"
   query_ledger "$ledger_file" "SELECT date, id as transaction_id, entry_meta('id') as id, description, account, number as amount WHERE $(period_condition "$start_of_period" "$end_of_period")" |
-    jq '
+    jq "$TO_NUMBER"'
       def id_number:
         (.id // "" | tostring | split("_") | map(select(test("^[0-9]+$"))) | first) as $n
         | if $n == null then null else ($n | tonumber) end;
 
-      map(.amount = (.amount | tonumber) | .id_number = id_number)
+      map(.amount = (.amount | to_number) | .id = (if .id == "" then null else .id end) | .id_number = id_number)
       | reduce .[] as $i ({seq: {}, arr: []};
           .seq[$i.transaction_id] //= (.seq | length)
           | .arr += [$i + {seq: .seq[$i.transaction_id]}]

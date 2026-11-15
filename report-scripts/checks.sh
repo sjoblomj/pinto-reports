@@ -65,8 +65,8 @@ function check_year_end() {
   local result_accounts balance_accounts closing messages earlier opening
 
   # An opening balance transaction would be counted on top of the balances from the earlier years
-  earlier=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE date < $start_of_period" | jq 'map(.postings) | add // 0')
-  opening=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE $(opening_transaction_condition "$start_of_period")" | jq 'map(.postings) | add // 0')
+  earlier=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE date < $start_of_period" | jq "$TO_NUMBER"' map(.postings | to_number) | add // 0')
+  opening=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE $(opening_transaction_condition "$start_of_period")" | jq "$TO_NUMBER"' map(.postings | to_number) | add // 0')
   if [ "$earlier" -gt 0 ] && [ "$opening" -gt 0 ]; then
     echo "Error: $ledger_file has both transactions before $start_of_period and a transaction tagged #opening-balance on that date. The opening balance is the sum of those, so remove one of them." >&2
     return 1

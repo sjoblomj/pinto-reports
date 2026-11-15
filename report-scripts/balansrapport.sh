@@ -31,8 +31,8 @@ jq -c          '.["notes"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$
 # the balance report doesn't balance without it. There is no such row when the amounts are zero.
 function add_calculated_result() {
   local start_amount end_amount
-  start_amount=$(query_ledger "$ledger_file" "SELECT sum(number) AS amount WHERE $(opening_condition "$start_of_period") AND account ~ '$RESULT_ACCOUNTS'" | jq 'map(.amount) | add // 0')
-  end_amount=$(  query_ledger "$ledger_file" "SELECT sum(number) AS amount WHERE date <= $end_of_period AND account ~ '$RESULT_ACCOUNTS'" | jq 'map(.amount) | add // 0')
+  start_amount=$(query_ledger "$ledger_file" "SELECT sum(number) AS amount WHERE $(opening_condition "$start_of_period") AND account ~ '$RESULT_ACCOUNTS'" | jq "$TO_NUMBER"' map(.amount | to_number) | add // 0')
+  end_amount=$(  query_ledger "$ledger_file" "SELECT sum(number) AS amount WHERE date <= $end_of_period AND account ~ '$RESULT_ACCOUNTS'" | jq "$TO_NUMBER"' map(.amount | to_number) | add // 0')
 
   jq --arg name "$calculated_result" --arg category "$LIABILITIES_ACCOUNT_TYPE" --slurpfile headers "$headers_file" --argjson start_amount "$start_amount" --argjson end_amount "$end_amount" '
     def cents: . * 100 | round;
@@ -65,7 +65,7 @@ for startend in start end; do
     # The closing balance is everything up until the end of the period
     condition="date <= $end_of_period"
   fi
-  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $condition AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account" | jq "map(. + {\"${startend}_amount\": .amount} | del(.amount))" > "${!output_file}"
+  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $condition AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account" | jq "$TO_NUMBER map(. + {\"${startend}_amount\": (.amount | to_number)} | del(.amount))" > "${!output_file}"
 done
 
 # Combine to one array
