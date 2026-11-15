@@ -1,11 +1,17 @@
 #!/bin/bash
 
 # The accounts of the balance report and of the result report
+ASSETS_ACCOUNTS="^Assets"
+LIABILITIES_ACCOUNTS="^Liabilities"
 BALANCE_ACCOUNTS="^(Assets|Liabilities)"
 RESULT_ACCOUNTS="^(Income|Expenses)"
 
-# The first digit of the account numbers of the liabilities. This is where a result that is not booked yet is shown in the balance report.
+# The first digit of the account numbers of the assets, of the liabilities and of the
+# result accounts. It is checked that the accounts are named accordingly. The liabilities
+# are where a result that is not booked yet is shown in the balance report.
+ASSETS_ACCOUNT_TYPE="1"
 LIABILITIES_ACCOUNT_TYPE="2"
+RESULT_ACCOUNT_TYPES="345678"
 
 # The account that the result is booked on when the year is closed. It is not part of the result report.
 CLOSING_ACCOUNT="Income:8999"

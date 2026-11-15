@@ -218,6 +218,12 @@ start_test "account-without-mapping"
 sed -i 's/Expenses:5421:Hemsida/Expenses:5429:Webb/' "$dir/example.beancount"
 expect_error "Expenses:5429:Webb"
 
+start_test "account-in-the-wrong-report"
+sed 's/Liabilities:2060:Eget-kapital/Equity:2060:Eget-kapital/' "$ROOT_DIR/report-scripts/accounts.json" > "$dir/accounts.json"
+sed -i 's/Liabilities:2060:Eget-kapital/Equity:2060:Eget-kapital/' "$dir/example.beancount"
+sed -i 's#^account-mappings: .*#account-mappings: accounts.json#' "$dir/config.yaml"
+expect_error "Equity:2060:Eget-kapital has account number 2060, so its name must start with Liabilities"
+
 start_test "same-verification-number-twice"
 sed -i 's/id: "nordea_3_/id: "nordea_2_/' "$dir/example.beancount"
 expect_error "several transactions have verification number 2"

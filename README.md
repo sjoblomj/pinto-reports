@@ -39,6 +39,8 @@ The year is closed in the beancount file, by booking the result between accounts
 
 The scripts are made with the assumption that [BAS](https://en.wikipedia.org/wiki/BAS_(accounting)) will be used. It should be fairly trivial to change this assumption to work with any account naming strategies though.
 
+The first part of an account name must match its account number: `Assets` for 1xxx, `Liabilities` for 2xxx (equity included), and `Income` or `Expenses` for 3xxx-8xxx. No reports are generated otherwise.
+
 All amounts in the ledger must be in the same currency.
 
 ## Required software

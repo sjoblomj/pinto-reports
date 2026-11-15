@@ -64,6 +64,31 @@ function check_account_mappings() {
     echo "$unmapped" | sed 's/^/  /' >&2
     return 1
   fi
+
+  # The section of an account is picked from its account number, but the report
+  # it belongs to is picked from the first part of its name. The two must agree.
+  local misplaced
+  misplaced=$(bean-query -f csv "$ledger_file" "SELECT DISTINCT account ORDER BY account" |
+    yq -pc -oj '.' |
+    jq -r --slurpfile mappings "$accounts_mappings_src" --arg assets "$ASSETS_ACCOUNTS" --arg liabilities "$LIABILITIES_ACCOUNTS" --arg result "$RESULT_ACCOUNTS" \
+          --arg assets_type "$ASSETS_ACCOUNT_TYPE" --arg liabilities_type "$LIABILITIES_ACCOUNT_TYPE" --arg result_types "$RESULT_ACCOUNT_TYPES" '
+      def names: ltrimstr("^") | ltrimstr("(") | rtrimstr(")") | split("|") | join(" or ");
+      map(.account) as $used
+      | $mappings[0][]
+      | select(.name as $name | $used | index($name))
+      | (.accountnumber | tostring | .[:1]) as $type
+      | (if $type == $assets_type then $assets
+         elif $type == $liabilities_type then $liabilities
+         elif ($result_types | contains($type)) then $result
+         else empty end) as $expected
+      | select(.name | test($expected) | not)
+      | "\(.name) has account number \(.accountnumber), so its name must start with \($expected | names)"')
+
+  if [ -n "$misplaced" ]; then
+    echo "Error: these accounts in $ledger_file would end up in the wrong report, or in none:" >&2
+    echo "$misplaced" | sed 's/^/  /' >&2
+    return 1
+  fi
 }
 
 function get_account_name() {
