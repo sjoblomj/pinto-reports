@@ -98,10 +98,10 @@ function check_year_end() {
     | (if $closed and ($unbooked | cents) != 0 then
         "Error: the result booked on \($closing_account) in the period is \($booked | money), but it should be \($booked + $unbooked | money) according to the income and expenses. The difference is \($unbooked * -1 | money)."
       elif ($closed | not) and ($unbooked | cents) != 0 then
-        "Warning: the year has not been closed - nothing is booked on \($closing_account) in the period. The result that is not booked is \($unbooked | money), and the balance report will be off by that amount."
+        "Warning: the year has not been closed - nothing is booked on \($closing_account) in the period. The result that is not booked is \($unbooked | money), which is shown as a calculated result in the balance report."
       else empty end),
       (if ($balance - $unbooked | cents) != 0 then
-        "Error: the balance report does not balance - it is off by \($balance - $unbooked | money), apart from the result. Is something booked on an account that is not in the reports (e.g. \($opening_balance_account))?"
+        "Error: the balance report does not balance - it is off by \($balance - $unbooked | money). Is something booked on an account that is not in the reports (e.g. \($opening_balance_account))?"
       else empty end)')
 
   if [ -n "$messages" ]; then

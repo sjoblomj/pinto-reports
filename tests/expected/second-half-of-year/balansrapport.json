@@ -78,6 +78,14 @@
         "end_amount": 0,
         "note": "",
         "start_amount": -2700
+      },
+      {
+        "account": "Beräknat resultat",
+        "account_internal": null,
+        "diff": -32312.21,
+        "end_amount": 0,
+        "note": "",
+        "start_amount": 32312.21
       }
     ],
     "category": "Eget kapital och skulder",

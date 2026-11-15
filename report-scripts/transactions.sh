@@ -4,6 +4,9 @@
 BALANCE_ACCOUNTS="^(Assets|Liabilities)"
 RESULT_ACCOUNTS="^(Income|Expenses)"
 
+# The first digit of the account numbers of the liabilities. This is where a result that is not booked yet is shown in the balance report.
+LIABILITIES_ACCOUNT_TYPE="2"
+
 # The account that the result is booked on when the year is closed. It is not part of the result report.
 CLOSING_ACCOUNT="Income:8999"
 

@@ -29,7 +29,7 @@ The verification number of a transaction is taken from its `id` metadata: it is 
 
 ### Closing the year
 
-The year is closed in the beancount file, by booking the result between accounts 2069 and 8999 (see the end of `example.beancount`). Before any reports are made, it is checked that the amount booked on 8999 is the same as the result according to the income and expenses, and that the balance report balances. If not, no reports are generated. If nothing is booked on 8999 in the period, there is only a warning, so that reports can be made during the year.
+The year is closed in the beancount file, by booking the result between accounts 2069 and 8999 (see the end of `example.beancount`). Before any reports are made, it is checked that the amount booked on 8999 is the same as the result according to the income and expenses, and that the balance report balances. If not, no reports are generated. If nothing is booked on 8999 in the period, there is only a warning, so that reports can be made during the year. The result that is not booked yet is then shown as a row of its own in the balance report, so that it balances. The row is named "Beräknat resultat", which can be changed with `calculated-result` in the config of the balance report.
 
 ## Tests
 

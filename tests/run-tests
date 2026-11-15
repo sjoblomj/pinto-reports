@@ -138,6 +138,9 @@ sed -i -e 's/^start-of-period: .*/start-of-period: 2024-07-01/' \
        -e '/^      - 4118: /d' -e '/^      - 5420: /d' -e '/^      - 5700: /d' "$dir/config.yaml"
 expect_reports balansrapport resultatrapport
 
+test_name="second-half-of-year: the result of the first half is a calculated result in the balance report"
+expect_value balansrapport '.[].accounts[] | select(.account == "Beräknat resultat") | [.start_amount, .diff, .end_amount]' '[32312.21,-32312.21,0]'
+
 test_name="second-half-of-year: opening balance in huvudbok"
 expect_value huvudbok '.[] | select(.account == "1920 - Bank - Plusgiro") | .transactions[0].amount' '55672.82'
 
@@ -159,6 +162,12 @@ if [ "$(ls "$dir"/reports/*.pdf 2> /dev/null | wc -l)" -eq 4 ]; then pass; else 
 start_test "year-not-closed"
 sed -i '/^2024-12-31 \* "Årets resultat 2024"/,/^$/d' "$dir/example.beancount"
 expect_warning "The result that is not booked is -43072.70"
+
+test_name="year-not-closed: calculated result in the balance report"
+expect_value balansrapport '.[].accounts[] | select(.account == "Beräknat resultat") | [.start_amount, .diff, .end_amount]' '[0,43072.7,43072.7]'
+
+test_name="year-not-closed: the balance report balances"
+expect_value balansrapport '[.[].accounts[] | .start_amount, .diff, .end_amount] | add * 100 | round' '0'
 
 start_test "opening-balance-without-tag"
 sed -i 's/ #opening-balance$//' "$dir/example.beancount"
