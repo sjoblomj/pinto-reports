@@ -17,7 +17,7 @@ get_transaction_list "$ledger_file" |
   jq '[.[] | select(.account != "Equity:Opening-Balances")]' |
   jq 'group_by(.account)' |
   jq --arg startdate "$start_of_period" 'map([.[0] as $fst | select($fst.description == "Opening balance")[0] // {"date": $startdate, "id": "nordea_-1", "description": "Opening balance", "account": $fst.account, "account_internal": $fst.account_internal, "vernr": 0, "amount": 0.00}] + [.[] | select(.description != "Opening balance")])' |
-  jq 'map({"account": (. | first | .account), "account_internal": (. | first | .account_internal), "transactions": (map(del(.account, .account_internal)))})' > "$report_output_file.json"
+  jq 'map({"account": (. | first | .account), "account_internal": (. | first | .account_internal), "transactions": (map(del(.account, .account_internal, .seq)))})' > "$report_output_file.json"
 
 # Create Typst report
 print_typst_report "$report_type" "account-table" "$report_output_file.json"

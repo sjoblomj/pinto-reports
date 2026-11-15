@@ -16,8 +16,9 @@ jsonfile=$(mktemp)
 get_transaction_list "$ledger_file" |
   map_account_names "$account_mappings_src" > "$jsonfile"
 
-jq '[.[] | select(.vernr != 0 and .description != "Opening balance")]' "$jsonfile" | \
-    jq 'group_by(.vernr)' |
+# Each transaction is a verification of its own, even when several share a number
+jq '[.[] | select(.description != "Opening balance")]' "$jsonfile" | \
+    jq 'group_by([.vernr, .seq])' |
     jq 'map(first as $f | {"date": $f.date, "transaction_id": $f.transaction_id, "id": $f.id, "description": $f.description, "vernr": $f.vernr, "transactions": (map({"account": .account, "amount": .amount}))})' > "$report_output_file.json"
 
 # Create Typst report

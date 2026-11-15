@@ -9,7 +9,7 @@ seed=$(head /dev/urandom | tr -dc A-Fa-f0-9 | head -c 8)
 start_of_period=$(yq '.start-of-period' "$config_file")
 end_of_period=$(  yq   '.end-of-period' "$config_file")
 ledger_file=$(    yq          '.ledger' "$config_file")
-lastvernum=$(get_transaction_list "$ledger_file" | jq 'last | .vernr')
+lastvernum=$(get_transaction_list "$ledger_file" | jq 'map(.vernr) | max')
 
 report_dir="reports"
 mkdir -p "$report_dir"
