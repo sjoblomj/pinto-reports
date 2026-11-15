@@ -26,7 +26,7 @@ fi
 check_account_mappings "$ledger_file" "$account_mappings_src"
 check_year_end "$ledger_file" "$start_of_period" "$end_of_period"
 
-lastvernum=$(get_transaction_list "$ledger_file" | jq 'map(.vernr) | max')
+lastvernum=$(get_transaction_list "$ledger_file" "$start_of_period" "$end_of_period" | jq 'map(.vernr) | max // 0')
 
 report_dir="reports"
 mkdir -p "$report_dir"

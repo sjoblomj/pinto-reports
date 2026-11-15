@@ -15,13 +15,19 @@ The look of the reports (currency, number formatting, fonts, organisation number
 
 Notes in config.yaml are written in Typst markup. In addition, `$123.45$` is formatted as an amount, and `@1920@` is replaced by the name of that account.
 
+### Period and opening balance
+
+The reports cover the period from `start-of-period` to `end-of-period` in config.yaml. The opening balance of an account is everything booked on it before the start of the period, together with the transaction named `Opening balance` on the first day of the period, if there is one. A ledger can thus either start with an `Opening balance` transaction (as `example.beancount` does), or contain the earlier years as well - but not both.
+
+Other transactions on the first day of the period are part of the period.
+
 ### Verification numbers
 
-The verification number of a transaction is taken from its `id` metadata: it is the first part of the id that is a number, when the id is split on underscores (`nordea_16_2025-01-31_1038` is verification 16). Transactions without an id get number 0 (e.g. the opening balance and the opening of the year), unless they come after the last transaction with an id (e.g. the transaction closing the year), in which case they continue the numbering.
+The verification number of a transaction is taken from its `id` metadata: it is the first part of the id that is a number, when the id is split on underscores (`nordea_16_2025-01-31_1038` is verification 16). Only the transactions of the period are numbered. Transactions without an id get number 0 (e.g. the opening of the year), unless they come after the last transaction with an id (e.g. the transaction closing the year), in which case they continue the numbering.
 
 ### Closing the year
 
-The year is closed in the beancount file, by booking the result between accounts 2069 and 8999 (see the end of `example.beancount`). Before any reports are made, it is checked that the amount booked on 8999 is the same as the result in the result report, and that the balance report balances. If not, no reports are generated. If nothing is booked on 8999 yet, there is only a warning, so that reports can be made during the year.
+The year is closed in the beancount file, by booking the result between accounts 2069 and 8999 (see the end of `example.beancount`). Before any reports are made, it is checked that the amount booked on 8999 is the same as the result according to the income and expenses, and that the balance report balances. If not, no reports are generated. If nothing is booked on 8999 in the period, there is only a warning, so that reports can be made during the year.
 
 ## Limitations
 

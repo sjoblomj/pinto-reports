@@ -5,6 +5,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
 source "$SCRIPT_DIR"/typst.sh
 source "$SCRIPT_DIR"/sheets.sh
+source "$SCRIPT_DIR"/transactions.sh
 
 config_file="$1"
 start_of_period=$(     jq -r    '.["start-of-period"]' "$config_file")
@@ -28,14 +29,12 @@ for startend in start end; do
   # Get ledger from start or end of period
   output_file="${startend}_of_period_file"
   if [ "$startend" = "start" ]; then
-    # Both start and end should be the same date
-    startdate="$start_of_period"
-    enddate="$start_of_period"
+    condition=$(opening_condition "$start_of_period")
   else
-    startdate="$start_of_period"
-    enddate="$end_of_period"
+    # The closing balance is everything up until the end of the period
+    condition="date <= $end_of_period"
   fi
-  bean-query -f csv "$ledger_file" "SELECT account, sum(number) AS amount WHERE date >= $startdate AND date <= $enddate AND account ~ '^(Assets|Liabilities)' ORDER BY account" | yq -pc -oj "map(. + {\"${startend}_amount\": .amount} | del(.amount))" > "${!output_file}"
+  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $condition AND account ~ '^(Assets|Liabilities)' ORDER BY account" | jq "map(. + {\"${startend}_amount\": .amount} | del(.amount))" > "${!output_file}"
 done
 
 # Combine to one array
