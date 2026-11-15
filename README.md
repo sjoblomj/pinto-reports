@@ -11,6 +11,8 @@ Scripts to turn [beancount files](https://beancount.github.io/) into PDF reports
 
 Modify config.yaml and then run `./generate-reports`.
 
+A config file elsewhere can be given as an argument: `./generate-reports path/to/config.yaml`. Paths in the config file are relative to the directory of the config file, and the reports are written to the directory `reports` there. That way, the bookkeeping can be kept apart from these scripts.
+
 The look of the reports (currency, number formatting, fonts, organisation number, logo) is configured at the top of `report-scripts/report.typ`.
 
 Notes in config.yaml are written in Typst markup. In addition, `$123.45$` is formatted as an amount, and `@1920@` is replaced by the name of that account.
