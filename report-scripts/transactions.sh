@@ -31,8 +31,6 @@ function query_ledger() {
 
 # Prints the opening balances of the asset and liability accounts as a JSON
 # array of objects with "account" and "amount".
-#
-# Note! This makes the assumption that all currencies are in the same currency
 function get_opening_balances() {
   local ledger_file="$1"
   local start_of_period="$2"
@@ -53,8 +51,6 @@ function get_opening_balances() {
 #   - the numbers following the highest id, if they come after the last
 #     transaction that has an id (e.g. the transaction closing the year);
 #   - 0 otherwise (e.g. the opening of the year).
-#
-# Note! This makes the assumption that all currencies are in the same currency
 function get_transaction_list() {
   local ledger_file="$1"
   local start_of_period="$2"

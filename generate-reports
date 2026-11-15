@@ -36,6 +36,7 @@ if ! bean-check "$ledger_file"; then
   echo "Error: $ledger_file did not pass bean-check; no reports were generated." >&2
   exit 1
 fi
+check_single_currency "$ledger_file"
 check_account_mappings "$ledger_file" "$account_mappings_src"
 check_year_end "$ledger_file" "$start_of_period" "$end_of_period"
 check_verification_numbers "$ledger_file" "$start_of_period" "$end_of_period"

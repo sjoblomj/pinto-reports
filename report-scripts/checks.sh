@@ -58,8 +58,6 @@ function check_config() {
 #   - The balance report doesn't balance: error.
 #   - The year hasn't been closed yet: a warning only, so that reports can
 #     be made during the year.
-#
-# Note! This makes the assumption that all currencies are in the same currency
 function check_year_end() {
   local ledger_file="$1"
   local start_of_period="$2"
@@ -140,6 +138,18 @@ function check_verification_numbers() {
     echo "$messages" >&2
   fi
   if echo "$messages" | grep -q '^Error:'; then
+    return 1
+  fi
+}
+
+# The reports sum the amounts without regard to their currency, so the
+# ledger can only have one.
+function check_single_currency() {
+  local ledger_file="$1"
+  local currencies
+  currencies=$(query_ledger "$ledger_file" "SELECT DISTINCT currency ORDER BY currency" | jq -r 'map(.currency) | join(", ")')
+  if [[ "$currencies" == *,* ]]; then
+    echo "Error: $ledger_file has several currencies ($currencies), but the reports can only handle one." >&2
     return 1
   fi
 }
