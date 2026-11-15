@@ -55,15 +55,15 @@
   },
   {
     "type": "Skuld",
-    "accountnumber": 2069,
-    "name": "Liabilities:2069:Årets-resultat",
-    "displayname": "2069 - Årets resultat"
+    "accountnumber": 2068,
+    "name": "Liabilities:2068:Vinst-eller-förlust-från-föregående-år",
+    "displayname": "2068 - Vinst eller förlust från föregående år"
   },
   {
     "type": "Skuld",
-    "accountnumber": 2098,
-    "name": "Liabilities:2098:Förra-årets-resultat",
-    "displayname": "2098 - Förra årets resultat"
+    "accountnumber": 2069,
+    "name": "Liabilities:2069:Årets-resultat",
+    "displayname": "2069 - Årets resultat"
   },
   {
     "type": "Skuld",

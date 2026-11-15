@@ -19,8 +19,8 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 ; ======== 2XXX - SKULDER ========
 2024-01-01 open Liabilities:2060:Eget-kapital                             SEK
+2024-01-01 open Liabilities:2068:Vinst-eller-förlust-från-föregående-år   SEK
 2024-01-01 open Liabilities:2069:Årets-resultat                           SEK
-2024-01-01 open Liabilities:2098:Förra-årets-resultat                     SEK
 2024-01-01 open Liabilities:2290:Avsättning-till-underhållsfond           SEK
 2024-01-01 open Liabilities:2902:Skuld-till-medlem                        SEK
 2024-01-01 open Liabilities:2972:Förutbetalda-medlemsavgifter             SEK
