@@ -98,7 +98,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 ; ======== 9XXX - EGET KAPITAL & PERIODISERINGAR ========
 1970-01-01 open Equity:Opening-Balances                                   SEK
 
-2024-01-01 * "Opening balance"
+2024-01-01 * "Opening balance" #opening-balance
   Assets:1350:Fondkonto-anskaffningsvärde                         8595.64 SEK
   Assets:1356:Andelar-i-andra-organisationer                     10000.00 SEK
   Assets:1920:Bank:Plusgiro                                      85285.03 SEK

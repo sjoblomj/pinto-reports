@@ -19,10 +19,13 @@ function check_year_end() {
 
   # An opening balance transaction would be counted on top of the balances from the earlier years
   earlier=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE date < $start_of_period" | jq 'map(.postings) | add // 0')
-  opening=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE date = $start_of_period AND description = 'Opening balance'" | jq 'map(.postings) | add // 0')
+  opening=$(query_ledger "$ledger_file" "SELECT count(*) AS postings WHERE $(opening_transaction_condition "$start_of_period")" | jq 'map(.postings) | add // 0')
   if [ "$earlier" -gt 0 ] && [ "$opening" -gt 0 ]; then
-    echo "Error: $ledger_file has both transactions before $start_of_period and an \"Opening balance\" transaction on that date. The opening balance is the sum of those, so remove one of them." >&2
+    echo "Error: $ledger_file has both transactions before $start_of_period and a transaction tagged #opening-balance on that date. The opening balance is the sum of those, so remove one of them." >&2
     return 1
+  fi
+  if [ "$earlier" -eq 0 ] && [ "$opening" -eq 0 ]; then
+    echo "Warning: $ledger_file has no transaction tagged #opening-balance on $start_of_period, and nothing before that date. All opening balances will be zero." >&2
   fi
 
 

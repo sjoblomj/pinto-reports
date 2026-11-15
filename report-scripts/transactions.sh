@@ -1,20 +1,25 @@
 #!/bin/bash
 
 # The opening balance of the period is everything that is dated before the
-# start of the period, together with the transaction named "Opening balance"
-# on the first day of the period, if there is one. All other transactions
+# start of the period, together with the transactions tagged #opening-balance
+# on the first day of the period, if there are any. All other transactions
 # from the start to the end of the period are the transactions of the period.
 #
 # These functions print the conditions to use in bean-query for the two.
+function opening_transaction_condition() {
+  local start_of_period="$1"
+  echo "(date = $start_of_period AND 'opening-balance' IN tags)"
+}
+
 function opening_condition() {
   local start_of_period="$1"
-  echo "(date < $start_of_period OR (date = $start_of_period AND description = 'Opening balance'))"
+  echo "(date < $start_of_period OR $(opening_transaction_condition "$start_of_period"))"
 }
 
 function period_condition() {
   local start_of_period="$1"
   local end_of_period="$2"
-  echo "(date >= $start_of_period AND date <= $end_of_period AND NOT (date = $start_of_period AND description = 'Opening balance'))"
+  echo "(date >= $start_of_period AND date <= $end_of_period AND NOT $(opening_transaction_condition "$start_of_period"))"
 }
 
 # Runs the given query on the ledger, and prints the result as JSON
