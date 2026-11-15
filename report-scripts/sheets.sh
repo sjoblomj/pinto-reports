@@ -13,3 +13,16 @@ function create_json_sheet() {
         then last.accounts += $section.accounts
         else . + [$section] end)'
 }
+
+# Warns about the notes that are not shown in the given sheet, since there
+# is no account in the sheet that they belong to.
+function warn_about_unused_notes() {
+  local notes_file="$1"
+  local sheet_file="$2"
+  jq -r --slurpfile sheet "$sheet_file" '
+    ($sheet[0] | map(.accounts[].account)) as $accounts
+    | map(.key) | unique
+    | map(select(. as $key | $accounts | index($key) | not))
+    | map("Warning: the note for \(.) is not shown, since that account is not in the report.")
+    | .[]' "$notes_file" >&2
+}

@@ -46,6 +46,7 @@ jq '[group_by(.account)[] | add]' "$report_file" |
   | [.[] | select(.start_amount != 0 or .end_amount != 0)]
   | map(. + {"diff": (((.end_amount - .start_amount) * 100 | round) / 100)})' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"
+warn_about_unused_notes "$notes_file" "$report_output_file.json"
 
 # Create Typst report
 print_typst_report "$report_type" "balance-table" "$report_output_file.json"

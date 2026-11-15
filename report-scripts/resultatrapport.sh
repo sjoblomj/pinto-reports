@@ -25,6 +25,7 @@ jq -c          '.["notes"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$
 query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(period_condition "$start_of_period" "$end_of_period") AND account !~ '(Equity|Assets|Liabilities)' AND account !~ '^Income:8999' ORDER BY account" |
   jq 'map(.amount = (.amount * -1))' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"
+warn_about_unused_notes "$notes_file" "$report_output_file.json"
 
 # Create Typst report
 print_typst_report "$report_type" "result-table" "$report_output_file.json"
