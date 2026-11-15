@@ -61,7 +61,6 @@ option "inferred_tolerance_default" "SEK:0.00"
 2024-01-01 open Expenses:4300:Maskiner-och-större-verktyg                 SEK
 
 ; ======== 5XXX-6XXX - ÖVRIGA KOSTNADER ========
-2024-01-01 open Expenses:6450:Års-eller-föreningsstämma                   SEK
 2024-01-01 open Expenses:5310:El-för-drift                                SEK
 2024-01-01 open Expenses:5420:Programvaror                                SEK
 2024-01-01 open Expenses:5421:Hemsida                                     SEK
@@ -94,6 +93,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 ; ======== 7XXX - LÖNER OCH PERSONAL ========
 ; ======== 8XXX - FINANSIELLA KOSTNADER & INTÄKTER ========
 2024-01-01 open Income:8311:Ränteintäkter-från-bank                       SEK
+2024-01-01 open Income:8999:Årets-resultat                                SEK
 
 ; ======== 9XXX - EGET KAPITAL & PERIODISERINGAR ========
 1970-01-01 open Equity:Opening-Balances                                   SEK
@@ -103,6 +103,7 @@ option "inferred_tolerance_default" "SEK:0.00"
   Assets:1356:Andelar-i-andra-organisationer                     10000.00 SEK
   Assets:1920:Bank:Plusgiro                                      85285.03 SEK
   Assets:1940:Bank:Placeringskonto                                1208.10 SEK
+  Liabilities:2060:Eget-kapital                                 -87016.36 SEK
   Liabilities:2290:Avsättning-till-underhållsfond               -18072.41 SEK
   Equity:Opening-Balances
 
@@ -1392,6 +1393,10 @@ option "inferred_tolerance_default" "SEK:0.00"
   id: "nordea_260_2024-12-30_1000.00"
   Expenses:6450:Föreningsstämma                                   1000.00 SEK
   Expenses:6601:Mat:Arbetsdagar                                  -1000.00 SEK
+
+2024-12-31 * "Årets resultat 2024" "Underskott enligt resultaträkning"
+  Liabilities:2069:Årets-resultat                                43072.70 SEK
+  Income:8999:Årets-resultat                                    -43072.70 SEK
 
 
 2024-12-31 balance Assets:1920:Bank:Plusgiro                     40907.22 SEK
