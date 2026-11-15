@@ -113,3 +113,33 @@ function check_year_end() {
     return 1
   fi
 }
+
+# Checks the verification numbers of the period (see get_transaction_list):
+#   - Several transactions with the same number: error.
+#   - Several transactions without an id that get number 0: a warning, since
+#     only the opening of the year is expected to lack an id.
+function check_verification_numbers() {
+  local ledger_file="$1"
+  local start_of_period="$2"
+  local end_of_period="$3"
+  local messages
+
+  messages=$(get_transaction_list "$ledger_file" "$start_of_period" "$end_of_period" |
+    jq -r '
+      def describe: map("  \(.date) \(.description)" + (if .id then " (id: \(.id))" else "" end)) | join("\n");
+
+      [group_by(.seq)[] | first] as $transactions
+      | ($transactions | map(select(.vernr != 0)) | group_by(.vernr) | map(select(length > 1))) as $duplicates
+      | ($transactions | map(select(.vernr == 0))) as $unnumbered
+      | ($duplicates[] | "Error: several transactions have verification number \(.[0].vernr):\n" + describe),
+        (if ($unnumbered | length) > 1 then
+          "Warning: several transactions have no id, and get verification number 0:\n" + ($unnumbered | describe)
+        else empty end)')
+
+  if [ -n "$messages" ]; then
+    echo "$messages" >&2
+  fi
+  if echo "$messages" | grep -q '^Error:'; then
+    return 1
+  fi
+}
