@@ -148,7 +148,7 @@ test_name="second-half-of-year: income accounts start at zero"
 expect_value huvudbok '.[] | select(.account == "3010 - Medlemsavgift") | .transactions[0].amount' '0'
 
 test_name="second-half-of-year: only verifications of the period"
-expect_value verifikationslista '[.[0].vernr, .[0].date, .[-1].vernr]' '[110,"2024-07-01",262]'
+expect_value verifikationslista '[.[0].vernr, .[0].date, .[-1].vernr]' '[97,"2024-07-01",232]'
 
 start_test "transaction-without-id-last-in-the-period"
 sed -i 's/^end-of-period: .*/end-of-period: 2024-06-30/' "$dir/config.yaml"
@@ -167,7 +167,7 @@ sed -i -e '0,/^2024-12-13 \* "Service\/felsökning Hjälpbåtsmotor"/s//2024-12-
        -e '0,/^2024-12-12 \* .*/s//2024-12-12 * "true"/' "$dir/example.beancount"
 generate
 test_name="text-that-looks-like-a-number: the text is kept as it is"
-expect_value verifikationslista '[.[] | select(.vernr == 255) | .description]' '["2024"]'
+expect_value verifikationslista '[.[] | select(.vernr == 226) | .description]' '["2024"]'
 
 start_test "config-outside-of-the-scripts"
 ( cd / && generate )
@@ -201,8 +201,12 @@ sed -i -e '/id: "nordea_5_/d' -e '/id: "nordea_6_/d' "$dir/example.beancount"
 expect_warning "several transactions have no id"
 
 start_test "missing-verification-numbers"
-sed -i -e 's/^\(unused-verification-numbers: \[\)8, 9, 14, /\1/' "$dir/config.yaml"
-expect_warning "no transactions with these verification numbers: 8-9, 14\\."
+sed -i -e 's/id: "nordea_230_/id: "nordea_232_/' -e 's/id: "nordea_231_/id: "nordea_233_/' "$dir/example.beancount"
+expect_warning "no transactions with these verification numbers: 230-231\\."
+
+test_name="missing-verification-numbers: no warning about numbers that are listed as unused"
+sed -i 's/^unused-verification-numbers: .*/unused-verification-numbers: [230, 231]/' "$dir/config.yaml"
+if generate && [ ! -s "$dir/stderr" ]; then pass; else fail "there were warnings"; fi
 
 #---------------------------------------------------------------------------------
 #   ERRORS
@@ -258,7 +262,7 @@ expect_error "has several currencies (EUR, SEK)"
 
 start_test "config-with-mistakes"
 sed -i -e 's/^start-of-period: .*/start-of-period: 2025-01-01/' -e 's/^  - huvudbok$/  - kassabok/' "$dir/config.yaml"
-sed -i 's/^unused-verification-numbers: \[8, /unused-verification-numbers: [x, /' "$dir/config.yaml"
+sed -i 's/^unused-verification-numbers: .*/unused-verification-numbers: [x]/' "$dir/config.yaml"
 expect_error '"start-of-period" is after "end-of-period"'
 test_name="config-with-mistakes: unknown report"
 if grep -q 'Unknown report in "reports-to-generate": kassabok' "$dir/stderr"; then pass; else fail "the unknown report was not caught"; fi

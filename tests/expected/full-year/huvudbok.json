@@ -36,9 +36,9 @@
       {
         "amount": 1037.9,
         "date": "2024-12-29",
-        "description": "Dubbel utbetalning för impregnering tält - V90 och V157",
-        "id": "nordea_258_2024-08-12_-1037.9",
-        "vernr": 258
+        "description": "Dubbel utbetalning för impregnering tält - V78 och V142",
+        "id": "nordea_228_2024-08-12_-1037.9",
+        "vernr": 228
       }
     ]
   },
@@ -105,1548 +105,1548 @@
         "amount": 350,
         "date": "2024-01-26",
         "description": "Medlemsavgift",
-        "id": "nordea_10_2024-01-26_350",
-        "vernr": 10
+        "id": "nordea_8_2024-01-26_350",
+        "vernr": 8
       },
       {
         "amount": 350,
         "date": "2024-01-30",
         "description": "Medlemsavgift",
-        "id": "nordea_11_2024-01-30_350",
+        "id": "nordea_9_2024-01-30_350",
+        "vernr": 9
+      },
+      {
+        "amount": 500,
+        "date": "2024-02-01",
+        "description": "Medlemsavgift",
+        "id": "nordea_10_2024-02-01_500",
+        "vernr": 10
+      },
+      {
+        "amount": 500,
+        "date": "2024-02-01",
+        "description": "Medlemsavgift",
+        "id": "nordea_11_2024-02-01_500",
         "vernr": 11
-      },
-      {
-        "amount": 500,
-        "date": "2024-02-01",
-        "description": "Medlemsavgift",
-        "id": "nordea_12_2024-02-01_500",
-        "vernr": 12
-      },
-      {
-        "amount": 500,
-        "date": "2024-02-01",
-        "description": "Medlemsavgift",
-        "id": "nordea_13_2024-02-01_500",
-        "vernr": 13
       },
       {
         "amount": -10,
         "date": "2024-02-01",
         "description": "Swishavgift",
-        "id": "nordea_15_2024-02-01_10",
-        "vernr": 15
+        "id": "nordea_12_2024-02-01_10",
+        "vernr": 12
       },
       {
         "amount": 350,
         "date": "2024-02-02",
         "description": "Medlemsavgift",
-        "id": "nordea_16_2024-02-02_350",
-        "vernr": 16
+        "id": "nordea_13_2024-02-02_350",
+        "vernr": 13
       },
       {
         "amount": 50,
         "date": "2024-02-02",
         "description": "Donation",
-        "id": "nordea_17_2024-02-02_50",
-        "vernr": 17
+        "id": "nordea_14_2024-02-02_50",
+        "vernr": 14
       },
       {
         "amount": -3085,
         "date": "2024-02-02",
         "description": "Årsavgift, Speedledger",
-        "id": "nordea_18_2024-02-02_3085",
-        "vernr": 18
+        "id": "nordea_15_2024-02-02_3085",
+        "vernr": 15
       },
       {
         "amount": 350,
         "date": "2024-02-09",
         "description": "Medlemsavgift",
-        "id": "nordea_19_2024-02-09_350",
-        "vernr": 19
+        "id": "nordea_16_2024-02-09_350",
+        "vernr": 16
       },
       {
         "amount": 50,
         "date": "2024-02-20",
         "description": "Donation",
-        "id": "nordea_22_2024-02-20_50",
-        "vernr": 22
+        "id": "nordea_18_2024-02-20_50",
+        "vernr": 18
       },
       {
         "amount": 350,
         "date": "2024-02-21",
         "description": "Medlemsavgift",
-        "id": "nordea_21_2024-02-21_350",
-        "vernr": 21
+        "id": "nordea_17_2024-02-21_350",
+        "vernr": 17
       },
       {
         "amount": 350,
         "date": "2024-02-26",
         "description": "Medlemsavgift",
-        "id": "nordea_24_2024-02-26_350",
-        "vernr": 24
+        "id": "nordea_19_2024-02-26_350",
+        "vernr": 19
       },
       {
         "amount": 350,
         "date": "2024-02-27",
         "description": "Donation",
-        "id": "nordea_25_2024-02-27_350",
-        "vernr": 25
+        "id": "nordea_20_2024-02-27_350",
+        "vernr": 20
       },
       {
         "amount": 500,
         "date": "2024-02-29",
         "description": "Medlemsavgift",
-        "id": "nordea_26_2024-02-29_500",
-        "vernr": 26
+        "id": "nordea_21_2024-02-29_500",
+        "vernr": 21
       },
       {
         "amount": 350,
         "date": "2024-03-01",
         "description": "Medlemsavgift",
-        "id": "nordea_27_2024-03-01_350",
-        "vernr": 27
+        "id": "nordea_22_2024-03-01_350",
+        "vernr": 22
       },
       {
         "amount": -16,
         "date": "2024-03-01",
         "description": "Swishavgift",
-        "id": "nordea_28_2024-03-01_16",
-        "vernr": 28
+        "id": "nordea_23_2024-03-01_16",
+        "vernr": 23
       },
       {
         "amount": 350,
         "date": "2024-03-04",
         "description": "Medlemsavgift",
-        "id": "nordea_31_2024-03-04_350",
-        "vernr": 31
+        "id": "nordea_24_2024-03-04_350",
+        "vernr": 24
       },
       {
         "amount": 350,
         "date": "2024-03-04",
         "description": "Medlemsavgift",
-        "id": "nordea_32_2024-03-04_350",
-        "vernr": 32
+        "id": "nordea_25_2024-03-04_350",
+        "vernr": 25
       },
       {
         "amount": 350,
         "date": "2024-03-04",
         "description": "Medlemsavgift",
-        "id": "nordea_33_2024-03-04_350",
-        "vernr": 33
+        "id": "nordea_26_2024-03-04_350",
+        "vernr": 26
       },
       {
         "amount": -600,
         "date": "2024-03-04",
         "description": "Transportstyrelsen Registeravgift",
-        "id": "nordea_34_2024-03-04_600",
-        "vernr": 34
+        "id": "nordea_27_2024-03-04_600",
+        "vernr": 27
       },
       {
         "amount": -1.85,
         "date": "2024-03-05",
         "description": "Bankkostnad",
-        "id": "nordea_35_2024-03-05_1.85",
+        "id": "nordea_28_2024-03-05_1.85",
+        "vernr": 28
+      },
+      {
+        "amount": 350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_29_2024-03-12_350",
+        "vernr": 29
+      },
+      {
+        "amount": 350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_30_2024-03-12_350",
+        "vernr": 30
+      },
+      {
+        "amount": 350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_31_2024-03-12_350",
+        "vernr": 31
+      },
+      {
+        "amount": 350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_32_2024-03-12_350",
+        "vernr": 32
+      },
+      {
+        "amount": 500,
+        "date": "2024-03-13",
+        "description": "Medlemsavgift",
+        "id": "nordea_33_2024-03-13_500",
+        "vernr": 33
+      },
+      {
+        "amount": 500,
+        "date": "2024-03-13",
+        "description": "Medlemsavgift",
+        "id": "nordea_34_2024-03-13_500",
+        "vernr": 34
+      },
+      {
+        "amount": 350,
+        "date": "2024-03-15",
+        "description": "Medlemsavgift",
+        "id": "nordea_35_2024-03-15_350",
         "vernr": 35
       },
       {
         "amount": 350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_38_2024-03-12_350",
-        "vernr": 38
-      },
-      {
-        "amount": 350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_39_2024-03-12_350",
-        "vernr": 39
-      },
-      {
-        "amount": 350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_40_2024-03-12_350",
-        "vernr": 40
-      },
-      {
-        "amount": 350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_41_2024-03-12_350",
-        "vernr": 41
-      },
-      {
-        "amount": 500,
-        "date": "2024-03-13",
-        "description": "Medlemsavgift",
-        "id": "nordea_42_2024-03-13_500",
-        "vernr": 42
-      },
-      {
-        "amount": 500,
-        "date": "2024-03-13",
-        "description": "Medlemsavgift",
-        "id": "nordea_43_2024-03-13_500",
-        "vernr": 43
-      },
-      {
-        "amount": 350,
         "date": "2024-03-15",
         "description": "Medlemsavgift",
-        "id": "nordea_44_2024-03-15_350",
-        "vernr": 44
-      },
-      {
-        "amount": 350,
-        "date": "2024-03-15",
-        "description": "Medlemsavgift",
-        "id": "nordea_45_2024-03-15_350",
-        "vernr": 45
+        "id": "nordea_36_2024-03-15_350",
+        "vernr": 36
       },
       {
         "amount": 500,
         "date": "2024-03-18",
         "description": "Medlemsavgift",
-        "id": "nordea_47_2024-03-18_500",
-        "vernr": 47
+        "id": "nordea_37_2024-03-18_500",
+        "vernr": 37
       },
       {
         "amount": 450,
         "date": "2024-03-18",
         "description": "Tröjor",
-        "id": "nordea_48_2024-03-18_450",
-        "vernr": 48
+        "id": "nordea_38_2024-03-18_450",
+        "vernr": 38
       },
       {
         "amount": 350,
         "date": "2024-03-18",
         "description": "Medlemsavgift",
-        "id": "nordea_50_2024-03-18_350",
-        "vernr": 50
+        "id": "nordea_39_2024-03-18_350",
+        "vernr": 39
       },
       {
         "amount": 250,
         "date": "2024-03-18",
         "description": "Böcker",
-        "id": "nordea_51_2024-03-18_250",
-        "vernr": 51
+        "id": "nordea_40_2024-03-18_250",
+        "vernr": 40
       },
       {
         "amount": 200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_52_2024-03-18_200",
-        "vernr": 52
+        "id": "nordea_41_2024-03-18_200",
+        "vernr": 41
       },
       {
         "amount": 200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_53_2024-03-18_200",
-        "vernr": 53
+        "id": "nordea_42_2024-03-18_200",
+        "vernr": 42
       },
       {
         "amount": 200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_54_2024-03-18_200",
-        "vernr": 54
+        "id": "nordea_43_2024-03-18_200",
+        "vernr": 43
       },
       {
         "amount": 20,
         "date": "2024-03-18",
         "description": "Donation",
-        "id": "nordea_55_2024-03-18_20",
-        "vernr": 55
+        "id": "nordea_44_2024-03-18_20",
+        "vernr": 44
       },
       {
         "amount": -151,
         "date": "2024-03-18",
         "description": "Mattransport årsmöte",
-        "id": "nordea_56_2024-03-18_151",
-        "vernr": 56
+        "id": "nordea_45_2024-03-18_151",
+        "vernr": 45
       },
       {
         "amount": -1000,
         "date": "2024-03-18",
-        "description": "Lokalhyra årsmöte - Korrigerad i V261",
-        "id": "nordea_57_2024-03-18_1000",
-        "vernr": 57
+        "description": "Lokalhyra årsmöte - Korrigerad i V231",
+        "id": "nordea_46_2024-03-18_1000",
+        "vernr": 46
       },
       {
         "amount": -1111.86,
         "date": "2024-03-18",
         "description": "Årsmötesmat",
-        "id": "nordea_58_2024-03-18_1111.86",
-        "vernr": 58
+        "id": "nordea_47_2024-03-18_1111.86",
+        "vernr": 47
       },
       {
         "amount": 50,
         "date": "2024-03-20",
         "description": "Donation",
-        "id": "nordea_59_2024-03-20_50",
-        "vernr": 59
+        "id": "nordea_48_2024-03-20_50",
+        "vernr": 48
       },
       {
         "amount": -2345,
         "date": "2024-03-20",
         "description": "Försäkring Fartyget, halvåravgift",
-        "id": "nordea_60_2024-03-20_6304",
-        "vernr": 60
+        "id": "nordea_49_2024-03-20_6304",
+        "vernr": 49
       },
       {
         "amount": 350,
         "date": "2024-03-21",
         "description": "Medlemsavgift",
-        "id": "nordea_61_2024-03-21_350",
-        "vernr": 61
+        "id": "nordea_50_2024-03-21_350",
+        "vernr": 50
       },
       {
         "amount": -40,
         "date": "2024-04-02",
         "description": "Swishavgift",
-        "id": "nordea_63_2024-04-02_40",
-        "vernr": 63
+        "id": "nordea_51_2024-04-02_40",
+        "vernr": 51
       },
       {
         "amount": -3.7,
         "date": "2024-04-04",
         "description": "Bankkostnad",
-        "id": "nordea_64_2024-04-04_3.7",
-        "vernr": 64
+        "id": "nordea_52_2024-04-04_3.7",
+        "vernr": 52
       },
       {
         "amount": 500,
         "date": "2024-04-09",
         "description": "Medlemsavgift",
-        "id": "nordea_65_2024-04-09_500",
-        "vernr": 65
+        "id": "nordea_53_2024-04-09_500",
+        "vernr": 53
       },
       {
         "amount": -209.85,
         "date": "2024-04-29",
         "description": "Fika flytt till varvet",
-        "id": "nordea_66_2024-04-29_209.85",
-        "vernr": 66
+        "id": "nordea_54_2024-04-29_209.85",
+        "vernr": 54
       },
       {
         "amount": -684,
         "date": "2024-04-29",
         "description": "Fika årsmöte",
-        "id": "nordea_67_2024-04-29_684",
-        "vernr": 67
+        "id": "nordea_55_2024-04-29_684",
+        "vernr": 55
       },
       {
         "amount": -2580.4,
         "date": "2024-04-29",
         "description": "Varvsmateriel",
-        "id": "nordea_68_2024-04-29_2580.4",
-        "vernr": 68
+        "id": "nordea_56_2024-04-29_2580.4",
+        "vernr": 56
       },
       {
         "amount": -4200,
         "date": "2024-04-29",
         "description": "Sommarhamn årsavgift",
-        "id": "nordea_69_2024-04-29_4200",
-        "vernr": 69
+        "id": "nordea_57_2024-04-29_4200",
+        "vernr": 57
       },
       {
         "amount": -1511,
         "date": "2024-04-30",
         "description": "Primer och penslar",
-        "id": "nordea_70_2024-04-30_1511",
-        "vernr": 70
+        "id": "nordea_58_2024-04-30_1511",
+        "vernr": 58
       },
       {
         "amount": -4001,
         "date": "2024-04-30",
         "description": "Tjära",
-        "id": "nordea_71_2024-04-30_4001",
-        "vernr": 71
+        "id": "nordea_59_2024-04-30_4001",
+        "vernr": 59
       },
       {
         "amount": -912.22,
         "date": "2024-05-02",
         "description": "Meetup halvårsfaktura",
-        "id": "nordea_72_2024-05-02_912.22",
-        "vernr": 72
+        "id": "nordea_60_2024-05-02_912.22",
+        "vernr": 60
       },
       {
         "amount": -245,
         "date": "2024-05-03",
         "description": "PTS-tillstånd",
-        "id": "nordea_73_2024-05-03_245",
-        "vernr": 73
+        "id": "nordea_61_2024-05-03_245",
+        "vernr": 61
       },
       {
         "amount": -1000,
         "date": "2024-05-03",
         "description": "Försäkring Hjälpbåt och motor",
-        "id": "nordea_74_2024-05-03_1608",
-        "vernr": 74
+        "id": "nordea_62_2024-05-03_1608",
+        "vernr": 62
       },
       {
         "amount": 500,
         "date": "2024-05-06",
         "description": "Böcker",
-        "id": "nordea_75_2024-05-06_500",
-        "vernr": 75
+        "id": "nordea_63_2024-05-06_500",
+        "vernr": 63
       },
       {
         "amount": 350,
         "date": "2024-05-06",
         "description": "Medlemsavgift",
-        "id": "nordea_76_2024-05-06_350",
-        "vernr": 76
+        "id": "nordea_64_2024-05-06_350",
+        "vernr": 64
       },
       {
         "amount": 250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_77_2024-05-06_250",
-        "vernr": 77
+        "id": "nordea_65_2024-05-06_250",
+        "vernr": 65
       },
       {
         "amount": 250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_78_2024-05-06_250",
-        "vernr": 78
+        "id": "nordea_66_2024-05-06_250",
+        "vernr": 66
       },
       {
         "amount": 250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_79_2024-05-06_250",
-        "vernr": 79
+        "id": "nordea_67_2024-05-06_250",
+        "vernr": 67
       },
       {
         "amount": -3.7,
         "date": "2024-05-06",
         "description": "Bankkostnad",
-        "id": "nordea_80_2024-05-06_3.7",
-        "vernr": 80
+        "id": "nordea_68_2024-05-06_3.7",
+        "vernr": 68
       },
       {
         "amount": -179.7,
         "date": "2024-05-06",
         "description": "Karbinhakar",
-        "id": "nordea_81_2024-05-06_179.7",
-        "vernr": 81
+        "id": "nordea_69_2024-05-06_179.7",
+        "vernr": 69
       },
       {
         "amount": -264.4,
         "date": "2024-05-06",
         "description": "Penslar och rengöring",
-        "id": "nordea_82_2024-05-06_264.4",
-        "vernr": 82
+        "id": "nordea_70_2024-05-06_264.4",
+        "vernr": 70
       },
       {
         "amount": -457.8,
         "date": "2024-05-06",
         "description": "Stålborstar och filter",
-        "id": "nordea_83_2024-05-06_457.8",
-        "vernr": 83
+        "id": "nordea_71_2024-05-06_457.8",
+        "vernr": 71
       },
       {
         "amount": -867,
         "date": "2024-05-06",
         "description": "Tjära",
-        "id": "nordea_84_2024-05-06_867",
-        "vernr": 84
+        "id": "nordea_72_2024-05-06_867",
+        "vernr": 72
       },
       {
         "amount": -1049,
         "date": "2024-05-06",
         "description": "Dammsugare",
-        "id": "nordea_85_2024-05-06_1049",
-        "vernr": 85
+        "id": "nordea_73_2024-05-06_1049",
+        "vernr": 73
       },
       {
         "amount": -1944,
         "date": "2024-05-06",
         "description": "Länspump och varmluftspistol",
-        "id": "nordea_86_2024-05-06_1944",
-        "vernr": 86
+        "id": "nordea_74_2024-05-06_1944",
+        "vernr": 74
       },
       {
         "amount": 50,
         "date": "2024-05-16",
         "description": "Donation",
-        "id": "nordea_87_2024-05-16_50",
-        "vernr": 87
+        "id": "nordea_75_2024-05-16_50",
+        "vernr": 75
       },
       {
         "amount": 50,
         "date": "2024-05-22",
         "description": "Donation",
-        "id": "nordea_88_2024-05-22_50",
-        "vernr": 88
+        "id": "nordea_76_2024-05-22_50",
+        "vernr": 76
       },
       {
         "amount": -490.43,
         "date": "2024-05-23",
         "description": "Bensin flytt",
-        "id": "nordea_89_2024-05-23_490.43",
-        "vernr": 89
+        "id": "nordea_77_2024-05-23_490.43",
+        "vernr": 77
       },
       {
         "amount": -1037.9,
         "date": "2024-05-23",
         "description": "tältimpregnering",
-        "id": "nordea_90_2024-05-23_1037.9",
-        "vernr": 90
+        "id": "nordea_78_2024-05-23_1037.9",
+        "vernr": 78
       },
       {
         "amount": -24062,
         "date": "2024-05-23",
         "description": "Varv",
-        "id": "nordea_91_2024-05-23_24062",
-        "vernr": 91
+        "id": "nordea_79_2024-05-23_24062",
+        "vernr": 79
       },
       {
         "amount": 500,
         "date": "2024-05-27",
         "description": "Medlemsavgift",
-        "id": "nordea_92_2024-05-27_500",
-        "vernr": 92
+        "id": "nordea_80_2024-05-27_500",
+        "vernr": 80
       },
       {
         "amount": -479,
         "date": "2024-05-28",
         "description": "Tältimpregnering",
-        "id": "nordea_93_2024-05-28_479",
-        "vernr": 93
+        "id": "nordea_81_2024-05-28_479",
+        "vernr": 81
       },
       {
         "amount": 350,
         "date": "2024-06-03",
         "description": "Medlemsavgift",
-        "id": "nordea_94_2024-06-03_350",
-        "vernr": 94
+        "id": "nordea_82_2024-06-03_350",
+        "vernr": 82
       },
       {
         "amount": -10,
         "date": "2024-06-03",
         "description": "Swishavgift",
-        "id": "nordea_95_2024-06-03_10",
-        "vernr": 95
+        "id": "nordea_83_2024-06-03_10",
+        "vernr": 83
       },
       {
         "amount": -7.4,
         "date": "2024-06-05",
         "description": "Bankkostnad",
-        "id": "nordea_96_2024-06-05_7.4",
-        "vernr": 96
+        "id": "nordea_84_2024-06-05_7.4",
+        "vernr": 84
       },
       {
         "amount": 350,
         "date": "2024-06-12",
         "description": "Medlemsavgift",
-        "id": "nordea_97_2024-06-12_350",
-        "vernr": 97
+        "id": "nordea_85_2024-06-12_350",
+        "vernr": 85
       },
       {
         "amount": 350,
         "date": "2024-06-14",
         "description": "Medlemsavgift",
-        "id": "nordea_98_2024-06-14_350",
-        "vernr": 98
+        "id": "nordea_86_2024-06-14_350",
+        "vernr": 86
       },
       {
         "amount": 50,
         "date": "2024-06-14",
         "description": "Donation",
-        "id": "nordea_99_2024-06-14_50",
-        "vernr": 99
+        "id": "nordea_87_2024-06-14_50",
+        "vernr": 87
       },
       {
         "amount": 350,
         "date": "2024-06-17",
         "description": "Medlemsavgift",
-        "id": "nordea_100_2024-06-17_350",
-        "vernr": 100
+        "id": "nordea_88_2024-06-17_350",
+        "vernr": 88
       },
       {
         "amount": 50,
         "date": "2024-06-20",
         "description": "Donation",
-        "id": "nordea_101_2024-06-20_50",
-        "vernr": 101
+        "id": "nordea_89_2024-06-20_50",
+        "vernr": 89
       },
       {
         "amount": 1350,
         "date": "2024-06-24",
         "description": "Seglings- och matavgift + donation",
-        "id": "nordea_102_2024-06-24_600",
-        "vernr": 102
+        "id": "nordea_90_2024-06-24_600",
+        "vernr": 90
       },
       {
         "amount": 4050,
         "date": "2024-06-25",
         "description": "Seglings- och matavgift",
-        "id": "nordea_103_2024-06-25_2100",
-        "vernr": 103
+        "id": "nordea_91_2024-06-25_2100",
+        "vernr": 91
       },
       {
         "amount": 3600,
         "date": "2024-06-26",
         "description": "Seglings- och matavgift",
-        "id": "nordea_104_2024-06-26_1200",
-        "vernr": 104
+        "id": "nordea_92_2024-06-26_1200",
+        "vernr": 92
       },
       {
         "amount": 350,
         "date": "2024-06-26",
         "description": "Medlemsavgift",
-        "id": "nordea_105_2024-06-26_350",
-        "vernr": 105
+        "id": "nordea_93_2024-06-26_350",
+        "vernr": 93
       },
       {
         "amount": 350,
         "date": "2024-06-27",
         "description": "Medlemsavgift",
-        "id": "nordea_107_2024-06-27_350",
-        "vernr": 107
+        "id": "nordea_94_2024-06-27_350",
+        "vernr": 94
       },
       {
         "amount": 350,
         "date": "2024-06-28",
         "description": "Medlemsavgift",
-        "id": "nordea_108_2024-06-28_350",
-        "vernr": 108
+        "id": "nordea_95_2024-06-28_350",
+        "vernr": 95
       },
       {
         "amount": 350,
         "date": "2024-06-28",
         "description": "Medlemsavgift",
-        "id": "nordea_109_2024-06-28_350",
-        "vernr": 109
+        "id": "nordea_96_2024-06-28_350",
+        "vernr": 96
       },
       {
         "amount": 1350,
         "date": "2024-07-01",
         "description": "Matavgift",
-        "id": "nordea_110_2024-07-01_1050",
-        "vernr": 110
+        "id": "nordea_97_2024-07-01_1050",
+        "vernr": 97
       },
       {
         "amount": 900,
         "date": "2024-07-01",
         "description": "Seglings- och matavgift",
-        "id": "nordea_111_2024-07-01_600",
-        "vernr": 111
+        "id": "nordea_98_2024-07-01_600",
+        "vernr": 98
       },
       {
         "amount": 500,
         "date": "2024-07-01",
         "description": "Medlemsavgift",
-        "id": "nordea_112_2024-07-01_500",
-        "vernr": 112
+        "id": "nordea_99_2024-07-01_500",
+        "vernr": 99
       },
       {
         "amount": 350,
         "date": "2024-07-01",
         "description": "Medlemsavgift",
-        "id": "nordea_113_2024-07-01_350",
-        "vernr": 113
+        "id": "nordea_100_2024-07-01_350",
+        "vernr": 100
       },
       {
         "amount": -20,
         "date": "2024-07-01",
         "description": "Swishavgift",
-        "id": "nordea_114_2024-07-01_20",
-        "vernr": 114
+        "id": "nordea_101_2024-07-01_20",
+        "vernr": 101
       },
       {
         "amount": 500,
         "date": "2024-07-05",
         "description": "Medlemsavgift",
-        "id": "nordea_115_2024-07-05_500",
-        "vernr": 115
+        "id": "nordea_102_2024-07-05_500",
+        "vernr": 102
       },
       {
         "amount": 500,
         "date": "2024-07-08",
         "description": "Medlemsavgift",
-        "id": "nordea_116_2024-07-08_500",
-        "vernr": 116
+        "id": "nordea_103_2024-07-08_500",
+        "vernr": 103
       },
       {
         "amount": 1950,
         "date": "2024-07-10",
         "description": "Seglings- och matavgift",
-        "id": "nordea_117_2024-07-10_900",
-        "vernr": 117
+        "id": "nordea_104_2024-07-10_900",
+        "vernr": 104
       },
       {
         "amount": 1050,
         "date": "2024-07-10",
         "description": "Matavgift",
-        "id": "nordea_118_2024-07-10_1050",
-        "vernr": 118
+        "id": "nordea_105_2024-07-10_1050",
+        "vernr": 105
       },
       {
         "amount": 250,
         "date": "2024-07-10",
         "description": "Bok",
-        "id": "nordea_119_2024-07-10_250",
-        "vernr": 119
+        "id": "nordea_106_2024-07-10_250",
+        "vernr": 106
       },
       {
         "amount": -900,
         "date": "2024-07-10",
         "description": "Ted 2 inställda seglingdagar",
-        "id": "nordea_120_2024-07-10_900",
-        "vernr": 120
+        "id": "nordea_107_2024-07-10_900",
+        "vernr": 107
       },
       {
         "amount": 200,
         "date": "2024-07-11",
         "description": "Bok",
-        "id": "nordea_121_2024-07-11_200",
-        "vernr": 121
+        "id": "nordea_108_2024-07-11_200",
+        "vernr": 108
       },
       {
         "amount": 2100,
         "date": "2024-07-15",
         "description": "Matavgift",
-        "id": "nordea_123_2024-07-15_2100",
-        "vernr": 123
+        "id": "nordea_109_2024-07-15_2100",
+        "vernr": 109
       },
       {
         "amount": 900,
         "date": "2024-07-15",
         "description": "Seglings- och matavgift",
-        "id": "nordea_124_2024-07-15_600",
-        "vernr": 124
+        "id": "nordea_110_2024-07-15_600",
+        "vernr": 110
       },
       {
         "amount": 900,
         "date": "2024-07-15",
         "description": "Matavgift",
-        "id": "nordea_125_2024-07-15_0",
-        "vernr": 125
+        "id": "nordea_111_2024-07-15_0",
+        "vernr": 111
       },
       {
         "amount": 600,
         "date": "2024-07-15",
         "description": "Seglingsavgift",
-        "id": "nordea_126_2024-07-15_600",
-        "vernr": 126
+        "id": "nordea_112_2024-07-15_600",
+        "vernr": 112
       },
       {
         "amount": 350,
         "date": "2024-07-15",
         "description": "Medlemsavgift",
-        "id": "nordea_127_2024-07-15_350",
-        "vernr": 127
+        "id": "nordea_113_2024-07-15_350",
+        "vernr": 113
       },
       {
         "amount": -255.6,
         "date": "2024-07-15",
         "description": "Mat seglingsvecka",
-        "id": "nordea_128_2024-07-15_255.6",
-        "vernr": 128
+        "id": "nordea_114_2024-07-15_255.6",
+        "vernr": 114
       },
       {
         "amount": -300,
         "date": "2024-07-15",
         "description": "Matavgift - inställda seglingsdagar",
-        "id": "nordea_129_2024-07-15_300",
-        "vernr": 129
+        "id": "nordea_115_2024-07-15_300",
+        "vernr": 115
       },
       {
         "amount": -349,
         "date": "2024-07-15",
         "description": "Brandsläckare",
-        "id": "nordea_130_2024-07-15_349",
-        "vernr": 130
+        "id": "nordea_116_2024-07-15_349",
+        "vernr": 116
       },
       {
         "amount": -365,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_131_2024-07-15_365",
-        "vernr": 131
+        "id": "nordea_117_2024-07-15_365",
+        "vernr": 117
       },
       {
         "amount": -375,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_132_2024-07-15_375",
-        "vernr": 132
+        "id": "nordea_118_2024-07-15_375",
+        "vernr": 118
       },
       {
         "amount": -390,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_133_2024-07-15_390",
-        "vernr": 133
+        "id": "nordea_119_2024-07-15_390",
+        "vernr": 119
       },
       {
         "amount": -406.9,
         "date": "2024-07-15",
         "description": "Första hjälpen etc",
-        "id": "nordea_134_2024-07-15_406.9",
-        "vernr": 134
+        "id": "nordea_120_2024-07-15_406.9",
+        "vernr": 120
       },
       {
         "amount": -435,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_135_2024-07-15_435",
-        "vernr": 135
+        "id": "nordea_121_2024-07-15_435",
+        "vernr": 121
       },
       {
         "amount": -512.3,
         "date": "2024-07-15",
         "description": "Fotogen och rödsprit",
-        "id": "nordea_136_2024-07-15_512.3",
-        "vernr": 136
+        "id": "nordea_122_2024-07-15_512.3",
+        "vernr": 122
       },
       {
         "amount": -552,
         "date": "2024-07-15",
         "description": "Div båtprylar",
-        "id": "nordea_137_2024-07-15_552",
-        "vernr": 137
+        "id": "nordea_123_2024-07-15_552",
+        "vernr": 123
       },
       {
         "amount": -590.18,
         "date": "2024-07-15",
         "description": "Mat seglingsvecka",
-        "id": "nordea_138_2024-07-15_590.18",
-        "vernr": 138
+        "id": "nordea_124_2024-07-15_590.18",
+        "vernr": 124
       },
       {
         "amount": -1321.5,
         "date": "2024-07-15",
         "description": "Köksredskap",
-        "id": "nordea_139_2024-07-15_1321.5",
-        "vernr": 139
+        "id": "nordea_125_2024-07-15_1321.5",
+        "vernr": 125
       },
       {
         "amount": -2344,
         "date": "2024-07-15",
         "description": "Propellrar",
-        "id": "nordea_140_2024-07-15_2344",
-        "vernr": 140
+        "id": "nordea_126_2024-07-15_2344",
+        "vernr": 126
       },
       {
         "amount": -13163,
         "date": "2024-07-16",
         "description": "Förtöjningsgods",
-        "id": "nordea_141_2024-07-16_13163",
-        "vernr": 141
+        "id": "nordea_127_2024-07-16_13163",
+        "vernr": 127
       },
       {
         "amount": 2700,
         "date": "2024-07-18",
         "description": "Seglings- och matavgift",
-        "id": "nordea_142_2024-07-18_1800",
-        "vernr": 142
+        "id": "nordea_128_2024-07-18_1800",
+        "vernr": 128
       },
       {
         "amount": 350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_143_2024-07-19_350",
-        "vernr": 143
+        "id": "nordea_129_2024-07-19_350",
+        "vernr": 129
       },
       {
         "amount": 350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_144_2024-07-19_350",
-        "vernr": 144
+        "id": "nordea_130_2024-07-19_350",
+        "vernr": 130
       },
       {
         "amount": 350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_145_2024-07-19_350",
-        "vernr": 145
+        "id": "nordea_131_2024-07-19_350",
+        "vernr": 131
       },
       {
         "amount": 50,
         "date": "2024-07-19",
         "description": "Donation",
-        "id": "nordea_146_2024-07-19_50",
-        "vernr": 146
+        "id": "nordea_132_2024-07-19_50",
+        "vernr": 132
       },
       {
         "amount": -933.44,
         "date": "2024-07-22",
         "description": "Bensin",
-        "id": "nordea_147_2024-07-22_933.44",
-        "vernr": 147
+        "id": "nordea_133_2024-07-22_933.44",
+        "vernr": 133
       },
       {
         "amount": -7238.16,
         "date": "2024-07-22",
         "description": "Mat",
-        "id": "nordea_148_2024-07-22_7238.16",
-        "vernr": 148
+        "id": "nordea_134_2024-07-22_7238.16",
+        "vernr": 134
       },
       {
         "amount": 50,
         "date": "2024-07-24",
         "description": "Donation",
-        "id": "nordea_149_2024-07-24_50",
-        "vernr": 149
+        "id": "nordea_135_2024-07-24_50",
+        "vernr": 135
       },
       {
         "amount": 350,
         "date": "2024-07-29",
         "description": "Medlemsavgift",
-        "id": "nordea_150_2024-07-29_350",
-        "vernr": 150
+        "id": "nordea_136_2024-07-29_350",
+        "vernr": 136
       },
       {
         "amount": -28,
         "date": "2024-08-01",
         "description": "Swishavgift",
-        "id": "nordea_151_2024-08-01_28",
-        "vernr": 151
+        "id": "nordea_137_2024-08-01_28",
+        "vernr": 137
       },
       {
         "amount": -1.85,
         "date": "2024-08-05",
         "description": "Bankkostnader",
-        "id": "nordea_153_2024-08-05_1.85",
-        "vernr": 153
+        "id": "nordea_138_2024-08-05_1.85",
+        "vernr": 138
       },
       {
         "amount": -1800,
         "date": "2024-08-05",
         "description": "Inställda seglingsdagar",
-        "id": "nordea_154_2024-08-05_1800",
-        "vernr": 154
+        "id": "nordea_139_2024-08-05_1800",
+        "vernr": 139
       },
       {
         "amount": 1050,
         "date": "2024-08-06",
         "description": "Matavgift",
-        "id": "nordea_155_2024-08-06_1050",
-        "vernr": 155
+        "id": "nordea_140_2024-08-06_1050",
+        "vernr": 140
       },
       {
         "amount": 50,
         "date": "2024-08-06",
         "description": "Donation",
-        "id": "nordea_156_2024-08-06_50",
-        "vernr": 156
+        "id": "nordea_141_2024-08-06_50",
+        "vernr": 141
       },
       {
         "amount": -1037.9,
         "date": "2024-08-12",
-        "description": "Impregnering tält - Nollställt i V257",
-        "id": "nordea_157_2024-08-12_1037.9",
-        "vernr": 157
+        "description": "Impregnering tält - Nollställt i V227",
+        "id": "nordea_142_2024-08-12_1037.9",
+        "vernr": 142
       },
       {
         "amount": -2296.37,
         "date": "2024-08-12",
         "description": "Mat",
-        "id": "nordea_158_2024-08-12_2296.37",
-        "vernr": 158
+        "id": "nordea_143_2024-08-12_2296.37",
+        "vernr": 143
       },
       {
         "amount": 600,
         "date": "2024-08-15",
         "description": "Matavgift",
-        "id": "nordea_159_2024-08-15_600",
-        "vernr": 159
+        "id": "nordea_144_2024-08-15_600",
+        "vernr": 144
       },
       {
         "amount": -5336,
         "date": "2024-08-15",
         "description": "Tältmaterial",
-        "id": "nordea_160_2024-08-15_5336",
-        "vernr": 160
+        "id": "nordea_145_2024-08-15_5336",
+        "vernr": 145
       },
       {
         "amount": 50,
         "date": "2024-08-19",
         "description": "Donation",
-        "id": "nordea_161_2024-08-19_50",
-        "vernr": 161
+        "id": "nordea_146_2024-08-19_50",
+        "vernr": 146
       },
       {
         "amount": 350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_162_2024-08-26_350",
-        "vernr": 162
+        "id": "nordea_147_2024-08-26_350",
+        "vernr": 147
       },
       {
         "amount": 350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_163_2024-08-26_350",
-        "vernr": 163
+        "id": "nordea_148_2024-08-26_350",
+        "vernr": 148
       },
       {
         "amount": 350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_164_2024-08-26_350",
-        "vernr": 164
+        "id": "nordea_149_2024-08-26_350",
+        "vernr": 149
       },
       {
         "amount": 350,
         "date": "2024-08-27",
         "description": "Medlemsavgift",
-        "id": "nordea_165_2024-08-27_350",
-        "vernr": 165
+        "id": "nordea_150_2024-08-27_350",
+        "vernr": 150
       },
       {
         "amount": 600,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_167_2024-09-02_600",
-        "vernr": 167
+        "id": "nordea_151_2024-09-02_600",
+        "vernr": 151
       },
       {
         "amount": 600,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_168_2024-09-02_600",
-        "vernr": 168
+        "id": "nordea_152_2024-09-02_600",
+        "vernr": 152
       },
       {
         "amount": 350,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_169_2024-09-02_350",
-        "vernr": 169
+        "id": "nordea_153_2024-09-02_350",
+        "vernr": 153
       },
       {
         "amount": 350,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_170_2024-09-02_350",
-        "vernr": 170
+        "id": "nordea_154_2024-09-02_350",
+        "vernr": 154
       },
       {
         "amount": 300,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_171_2024-09-02_300",
-        "vernr": 171
+        "id": "nordea_155_2024-09-02_300",
+        "vernr": 155
       },
       {
         "amount": 300,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_172_2024-09-02_300",
-        "vernr": 172
+        "id": "nordea_156_2024-09-02_300",
+        "vernr": 156
       },
       {
         "amount": 200,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_176_2024-09-02_200",
-        "vernr": 176
+        "id": "nordea_157_2024-09-02_200",
+        "vernr": 157
       },
       {
         "amount": 150,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_177_2024-09-02_150",
-        "vernr": 177
+        "id": "nordea_158_2024-09-02_150",
+        "vernr": 158
       },
       {
         "amount": -10,
         "date": "2024-09-02",
         "description": "Swishavgift",
-        "id": "nordea_178_2024-09-02_10",
-        "vernr": 178
+        "id": "nordea_159_2024-09-02_10",
+        "vernr": 159
       },
       {
         "amount": 150,
         "date": "2024-09-04",
         "description": "Höstfest",
-        "id": "nordea_179_2024-09-04_150",
-        "vernr": 179
+        "id": "nordea_160_2024-09-04_150",
+        "vernr": 160
       },
       {
         "amount": 50,
         "date": "2024-09-04",
         "description": "Donation",
-        "id": "nordea_180_2024-09-04_50",
-        "vernr": 180
+        "id": "nordea_161_2024-09-04_50",
+        "vernr": 161
       },
       {
         "amount": 50,
         "date": "2024-09-06",
         "description": "Donation",
-        "id": "nordea_181_2024-09-06_50",
-        "vernr": 181
+        "id": "nordea_162_2024-09-06_50",
+        "vernr": 162
       },
       {
         "amount": 300,
         "date": "2024-09-10",
         "description": "Seglingsavgift",
-        "id": "nordea_182_2024-09-10_300",
-        "vernr": 182
+        "id": "nordea_163_2024-09-10_300",
+        "vernr": 163
       },
       {
         "amount": 150,
         "date": "2024-09-12",
         "description": "Höstfest",
-        "id": "nordea_183_2024-09-12_150",
-        "vernr": 183
+        "id": "nordea_164_2024-09-12_150",
+        "vernr": 164
       },
       {
         "amount": 500,
         "date": "2024-09-17",
         "description": "Böcker",
-        "id": "nordea_184_2024-09-17_500",
-        "vernr": 184
+        "id": "nordea_165_2024-09-17_500",
+        "vernr": 165
       },
       {
         "amount": 300,
         "date": "2024-09-18",
         "description": "Höstfest",
-        "id": "nordea_185_2024-09-18_300",
-        "vernr": 185
+        "id": "nordea_166_2024-09-18_300",
+        "vernr": 166
       },
       {
         "amount": 50,
         "date": "2024-09-18",
         "description": "Donation",
-        "id": "nordea_186_2024-09-18_50",
-        "vernr": 186
+        "id": "nordea_167_2024-09-18_50",
+        "vernr": 167
       },
       {
         "amount": 350,
         "date": "2024-09-20",
         "description": "Medlemsavgift",
-        "id": "nordea_187_2024-09-20_350",
-        "vernr": 187
+        "id": "nordea_168_2024-09-20_350",
+        "vernr": 168
       },
       {
         "amount": 300,
         "date": "2024-09-20",
         "description": "Seglingsavgift",
-        "id": "nordea_188_2024-09-20_300",
-        "vernr": 188
+        "id": "nordea_169_2024-09-20_300",
+        "vernr": 169
       },
       {
         "amount": 350,
         "date": "2024-09-23",
         "description": "Medlemsavgift",
-        "id": "nordea_189_2024-09-23_350",
-        "vernr": 189
+        "id": "nordea_170_2024-09-23_350",
+        "vernr": 170
       },
       {
         "amount": 300,
         "date": "2024-09-23",
         "description": "Seglingsavgift",
-        "id": "nordea_190_2024-09-23_300",
-        "vernr": 190
+        "id": "nordea_171_2024-09-23_300",
+        "vernr": 171
       },
       {
         "amount": 300,
         "date": "2024-09-23",
         "description": "Seglingsavgift",
-        "id": "nordea_192_2024-09-23_300",
-        "vernr": 192
+        "id": "nordea_172_2024-09-23_300",
+        "vernr": 172
       },
       {
         "amount": 300,
         "date": "2024-09-24",
         "description": "Höstfest",
-        "id": "nordea_193_2024-09-24_300",
-        "vernr": 193
+        "id": "nordea_173_2024-09-24_300",
+        "vernr": 173
       },
       {
         "amount": 300,
         "date": "2024-09-24",
         "description": "Seglingsavgift",
-        "id": "nordea_194_2024-09-24_300",
-        "vernr": 194
+        "id": "nordea_174_2024-09-24_300",
+        "vernr": 174
       },
       {
         "amount": 150,
         "date": "2024-09-24",
         "description": "Höstfest",
-        "id": "nordea_195_2024-09-24_150",
-        "vernr": 195
+        "id": "nordea_175_2024-09-24_150",
+        "vernr": 175
       },
       {
         "amount": 740,
         "date": "2024-09-25",
         "description": "Seglingsavgift",
-        "id": "nordea_196_2024-09-25_740",
-        "vernr": 196
+        "id": "nordea_176_2024-09-25_740",
+        "vernr": 176
       },
       {
         "amount": 150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_198_2024-09-25_150",
-        "vernr": 198
+        "id": "nordea_177_2024-09-25_150",
+        "vernr": 177
       },
       {
         "amount": 150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_199_2024-09-25_150",
-        "vernr": 199
+        "id": "nordea_178_2024-09-25_150",
+        "vernr": 178
       },
       {
         "amount": 150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_200_2024-09-25_150",
-        "vernr": 200
+        "id": "nordea_179_2024-09-25_150",
+        "vernr": 179
       },
       {
         "amount": 350,
         "date": "2024-09-27",
         "description": "Medlemsavgift",
-        "id": "nordea_209_2024-09-27_350",
-        "vernr": 209
+        "id": "nordea_180_2024-09-27_350",
+        "vernr": 180
       },
       {
         "amount": 300,
         "date": "2024-09-27",
         "description": "Höstfest",
-        "id": "nordea_210_2024-09-27_300",
-        "vernr": 210
+        "id": "nordea_181_2024-09-27_300",
+        "vernr": 181
       },
       {
         "amount": 600,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_211_2024-09-30_600",
-        "vernr": 211
+        "id": "nordea_182_2024-09-30_600",
+        "vernr": 182
       },
       {
         "amount": 300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_212_2024-09-30_300",
-        "vernr": 212
+        "id": "nordea_183_2024-09-30_300",
+        "vernr": 183
       },
       {
         "amount": 300,
         "date": "2024-09-30",
         "description": "Mugg och tröja",
-        "id": "nordea_213_2024-09-30_300",
-        "vernr": 213
+        "id": "nordea_184_2024-09-30_300",
+        "vernr": 184
       },
       {
         "amount": 300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_214_2024-09-30_300",
-        "vernr": 214
+        "id": "nordea_185_2024-09-30_300",
+        "vernr": 185
       },
       {
         "amount": 300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_215_2024-09-30_300",
-        "vernr": 215
+        "id": "nordea_186_2024-09-30_300",
+        "vernr": 186
       },
       {
         "amount": 250,
         "date": "2024-09-30",
         "description": "Höstfest och mugg",
-        "id": "nordea_216_2024-09-30_150",
-        "vernr": 216
+        "id": "nordea_187_2024-09-30_150",
+        "vernr": 187
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_217_2024-09-30_200",
-        "vernr": 217
+        "id": "nordea_188_2024-09-30_200",
+        "vernr": 188
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_218_2024-09-30_200",
-        "vernr": 218
+        "id": "nordea_189_2024-09-30_200",
+        "vernr": 189
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "Bok",
-        "id": "nordea_219_2024-09-30_200",
-        "vernr": 219
+        "id": "nordea_190_2024-09-30_200",
+        "vernr": 190
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_220_2024-09-30_200",
-        "vernr": 220
+        "id": "nordea_191_2024-09-30_200",
+        "vernr": 191
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_221_2024-09-30_200",
-        "vernr": 221
+        "id": "nordea_192_2024-09-30_200",
+        "vernr": 192
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_222_2024-09-30_200",
-        "vernr": 222
+        "id": "nordea_193_2024-09-30_200",
+        "vernr": 193
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_223_2024-09-30_200",
-        "vernr": 223
+        "id": "nordea_194_2024-09-30_200",
+        "vernr": 194
       },
       {
         "amount": 200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_224_2024-09-30_200",
-        "vernr": 224
+        "id": "nordea_195_2024-09-30_200",
+        "vernr": 195
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_225_2024-09-30_150",
-        "vernr": 225
+        "id": "nordea_196_2024-09-30_150",
+        "vernr": 196
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_226_2024-09-30_150",
-        "vernr": 226
+        "id": "nordea_197_2024-09-30_150",
+        "vernr": 197
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_227_2024-09-30_150",
-        "vernr": 227
+        "id": "nordea_198_2024-09-30_150",
+        "vernr": 198
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_228_2024-09-30_150",
-        "vernr": 228
+        "id": "nordea_199_2024-09-30_150",
+        "vernr": 199
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_229_2024-09-30_150",
-        "vernr": 229
+        "id": "nordea_200_2024-09-30_150",
+        "vernr": 200
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_230_2024-09-30_150",
-        "vernr": 230
+        "id": "nordea_201_2024-09-30_150",
+        "vernr": 201
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_231_2024-09-30_150",
-        "vernr": 231
+        "id": "nordea_202_2024-09-30_150",
+        "vernr": 202
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_232_2024-09-30_150",
-        "vernr": 232
+        "id": "nordea_203_2024-09-30_150",
+        "vernr": 203
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_233_2024-09-30_150",
-        "vernr": 233
+        "id": "nordea_204_2024-09-30_150",
+        "vernr": 204
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_234_2024-09-30_150",
-        "vernr": 234
+        "id": "nordea_205_2024-09-30_150",
+        "vernr": 205
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_235_2024-09-30_150",
-        "vernr": 235
+        "id": "nordea_206_2024-09-30_150",
+        "vernr": 206
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Böcker",
-        "id": "nordea_236_2024-09-30_150",
-        "vernr": 236
+        "id": "nordea_207_2024-09-30_150",
+        "vernr": 207
       },
       {
         "amount": 150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_237_2024-09-30_150",
-        "vernr": 237
+        "id": "nordea_208_2024-09-30_150",
+        "vernr": 208
       },
       {
         "amount": 50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_238_2024-09-30_50",
-        "vernr": 238
+        "id": "nordea_209_2024-09-30_50",
+        "vernr": 209
       },
       {
         "amount": 50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_239_2024-09-30_50",
-        "vernr": 239
+        "id": "nordea_210_2024-09-30_50",
+        "vernr": 210
       },
       {
         "amount": 50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_240_2024-09-30_50",
-        "vernr": 240
+        "id": "nordea_211_2024-09-30_50",
+        "vernr": 211
       },
       {
         "amount": 40,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_241_2024-09-30_40",
-        "vernr": 241
+        "id": "nordea_212_2024-09-30_40",
+        "vernr": 212
       },
       {
         "amount": 20,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_242_2024-09-30_20",
-        "vernr": 242
+        "id": "nordea_213_2024-09-30_20",
+        "vernr": 213
       },
       {
         "amount": -138,
         "date": "2024-10-01",
         "description": "Swishavgift",
-        "id": "nordea_243_2024-10-01_138",
-        "vernr": 243
+        "id": "nordea_214_2024-10-01_138",
+        "vernr": 214
       },
       {
         "amount": -1234,
         "date": "2024-10-01",
         "description": "Försäkring Fartyget, halvårsavgift",
-        "id": "nordea_244_2024-10-01_6304",
-        "vernr": 244
+        "id": "nordea_215_2024-10-01_6304",
+        "vernr": 215
       },
       {
         "amount": -3849.1,
         "date": "2024-10-02",
         "description": "Mat höstfest",
-        "id": "nordea_245_2024-10-02_3849.1",
-        "vernr": 245
+        "id": "nordea_216_2024-10-02_3849.1",
+        "vernr": 216
       },
       {
         "amount": 50,
         "date": "2024-10-09",
         "description": "Donation",
-        "id": "nordea_246_2024-10-09_50",
-        "vernr": 246
+        "id": "nordea_217_2024-10-09_50",
+        "vernr": 217
       },
       {
         "amount": -1153.75,
         "date": "2024-10-28",
         "description": "Webbhotell",
-        "id": "nordea_247_2024-10-28_1153.75",
-        "vernr": 247
+        "id": "nordea_218_2024-10-28_1153.75",
+        "vernr": 218
       },
       {
         "amount": -1325,
         "date": "2024-10-28",
         "description": "Meetup halvårsfaktura",
-        "id": "nordea_248_2024-10-28_1325",
-        "vernr": 248
+        "id": "nordea_219_2024-10-28_1325",
+        "vernr": 219
       },
       {
         "amount": 200,
         "date": "2024-10-29",
         "description": "Donation",
-        "id": "nordea_249_2024-10-29_200",
-        "vernr": 249
+        "id": "nordea_220_2024-10-29_200",
+        "vernr": 220
       },
       {
         "amount": -2,
         "date": "2024-11-01",
         "description": "Swishavgift",
-        "id": "nordea_250_2024-11-01_2",
-        "vernr": 250
+        "id": "nordea_221_2024-11-01_2",
+        "vernr": 221
       },
       {
         "amount": -1.85,
         "date": "2024-11-05",
         "description": "Bankkostnad",
-        "id": "nordea_251_2024-11-05_1.85",
-        "vernr": 251
+        "id": "nordea_222_2024-11-05_1.85",
+        "vernr": 222
       },
       {
         "amount": 500,
         "date": "2024-11-21",
         "description": "Böcker",
-        "id": "nordea_252_2024-11-21_500",
-        "vernr": 252
+        "id": "nordea_223_2024-11-21_500",
+        "vernr": 223
       },
       {
         "amount": 800,
         "date": "2024-12-04",
         "description": "Återbäring, försäkring",
-        "id": "nordea_253_2024-12-04_894",
-        "vernr": 253
+        "id": "nordea_224_2024-12-04_894",
+        "vernr": 224
       },
       {
         "amount": -362.7,
         "date": "2024-12-13",
         "description": "Utlägg vintertäckning",
-        "id": "nordea_254_2024-12-13_362.7",
-        "vernr": 254
+        "id": "nordea_225_2024-12-13_362.7",
+        "vernr": 225
       },
       {
         "amount": -1438,
         "date": "2024-12-13",
         "description": "Service/felsökning Hjälpbåtsmotor",
-        "id": "nordea_255_2024-12-13_1438",
-        "vernr": 255
+        "id": "nordea_226_2024-12-13_1438",
+        "vernr": 226
       },
       {
         "amount": 1037.9,
         "date": "2024-12-29",
-        "description": "Nollställande av V157 - Impregnering tält",
-        "id": "nordea_257_2024-08-12_1037.9",
-        "vernr": 257
+        "description": "Nollställande av V142 - Impregnering tält",
+        "id": "nordea_227_2024-08-12_1037.9",
+        "vernr": 227
       },
       {
         "amount": -1037.9,
         "date": "2024-12-29",
-        "description": "Dubbel utbetalning för impregnering tält - V90 och V157",
-        "id": "nordea_258_2024-08-12_-1037.9",
-        "vernr": 258
+        "description": "Dubbel utbetalning för impregnering tält - V78 och V142",
+        "id": "nordea_228_2024-08-12_-1037.9",
+        "vernr": 228
       }
     ]
   },
@@ -1664,15 +1664,15 @@
         "amount": 126.36,
         "date": "2024-12-29",
         "description": "Tidigare års ränta - justering av ingående belopp på placeringskontot",
-        "id": "nordea_259_2024-01-02_126.36",
-        "vernr": 259
+        "id": "nordea_229_2024-01-02_126.36",
+        "vernr": 229
       },
       {
         "amount": 140.85,
         "date": "2024-12-30",
         "description": "Placeringskonto - ränta",
-        "id": "nordea_260_2024-12-30_140.85",
-        "vernr": 260
+        "id": "nordea_230_2024-12-30_140.85",
+        "vernr": 230
       }
     ]
   },
@@ -1703,7 +1703,7 @@
         "date": "2024-12-31",
         "description": "Årets resultat 2024 | Underskott enligt resultaträkning",
         "id": null,
-        "vernr": 262
+        "vernr": 232
       }
     ]
   },
@@ -1733,43 +1733,43 @@
         "amount": -900,
         "date": "2024-06-25",
         "description": "Seglings- och matavgift",
-        "id": "nordea_103_2024-06-25_2100",
-        "vernr": 103
+        "id": "nordea_91_2024-06-25_2100",
+        "vernr": 91
       },
       {
         "amount": -1800,
         "date": "2024-06-26",
         "description": "Seglings- och matavgift",
-        "id": "nordea_104_2024-06-26_1200",
-        "vernr": 104
+        "id": "nordea_92_2024-06-26_1200",
+        "vernr": 92
       },
       {
         "amount": -300,
         "date": "2024-07-01",
         "description": "Matavgift",
-        "id": "nordea_110_2024-07-01_1050",
-        "vernr": 110
+        "id": "nordea_97_2024-07-01_1050",
+        "vernr": 97
       },
       {
         "amount": 900,
         "date": "2024-07-10",
         "description": "Ted 2 inställda seglingdagar",
-        "id": "nordea_120_2024-07-10_900",
-        "vernr": 120
+        "id": "nordea_107_2024-07-10_900",
+        "vernr": 107
       },
       {
         "amount": 300,
         "date": "2024-07-15",
         "description": "Matavgift - inställda seglingsdagar",
-        "id": "nordea_129_2024-07-15_300",
-        "vernr": 129
+        "id": "nordea_115_2024-07-15_300",
+        "vernr": 115
       },
       {
         "amount": 1800,
         "date": "2024-08-05",
         "description": "Inställda seglingsdagar",
-        "id": "nordea_154_2024-08-05_1800",
-        "vernr": 154
+        "id": "nordea_139_2024-08-05_1800",
+        "vernr": 139
       }
     ]
   },
@@ -1808,379 +1808,379 @@
         "amount": -350,
         "date": "2024-01-26",
         "description": "Medlemsavgift",
-        "id": "nordea_10_2024-01-26_350",
-        "vernr": 10
+        "id": "nordea_8_2024-01-26_350",
+        "vernr": 8
       },
       {
         "amount": -350,
         "date": "2024-01-30",
         "description": "Medlemsavgift",
-        "id": "nordea_11_2024-01-30_350",
+        "id": "nordea_9_2024-01-30_350",
+        "vernr": 9
+      },
+      {
+        "amount": -500,
+        "date": "2024-02-01",
+        "description": "Medlemsavgift",
+        "id": "nordea_10_2024-02-01_500",
+        "vernr": 10
+      },
+      {
+        "amount": -500,
+        "date": "2024-02-01",
+        "description": "Medlemsavgift",
+        "id": "nordea_11_2024-02-01_500",
         "vernr": 11
-      },
-      {
-        "amount": -500,
-        "date": "2024-02-01",
-        "description": "Medlemsavgift",
-        "id": "nordea_12_2024-02-01_500",
-        "vernr": 12
-      },
-      {
-        "amount": -500,
-        "date": "2024-02-01",
-        "description": "Medlemsavgift",
-        "id": "nordea_13_2024-02-01_500",
-        "vernr": 13
       },
       {
         "amount": -350,
         "date": "2024-02-02",
         "description": "Medlemsavgift",
-        "id": "nordea_16_2024-02-02_350",
-        "vernr": 16
+        "id": "nordea_13_2024-02-02_350",
+        "vernr": 13
       },
       {
         "amount": -350,
         "date": "2024-02-09",
         "description": "Medlemsavgift",
-        "id": "nordea_19_2024-02-09_350",
-        "vernr": 19
+        "id": "nordea_16_2024-02-09_350",
+        "vernr": 16
       },
       {
         "amount": -350,
         "date": "2024-02-21",
         "description": "Medlemsavgift",
-        "id": "nordea_21_2024-02-21_350",
-        "vernr": 21
+        "id": "nordea_17_2024-02-21_350",
+        "vernr": 17
       },
       {
         "amount": -350,
         "date": "2024-02-26",
         "description": "Medlemsavgift",
-        "id": "nordea_24_2024-02-26_350",
-        "vernr": 24
+        "id": "nordea_19_2024-02-26_350",
+        "vernr": 19
       },
       {
         "amount": -500,
         "date": "2024-02-29",
         "description": "Medlemsavgift",
-        "id": "nordea_26_2024-02-29_500",
-        "vernr": 26
+        "id": "nordea_21_2024-02-29_500",
+        "vernr": 21
       },
       {
         "amount": -350,
         "date": "2024-03-01",
         "description": "Medlemsavgift",
-        "id": "nordea_27_2024-03-01_350",
-        "vernr": 27
+        "id": "nordea_22_2024-03-01_350",
+        "vernr": 22
       },
       {
         "amount": -350,
         "date": "2024-03-04",
         "description": "Medlemsavgift",
-        "id": "nordea_31_2024-03-04_350",
+        "id": "nordea_24_2024-03-04_350",
+        "vernr": 24
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-04",
+        "description": "Medlemsavgift",
+        "id": "nordea_25_2024-03-04_350",
+        "vernr": 25
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-04",
+        "description": "Medlemsavgift",
+        "id": "nordea_26_2024-03-04_350",
+        "vernr": 26
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_29_2024-03-12_350",
+        "vernr": 29
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_30_2024-03-12_350",
+        "vernr": 30
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-12",
+        "description": "Medlemsavgift",
+        "id": "nordea_31_2024-03-12_350",
         "vernr": 31
       },
       {
         "amount": -350,
-        "date": "2024-03-04",
+        "date": "2024-03-12",
         "description": "Medlemsavgift",
-        "id": "nordea_32_2024-03-04_350",
+        "id": "nordea_32_2024-03-12_350",
         "vernr": 32
       },
       {
-        "amount": -350,
-        "date": "2024-03-04",
+        "amount": -500,
+        "date": "2024-03-13",
         "description": "Medlemsavgift",
-        "id": "nordea_33_2024-03-04_350",
+        "id": "nordea_33_2024-03-13_500",
         "vernr": 33
       },
       {
-        "amount": -350,
-        "date": "2024-03-12",
+        "amount": -500,
+        "date": "2024-03-13",
         "description": "Medlemsavgift",
-        "id": "nordea_38_2024-03-12_350",
-        "vernr": 38
+        "id": "nordea_34_2024-03-13_500",
+        "vernr": 34
       },
       {
         "amount": -350,
-        "date": "2024-03-12",
+        "date": "2024-03-15",
         "description": "Medlemsavgift",
-        "id": "nordea_39_2024-03-12_350",
+        "id": "nordea_35_2024-03-15_350",
+        "vernr": 35
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-15",
+        "description": "Medlemsavgift",
+        "id": "nordea_36_2024-03-15_350",
+        "vernr": 36
+      },
+      {
+        "amount": -500,
+        "date": "2024-03-18",
+        "description": "Medlemsavgift",
+        "id": "nordea_37_2024-03-18_500",
+        "vernr": 37
+      },
+      {
+        "amount": -350,
+        "date": "2024-03-18",
+        "description": "Medlemsavgift",
+        "id": "nordea_39_2024-03-18_350",
         "vernr": 39
-      },
-      {
-        "amount": -350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_40_2024-03-12_350",
-        "vernr": 40
-      },
-      {
-        "amount": -350,
-        "date": "2024-03-12",
-        "description": "Medlemsavgift",
-        "id": "nordea_41_2024-03-12_350",
-        "vernr": 41
-      },
-      {
-        "amount": -500,
-        "date": "2024-03-13",
-        "description": "Medlemsavgift",
-        "id": "nordea_42_2024-03-13_500",
-        "vernr": 42
-      },
-      {
-        "amount": -500,
-        "date": "2024-03-13",
-        "description": "Medlemsavgift",
-        "id": "nordea_43_2024-03-13_500",
-        "vernr": 43
-      },
-      {
-        "amount": -350,
-        "date": "2024-03-15",
-        "description": "Medlemsavgift",
-        "id": "nordea_44_2024-03-15_350",
-        "vernr": 44
-      },
-      {
-        "amount": -350,
-        "date": "2024-03-15",
-        "description": "Medlemsavgift",
-        "id": "nordea_45_2024-03-15_350",
-        "vernr": 45
-      },
-      {
-        "amount": -500,
-        "date": "2024-03-18",
-        "description": "Medlemsavgift",
-        "id": "nordea_47_2024-03-18_500",
-        "vernr": 47
-      },
-      {
-        "amount": -350,
-        "date": "2024-03-18",
-        "description": "Medlemsavgift",
-        "id": "nordea_50_2024-03-18_350",
-        "vernr": 50
       },
       {
         "amount": -350,
         "date": "2024-03-21",
         "description": "Medlemsavgift",
-        "id": "nordea_61_2024-03-21_350",
-        "vernr": 61
+        "id": "nordea_50_2024-03-21_350",
+        "vernr": 50
       },
       {
         "amount": -500,
         "date": "2024-04-09",
         "description": "Medlemsavgift",
-        "id": "nordea_65_2024-04-09_500",
-        "vernr": 65
+        "id": "nordea_53_2024-04-09_500",
+        "vernr": 53
       },
       {
         "amount": -350,
         "date": "2024-05-06",
         "description": "Medlemsavgift",
-        "id": "nordea_76_2024-05-06_350",
-        "vernr": 76
+        "id": "nordea_64_2024-05-06_350",
+        "vernr": 64
       },
       {
         "amount": -500,
         "date": "2024-05-27",
         "description": "Medlemsavgift",
-        "id": "nordea_92_2024-05-27_500",
-        "vernr": 92
+        "id": "nordea_80_2024-05-27_500",
+        "vernr": 80
       },
       {
         "amount": -350,
         "date": "2024-06-03",
         "description": "Medlemsavgift",
-        "id": "nordea_94_2024-06-03_350",
-        "vernr": 94
+        "id": "nordea_82_2024-06-03_350",
+        "vernr": 82
       },
       {
         "amount": -350,
         "date": "2024-06-12",
         "description": "Medlemsavgift",
-        "id": "nordea_97_2024-06-12_350",
-        "vernr": 97
+        "id": "nordea_85_2024-06-12_350",
+        "vernr": 85
       },
       {
         "amount": -350,
         "date": "2024-06-14",
         "description": "Medlemsavgift",
-        "id": "nordea_98_2024-06-14_350",
-        "vernr": 98
+        "id": "nordea_86_2024-06-14_350",
+        "vernr": 86
       },
       {
         "amount": -350,
         "date": "2024-06-17",
         "description": "Medlemsavgift",
-        "id": "nordea_100_2024-06-17_350",
-        "vernr": 100
+        "id": "nordea_88_2024-06-17_350",
+        "vernr": 88
       },
       {
         "amount": -350,
         "date": "2024-06-26",
         "description": "Medlemsavgift",
-        "id": "nordea_105_2024-06-26_350",
-        "vernr": 105
+        "id": "nordea_93_2024-06-26_350",
+        "vernr": 93
       },
       {
         "amount": -350,
         "date": "2024-06-27",
         "description": "Medlemsavgift",
-        "id": "nordea_107_2024-06-27_350",
-        "vernr": 107
+        "id": "nordea_94_2024-06-27_350",
+        "vernr": 94
       },
       {
         "amount": -350,
         "date": "2024-06-28",
         "description": "Medlemsavgift",
-        "id": "nordea_108_2024-06-28_350",
-        "vernr": 108
+        "id": "nordea_95_2024-06-28_350",
+        "vernr": 95
       },
       {
         "amount": -350,
         "date": "2024-06-28",
         "description": "Medlemsavgift",
-        "id": "nordea_109_2024-06-28_350",
-        "vernr": 109
+        "id": "nordea_96_2024-06-28_350",
+        "vernr": 96
       },
       {
         "amount": -500,
         "date": "2024-07-01",
         "description": "Medlemsavgift",
-        "id": "nordea_112_2024-07-01_500",
-        "vernr": 112
+        "id": "nordea_99_2024-07-01_500",
+        "vernr": 99
       },
       {
         "amount": -350,
         "date": "2024-07-01",
         "description": "Medlemsavgift",
-        "id": "nordea_113_2024-07-01_350",
-        "vernr": 113
+        "id": "nordea_100_2024-07-01_350",
+        "vernr": 100
       },
       {
         "amount": -500,
         "date": "2024-07-05",
         "description": "Medlemsavgift",
-        "id": "nordea_115_2024-07-05_500",
-        "vernr": 115
+        "id": "nordea_102_2024-07-05_500",
+        "vernr": 102
       },
       {
         "amount": -500,
         "date": "2024-07-08",
         "description": "Medlemsavgift",
-        "id": "nordea_116_2024-07-08_500",
-        "vernr": 116
+        "id": "nordea_103_2024-07-08_500",
+        "vernr": 103
       },
       {
         "amount": -350,
         "date": "2024-07-15",
         "description": "Medlemsavgift",
-        "id": "nordea_127_2024-07-15_350",
-        "vernr": 127
+        "id": "nordea_113_2024-07-15_350",
+        "vernr": 113
       },
       {
         "amount": -350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_143_2024-07-19_350",
-        "vernr": 143
+        "id": "nordea_129_2024-07-19_350",
+        "vernr": 129
       },
       {
         "amount": -350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_144_2024-07-19_350",
-        "vernr": 144
+        "id": "nordea_130_2024-07-19_350",
+        "vernr": 130
       },
       {
         "amount": -350,
         "date": "2024-07-19",
         "description": "Medlemsavgift",
-        "id": "nordea_145_2024-07-19_350",
-        "vernr": 145
+        "id": "nordea_131_2024-07-19_350",
+        "vernr": 131
       },
       {
         "amount": -350,
         "date": "2024-07-29",
         "description": "Medlemsavgift",
-        "id": "nordea_150_2024-07-29_350",
-        "vernr": 150
+        "id": "nordea_136_2024-07-29_350",
+        "vernr": 136
       },
       {
         "amount": -350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_162_2024-08-26_350",
-        "vernr": 162
+        "id": "nordea_147_2024-08-26_350",
+        "vernr": 147
       },
       {
         "amount": -350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_163_2024-08-26_350",
-        "vernr": 163
+        "id": "nordea_148_2024-08-26_350",
+        "vernr": 148
       },
       {
         "amount": -350,
         "date": "2024-08-26",
         "description": "Medlemsavgift",
-        "id": "nordea_164_2024-08-26_350",
-        "vernr": 164
+        "id": "nordea_149_2024-08-26_350",
+        "vernr": 149
       },
       {
         "amount": -350,
         "date": "2024-08-27",
         "description": "Medlemsavgift",
-        "id": "nordea_165_2024-08-27_350",
-        "vernr": 165
+        "id": "nordea_150_2024-08-27_350",
+        "vernr": 150
       },
       {
         "amount": -350,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_169_2024-09-02_350",
-        "vernr": 169
+        "id": "nordea_153_2024-09-02_350",
+        "vernr": 153
       },
       {
         "amount": -350,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_170_2024-09-02_350",
-        "vernr": 170
+        "id": "nordea_154_2024-09-02_350",
+        "vernr": 154
       },
       {
         "amount": -150,
         "date": "2024-09-02",
         "description": "Medlemsavgift",
-        "id": "nordea_177_2024-09-02_150",
-        "vernr": 177
+        "id": "nordea_158_2024-09-02_150",
+        "vernr": 158
       },
       {
         "amount": -350,
         "date": "2024-09-20",
         "description": "Medlemsavgift",
-        "id": "nordea_187_2024-09-20_350",
-        "vernr": 187
+        "id": "nordea_168_2024-09-20_350",
+        "vernr": 168
       },
       {
         "amount": -350,
         "date": "2024-09-23",
         "description": "Medlemsavgift",
-        "id": "nordea_189_2024-09-23_350",
-        "vernr": 189
+        "id": "nordea_170_2024-09-23_350",
+        "vernr": 170
       },
       {
         "amount": -350,
         "date": "2024-09-27",
         "description": "Medlemsavgift",
-        "id": "nordea_209_2024-09-27_350",
-        "vernr": 209
+        "id": "nordea_180_2024-09-27_350",
+        "vernr": 180
       }
     ]
   },
@@ -2198,134 +2198,134 @@
         "amount": -600,
         "date": "2024-06-24",
         "description": "Seglings- och matavgift + donation",
-        "id": "nordea_102_2024-06-24_600",
-        "vernr": 102
+        "id": "nordea_90_2024-06-24_600",
+        "vernr": 90
       },
       {
         "amount": -2100,
         "date": "2024-06-25",
         "description": "Seglings- och matavgift",
-        "id": "nordea_103_2024-06-25_2100",
-        "vernr": 103
+        "id": "nordea_91_2024-06-25_2100",
+        "vernr": 91
       },
       {
         "amount": -1200,
         "date": "2024-06-26",
         "description": "Seglings- och matavgift",
-        "id": "nordea_104_2024-06-26_1200",
-        "vernr": 104
+        "id": "nordea_92_2024-06-26_1200",
+        "vernr": 92
       },
       {
         "amount": -600,
         "date": "2024-07-01",
         "description": "Seglings- och matavgift",
-        "id": "nordea_111_2024-07-01_600",
-        "vernr": 111
+        "id": "nordea_98_2024-07-01_600",
+        "vernr": 98
       },
       {
         "amount": -900,
         "date": "2024-07-10",
         "description": "Seglings- och matavgift",
-        "id": "nordea_117_2024-07-10_900",
-        "vernr": 117
+        "id": "nordea_104_2024-07-10_900",
+        "vernr": 104
       },
       {
         "amount": -600,
         "date": "2024-07-15",
         "description": "Seglings- och matavgift",
-        "id": "nordea_124_2024-07-15_600",
-        "vernr": 124
+        "id": "nordea_110_2024-07-15_600",
+        "vernr": 110
       },
       {
         "amount": -600,
         "date": "2024-07-15",
         "description": "Seglingsavgift",
-        "id": "nordea_126_2024-07-15_600",
-        "vernr": 126
+        "id": "nordea_112_2024-07-15_600",
+        "vernr": 112
       },
       {
         "amount": -1800,
         "date": "2024-07-18",
         "description": "Seglings- och matavgift",
-        "id": "nordea_142_2024-07-18_1800",
-        "vernr": 142
+        "id": "nordea_128_2024-07-18_1800",
+        "vernr": 128
       },
       {
         "amount": -600,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_167_2024-09-02_600",
-        "vernr": 167
+        "id": "nordea_151_2024-09-02_600",
+        "vernr": 151
       },
       {
         "amount": -600,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_168_2024-09-02_600",
-        "vernr": 168
+        "id": "nordea_152_2024-09-02_600",
+        "vernr": 152
       },
       {
         "amount": -300,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_171_2024-09-02_300",
-        "vernr": 171
+        "id": "nordea_155_2024-09-02_300",
+        "vernr": 155
       },
       {
         "amount": -300,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_172_2024-09-02_300",
-        "vernr": 172
+        "id": "nordea_156_2024-09-02_300",
+        "vernr": 156
       },
       {
         "amount": -200,
         "date": "2024-09-02",
         "description": "Seglingsavgift",
-        "id": "nordea_176_2024-09-02_200",
-        "vernr": 176
+        "id": "nordea_157_2024-09-02_200",
+        "vernr": 157
       },
       {
         "amount": -300,
         "date": "2024-09-10",
         "description": "Seglingsavgift",
-        "id": "nordea_182_2024-09-10_300",
-        "vernr": 182
+        "id": "nordea_163_2024-09-10_300",
+        "vernr": 163
       },
       {
         "amount": -300,
         "date": "2024-09-20",
         "description": "Seglingsavgift",
-        "id": "nordea_188_2024-09-20_300",
-        "vernr": 188
+        "id": "nordea_169_2024-09-20_300",
+        "vernr": 169
       },
       {
         "amount": -300,
         "date": "2024-09-23",
         "description": "Seglingsavgift",
-        "id": "nordea_190_2024-09-23_300",
-        "vernr": 190
+        "id": "nordea_171_2024-09-23_300",
+        "vernr": 171
       },
       {
         "amount": -300,
         "date": "2024-09-23",
         "description": "Seglingsavgift",
-        "id": "nordea_192_2024-09-23_300",
-        "vernr": 192
+        "id": "nordea_172_2024-09-23_300",
+        "vernr": 172
       },
       {
         "amount": -300,
         "date": "2024-09-24",
         "description": "Seglingsavgift",
-        "id": "nordea_194_2024-09-24_300",
-        "vernr": 194
+        "id": "nordea_174_2024-09-24_300",
+        "vernr": 174
       },
       {
         "amount": -740,
         "date": "2024-09-25",
         "description": "Seglingsavgift",
-        "id": "nordea_196_2024-09-25_740",
-        "vernr": 196
+        "id": "nordea_176_2024-09-25_740",
+        "vernr": 176
       }
     ]
   },
@@ -2343,92 +2343,92 @@
         "amount": -300,
         "date": "2024-06-24",
         "description": "Seglings- och matavgift + donation",
-        "id": "nordea_102_2024-06-24_600",
-        "vernr": 102
+        "id": "nordea_90_2024-06-24_600",
+        "vernr": 90
       },
       {
         "amount": -1050,
         "date": "2024-06-25",
         "description": "Seglings- och matavgift",
-        "id": "nordea_103_2024-06-25_2100",
-        "vernr": 103
+        "id": "nordea_91_2024-06-25_2100",
+        "vernr": 91
       },
       {
         "amount": -600,
         "date": "2024-06-26",
         "description": "Seglings- och matavgift",
-        "id": "nordea_104_2024-06-26_1200",
-        "vernr": 104
+        "id": "nordea_92_2024-06-26_1200",
+        "vernr": 92
       },
       {
         "amount": -1050,
         "date": "2024-07-01",
         "description": "Matavgift",
-        "id": "nordea_110_2024-07-01_1050",
-        "vernr": 110
+        "id": "nordea_97_2024-07-01_1050",
+        "vernr": 97
       },
       {
         "amount": -300,
         "date": "2024-07-01",
         "description": "Seglings- och matavgift",
-        "id": "nordea_111_2024-07-01_600",
-        "vernr": 111
+        "id": "nordea_98_2024-07-01_600",
+        "vernr": 98
       },
       {
         "amount": -1050,
         "date": "2024-07-10",
         "description": "Seglings- och matavgift",
-        "id": "nordea_117_2024-07-10_900",
-        "vernr": 117
+        "id": "nordea_104_2024-07-10_900",
+        "vernr": 104
       },
       {
         "amount": -1050,
         "date": "2024-07-10",
         "description": "Matavgift",
-        "id": "nordea_118_2024-07-10_1050",
-        "vernr": 118
+        "id": "nordea_105_2024-07-10_1050",
+        "vernr": 105
       },
       {
         "amount": -2100,
         "date": "2024-07-15",
         "description": "Matavgift",
-        "id": "nordea_123_2024-07-15_2100",
-        "vernr": 123
+        "id": "nordea_109_2024-07-15_2100",
+        "vernr": 109
       },
       {
         "amount": -300,
         "date": "2024-07-15",
         "description": "Seglings- och matavgift",
-        "id": "nordea_124_2024-07-15_600",
-        "vernr": 124
+        "id": "nordea_110_2024-07-15_600",
+        "vernr": 110
       },
       {
         "amount": -900,
         "date": "2024-07-15",
         "description": "Matavgift",
-        "id": "nordea_125_2024-07-15_0",
-        "vernr": 125
+        "id": "nordea_111_2024-07-15_0",
+        "vernr": 111
       },
       {
         "amount": -900,
         "date": "2024-07-18",
         "description": "Seglings- och matavgift",
-        "id": "nordea_142_2024-07-18_1800",
-        "vernr": 142
+        "id": "nordea_128_2024-07-18_1800",
+        "vernr": 128
       },
       {
         "amount": -1050,
         "date": "2024-08-06",
         "description": "Matavgift",
-        "id": "nordea_155_2024-08-06_1050",
-        "vernr": 155
+        "id": "nordea_140_2024-08-06_1050",
+        "vernr": 140
       },
       {
         "amount": -600,
         "date": "2024-08-15",
         "description": "Matavgift",
-        "id": "nordea_159_2024-08-15_600",
-        "vernr": 159
+        "id": "nordea_144_2024-08-15_600",
+        "vernr": 144
       }
     ]
   },
@@ -2446,127 +2446,127 @@
         "amount": -150,
         "date": "2024-09-04",
         "description": "Höstfest",
-        "id": "nordea_179_2024-09-04_150",
-        "vernr": 179
+        "id": "nordea_160_2024-09-04_150",
+        "vernr": 160
       },
       {
         "amount": -150,
         "date": "2024-09-12",
         "description": "Höstfest",
-        "id": "nordea_183_2024-09-12_150",
-        "vernr": 183
+        "id": "nordea_164_2024-09-12_150",
+        "vernr": 164
       },
       {
         "amount": -300,
         "date": "2024-09-18",
         "description": "Höstfest",
-        "id": "nordea_185_2024-09-18_300",
-        "vernr": 185
+        "id": "nordea_166_2024-09-18_300",
+        "vernr": 166
       },
       {
         "amount": -300,
         "date": "2024-09-24",
         "description": "Höstfest",
-        "id": "nordea_193_2024-09-24_300",
-        "vernr": 193
+        "id": "nordea_173_2024-09-24_300",
+        "vernr": 173
       },
       {
         "amount": -150,
         "date": "2024-09-24",
         "description": "Höstfest",
-        "id": "nordea_195_2024-09-24_150",
-        "vernr": 195
+        "id": "nordea_175_2024-09-24_150",
+        "vernr": 175
       },
       {
         "amount": -150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_198_2024-09-25_150",
-        "vernr": 198
+        "id": "nordea_177_2024-09-25_150",
+        "vernr": 177
       },
       {
         "amount": -150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_199_2024-09-25_150",
-        "vernr": 199
+        "id": "nordea_178_2024-09-25_150",
+        "vernr": 178
       },
       {
         "amount": -150,
         "date": "2024-09-25",
         "description": "Höstfest",
-        "id": "nordea_200_2024-09-25_150",
-        "vernr": 200
+        "id": "nordea_179_2024-09-25_150",
+        "vernr": 179
       },
       {
         "amount": -300,
         "date": "2024-09-27",
         "description": "Höstfest",
-        "id": "nordea_210_2024-09-27_300",
-        "vernr": 210
+        "id": "nordea_181_2024-09-27_300",
+        "vernr": 181
       },
       {
         "amount": -600,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_211_2024-09-30_600",
-        "vernr": 211
+        "id": "nordea_182_2024-09-30_600",
+        "vernr": 182
       },
       {
         "amount": -300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_212_2024-09-30_300",
-        "vernr": 212
+        "id": "nordea_183_2024-09-30_300",
+        "vernr": 183
       },
       {
         "amount": -300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_214_2024-09-30_300",
-        "vernr": 214
+        "id": "nordea_185_2024-09-30_300",
+        "vernr": 185
       },
       {
         "amount": -300,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_215_2024-09-30_300",
-        "vernr": 215
+        "id": "nordea_186_2024-09-30_300",
+        "vernr": 186
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Höstfest och mugg",
-        "id": "nordea_216_2024-09-30_150",
-        "vernr": 216
+        "id": "nordea_187_2024-09-30_150",
+        "vernr": 187
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_226_2024-09-30_150",
-        "vernr": 226
+        "id": "nordea_197_2024-09-30_150",
+        "vernr": 197
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_232_2024-09-30_150",
-        "vernr": 232
+        "id": "nordea_203_2024-09-30_150",
+        "vernr": 203
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_233_2024-09-30_150",
-        "vernr": 233
+        "id": "nordea_204_2024-09-30_150",
+        "vernr": 204
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Höstfest",
-        "id": "nordea_237_2024-09-30_150",
-        "vernr": 237
+        "id": "nordea_208_2024-09-30_150",
+        "vernr": 208
       }
     ]
   },
@@ -2584,218 +2584,218 @@
         "amount": -450,
         "date": "2024-03-18",
         "description": "Tröjor",
-        "id": "nordea_48_2024-03-18_450",
-        "vernr": 48
+        "id": "nordea_38_2024-03-18_450",
+        "vernr": 38
       },
       {
         "amount": -250,
         "date": "2024-03-18",
         "description": "Böcker",
-        "id": "nordea_51_2024-03-18_250",
-        "vernr": 51
+        "id": "nordea_40_2024-03-18_250",
+        "vernr": 40
       },
       {
         "amount": -200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_52_2024-03-18_200",
-        "vernr": 52
+        "id": "nordea_41_2024-03-18_200",
+        "vernr": 41
       },
       {
         "amount": -200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_53_2024-03-18_200",
-        "vernr": 53
+        "id": "nordea_42_2024-03-18_200",
+        "vernr": 42
       },
       {
         "amount": -200,
         "date": "2024-03-18",
         "description": "T-shirt",
-        "id": "nordea_54_2024-03-18_200",
-        "vernr": 54
+        "id": "nordea_43_2024-03-18_200",
+        "vernr": 43
       },
       {
         "amount": -500,
         "date": "2024-05-06",
         "description": "Böcker",
-        "id": "nordea_75_2024-05-06_500",
-        "vernr": 75
+        "id": "nordea_63_2024-05-06_500",
+        "vernr": 63
       },
       {
         "amount": -250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_77_2024-05-06_250",
-        "vernr": 77
+        "id": "nordea_65_2024-05-06_250",
+        "vernr": 65
       },
       {
         "amount": -250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_78_2024-05-06_250",
-        "vernr": 78
+        "id": "nordea_66_2024-05-06_250",
+        "vernr": 66
       },
       {
         "amount": -250,
         "date": "2024-05-06",
         "description": "Bok",
-        "id": "nordea_79_2024-05-06_250",
-        "vernr": 79
+        "id": "nordea_67_2024-05-06_250",
+        "vernr": 67
       },
       {
         "amount": -250,
         "date": "2024-07-10",
         "description": "Bok",
-        "id": "nordea_119_2024-07-10_250",
-        "vernr": 119
+        "id": "nordea_106_2024-07-10_250",
+        "vernr": 106
       },
       {
         "amount": -200,
         "date": "2024-07-11",
         "description": "Bok",
-        "id": "nordea_121_2024-07-11_200",
-        "vernr": 121
+        "id": "nordea_108_2024-07-11_200",
+        "vernr": 108
       },
       {
         "amount": -500,
         "date": "2024-09-17",
         "description": "Böcker",
-        "id": "nordea_184_2024-09-17_500",
-        "vernr": 184
+        "id": "nordea_165_2024-09-17_500",
+        "vernr": 165
       },
       {
         "amount": -300,
         "date": "2024-09-30",
         "description": "Mugg och tröja",
-        "id": "nordea_213_2024-09-30_300",
-        "vernr": 213
+        "id": "nordea_184_2024-09-30_300",
+        "vernr": 184
       },
       {
         "amount": -100,
         "date": "2024-09-30",
         "description": "Höstfest och mugg",
-        "id": "nordea_216_2024-09-30_150",
-        "vernr": 216
+        "id": "nordea_187_2024-09-30_150",
+        "vernr": 187
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_217_2024-09-30_200",
-        "vernr": 217
+        "id": "nordea_188_2024-09-30_200",
+        "vernr": 188
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_218_2024-09-30_200",
-        "vernr": 218
+        "id": "nordea_189_2024-09-30_200",
+        "vernr": 189
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "Bok",
-        "id": "nordea_219_2024-09-30_200",
-        "vernr": 219
+        "id": "nordea_190_2024-09-30_200",
+        "vernr": 190
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_221_2024-09-30_200",
-        "vernr": 221
+        "id": "nordea_192_2024-09-30_200",
+        "vernr": 192
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_222_2024-09-30_200",
-        "vernr": 222
+        "id": "nordea_193_2024-09-30_200",
+        "vernr": 193
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_223_2024-09-30_200",
-        "vernr": 223
+        "id": "nordea_194_2024-09-30_200",
+        "vernr": 194
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "T-shirt",
-        "id": "nordea_224_2024-09-30_200",
-        "vernr": 224
+        "id": "nordea_195_2024-09-30_200",
+        "vernr": 195
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_225_2024-09-30_150",
-        "vernr": 225
+        "id": "nordea_196_2024-09-30_150",
+        "vernr": 196
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_227_2024-09-30_150",
-        "vernr": 227
+        "id": "nordea_198_2024-09-30_150",
+        "vernr": 198
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_228_2024-09-30_150",
-        "vernr": 228
+        "id": "nordea_199_2024-09-30_150",
+        "vernr": 199
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_229_2024-09-30_150",
-        "vernr": 229
+        "id": "nordea_200_2024-09-30_150",
+        "vernr": 200
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_230_2024-09-30_150",
-        "vernr": 230
+        "id": "nordea_201_2024-09-30_150",
+        "vernr": 201
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_231_2024-09-30_150",
-        "vernr": 231
+        "id": "nordea_202_2024-09-30_150",
+        "vernr": 202
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_234_2024-09-30_150",
-        "vernr": 234
+        "id": "nordea_205_2024-09-30_150",
+        "vernr": 205
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Mugg",
-        "id": "nordea_235_2024-09-30_150",
-        "vernr": 235
+        "id": "nordea_206_2024-09-30_150",
+        "vernr": 206
       },
       {
         "amount": -150,
         "date": "2024-09-30",
         "description": "Böcker",
-        "id": "nordea_236_2024-09-30_150",
-        "vernr": 236
+        "id": "nordea_207_2024-09-30_150",
+        "vernr": 207
       },
       {
         "amount": -500,
         "date": "2024-11-21",
         "description": "Böcker",
-        "id": "nordea_252_2024-11-21_500",
-        "vernr": 252
+        "id": "nordea_223_2024-11-21_500",
+        "vernr": 223
       }
     ]
   },
@@ -2820,176 +2820,176 @@
         "amount": -50,
         "date": "2024-02-02",
         "description": "Donation",
-        "id": "nordea_17_2024-02-02_50",
-        "vernr": 17
+        "id": "nordea_14_2024-02-02_50",
+        "vernr": 14
       },
       {
         "amount": -50,
         "date": "2024-02-20",
         "description": "Donation",
-        "id": "nordea_22_2024-02-20_50",
-        "vernr": 22
+        "id": "nordea_18_2024-02-20_50",
+        "vernr": 18
       },
       {
         "amount": -350,
         "date": "2024-02-27",
         "description": "Donation",
-        "id": "nordea_25_2024-02-27_350",
-        "vernr": 25
+        "id": "nordea_20_2024-02-27_350",
+        "vernr": 20
       },
       {
         "amount": -20,
         "date": "2024-03-18",
         "description": "Donation",
-        "id": "nordea_55_2024-03-18_20",
-        "vernr": 55
+        "id": "nordea_44_2024-03-18_20",
+        "vernr": 44
       },
       {
         "amount": -50,
         "date": "2024-03-20",
         "description": "Donation",
-        "id": "nordea_59_2024-03-20_50",
-        "vernr": 59
+        "id": "nordea_48_2024-03-20_50",
+        "vernr": 48
       },
       {
         "amount": -50,
         "date": "2024-05-16",
         "description": "Donation",
-        "id": "nordea_87_2024-05-16_50",
-        "vernr": 87
+        "id": "nordea_75_2024-05-16_50",
+        "vernr": 75
       },
       {
         "amount": -50,
         "date": "2024-05-22",
         "description": "Donation",
-        "id": "nordea_88_2024-05-22_50",
-        "vernr": 88
+        "id": "nordea_76_2024-05-22_50",
+        "vernr": 76
       },
       {
         "amount": -50,
         "date": "2024-06-14",
         "description": "Donation",
-        "id": "nordea_99_2024-06-14_50",
-        "vernr": 99
+        "id": "nordea_87_2024-06-14_50",
+        "vernr": 87
       },
       {
         "amount": -50,
         "date": "2024-06-20",
         "description": "Donation",
-        "id": "nordea_101_2024-06-20_50",
-        "vernr": 101
+        "id": "nordea_89_2024-06-20_50",
+        "vernr": 89
       },
       {
         "amount": -450,
         "date": "2024-06-24",
         "description": "Seglings- och matavgift + donation",
-        "id": "nordea_102_2024-06-24_600",
-        "vernr": 102
+        "id": "nordea_90_2024-06-24_600",
+        "vernr": 90
       },
       {
         "amount": -50,
         "date": "2024-07-19",
         "description": "Donation",
-        "id": "nordea_146_2024-07-19_50",
-        "vernr": 146
+        "id": "nordea_132_2024-07-19_50",
+        "vernr": 132
       },
       {
         "amount": -50,
         "date": "2024-07-24",
         "description": "Donation",
-        "id": "nordea_149_2024-07-24_50",
-        "vernr": 149
+        "id": "nordea_135_2024-07-24_50",
+        "vernr": 135
       },
       {
         "amount": -50,
         "date": "2024-08-06",
         "description": "Donation",
-        "id": "nordea_156_2024-08-06_50",
-        "vernr": 156
+        "id": "nordea_141_2024-08-06_50",
+        "vernr": 141
       },
       {
         "amount": -50,
         "date": "2024-08-19",
         "description": "Donation",
-        "id": "nordea_161_2024-08-19_50",
-        "vernr": 161
+        "id": "nordea_146_2024-08-19_50",
+        "vernr": 146
       },
       {
         "amount": -50,
         "date": "2024-09-04",
         "description": "Donation",
-        "id": "nordea_180_2024-09-04_50",
-        "vernr": 180
+        "id": "nordea_161_2024-09-04_50",
+        "vernr": 161
       },
       {
         "amount": -50,
         "date": "2024-09-06",
         "description": "Donation",
-        "id": "nordea_181_2024-09-06_50",
-        "vernr": 181
+        "id": "nordea_162_2024-09-06_50",
+        "vernr": 162
       },
       {
         "amount": -50,
         "date": "2024-09-18",
         "description": "Donation",
-        "id": "nordea_186_2024-09-18_50",
-        "vernr": 186
+        "id": "nordea_167_2024-09-18_50",
+        "vernr": 167
       },
       {
         "amount": -200,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_220_2024-09-30_200",
-        "vernr": 220
+        "id": "nordea_191_2024-09-30_200",
+        "vernr": 191
       },
       {
         "amount": -50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_238_2024-09-30_50",
-        "vernr": 238
+        "id": "nordea_209_2024-09-30_50",
+        "vernr": 209
       },
       {
         "amount": -50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_239_2024-09-30_50",
-        "vernr": 239
+        "id": "nordea_210_2024-09-30_50",
+        "vernr": 210
       },
       {
         "amount": -50,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_240_2024-09-30_50",
-        "vernr": 240
+        "id": "nordea_211_2024-09-30_50",
+        "vernr": 211
       },
       {
         "amount": -40,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_241_2024-09-30_40",
-        "vernr": 241
+        "id": "nordea_212_2024-09-30_40",
+        "vernr": 212
       },
       {
         "amount": -20,
         "date": "2024-09-30",
         "description": "Donation",
-        "id": "nordea_242_2024-09-30_20",
-        "vernr": 242
+        "id": "nordea_213_2024-09-30_20",
+        "vernr": 213
       },
       {
         "amount": -50,
         "date": "2024-10-09",
         "description": "Donation",
-        "id": "nordea_246_2024-10-09_50",
-        "vernr": 246
+        "id": "nordea_217_2024-10-09_50",
+        "vernr": 217
       },
       {
         "amount": -200,
         "date": "2024-10-29",
         "description": "Donation",
-        "id": "nordea_249_2024-10-29_200",
-        "vernr": 249
+        "id": "nordea_220_2024-10-29_200",
+        "vernr": 220
       }
     ]
   },
@@ -3007,22 +3007,22 @@
         "amount": 2345,
         "date": "2024-03-20",
         "description": "Försäkring Fartyget, halvåravgift",
-        "id": "nordea_60_2024-03-20_6304",
-        "vernr": 60
+        "id": "nordea_49_2024-03-20_6304",
+        "vernr": 49
       },
       {
         "amount": 1234,
         "date": "2024-10-01",
         "description": "Försäkring Fartyget, halvårsavgift",
-        "id": "nordea_244_2024-10-01_6304",
-        "vernr": 244
+        "id": "nordea_215_2024-10-01_6304",
+        "vernr": 215
       },
       {
         "amount": -800,
         "date": "2024-12-04",
         "description": "Återbäring, försäkring",
-        "id": "nordea_253_2024-12-04_894",
-        "vernr": 253
+        "id": "nordea_224_2024-12-04_894",
+        "vernr": 224
       }
     ]
   },
@@ -3040,8 +3040,8 @@
         "amount": 245,
         "date": "2024-05-03",
         "description": "PTS-tillstånd",
-        "id": "nordea_73_2024-05-03_245",
-        "vernr": 73
+        "id": "nordea_61_2024-05-03_245",
+        "vernr": 61
       }
     ]
   },
@@ -3059,64 +3059,64 @@
         "amount": 2580.4,
         "date": "2024-04-29",
         "description": "Varvsmateriel",
-        "id": "nordea_68_2024-04-29_2580.4",
-        "vernr": 68
+        "id": "nordea_56_2024-04-29_2580.4",
+        "vernr": 56
       },
       {
         "amount": 1511,
         "date": "2024-04-30",
         "description": "Primer och penslar",
-        "id": "nordea_70_2024-04-30_1511",
-        "vernr": 70
+        "id": "nordea_58_2024-04-30_1511",
+        "vernr": 58
       },
       {
         "amount": 4001,
         "date": "2024-04-30",
         "description": "Tjära",
-        "id": "nordea_71_2024-04-30_4001",
-        "vernr": 71
+        "id": "nordea_59_2024-04-30_4001",
+        "vernr": 59
       },
       {
         "amount": 179.7,
         "date": "2024-05-06",
         "description": "Karbinhakar",
-        "id": "nordea_81_2024-05-06_179.7",
-        "vernr": 81
+        "id": "nordea_69_2024-05-06_179.7",
+        "vernr": 69
       },
       {
         "amount": 264.4,
         "date": "2024-05-06",
         "description": "Penslar och rengöring",
-        "id": "nordea_82_2024-05-06_264.4",
-        "vernr": 82
+        "id": "nordea_70_2024-05-06_264.4",
+        "vernr": 70
       },
       {
         "amount": 457.8,
         "date": "2024-05-06",
         "description": "Stålborstar och filter",
-        "id": "nordea_83_2024-05-06_457.8",
-        "vernr": 83
+        "id": "nordea_71_2024-05-06_457.8",
+        "vernr": 71
       },
       {
         "amount": 867,
         "date": "2024-05-06",
         "description": "Tjära",
-        "id": "nordea_84_2024-05-06_867",
-        "vernr": 84
+        "id": "nordea_72_2024-05-06_867",
+        "vernr": 72
       },
       {
         "amount": 1049,
         "date": "2024-05-06",
         "description": "Dammsugare",
-        "id": "nordea_85_2024-05-06_1049",
-        "vernr": 85
+        "id": "nordea_73_2024-05-06_1049",
+        "vernr": 73
       },
       {
         "amount": 1944,
         "date": "2024-05-06",
         "description": "Länspump och varmluftspistol",
-        "id": "nordea_86_2024-05-06_1944",
-        "vernr": 86
+        "id": "nordea_74_2024-05-06_1944",
+        "vernr": 74
       }
     ]
   },
@@ -3134,43 +3134,43 @@
         "amount": 1037.9,
         "date": "2024-05-23",
         "description": "tältimpregnering",
-        "id": "nordea_90_2024-05-23_1037.9",
-        "vernr": 90
+        "id": "nordea_78_2024-05-23_1037.9",
+        "vernr": 78
       },
       {
         "amount": 479,
         "date": "2024-05-28",
         "description": "Tältimpregnering",
-        "id": "nordea_93_2024-05-28_479",
-        "vernr": 93
+        "id": "nordea_81_2024-05-28_479",
+        "vernr": 81
       },
       {
         "amount": 1037.9,
         "date": "2024-08-12",
-        "description": "Impregnering tält - Nollställt i V257",
-        "id": "nordea_157_2024-08-12_1037.9",
-        "vernr": 157
+        "description": "Impregnering tält - Nollställt i V227",
+        "id": "nordea_142_2024-08-12_1037.9",
+        "vernr": 142
       },
       {
         "amount": 5336,
         "date": "2024-08-15",
         "description": "Tältmaterial",
-        "id": "nordea_160_2024-08-15_5336",
-        "vernr": 160
+        "id": "nordea_145_2024-08-15_5336",
+        "vernr": 145
       },
       {
         "amount": 362.7,
         "date": "2024-12-13",
         "description": "Utlägg vintertäckning",
-        "id": "nordea_254_2024-12-13_362.7",
-        "vernr": 254
+        "id": "nordea_225_2024-12-13_362.7",
+        "vernr": 225
       },
       {
         "amount": -1037.9,
         "date": "2024-12-29",
-        "description": "Nollställande av V157 - Impregnering tält",
-        "id": "nordea_257_2024-08-12_1037.9",
-        "vernr": 257
+        "description": "Nollställande av V142 - Impregnering tält",
+        "id": "nordea_227_2024-08-12_1037.9",
+        "vernr": 227
       }
     ]
   },
@@ -3188,15 +3188,15 @@
         "amount": 490.43,
         "date": "2024-05-23",
         "description": "Bensin flytt",
-        "id": "nordea_89_2024-05-23_490.43",
-        "vernr": 89
+        "id": "nordea_77_2024-05-23_490.43",
+        "vernr": 77
       },
       {
         "amount": 933.44,
         "date": "2024-07-22",
         "description": "Bensin",
-        "id": "nordea_147_2024-07-22_933.44",
-        "vernr": 147
+        "id": "nordea_133_2024-07-22_933.44",
+        "vernr": 133
       }
     ]
   },
@@ -3214,8 +3214,8 @@
         "amount": 13163,
         "date": "2024-07-16",
         "description": "Förtöjningsgods",
-        "id": "nordea_141_2024-07-16_13163",
-        "vernr": 141
+        "id": "nordea_127_2024-07-16_13163",
+        "vernr": 127
       }
     ]
   },
@@ -3233,36 +3233,36 @@
         "amount": 349,
         "date": "2024-07-15",
         "description": "Brandsläckare",
-        "id": "nordea_130_2024-07-15_349",
-        "vernr": 130
+        "id": "nordea_116_2024-07-15_349",
+        "vernr": 116
       },
       {
         "amount": 406.9,
         "date": "2024-07-15",
         "description": "Första hjälpen etc",
-        "id": "nordea_134_2024-07-15_406.9",
-        "vernr": 134
+        "id": "nordea_120_2024-07-15_406.9",
+        "vernr": 120
       },
       {
         "amount": 512.3,
         "date": "2024-07-15",
         "description": "Fotogen och rödsprit",
-        "id": "nordea_136_2024-07-15_512.3",
-        "vernr": 136
+        "id": "nordea_122_2024-07-15_512.3",
+        "vernr": 122
       },
       {
         "amount": 552,
         "date": "2024-07-15",
         "description": "Div båtprylar",
-        "id": "nordea_137_2024-07-15_552",
-        "vernr": 137
+        "id": "nordea_123_2024-07-15_552",
+        "vernr": 123
       },
       {
         "amount": 1321.5,
         "date": "2024-07-15",
         "description": "Köksredskap",
-        "id": "nordea_139_2024-07-15_1321.5",
-        "vernr": 139
+        "id": "nordea_125_2024-07-15_1321.5",
+        "vernr": 125
       }
     ]
   },
@@ -3280,8 +3280,8 @@
         "amount": 24062,
         "date": "2024-05-23",
         "description": "Varv",
-        "id": "nordea_91_2024-05-23_24062",
-        "vernr": 91
+        "id": "nordea_79_2024-05-23_24062",
+        "vernr": 79
       }
     ]
   },
@@ -3299,8 +3299,8 @@
         "amount": 600,
         "date": "2024-03-04",
         "description": "Transportstyrelsen Registeravgift",
-        "id": "nordea_34_2024-03-04_600",
-        "vernr": 34
+        "id": "nordea_27_2024-03-04_600",
+        "vernr": 27
       }
     ]
   },
@@ -3318,8 +3318,8 @@
         "amount": 4200,
         "date": "2024-04-29",
         "description": "Sommarhamn årsavgift",
-        "id": "nordea_69_2024-04-29_4200",
-        "vernr": 69
+        "id": "nordea_57_2024-04-29_4200",
+        "vernr": 57
       }
     ]
   },
@@ -3337,29 +3337,29 @@
         "amount": 365,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_131_2024-07-15_365",
-        "vernr": 131
+        "id": "nordea_117_2024-07-15_365",
+        "vernr": 117
       },
       {
         "amount": 375,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_132_2024-07-15_375",
-        "vernr": 132
+        "id": "nordea_118_2024-07-15_375",
+        "vernr": 118
       },
       {
         "amount": 390,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_133_2024-07-15_390",
-        "vernr": 133
+        "id": "nordea_119_2024-07-15_390",
+        "vernr": 119
       },
       {
         "amount": 435,
         "date": "2024-07-15",
         "description": "Hamnavgift",
-        "id": "nordea_135_2024-07-15_435",
-        "vernr": 135
+        "id": "nordea_121_2024-07-15_435",
+        "vernr": 121
       }
     ]
   },
@@ -3377,8 +3377,8 @@
         "amount": 1000,
         "date": "2024-05-03",
         "description": "Försäkring Hjälpbåt och motor",
-        "id": "nordea_74_2024-05-03_1608",
-        "vernr": 74
+        "id": "nordea_62_2024-05-03_1608",
+        "vernr": 62
       }
     ]
   },
@@ -3396,15 +3396,15 @@
         "amount": 2344,
         "date": "2024-07-15",
         "description": "Propellrar",
-        "id": "nordea_140_2024-07-15_2344",
-        "vernr": 140
+        "id": "nordea_126_2024-07-15_2344",
+        "vernr": 126
       },
       {
         "amount": 1438,
         "date": "2024-12-13",
         "description": "Service/felsökning Hjälpbåtsmotor",
-        "id": "nordea_255_2024-12-13_1438",
-        "vernr": 255
+        "id": "nordea_226_2024-12-13_1438",
+        "vernr": 226
       }
     ]
   },
@@ -3422,8 +3422,8 @@
         "amount": 3085,
         "date": "2024-02-02",
         "description": "Årsavgift, Speedledger",
-        "id": "nordea_18_2024-02-02_3085",
-        "vernr": 18
+        "id": "nordea_15_2024-02-02_3085",
+        "vernr": 15
       }
     ]
   },
@@ -3441,8 +3441,8 @@
         "amount": 1153.75,
         "date": "2024-10-28",
         "description": "Webbhotell",
-        "id": "nordea_247_2024-10-28_1153.75",
-        "vernr": 247
+        "id": "nordea_218_2024-10-28_1153.75",
+        "vernr": 218
       }
     ]
   },
@@ -3460,8 +3460,8 @@
         "amount": 151,
         "date": "2024-03-18",
         "description": "Mattransport årsmöte",
-        "id": "nordea_56_2024-03-18_151",
-        "vernr": 56
+        "id": "nordea_45_2024-03-18_151",
+        "vernr": 45
       }
     ]
   },
@@ -3479,15 +3479,15 @@
         "amount": 912.22,
         "date": "2024-05-02",
         "description": "Meetup halvårsfaktura",
-        "id": "nordea_72_2024-05-02_912.22",
-        "vernr": 72
+        "id": "nordea_60_2024-05-02_912.22",
+        "vernr": 60
       },
       {
         "amount": 1325,
         "date": "2024-10-28",
         "description": "Meetup halvårsfaktura",
-        "id": "nordea_248_2024-10-28_1325",
-        "vernr": 248
+        "id": "nordea_219_2024-10-28_1325",
+        "vernr": 219
       }
     ]
   },
@@ -3504,9 +3504,9 @@
       {
         "amount": 1000,
         "date": "2024-12-30",
-        "description": "Korrekt bokförande av årsmöteslokal - korrigering av V57",
-        "id": "nordea_261_2024-12-30_1000.00",
-        "vernr": 261
+        "description": "Korrekt bokförande av årsmöteslokal - korrigering av V46",
+        "id": "nordea_231_2024-12-30_1000.00",
+        "vernr": 231
       }
     ]
   },
@@ -3545,106 +3545,106 @@
         "amount": 10,
         "date": "2024-02-01",
         "description": "Swishavgift",
-        "id": "nordea_15_2024-02-01_10",
-        "vernr": 15
+        "id": "nordea_12_2024-02-01_10",
+        "vernr": 12
       },
       {
         "amount": 16,
         "date": "2024-03-01",
         "description": "Swishavgift",
-        "id": "nordea_28_2024-03-01_16",
-        "vernr": 28
+        "id": "nordea_23_2024-03-01_16",
+        "vernr": 23
       },
       {
         "amount": 1.85,
         "date": "2024-03-05",
         "description": "Bankkostnad",
-        "id": "nordea_35_2024-03-05_1.85",
-        "vernr": 35
+        "id": "nordea_28_2024-03-05_1.85",
+        "vernr": 28
       },
       {
         "amount": 40,
         "date": "2024-04-02",
         "description": "Swishavgift",
-        "id": "nordea_63_2024-04-02_40",
-        "vernr": 63
+        "id": "nordea_51_2024-04-02_40",
+        "vernr": 51
       },
       {
         "amount": 3.7,
         "date": "2024-04-04",
         "description": "Bankkostnad",
-        "id": "nordea_64_2024-04-04_3.7",
-        "vernr": 64
+        "id": "nordea_52_2024-04-04_3.7",
+        "vernr": 52
       },
       {
         "amount": 3.7,
         "date": "2024-05-06",
         "description": "Bankkostnad",
-        "id": "nordea_80_2024-05-06_3.7",
-        "vernr": 80
+        "id": "nordea_68_2024-05-06_3.7",
+        "vernr": 68
       },
       {
         "amount": 10,
         "date": "2024-06-03",
         "description": "Swishavgift",
-        "id": "nordea_95_2024-06-03_10",
-        "vernr": 95
+        "id": "nordea_83_2024-06-03_10",
+        "vernr": 83
       },
       {
         "amount": 7.4,
         "date": "2024-06-05",
         "description": "Bankkostnad",
-        "id": "nordea_96_2024-06-05_7.4",
-        "vernr": 96
+        "id": "nordea_84_2024-06-05_7.4",
+        "vernr": 84
       },
       {
         "amount": 20,
         "date": "2024-07-01",
         "description": "Swishavgift",
-        "id": "nordea_114_2024-07-01_20",
-        "vernr": 114
+        "id": "nordea_101_2024-07-01_20",
+        "vernr": 101
       },
       {
         "amount": 28,
         "date": "2024-08-01",
         "description": "Swishavgift",
-        "id": "nordea_151_2024-08-01_28",
-        "vernr": 151
+        "id": "nordea_137_2024-08-01_28",
+        "vernr": 137
       },
       {
         "amount": 1.85,
         "date": "2024-08-05",
         "description": "Bankkostnader",
-        "id": "nordea_153_2024-08-05_1.85",
-        "vernr": 153
+        "id": "nordea_138_2024-08-05_1.85",
+        "vernr": 138
       },
       {
         "amount": 10,
         "date": "2024-09-02",
         "description": "Swishavgift",
-        "id": "nordea_178_2024-09-02_10",
-        "vernr": 178
+        "id": "nordea_159_2024-09-02_10",
+        "vernr": 159
       },
       {
         "amount": 138,
         "date": "2024-10-01",
         "description": "Swishavgift",
-        "id": "nordea_243_2024-10-01_138",
-        "vernr": 243
+        "id": "nordea_214_2024-10-01_138",
+        "vernr": 214
       },
       {
         "amount": 2,
         "date": "2024-11-01",
         "description": "Swishavgift",
-        "id": "nordea_250_2024-11-01_2",
-        "vernr": 250
+        "id": "nordea_221_2024-11-01_2",
+        "vernr": 221
       },
       {
         "amount": 1.85,
         "date": "2024-11-05",
         "description": "Bankkostnad",
-        "id": "nordea_251_2024-11-05_1.85",
-        "vernr": 251
+        "id": "nordea_222_2024-11-05_1.85",
+        "vernr": 222
       }
     ]
   },
@@ -3662,29 +3662,29 @@
         "amount": 255.6,
         "date": "2024-07-15",
         "description": "Mat seglingsvecka",
-        "id": "nordea_128_2024-07-15_255.6",
-        "vernr": 128
+        "id": "nordea_114_2024-07-15_255.6",
+        "vernr": 114
       },
       {
         "amount": 590.18,
         "date": "2024-07-15",
         "description": "Mat seglingsvecka",
-        "id": "nordea_138_2024-07-15_590.18",
-        "vernr": 138
+        "id": "nordea_124_2024-07-15_590.18",
+        "vernr": 124
       },
       {
         "amount": 7238.16,
         "date": "2024-07-22",
         "description": "Mat",
-        "id": "nordea_148_2024-07-22_7238.16",
-        "vernr": 148
+        "id": "nordea_134_2024-07-22_7238.16",
+        "vernr": 134
       },
       {
         "amount": 2296.37,
         "date": "2024-08-12",
         "description": "Mat",
-        "id": "nordea_158_2024-08-12_2296.37",
-        "vernr": 158
+        "id": "nordea_143_2024-08-12_2296.37",
+        "vernr": 143
       }
     ]
   },
@@ -3701,37 +3701,37 @@
       {
         "amount": 1000,
         "date": "2024-03-18",
-        "description": "Lokalhyra årsmöte - Korrigerad i V261",
-        "id": "nordea_57_2024-03-18_1000",
-        "vernr": 57
+        "description": "Lokalhyra årsmöte - Korrigerad i V231",
+        "id": "nordea_46_2024-03-18_1000",
+        "vernr": 46
       },
       {
         "amount": 1111.86,
         "date": "2024-03-18",
         "description": "Årsmötesmat",
-        "id": "nordea_58_2024-03-18_1111.86",
-        "vernr": 58
+        "id": "nordea_47_2024-03-18_1111.86",
+        "vernr": 47
       },
       {
         "amount": 209.85,
         "date": "2024-04-29",
         "description": "Fika flytt till varvet",
-        "id": "nordea_66_2024-04-29_209.85",
-        "vernr": 66
+        "id": "nordea_54_2024-04-29_209.85",
+        "vernr": 54
       },
       {
         "amount": 684,
         "date": "2024-04-29",
         "description": "Fika årsmöte",
-        "id": "nordea_67_2024-04-29_684",
-        "vernr": 67
+        "id": "nordea_55_2024-04-29_684",
+        "vernr": 55
       },
       {
         "amount": -1000,
         "date": "2024-12-30",
-        "description": "Korrekt bokförande av årsmöteslokal - korrigering av V57",
-        "id": "nordea_261_2024-12-30_1000.00",
-        "vernr": 261
+        "description": "Korrekt bokförande av årsmöteslokal - korrigering av V46",
+        "id": "nordea_231_2024-12-30_1000.00",
+        "vernr": 231
       }
     ]
   },
@@ -3749,8 +3749,8 @@
         "amount": 3849.1,
         "date": "2024-10-02",
         "description": "Mat höstfest",
-        "id": "nordea_245_2024-10-02_3849.1",
-        "vernr": 245
+        "id": "nordea_216_2024-10-02_3849.1",
+        "vernr": 216
       }
     ]
   },
@@ -3768,15 +3768,15 @@
         "amount": -126.36,
         "date": "2024-12-29",
         "description": "Tidigare års ränta - justering av ingående belopp på placeringskontot",
-        "id": "nordea_259_2024-01-02_126.36",
-        "vernr": 259
+        "id": "nordea_229_2024-01-02_126.36",
+        "vernr": 229
       },
       {
         "amount": -140.85,
         "date": "2024-12-30",
         "description": "Placeringskonto - ränta",
-        "id": "nordea_260_2024-12-30_140.85",
-        "vernr": 260
+        "id": "nordea_230_2024-12-30_140.85",
+        "vernr": 230
       }
     ]
   },
@@ -3795,7 +3795,7 @@
         "date": "2024-12-31",
         "description": "Årets resultat 2024 | Underskott enligt resultaträkning",
         "id": null,
-        "vernr": 262
+        "vernr": 232
       }
     ]
   }

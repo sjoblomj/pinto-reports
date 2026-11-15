@@ -5,10 +5,6 @@ account-mappings: report-scripts/accounts.json
 organisation-number: 123456-7890
 logo: report-scripts/logo.svg
 
-# Verification numbers that are not used by any transaction
-unused-verification-numbers: [8, 9, 14, 20, 23, 29, 30, 36, 37, 46, 49, 62, 106, 122, 152, 166, 173, 174, 175, 191, 197,
-                              201, 202, 203, 204, 205, 206, 207, 208, 256]
-
 reports-to-generate:
   - balansrapport
   - resultatrapport
@@ -50,3 +46,7 @@ config:
       - 6600: Kostnad för mat under vecko- och helgsegling. Inkomsten för maten ligger under @3012@.
       - 6610: Kostnaden för höstfest. Inkomsten för festen ligger under @3602@.
       - 8311: Förra årets ränta blev inte bokförd, så detta är räntan för både 2023 ($126.36$) och 2024 ($140.85$).
+
+
+# Verification numbers that are not used by any transaction
+unused-verification-numbers: []
