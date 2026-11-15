@@ -17,7 +17,7 @@ config:
     report-type: Verifikationslista
 
   balansrapport:
-    report-type: Balansräkning
+    report-type: Balansrapport
     report-headers:
       - 1: Tillgångar
       - 2: Eget kapital och skulder
@@ -28,9 +28,9 @@ config:
 
 
   resultatrapport:
-    report-type: Resultaträkning
+    report-type: Resultatrapport
     report-headers:
-      - 3: Nettoomsättning
+      - 3: Rörelsens intäkter
       - 4: Kostnader för varor, material och tjänster
       - 5: Övriga externa rörelseutgifter/kostnader
       - 6: Övriga externa rörelseutgifter/kostnader
