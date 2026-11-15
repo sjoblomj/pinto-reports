@@ -113,19 +113,19 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-01-02 * "Swishavgift"
   id: "nordea_1_2024-01-02_2"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                        2.00 SEK
   Assets:1920:Bank:Plusgiro                                         -2.00 SEK
 
 2024-01-02 * "Swish årsavgift"
   id: "nordea_2_2024-01-02_720"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                      720.00 SEK
   Assets:1920:Bank:Plusgiro                                       -720.00 SEK
 
 2024-01-04 * "Bankavgift"
   id: "nordea_3_2024-01-04_1300"
-  statement: "verifikationer/A3_Bankavgift.pdf"
+  statement: "verifikationer/V3_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                     1300.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1300.00 SEK
 
@@ -175,7 +175,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-02-01 * "Swishavgift"
   id: "nordea_12_2024-02-01_10"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       10.00 SEK
   Assets:1920:Bank:Plusgiro                                        -10.00 SEK
 
@@ -191,7 +191,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-02-02 * "Årsavgift, Speedledger"
   id: "nordea_15_2024-02-02_3085"
-  statement: "verifikationer/A15_Speedledger_mejl1.pdf; verifikationer/A15_Speedledger_mejl2.pdf; verifikationer/A15_Speedledger.pdf"
+  statement: "verifikationer/V15_Speedledger_mejl1.pdf; verifikationer/V15_Speedledger_mejl2.pdf; verifikationer/V15_Speedledger.pdf"
   Expenses:5420:Programvaror                                      3085.00 SEK
   Assets:1920:Bank:Plusgiro                                      -3085.00 SEK
 
@@ -217,7 +217,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-02-27 * "Donation"
   id: "nordea_20_2024-02-27_350"
-  statement: "verifikationer/A20_donation.pdf"
+  statement: "verifikationer/V20_donation.pdf"
   Income:3993:Erhållna-donationer-och-gåvor                       -350.00 SEK
   Assets:1920:Bank:Plusgiro                                        350.00 SEK
 
@@ -237,7 +237,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-03-01 * "Swishavgift"
   id: "nordea_23_2024-03-01_16"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       16.00 SEK
   Assets:1920:Bank:Plusgiro                                        -16.00 SEK
 
@@ -258,13 +258,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-03-04 * "Transportstyrelsen Registeravgift"
   id: "nordea_27_2024-03-04_600"
-  statement: "verifikationer/A27_Transportstyrelsen-registeravgift.pdf"
+  statement: "verifikationer/V27_Transportstyrelsen-registeravgift.pdf"
   Expenses:4122:Fartyget:Myndighetsavgifter                        600.00 SEK
   Assets:1920:Bank:Plusgiro                                       -600.00 SEK
 
 2024-03-05 * "Bankkostnad"
   id: "nordea_28_2024-03-05_1.85"
-  statement: "verifikationer/A28_Bankavgift.pdf"
+  statement: "verifikationer/V28_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        1.85 SEK
   Assets:1920:Bank:Plusgiro                                         -1.85 SEK
 
@@ -350,19 +350,19 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-03-18 * "Mattransport årsmöte"
   id: "nordea_45_2024-03-18_151"
-  statement: "verifikationer/A45_mattransport.jpg"
+  statement: "verifikationer/V45_mattransport.jpg"
   Expenses:5700:Frakter-och-Transporter                            151.00 SEK
   Assets:1920:Bank:Plusgiro                                       -151.00 SEK
 
 2024-03-18 * "Lokalhyra årsmöte - Korrigerad i V231" ^lokalhyra-arsmote
   id: "nordea_46_2024-03-18_1000"
-  statement: "verifikationer/A46_lokalhyra-årsmöte.jpg"
+  statement: "verifikationer/V46_lokalhyra-årsmöte.jpg"
   Expenses:6601:Mat:Arbetsdagar                                   1000.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1000.00 SEK
 
 2024-03-18 * "Årsmötesmat"
   id: "nordea_47_2024-03-18_1111.86"
-  statement: "verifikationer/A47_årsmötesmat.jpg"
+  statement: "verifikationer/V47_årsmötesmat.jpg"
   Expenses:6601:Mat:Arbetsdagar                                   1111.86 SEK
   Assets:1920:Bank:Plusgiro                                      -1111.86 SEK
 
@@ -373,7 +373,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-03-20 * "Försäkring Fartyget, halvåravgift"
   id: "nordea_49_2024-03-20_6304"
-  statement: "verifikationer/A49_Försäkring-Fartyget.pdf"
+  statement: "verifikationer/V49_Försäkring-Fartyget.pdf"
   Expenses:4111:Fartyget:Försäkring                               2345.00 SEK
   Assets:1920:Bank:Plusgiro                                      -2345.00 SEK
 
@@ -388,13 +388,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-04-02 * "Swishavgift"
   id: "nordea_51_2024-04-02_40"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       40.00 SEK
   Assets:1920:Bank:Plusgiro                                        -40.00 SEK
 
 2024-04-04 * "Bankkostnad"
   id: "nordea_52_2024-04-04_3.7"
-  statement: "verifikationer/A52_Bankavgift.pdf"
+  statement: "verifikationer/V52_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        3.70 SEK
   Assets:1920:Bank:Plusgiro                                         -3.70 SEK
 
@@ -405,37 +405,37 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-04-29 * "Fika flytt till varvet"
   id: "nordea_54_2024-04-29_209.85"
-  statement: "verifikationer/A54_Fika-varvsflytt.jpg"
+  statement: "verifikationer/V54_Fika-varvsflytt.jpg"
   Expenses:6601:Mat:Arbetsdagar                                    209.85 SEK
   Assets:1920:Bank:Plusgiro                                       -209.85 SEK
 
 2024-04-29 * "Fika årsmöte"
   id: "nordea_55_2024-04-29_684"
-  statement: "verifikationer/A55_årsmöte-fika.jpg"
+  statement: "verifikationer/V55_årsmöte-fika.jpg"
   Expenses:6601:Mat:Arbetsdagar                                    684.00 SEK
   Assets:1920:Bank:Plusgiro                                       -684.00 SEK
 
 2024-04-29 * "Varvsmateriel"
   id: "nordea_56_2024-04-29_2580.4"
-  statement: "verifikationer/A56_varsvateriel0.jpg; verifikationer/A56_varsvateriel1.jpg; verifikationer/A56_varsvateriel2.jpg"
+  statement: "verifikationer/V56_varsvateriel0.jpg; verifikationer/V56_varsvateriel1.jpg; verifikationer/V56_varsvateriel2.jpg"
   Expenses:4113:Fartyget:Vårutrustning                            2580.40 SEK
   Assets:1920:Bank:Plusgiro                                      -2580.40 SEK
 
 2024-04-29 * "Sommarhamn årsavgift"
   id: "nordea_57_2024-04-29_4200"
-  statement: "verifikationer/A57_sommarhamn.pdf"
+  statement: "verifikationer/V57_sommarhamn.pdf"
   Expenses:4126:Fartyget:Fast-båtplats                            4200.00 SEK
   Assets:1920:Bank:Plusgiro                                      -4200.00 SEK
 
 2024-04-30 * "Primer och penslar"
   id: "nordea_58_2024-04-30_1511"
-  statement: "verifikationer/A58_primer-och-penslar.pdf"
+  statement: "verifikationer/V58_primer-och-penslar.pdf"
   Expenses:4113:Fartyget:Vårutrustning                            1511.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1511.00 SEK
 
 2024-04-30 * "Tjära"
   id: "nordea_59_2024-04-30_4001"
-  statement: "verifikationer/A59_tjära.pdf"
+  statement: "verifikationer/V59_tjära.pdf"
   Expenses:4113:Fartyget:Vårutrustning                            4001.00 SEK
   Assets:1920:Bank:Plusgiro                                      -4001.00 SEK
 
@@ -445,19 +445,19 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-05-02 * "Meetup halvårsfaktura"
   id: "nordea_60_2024-05-02_912.22"
-  statement: "verifikationer/A60_meetup.pdf"
+  statement: "verifikationer/V60_meetup.pdf"
   Expenses:5900:Reklam-och-PR                                      912.22 SEK
   Assets:1920:Bank:Plusgiro                                       -912.22 SEK
 
 2024-05-03 * "PTS-tillstånd"
   id: "nordea_61_2024-05-03_245"
-  statement: "verifikationer/A61_PTS-tillstånd.pdf"
+  statement: "verifikationer/V61_PTS-tillstånd.pdf"
   Expenses:4112:Fartyget:Mobil-radiosändare                        245.00 SEK
   Assets:1920:Bank:Plusgiro                                       -245.00 SEK
 
 2024-05-03 * "Försäkring Hjälpbåt och motor"
   id: "nordea_62_2024-05-03_1608"
-  statement: "verifikationer/A62_Försäkring-Hjälpbåt-och-motor.pdf"
+  statement: "verifikationer/V62_Försäkring-Hjälpbåt-och-motor.pdf"
   Expenses:4161:Hjälpbåt:Försäkring                               1000.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1000.00 SEK
 
@@ -488,43 +488,43 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-05-06 * "Bankkostnad"
   id: "nordea_68_2024-05-06_3.7"
-  statement: "verifikationer/A68_Bankavgift.pdf"
+  statement: "verifikationer/V68_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        3.70 SEK
   Assets:1920:Bank:Plusgiro                                         -3.70 SEK
 
 2024-05-06 * "Karbinhakar"
   id: "nordea_69_2024-05-06_179.7"
-  statement: "verifikationer/A69_Karbinhakar.jpg"
+  statement: "verifikationer/V69_Karbinhakar.jpg"
   Expenses:4113:Fartyget:Vårutrustning                             179.70 SEK
   Assets:1920:Bank:Plusgiro                                       -179.70 SEK
 
 2024-05-06 * "Penslar och rengöring"
   id: "nordea_70_2024-05-06_264.4"
-  statement: "verifikationer/A70_penslar-och-rengöring.jpg"
+  statement: "verifikationer/V70_penslar-och-rengöring.jpg"
   Expenses:4113:Fartyget:Vårutrustning                             264.40 SEK
   Assets:1920:Bank:Plusgiro                                       -264.40 SEK
 
 2024-05-06 * "Stålborstar och filter"
   id: "nordea_71_2024-05-06_457.8"
-  statement: "verifikationer/A71_filter-och-stålborstar.jpg; verifikationer/A71_stålborstar.jpg"
+  statement: "verifikationer/V71_filter-och-stålborstar.jpg; verifikationer/V71_stålborstar.jpg"
   Expenses:4113:Fartyget:Vårutrustning                             457.80 SEK
   Assets:1920:Bank:Plusgiro                                       -457.80 SEK
 
 2024-05-06 * "Tjära"
   id: "nordea_72_2024-05-06_867"
-  statement: "verifikationer/A72_tjära.pdf"
+  statement: "verifikationer/V72_tjära.pdf"
   Expenses:4113:Fartyget:Vårutrustning                             867.00 SEK
   Assets:1920:Bank:Plusgiro                                       -867.00 SEK
 
 2024-05-06 * "Dammsugare"
   id: "nordea_73_2024-05-06_1049"
-  statement: "verifikationer/A73_dammsugare.jpg"
+  statement: "verifikationer/V73_dammsugare.jpg"
   Expenses:4113:Fartyget:Vårutrustning                            1049.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1049.00 SEK
 
 2024-05-06 * "Länspump och varmluftspistol"
   id: "nordea_74_2024-05-06_1944"
-  statement: "verifikationer/A74_länspump-och-varmluftspistol.jpg"
+  statement: "verifikationer/V74_länspump-och-varmluftspistol.jpg"
   Expenses:4113:Fartyget:Vårutrustning                            1944.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1944.00 SEK
 
@@ -540,19 +540,19 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-05-23 * "Bensin flytt"
   id: "nordea_77_2024-05-23_490.43"
-  statement: "verifikationer/A77_bensin.jpg"
+  statement: "verifikationer/V77_bensin.jpg"
   Expenses:4115:Fartyget:Bensin                                    490.43 SEK
   Assets:1920:Bank:Plusgiro                                       -490.43 SEK
 
 2024-05-23 * "tältimpregnering" ^taltimpregnering-dubbel-utbetalning
   id: "nordea_78_2024-05-23_1037.9"
-  statement: "verifikationer/A78_tältimpregnering.jpg"
+  statement: "verifikationer/V78_tältimpregnering.jpg"
   Expenses:4114:Fartyget:Underhåll                                1037.90 SEK
   Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
 
 2024-05-23 * "Varv"
   id: "nordea_79_2024-05-23_24062"
-  statement: "verifikationer/A79_Varv.pdf"
+  statement: "verifikationer/V79_Varv.pdf"
   Expenses:4118:Fartyget:Upptagning-och-Sjösättning              24062.00 SEK
   Assets:1920:Bank:Plusgiro                                     -24062.00 SEK
 
@@ -563,7 +563,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-05-28 * "Tältimpregnering"
   id: "nordea_81_2024-05-28_479"
-  statement: "verifikationer/A81_impregnering.jpg"
+  statement: "verifikationer/V81_impregnering.jpg"
   Expenses:4114:Fartyget:Underhåll                                 479.00 SEK
   Assets:1920:Bank:Plusgiro                                       -479.00 SEK
 
@@ -578,13 +578,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-06-03 * "Swishavgift"
   id: "nordea_83_2024-06-03_10"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       10.00 SEK
   Assets:1920:Bank:Plusgiro                                        -10.00 SEK
 
 2024-06-05 * "Bankkostnad"
   id: "nordea_84_2024-06-05_7.4"
-  statement: "verifikationer/A84_Bankavgift.pdf"
+  statement: "verifikationer/V84_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        7.40 SEK
   Assets:1920:Bank:Plusgiro                                         -7.40 SEK
 
@@ -615,7 +615,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-06-24 * "Seglings- och matavgift + donation"
   id: "nordea_90_2024-06-24_600"
-  statement: "verifikationer/A90_donation.pdf"
+  statement: "verifikationer/V90_donation.pdf"
   Income:3012:Matavgift                                           -300.00 SEK
   Income:3011:Seglingsavgift                                      -600.00 SEK
   Income:3993:Erhållna-donationer-och-gåvor                       -450.00 SEK
@@ -683,7 +683,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-07-01 * "Swishavgift"
   id: "nordea_101_2024-07-01_20"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       20.00 SEK
   Assets:1920:Bank:Plusgiro                                        -20.00 SEK
 
@@ -751,7 +751,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-07-15 * "Mat seglingsvecka"
   id: "nordea_114_2024-07-15_255.6"
-  statement: "verifikationer/A114_mat.jpg"
+  statement: "verifikationer/V114_mat.jpg"
   Expenses:6600:Mat:Segling                                        255.60 SEK
   Assets:1920:Bank:Plusgiro                                       -255.60 SEK
 
@@ -762,73 +762,73 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-07-15 * "Brandsläckare"
   id: "nordea_116_2024-07-15_349"
-  statement: "verifikationer/A116_Brandsläckare.jpg"
+  statement: "verifikationer/V116_Brandsläckare.jpg"
   Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          349.00 SEK
   Assets:1920:Bank:Plusgiro                                       -349.00 SEK
 
 2024-07-15 * "Hamnavgift"
   id: "nordea_117_2024-07-15_365"
-  statement: "verifikationer/A117_Hamnavgift.jpg"
+  statement: "verifikationer/V117_Hamnavgift.jpg"
   Expenses:4127:Fartyget:Hamnavgifter                              365.00 SEK
   Assets:1920:Bank:Plusgiro                                       -365.00 SEK
 
 2024-07-15 * "Hamnavgift"
   id: "nordea_118_2024-07-15_375"
-  statement: "verifikationer/A118_Hamnavgift.jpg"
+  statement: "verifikationer/V118_Hamnavgift.jpg"
   Expenses:4127:Fartyget:Hamnavgifter                              375.00 SEK
   Assets:1920:Bank:Plusgiro                                       -375.00 SEK
 
 2024-07-15 * "Hamnavgift"
   id: "nordea_119_2024-07-15_390"
-  statement: "verifikationer/A119_Hamnavgift.jpg"
+  statement: "verifikationer/V119_Hamnavgift.jpg"
   Expenses:4127:Fartyget:Hamnavgifter                              390.00 SEK
   Assets:1920:Bank:Plusgiro                                       -390.00 SEK
 
 2024-07-15 * "Första hjälpen etc"
   id: "nordea_120_2024-07-15_406.9"
-  statement: "verifikationer/A120_första-hjälpen.jpg"
+  statement: "verifikationer/V120_första-hjälpen.jpg"
   Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          406.90 SEK
   Assets:1920:Bank:Plusgiro                                       -406.90 SEK
 
 2024-07-15 * "Hamnavgift"
   id: "nordea_121_2024-07-15_435"
-  statement: "verifikationer/A121_hamnavgift.jpg"
+  statement: "verifikationer/V121_hamnavgift.jpg"
   Expenses:4127:Fartyget:Hamnavgifter                              435.00 SEK
   Assets:1920:Bank:Plusgiro                                       -435.00 SEK
 
 2024-07-15 * "Fotogen och rödsprit"
   id: "nordea_122_2024-07-15_512.3"
-  statement: "verifikationer/A122_fotogen-och-rödsprit.jpg"
+  statement: "verifikationer/V122_fotogen-och-rödsprit.jpg"
   Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          512.30 SEK
   Assets:1920:Bank:Plusgiro                                       -512.30 SEK
 
 2024-07-15 * "Div båtprylar"
   id: "nordea_123_2024-07-15_552"
-  statement: "verifikationer/A123_div-båtprylar.jpg"
+  statement: "verifikationer/V123_div-båtprylar.jpg"
   Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader          552.00 SEK
   Assets:1920:Bank:Plusgiro                                       -552.00 SEK
 
 2024-07-15 * "Mat seglingsvecka"
   id: "nordea_124_2024-07-15_590.18"
-  statement: "verifikationer/A124_mat-seglingsvecka.jpg"
+  statement: "verifikationer/V124_mat-seglingsvecka.jpg"
   Expenses:6600:Mat:Segling                                        590.18 SEK
   Assets:1920:Bank:Plusgiro                                       -590.18 SEK
 
 2024-07-15 * "Köksredskap"
   id: "nordea_125_2024-07-15_1321.5"
-  statement: "verifikationer/A125_köksredskap.jpg"
+  statement: "verifikationer/V125_köksredskap.jpg"
   Expenses:4117:Fartyget:Sommarseglingar-övriga-kostnader         1321.50 SEK
   Assets:1920:Bank:Plusgiro                                      -1321.50 SEK
 
 2024-07-15 * "Propellrar"
   id: "nordea_126_2024-07-15_2344"
-  statement: "verifikationer/A126_propeller0.pdf; verifikationer/A126_propeller0.pdf"
+  statement: "verifikationer/V126_propeller0.pdf; verifikationer/V126_propeller0.pdf"
   Expenses:4162:Hjälpbåt:Motor                                    2344.00 SEK
   Assets:1920:Bank:Plusgiro                                      -2344.00 SEK
 
 2024-07-16 * "Förtöjningsgods"
   id: "nordea_127_2024-07-16_13163"
-  statement: "verifikationer/A127_förtöjningsgods.pdf"
+  statement: "verifikationer/V127_förtöjningsgods.pdf"
   Expenses:4116:Fartyget:Segel-och-Rigg                          13163.00 SEK
   Assets:1920:Bank:Plusgiro                                     -13163.00 SEK
 
@@ -860,13 +860,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-07-22 * "Bensin"
   id: "nordea_133_2024-07-22_933.44"
-  statement: "verifikationer/A133_bensin0.jpg; verifikationer/A133_bensin1.jpg"
+  statement: "verifikationer/V133_bensin0.jpg; verifikationer/V133_bensin1.jpg"
   Expenses:4115:Fartyget:Bensin                                    933.44 SEK
   Assets:1920:Bank:Plusgiro                                       -933.44 SEK
 
 2024-07-22 * "Mat"
   id: "nordea_134_2024-07-22_7238.16"
-  statement: "verifikationer/A134_ica-nara.jpg; verifikationer/A134_Ica-Maxi.pdf"
+  statement: "verifikationer/V134_ica-nara.jpg; verifikationer/V134_Ica-Maxi.pdf"
   Expenses:6600:Mat:Segling                                       7238.16 SEK
   Assets:1920:Bank:Plusgiro                                      -7238.16 SEK
 
@@ -886,13 +886,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-08-01 * "Swishavgift"
   id: "nordea_137_2024-08-01_28"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       28.00 SEK
   Assets:1920:Bank:Plusgiro                                        -28.00 SEK
 
 2024-08-05 * "Bankkostnader"
   id: "nordea_138_2024-08-05_1.85"
-  statement: "verifikationer/A138_Bankavgift.pdf"
+  statement: "verifikationer/V138_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        1.85 SEK
   Assets:1920:Bank:Plusgiro                                         -1.85 SEK
 
@@ -913,13 +913,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-08-12 * "Impregnering tält - Nollställt i V227" ^taltimpregnering-dubbel-utbetalning
   id: "nordea_142_2024-08-12_1037.9"
-  statement: "verifikationer/A142_tältimpregnering.pdf"
+  statement: "verifikationer/V142_tältimpregnering.pdf"
   Expenses:4114:Fartyget:Underhåll                                1037.90 SEK
   Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
 
 2024-08-12 * "Mat"
   id: "nordea_143_2024-08-12_2296.37"
-  statement: "verifikationer/A143_ICA.pdf"
+  statement: "verifikationer/V143_ICA.pdf"
   Expenses:6600:Mat:Segling                                       2296.37 SEK
   Assets:1920:Bank:Plusgiro                                      -2296.37 SEK
 
@@ -930,7 +930,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-08-15 * "Tältmaterial"
   id: "nordea_145_2024-08-15_5336"
-  statement: "verifikationer/A145_tältmaterial.jpg"
+  statement: "verifikationer/V145_tältmaterial.jpg"
   Expenses:4114:Fartyget:Underhåll                                5336.00 SEK
   Assets:1920:Bank:Plusgiro                                      -5336.00 SEK
 
@@ -1005,7 +1005,7 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-09-02 * "Swishavgift"
   id: "nordea_159_2024-09-02_10"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                       10.00 SEK
   Assets:1920:Bank:Plusgiro                                        -10.00 SEK
 
@@ -1286,19 +1286,19 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-10-01 * "Swishavgift"
   id: "nordea_214_2024-10-01_138"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                      138.00 SEK
   Assets:1920:Bank:Plusgiro                                       -138.00 SEK
 
 2024-10-01 * "Försäkring Fartyget, halvårsavgift"
   id: "nordea_215_2024-10-01_6304"
-  statement: "verifikationer/A215_Försäkring-Fartyget.pdf"
+  statement: "verifikationer/V215_Försäkring-Fartyget.pdf"
   Expenses:4111:Fartyget:Försäkring                               1234.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1234.00 SEK
 
 2024-10-02 * "Mat höstfest"
   id: "nordea_216_2024-10-02_3849.1"
-  statement: "verifikationer/A216_mat-höstfest.jpg"
+  statement: "verifikationer/V216_mat-höstfest.jpg"
   Expenses:6610:Interna-arrangemang                               3849.10 SEK
   Assets:1920:Bank:Plusgiro                                      -3849.10 SEK
 
@@ -1309,13 +1309,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-10-28 * "Webbhotell"
   id: "nordea_218_2024-10-28_1153.75"
-  statement: "verifikationer/A218_Webbhotell.pdf"
+  statement: "verifikationer/V218_Webbhotell.pdf"
   Expenses:5421:Hemsida                                           1153.75 SEK
   Assets:1920:Bank:Plusgiro                                      -1153.75 SEK
 
 2024-10-28 * "Meetup halvårsfaktura"
   id: "nordea_219_2024-10-28_1325"
-  statement: "verifikationer/A219_Meetup.pdf"
+  statement: "verifikationer/V219_Meetup.pdf"
   Expenses:5900:Reklam-och-PR                                     1325.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1325.00 SEK
 
@@ -1330,13 +1330,13 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-11-01 * "Swishavgift"
   id: "nordea_221_2024-11-01_2"
-  statement: "verifikationer/A1,\ A2,\ A12,\ A23,\ A51,\ A83,\ A101,\ A137,\ A159,\ A214,\ A221_Prislista-foretag-foreningar.pdf"
+  statement: "verifikationer/V1,V2,V12,V23,V51,V83,V101,V137,V159,V214,V221_Prislista-foretag-foreningar.pdf"
   Expenses:6570:Bankkostnader                                        2.00 SEK
   Assets:1920:Bank:Plusgiro                                         -2.00 SEK
 
 2024-11-05 * "Bankkostnad"
   id: "nordea_222_2024-11-05_1.85"
-  statement: "verifikationer/A222_Bankavgift.pdf"
+  statement: "verifikationer/V222_Bankavgift.pdf"
   Expenses:6570:Bankkostnader                                        1.85 SEK
   Assets:1920:Bank:Plusgiro                                         -1.85 SEK
 
@@ -1351,31 +1351,31 @@ option "inferred_tolerance_default" "SEK:0.00"
 
 2024-12-04 * "Återbäring, försäkring"
   id: "nordea_224_2024-12-04_894"
-  statement: "verifikationer/A224_Försäkring-återbäring.pdf"
+  statement: "verifikationer/V224_Försäkring-återbäring.pdf"
   Expenses:4111:Fartyget:Försäkring                               -800.00 SEK
   Assets:1920:Bank:Plusgiro                                        800.00 SEK
 
 2024-12-13 * "Utlägg vintertäckning"
   id: "nordea_225_2024-12-13_362.7"
-  statement: "verifikationer/A225_vintertäckning.jpg"
+  statement: "verifikationer/V225_vintertäckning.jpg"
   Expenses:4114:Fartyget:Underhåll                                 362.70 SEK
   Assets:1920:Bank:Plusgiro                                       -362.70 SEK
 
 2024-12-13 * "Service/felsökning Hjälpbåtsmotor"
   id: "nordea_226_2024-12-13_1438"
-  statement: "verifikationer/A226_Motorservice.pdf"
+  statement: "verifikationer/V226_Motorservice.pdf"
   Expenses:4162:Hjälpbåt:Motor                                    1438.00 SEK
   Assets:1920:Bank:Plusgiro                                      -1438.00 SEK
 
 2024-12-29 * "Nollställande av V142 - Impregnering tält" ^taltimpregnering-dubbel-utbetalning
   id: "nordea_227_2024-08-12_1037.9"
-  statement: "verifikationer/A228_Dubbelbetalning.pdf"
+  statement: "verifikationer/V228_Dubbelbetalning.pdf"
   Expenses:4114:Fartyget:Underhåll                               -1037.90 SEK
   Assets:1920:Bank:Plusgiro                                       1037.90 SEK
 
 2024-12-29 * "Dubbel utbetalning för impregnering tält - V78 och V142" ^taltimpregnering-dubbel-utbetalning
   id: "nordea_228_2024-08-12_-1037.9"
-  statement: "verifikationer/A228_Dubbelbetalning.pdf"
+  statement: "verifikationer/V228_Dubbelbetalning.pdf"
   Assets:1510:Fordran-av-medlem                                   1037.90 SEK
   Assets:1920:Bank:Plusgiro                                      -1037.90 SEK
 
