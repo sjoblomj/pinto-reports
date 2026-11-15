@@ -1,6 +1,7 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
+source "$SCRIPT_DIR"/typst.sh
 source "$SCRIPT_DIR"/transactions.sh
 
 report_type="Verifikationslista"
@@ -19,10 +20,7 @@ jq '[.[] | select(.vernr != 0 and .description != "Opening balance")]' "$jsonfil
     jq 'group_by(.vernr)' |
     jq 'map(first as $f | {"date": $f.date, "transaction_id": $f.transaction_id, "id": $f.id, "description": $f.description, "vernr": $f.vernr, "transactions": (map({"account": .account, "amount": .amount}))})' > "$report_output_file.json"
 
-# Turn to latex commands
-echo "\\reporttype{$report_type}"
-echo "\\begin{verificationtable}"
-jq -r '. | map("    \\verificationitem{" + (.vernr | tostring) + "}{" + .date + "}{" + .description + "}\n" + (.transactions | [(.[0:-1] | map("      \\transactionitem*{" + .account + "}{" + (.amount | tostring) + "}")), (.[-1] | "      \\transactionitem{" + .account + "}{" + (.amount | tostring) + "}")] | flatten | join("\n")) + "\n") | .[]' "$report_output_file.json"
-echo "\\end{verificationtable}"
+# Create Typst report
+print_typst_report "$report_type" "verification-table" "$report_output_file.json"
 
 rm -f "$jsonfile"

@@ -1,6 +1,7 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
+source "$SCRIPT_DIR"/typst.sh
 source "$SCRIPT_DIR"/sheets.sh
 
 config_file="$1"
@@ -20,11 +21,8 @@ bean-query -f csv "$ledger_file" 'SELECT account, sum(number) AS amount WHERE ac
   jq 'map(.amount = (.amount * -1))' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"
 
-# Create Latex report
-echo "\\reporttype{$report_type}"
-echo "\\begin{resulttable}"
-jq -r 'map("\n  \\resultheaderrow{" + .category + "}\n" + (.accounts | map("  \\resultitem{" + .account + "}{" + .note + "}{" + (.amount | tostring) + "}") | join("\n")) + "\n  \\resultresult{}") | join("\n")' "$report_output_file.json"
-echo "\\end{resulttable}"
+# Create Typst report
+print_typst_report "$report_type" "result-table" "$report_output_file.json"
 
 # Clean up files
 rm -f "$headers_file" "$notes_file"

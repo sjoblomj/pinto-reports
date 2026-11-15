@@ -33,9 +33,9 @@ function get_account_mapping() {
       map({
         "key": get_displayname(.key),
         "value": (.value as $value
-          | [$value | recurse(capture("(?<B>.*)\\$(?<num>[0-9\\.]+)\\$(?<A>.*)") | .B + "\\outputcurrency{" + .num + "} \\currencycode{}" + .A)][-
+          | [$value | recurse(capture("(?<B>.*)\\$(?<num>[0-9\\.]+)\\$(?<A>.*)") | .B + "#amount(\"" + .num + "\");" + .A)][-
 1] as $value
-          | [$value | recurse(capture("(?<B>.*)\\@(?<num>[0-9]+)\\@(?<A>.*)")    | .B + "\\textit{" + get_displayname(.num) + "}" + .A)][-1])
+          | [$value | recurse(capture("(?<B>.*)\\@(?<num>[0-9]+)\\@(?<A>.*)")    | .B + "#account(" + (get_displayname(.num) | tojson) + ");" + .A)][-1])
       })
 
     else

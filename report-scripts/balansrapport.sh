@@ -1,6 +1,7 @@
 #!/bin/bash
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source "$SCRIPT_DIR"/account_mapping.sh
+source "$SCRIPT_DIR"/typst.sh
 source "$SCRIPT_DIR"/sheets.sh
 
 config_file="$1"
@@ -44,11 +45,8 @@ jq '[group_by(.account)[] | add]' "$report_file" |
   | map(. + {"diff": (((.end_amount - .start_amount) * 100 | round) / 100)})' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"
 
-# Create Latex report
-echo "\\reporttype{$report_type}"
-echo "\\begin{balancetable}"
-jq -r 'map("\n  \\balanceheaderrow{" + .category + "}\n" + (.accounts | map("  \\balanceitem{" + .account + "}{" + .note + "}{" + (.start_amount | tostring) + "}{" + (.diff | tostring) + "}{" + (.end_amount | tostring) + "}") | join("\n")) + "\n  \\balanceresult{}") | join("\n")' "$report_output_file.json"
-echo "\\end{balancetable}"
+# Create Typst report
+print_typst_report "$report_type" "balance-table" "$report_output_file.json"
 
 # Clean up files
 rm -f "$start_of_period_file" "$end_of_period_file" "$report_file" "$headers_file" "$notes_file"
