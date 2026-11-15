@@ -2,7 +2,11 @@
 
 function create_json_sheet() {
   map_account_names "$account_mappings_src" |
-  jq 'map(. + {"account_type": (.account[:1])}) | sort_by(.account)' |
+  # The account type is the first digit of the account number
+  jq --slurpfile mappings "$account_mappings_src" '
+    map(.account_internal as $name
+      | . + {"account_type": ($mappings[0] | map(select(.name == $name)) | first | .accountnumber | tostring | .[:1])})
+    | sort_by(.account)' |
   map_account_headers "$headers_file" |
   map_notes "$notes_file" |
   jq 'group_by(.account_type)' |
