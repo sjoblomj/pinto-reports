@@ -98,6 +98,13 @@
   currency-suffix
 }
 
+// Splits an amount into the cells of a debit and a credit column: what is positive is debit, and
+// what is negative is credit.
+#let debit-credit(number) = {
+  let amount = to-decimal(number)
+  if amount < decimal("0") { ([], money(-amount)) } else { (money(amount), []) }
+}
+
 // "SUMMA" -> "SUMMA (kr)", unless the currency code is empty
 #let with-currency-code(label) = if currency-code == "" { label } else { label + " (" + currency-code + ")" }
 
@@ -281,17 +288,17 @@
 // data: array of (vernr, date, description, transactions: array of (account, amount))
 #let verification-table(data) = {
   set block(spacing: 0pt)
-  let columns = (7%, 13.5%, 1fr, 14%)
-  let align = (left, left, left, right)
+  let columns = (7%, 13.5%, 1fr, 14%, 14%)
+  let align = (left, left, left, right, right)
 
-  title-row(columns, align)[VER. \ NR.][DATUM][TEXT][]
+  title-row(columns, align)[VER. \ NR.][DATUM][TEXT][DEBET][KREDIT]
 
   for verification in data {
     let rows = (
-      filled-row(header-fill, str(verification.vernr), verification.date, verification.description, []),
+      filled-row(header-fill, str(verification.vernr), verification.date, verification.description, [], []),
     )
     for transaction in verification.transactions {
-      rows.push(([], [], transaction.account, money(transaction.amount)))
+      rows.push(([], [], transaction.account, ..debit-credit(transaction.amount)))
     }
 
     // A verification is never split across pages
@@ -304,30 +311,35 @@
 //---------------------------------------------------------------------------------
 
 // data: array of (account, transactions: array of (vernr, date, description, amount)),
-// where the first transaction of each account is its opening balance
+// where the first transaction of each account is its opening balance. The balance is
+// debit minus credit, so the accounts of liabilities and income are negative.
 #let account-table(data) = {
   set block(spacing: 0pt)
-  let columns = (7%, 13.5%, 1fr, 14%, 14%)
-  let align = (left, left, left, right, right)
+  let columns = (7%, 13.5%, 1fr, 13%, 13%, 14%)
+  let align = (left, left, left, right, right, right)
 
-  title-row(columns, align)[VER. \ NR.][DATUM][TEXT][][SALDO]
+  title-row(columns, align)[VER. \ NR.][DATUM][TEXT][DEBET][KREDIT][SALDO]
 
   for account in data {
     let opening = to-decimal(account.transactions.first().amount)
     let transactions = account.transactions.slice(1)
     let balance = opening
+    let debit = decimal("0")
+    let credit = decimal("0")
 
     let rows = (
-      filled-row(header-fill, [], [], emph(account.account), [], []),
-      filled-row(summary-fill, [], [], [INGÅENDE SALDO], [], money(opening)),
+      filled-row(header-fill, [], [], emph(account.account), [], [], []),
+      filled-row(summary-fill, [], [], [INGÅENDE SALDO], [], [], money(opening)),
     )
     for transaction in transactions {
-      balance += to-decimal(transaction.amount)
+      let amount = to-decimal(transaction.amount)
+      balance += amount
+      if amount < decimal("0") { credit -= amount } else { debit += amount }
       rows.push((
         str(transaction.vernr),
         transaction.date,
         transaction.description,
-        money(transaction.amount),
+        ..debit-credit(amount),
         money(balance),
       ))
     }
@@ -335,8 +347,9 @@
       summary-fill,
       [],
       [],
-      [SUMMA PERIODEN / UTGÅENDE SALDO],
-      money(balance - opening),
+      [OMSLUTNING / UTGÅENDE SALDO],
+      money(debit),
+      money(credit),
       money(balance),
     ))
 
