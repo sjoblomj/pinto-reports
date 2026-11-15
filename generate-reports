@@ -47,10 +47,14 @@ report_dir="reports"
 mkdir -p "$report_dir"
 cp "$REPORT_SCRIPTS"/report.typ "$REPORT_SCRIPTS"/logo.svg "$report_dir"
 
-# The organisation number and the logo can be set in the config file
+# The organisation name, the organisation number and the logo can be set in the config file
 typst_inputs=()
+organisation_name=$(  yq '.organisation-name // ""' "$config_file")
 organisation_number=$(yq '.organisation-number // ""' "$config_file")
 logo=$(               yq               '.logo // ""' "$config_file")
+if [ -n "$organisation_name" ]; then
+  typst_inputs+=(--input "organisation-name=$organisation_name")
+fi
 if [ -n "$organisation_number" ]; then
   typst_inputs+=(--input "organisation-number=$organisation_number")
 fi

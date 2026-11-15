@@ -8,7 +8,7 @@
 //   #balance-table(json("balansrapport.json"))
 //
 // The following values are read from the command line (`typst compile --input key=value`):
-//   start-of-period, end-of-period, last-verification, organisation-number, logo
+//   start-of-period, end-of-period, last-verification, organisation-name, organisation-number, logo
 //
 // The layout is based on the Minimal Invoice LaTeX template from
 // https://www.LaTeXTemplates.com (CC BY-NC-SA 4.0).
@@ -26,8 +26,9 @@
 #let currency-symbol = ""
 #let currency-suffix = ""
 
-// These two can be set in config.yaml. Without an organisation number, that
-// line is left out of the reports. The logo must be in the same directory as the report.
+// These three can be set in config.yaml. Without an organisation name or an organisation number,
+// that line is left out of the reports. The logo must be in the same directory as the report.
+#let organisation-name = sys.inputs.at("organisation-name", default: "")
 #let organisation-number = sys.inputs.at("organisation-number", default: "")
 #let logo = sys.inputs.at("logo", default: "logo.svg")
 #let logo-height = 50pt
@@ -131,6 +132,7 @@
     align: (left + top, right + horizon),
     {
       block(below: 1.3em, text(size: 1.2em, upper(report-type)))
+      if organisation-name != "" [#organisation-name \ ]
       [Räkenskapsperiod: #start-of-period - #end-of-period \ ]
       [Utskrivet: #datetime.today().display("[year]-[month]-[day]") \ ]
       if last-verification != "" [Senaste verifikationsnummer: #last-verification \ ]

@@ -2,6 +2,7 @@ start-of-period: 2024-01-01
 end-of-period: 2024-12-31
 ledger: example.beancount
 account-mappings: report-scripts/accounts.json
+organisation-name: Segelföreningen
 organisation-number: 123456-7890
 logo: report-scripts/logo.svg
 
