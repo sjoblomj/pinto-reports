@@ -8,7 +8,7 @@
 //   #balance-table(json("balansrapport.json"))
 //
 // The following values are read from the command line (`typst compile --input key=value`):
-//   start-of-period, end-of-period, last-verification
+//   start-of-period, end-of-period, last-verification, organisation-number, logo
 //
 // The layout is based on the Minimal Invoice LaTeX template from
 // https://www.LaTeXTemplates.com (CC BY-NC-SA 4.0).
@@ -26,8 +26,10 @@
 #let currency-symbol = ""
 #let currency-suffix = ""
 
-#let organisation-number = "123456-7890"
-#let logo = "logo.svg"
+// These two can be set in config.yaml, and are otherwise as below.
+// The logo must be in the same directory as the report.
+#let organisation-number = sys.inputs.at("organisation-number", default: "123456-7890")
+#let logo = sys.inputs.at("logo", default: "logo.svg")
 #let logo-height = 50pt
 
 //---------------------------------------------------------------------------------

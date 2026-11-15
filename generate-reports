@@ -43,6 +43,18 @@ report_dir="reports"
 mkdir -p "$report_dir"
 cp "$REPORT_SCRIPTS"/report.typ "$REPORT_SCRIPTS"/logo.svg "$report_dir"
 
+# The organisation number and the logo can be set in the config file
+typst_inputs=()
+organisation_number=$(yq '.organisation-number // ""' "$config_file")
+logo=$(               yq               '.logo // ""' "$config_file")
+if [ -n "$organisation_number" ]; then
+  typst_inputs+=(--input "organisation-number=$organisation_number")
+fi
+if [ -n "$logo" ]; then
+  cp "$logo" "$report_dir"
+  typst_inputs+=(--input "logo=$(basename -- "$logo")")
+fi
+
 report_config_file=$(mktemp)
 trap 'rm -f "$report_config_file"' EXIT
 
@@ -62,5 +74,6 @@ for report in $reports; do
     --input "last-verification=$lastvernum" \
     --input "start-of-period=$start_of_period" \
     --input "end-of-period=$end_of_period" \
+    "${typst_inputs[@]}" \
     "$typ"
 done
