@@ -25,7 +25,7 @@ get_opening_balances "$ledger_file" "$start_of_period" |
 # Accounts with neither an opening balance nor any transactions are left out.
 get_transaction_list "$ledger_file" "$start_of_period" "$end_of_period" |
   map_account_names "$account_mappings_src" |
-  jq '[.[] | select(.account != "Equity:Opening-Balances")]' |
+  jq --arg opening_balance_account "$OPENING_BALANCE_ACCOUNT" '[.[] | select(.account != $opening_balance_account)]' |
   jq --arg startdate "$start_of_period" --slurpfile opening "$opening_file" '
     ($opening[0] | map(select(.amount != 0))) as $opening
     | group_by(.account) as $period

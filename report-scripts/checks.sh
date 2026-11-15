@@ -50,7 +50,7 @@ function check_config() {
 }
 
 # Checks that the year has been closed correctly in the ledger, i.e. that
-# the result booked on account 8999 is the same as the result in the result
+# the result booked on the closing account is the same as the result in the result
 # report, and that the balance report balances. Uses the same selections of
 # the ledger as the reports do. Expects transactions.sh to be sourced.
 #
@@ -77,11 +77,11 @@ function check_year_end() {
 
 
   # Everything up until the end of the period, so that the checks also work for a part of a year
-  result_accounts=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE date <= $end_of_period AND account ~ '^(Income|Expenses)' ORDER BY account")
-  balance_accounts=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE date <= $end_of_period AND account ~ '^(Assets|Liabilities)' ORDER BY account")
-  closing=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(period_condition "$start_of_period" "$end_of_period") AND account ~ '^Income:8999' ORDER BY account")
+  result_accounts=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE date <= $end_of_period AND account ~ '$RESULT_ACCOUNTS' ORDER BY account")
+  balance_accounts=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE date <= $end_of_period AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account")
+  closing=$(query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(period_condition "$start_of_period" "$end_of_period") AND account ~ '^$CLOSING_ACCOUNT' ORDER BY account")
 
-  messages=$(jq -rn --argjson result_accounts "$result_accounts" --argjson balance_accounts "$balance_accounts" --argjson closing "$closing" '
+  messages=$(jq -rn --arg closing_account "$CLOSING_ACCOUNT" --arg opening_balance_account "$OPENING_BALANCE_ACCOUNT" --argjson result_accounts "$result_accounts" --argjson balance_accounts "$balance_accounts" --argjson closing "$closing" '
     def total: map(.amount | tonumber) | add // 0;
     def cents: . * 100 | round;
     def money: cents as $c
@@ -91,17 +91,17 @@ function check_year_end() {
 
     ($closing | length > 0) as $closed
     | ($closing | total) as $booked
-    # The result that is not booked on 8999. Zero when the year is closed correctly.
+    # The result that is not booked on the closing account. Zero when the year is closed correctly.
     | ($result_accounts | total * -1) as $unbooked
     | ($balance_accounts | total) as $balance
 
     | (if $closed and ($unbooked | cents) != 0 then
-        "Error: the result booked on account 8999 in the period is \($booked | money), but it should be \($booked + $unbooked | money) according to the income and expenses. The difference is \($unbooked * -1 | money)."
+        "Error: the result booked on \($closing_account) in the period is \($booked | money), but it should be \($booked + $unbooked | money) according to the income and expenses. The difference is \($unbooked * -1 | money)."
       elif ($closed | not) and ($unbooked | cents) != 0 then
-        "Warning: the year has not been closed - nothing is booked on account 8999 in the period. The result that is not booked is \($unbooked | money), and the balance report will be off by that amount."
+        "Warning: the year has not been closed - nothing is booked on \($closing_account) in the period. The result that is not booked is \($unbooked | money), and the balance report will be off by that amount."
       else empty end),
       (if ($balance - $unbooked | cents) != 0 then
-        "Error: the balance report does not balance - it is off by \($balance - $unbooked | money), apart from the result. Is something booked on an account that is not in the reports (e.g. Equity:Opening-Balances)?"
+        "Error: the balance report does not balance - it is off by \($balance - $unbooked | money), apart from the result. Is something booked on an account that is not in the reports (e.g. \($opening_balance_account))?"
       else empty end)')
 
   if [ -n "$messages" ]; then

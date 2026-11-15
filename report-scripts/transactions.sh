@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# The accounts of the balance report and of the result report
+BALANCE_ACCOUNTS="^(Assets|Liabilities)"
+RESULT_ACCOUNTS="^(Income|Expenses)"
+
+# The account that the result is booked on when the year is closed. It is not part of the result report.
+CLOSING_ACCOUNT="Income:8999"
+
+# The account that balances the opening balance. It is not part of the reports.
+OPENING_BALANCE_ACCOUNT="Equity:Opening-Balances"
+
 # The opening balance of the period is everything that is dated before the
 # start of the period, together with the transactions tagged #opening-balance
 # on the first day of the period, if there are any. All other transactions
@@ -34,7 +44,7 @@ function query_ledger() {
 function get_opening_balances() {
   local ledger_file="$1"
   local start_of_period="$2"
-  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(opening_condition "$start_of_period") AND account ~ '^(Assets|Liabilities)' ORDER BY account" |
+  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(opening_condition "$start_of_period") AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account" |
     jq 'map(.amount = (.amount | tonumber))'
 }
 

@@ -34,7 +34,7 @@ for startend in start end; do
     # The closing balance is everything up until the end of the period
     condition="date <= $end_of_period"
   fi
-  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $condition AND account ~ '^(Assets|Liabilities)' ORDER BY account" | jq "map(. + {\"${startend}_amount\": .amount} | del(.amount))" > "${!output_file}"
+  query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $condition AND account ~ '$BALANCE_ACCOUNTS' ORDER BY account" | jq "map(. + {\"${startend}_amount\": .amount} | del(.amount))" > "${!output_file}"
 done
 
 # Combine to one array

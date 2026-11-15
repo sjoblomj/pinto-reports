@@ -22,7 +22,7 @@ trap 'rm -f "$headers_file" "$notes_file"' EXIT
 jq -r '.["report-headers"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" > "$headers_file"
 jq -c          '.["notes"] // [] | map({"key": (keys | .[0]), "value": .[]})' "$config_file" | parse_notes "$account_mappings_src" > "$notes_file"
 
-query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(period_condition "$start_of_period" "$end_of_period") AND account !~ '(Equity|Assets|Liabilities)' AND account !~ '^Income:8999' ORDER BY account" |
+query_ledger "$ledger_file" "SELECT account, sum(number) AS amount WHERE $(period_condition "$start_of_period" "$end_of_period") AND account ~ '$RESULT_ACCOUNTS' AND account !~ '^$CLOSING_ACCOUNT' ORDER BY account" |
   jq 'map(.amount = (.amount * -1))' |
   create_json_sheet "$account_mappings_src" "$headers_file" "$notes_file" > "$report_output_file.json"
 warn_about_unused_notes "$notes_file" "$report_output_file.json"
